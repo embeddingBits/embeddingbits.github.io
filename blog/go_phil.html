@@ -16,7 +16,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
             <link rel="stylesheet" href="../css/shared.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/nord.min.css"> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/base16/gruvbox-dark-hard.min.css"> 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
             <script>hljs.highlightAll();</script>
 
@@ -233,31 +233,31 @@
                               <div class="code-block">
                                     <h4>Unformatted File</h4>
                                     <pre><code>
-                                          package main
-                                          import "fmt"
-                                          func main(){
-                                          fmt.Println("Sample Addition")
-                                          a:=5
-                                          b:=4
-                                          c:=a+b
-                                          fmt.Println(c)
-                                          }
+package main
+import "fmt"
+
+func main(){
+fmt.Println("Sample Addition")
+a:=5
+b:=4
+c:=a+b
+fmt.Println(c)
+}
                                     </code></pre>
                               </div>
                               <div class="code-block">
                                     <h4>Formatted File with go fmt</h4>
                                     <pre><code>
-                                          package main
+package main
+import "fmt"
 
-                                          import "fmt"
-
-                                          func main() {
-                                          fmt.Println("Sample Addition")
-                                          a := 5
-                                          b := 4
-                                          c := a + b
-                                          fmt.Println(c)
-                                          }
+func main() {
+fmt.Println("Sample Addition")
+a := 5
+b := 4
+c := a + b
+fmt.Println(c)
+}
                                     </code></pre>
                               </div>
                               <p>You can see how the commands formats the code to make more readable.</p>
