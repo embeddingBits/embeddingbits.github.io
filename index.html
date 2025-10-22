@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWd4J2U0gq6uD3XIb0F59dNFW+6vYJ4F8R4ePxpbyuT7k6f3lwp2gWFX0Tl9iLmc2/Jo1o+Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         :root {
-            --bg0: #1d2021; 
-            --fg0: #ebdbb2;  
-            --red: #ea6962;  
+            --bg0: #1d2021;
+            --fg0: #ebdbb2;
+            --red: #ea6962;
             --color1: #a9b665;
             --color2: #d8a657;
             --color3: #83a598;
             --color4: #D3869B;
-            --green: #a9b665; 
         }
 
         body {
@@ -32,22 +31,22 @@
         .title {
             font-size: 4rem;
             font-weight: bold;
-            margin-bottom: -30px; 
+            margin-bottom: -30px;
             text-align: center;
         }
 
         h3 {
             color: var(--fg0);
-            font-size: 2rem; 
-            margin-bottom: 10px; 
+            font-size: 2rem;
+            margin-bottom: 10px;
             text-align: center;
         }
 
         h4 {
             color: var(--fg0);
             font-size: 14px;
-            margin-top: 0; 
-            margin-bottom: 0; 
+            margin-top: 0;
+            margin-bottom: 0;
             text-align: center;
             font-weight: normal;
         }
@@ -56,7 +55,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 4px solid #1d2021; 
+            border: 4px solid #1d2021;
             padding: 1rem;
             background-color: var(--bg0);
         }
@@ -74,29 +73,49 @@
             transition: background-color 0.3s, color 0.3s;
         }
 
-        .nav-links a:hover {
-            background-color: var(--green);
+        .nav-links a:nth-child(1) {
+            border: 2px solid var(--color1);
+        }
+
+        .nav-links a:nth-child(1):hover {
+            background-color: var(--color1);
             color: var(--bg0);
         }
 
-        .nav-links a:nth-child(1) {
-            border: 2px solid var(--color1); 
+        .nav-links a:nth-child(2) {
+            border: 2px solid var(--color2);
         }
 
-        .nav-links a:nth-child(2) {
-            border: 2px solid var(--color2); 
+        .nav-links a:nth-child(2):hover {
+            background-color: var(--color2);
+            color: var(--bg0);
         }
 
         .nav-links a:nth-child(3) {
-            border: 2px solid var(--color3); 
+            border: 2px solid var(--color3);
+        }
+
+        .nav-links a:nth-child(3):hover {
+            background-color: var(--color3);
+            color: var(--bg0);
         }
 
         .nav-links a:nth-child(4) {
-            border: 2px solid var(--color4); 
+            border: 2px solid var(--color4);
+        }
+
+        .nav-links a:nth-child(4):hover {
+            background-color: var(--color4);
+            color: var(--bg0);
         }
 
         .nav-links a:nth-child(5) {
-            border: 2px solid var(--color1); 
+            border: 2px solid var(--color1);
+        }
+
+        .nav-links a:nth-child(5):hover {
+            background-color: var(--color1);
+            color: var(--bg0);
         }
     </style>
 </head>
