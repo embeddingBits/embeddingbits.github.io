@@ -1,188 +1,137 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="gruvbox-dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amiitesh's Projects</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>eBits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWd4J2U0gq6uD3XIb0F59dNFW+6vYJ4F8R4ePxpbyuT7k6f3lwp2gWFX0Tl9iLmc2/Jo1o+Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
-    <link rel="stylesheet" href="css/shared.css">
     <style>
-        .project {
-            margin-bottom: 2rem;
-            padding: 1.5rem 0;
-            border-bottom: 1px solid #444;
-            transition: all 0.3s ease;
+        :root {
+            --bg0: #1d2021;
+            --fg0: #ebdbb2;
+            --red: #ea6962;
+            --color1: #a9b665;
+            --color2: #d8a657;
+            --color3: #83a598;
+            --color4: #D3869B;
         }
 
-        .project:last-child {
-            border-bottom: none;
-        }
-
-        .project h2 {
-            color: #D8A657;
-            font-size: 1.3rem;
-            margin-bottom: 0.8rem;
-            text-decoration: underline;
-            cursor: pointer;
-            display: inline-block;
-        }
-
-        .project h2:hover {
-            color: #fabd2f;
-        }
-
-        .project p {
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-            font-size: 0.95rem;
-        }
-
-        .project-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-top: 1rem;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .tech-stack {
-            color: var(--light-blue);
-            font-weight: 500;
-        }
-
-        .project-links {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-        }
-
-        .project-links a {
-            color: var(--blue);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-            font-size: 0.85rem;
-        }
-
-        .project-links a:hover {
+        body {
+            background-color: var(--bg0);
             color: var(--red);
+            font-family: 'JetBrains Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
         }
 
-        a.project-title-link {
+        .title {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: -30px;
+            text-align: center;
+        }
+
+        h3 {
+            color: var(--fg0);
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h4 {
+            color: var(--fg0);
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid #1d2021;
+            padding: 1rem;
+            background-color: var(--bg0);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--fg0);
             text-decoration: none;
-            color: inherit;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav-links a:nth-child(1) {
+            border: 2px solid var(--color1);
+        }
+
+        .nav-links a:nth-child(1):hover {
+            background-color: var(--color1);
+            color: var(--bg0);
+        }
+
+        .nav-links a:nth-child(2) {
+            border: 2px solid var(--color2);
+        }
+
+        .nav-links a:nth-child(2):hover {
+            background-color: var(--color2);
+            color: var(--bg0);
+        }
+
+        .nav-links a:nth-child(3) {
+            border: 2px solid var(--color3);
+        }
+
+        .nav-links a:nth-child(3):hover {
+            background-color: var(--color3);
+            color: var(--bg0);
+        }
+
+        .nav-links a:nth-child(4) {
+            border: 2px solid var(--color4);
+        }
+
+        .nav-links a:nth-child(4):hover {
+            background-color: var(--color4);
+            color: var(--bg0);
+        }
+
+        .nav-links a:nth-child(5) {
+            border: 2px solid var(--color1);
+        }
+
+        .nav-links a:nth-child(5):hover {
+            background-color: var(--color1);
+            color: var(--bg0);
         }
     </style>
 </head>
 <body>
-
-    <main>
-
-        <section class="project">
-            <a href="https://github.com/EmbeddingBits/GortScanner" class="project-title-link" target="_blank">
-                <h2>Gort Scanner</h2>
-            </a>
-            <p>A high-performance port scanner implementation in Go featuring concurrent goroutines and channel-based communication. Efficiently scans network ports with customizable threading and timeout configurations.</p>
-            <div class="project-meta">
-                <span class="tech-stack">Go • Networking • Concurrency</span>
-                <div class="project-links">
-                    <a href="https://github.com/EmbeddingBits/GortScanner" target="_blank">
-                        <i class="fab fa-github"></i> Source
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project">
-            <a href="https://github.com/EmbeddingBits/vat-viewer" class="project-title-link" target="_blank">
-                <h2>Vat Viewer</h2>
-            </a>
-            <p>An enhanced file reader utility written in Go that improves upon the traditional 'cat' command. Features Nord-theme syntax highlighting, line numbering, and better code readability for developers.</p>
-            <div class="project-meta">
-                <span class="tech-stack">Go • Lexers • CLI Tools</span>
-                <div class="project-links">
-                    <a href="https://github.com/EmbeddingBits/vat-viewer" target="_blank">
-                        <i class="fab fa-github"></i> Source
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project">
-            <a href="https://github.com/EmbeddingBits/simple-processor-simulation" class="project-title-link" target="_blank">
-                <h2>4-bit Processor Simulation</h2>
-            </a>
-            <p>A educational 4-bit processor design implemented in Verilog for learning computer architecture fundamentals. Includes instruction set design, ALU operations, and memory management simulation.</p>
-            <div class="project-meta">
-                <span class="tech-stack">Verilog • VLSI • Computer Architecture</span>
-                <div class="project-links">
-                    <a href="https://github.com/EmbeddingBits/simple-processor-simulation" target="_blank">
-                        <i class="fab fa-github"></i> Source
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project">
-            <a href="https://github.com/EmbeddingBits/multi-threaded-file-downloader" class="project-title-link" target="_blank">
-                <h2>Multi-threaded File Downloader</h2>
-            </a>
-            <p>A high-speed file downloader built in Go that leverages multi-threading to split files into chunks, download them in parallel, and reassemble them. Significantly reduces download times for large files.</p>
-            <div class="project-meta">
-                <span class="tech-stack">Go • HTTP • Concurrency • File I/O</span>
-                <div class="project-links">
-                    <a href="https://github.com/EmbeddingBits/multi-threaded-file-downloader" target="_blank">
-                        <i class="fab fa-github"></i> Source
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="project">
-            <a href="#" class="project-title-link">
-                <h2>RISC-V Assembly Projects</h2>
-            </a>
-            <p>Collection of RISC-V assembly language programs and utilities for learning computer organization and low-level programming concepts. Includes bootloaders and basic OS components.</p>
-            <div class="project-meta">
-                <span class="tech-stack">RISC-V Assembly • Computer Architecture • Systems Programming</span>
-                <div class="project-links">
-                    <span style="color: var(--text-secondary); font-size: 0.8rem;">Coming Soon</span>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="project">
-            <h2 style="text-decoration: none; cursor: default;">Get In Touch</h2>
-            <p>Interested in collaborating on a project or discussing technology? Feel free to reach out!</p>
-            <div class="project-meta">
-                <div class="project-links">
-                    <a href="mailto:tspamiitesh@gmail.com">
-                        <i class="fas fa-envelope"></i> Email
-                    </a>
-                    <a href="https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/" target="_blank">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                    <a href="https://github.com/embeddingbits" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Amiitesh's Projects. All rights reserved.</p>
-    </footer>
-
-    <script src="js/shared.js"></script>
-    <script>
-        // Load components when page loads
-        loadComponents("~/projects");
-    </script>
+    <div class="title">eBits</div>
+    <h3>Amiitesh Pradeep Kumar</h3>
+    <h4>I do Embedded Systems and Systems Programming</h4>
+    <div class="nav-container">
+        <div class="nav-links">
+            <a href="./about.html">~/about</a>
+            <a href="./projects.html">~/projects</a>
+            <a href="./about.html#contact">~/contact</a>
+            <a href="https://github.com/embeddingbits" target="_blank"><i class="fab fa-github"></i> ~/GitHub</a>
+            <a href="./blog.html">~/blog</a>
+        </div>
+    </div>
 </body>
 </html>
