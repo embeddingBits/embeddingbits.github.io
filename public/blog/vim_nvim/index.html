@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Vim vs Neovim | eBits</title>
+<meta name="title" content="Vim vs Neovim" />
+<meta name="description" content="Differences between Vim and Neovim" />
+<meta name="author" content="Amiitesh" />
+<meta name="keywords" content="vim,neovim," />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Vim vs Neovim" />
+<meta property="og:description" content="Differences between Vim and Neovim" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/vim_nvim/" />
+
+<meta property="og:image" content="http://localhost:1313/images/social_card_bg_hu_2202a9abea1e6792.webp"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-09-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-09-03T00:00:00+00:00" /><meta property="og:site_name" content="eBits" />
+<meta property="fb:admins" content="0000000000" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/images/social_card_bg_hu_2202a9abea1e6792.webp"/>
+<meta name="twitter:title" content="Vim vs Neovim"/>
+<meta name="twitter:description" content="Differences between Vim and Neovim"/>
+<meta name="twitter:site" content="@example"/>
+
+
+
+<meta itemprop="name" content="Vim vs Neovim">
+<meta itemprop="description" content="Differences between Vim and Neovim"><meta itemprop="datePublished" content="2024-09-03T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-09-03T00:00:00+00:00" />
+<meta itemprop="wordCount" content="763">
+
+<meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu_2202a9abea1e6792.webp"/>
+
+
+<meta itemprop="keywords" content="vim,neovim," />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>eBits</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/blog/">Blog</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>Vim vs Neovim</h1>
+<p class="byline">
+  <time datetime='2024-09-03' pubdate>
+    2024-09-03
+  </time>
+  · Amiitesh
+</p>
+
+<content>
+  <h1 id="vim-vs-neovim-which-one-should-you-choose">Vim vs Neovim: Which One Should You Choose?</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome to this blog, where I&rsquo;ll be plotting the differences between Vim and Neovim. I&rsquo;ll also be discussing which editor to use between the two for a better workflow and a better code editing experience.</p>
+<p>Vim and Neovim are Open Source text editors which can be tweaked for our convenience and changed according to our workflow.</p>
+<p>Vim and Neovim are one of the best feature-rich text editors available for us today alongside Emacs. They are called mode-based or modal text editors, meaning that work is done in different modes. For example: If you want to enter text into the file you have to get into input mode (Insert Mode) and to select text (Visual Mode) and to Replace (Replace Mode) and to perform certain tasks like copy, paste and lots of &ldquo;macros&rdquo; we have to use the Command Mode.</p>
+<h2 id="what-are-the-differences-between-vim-and-neovim">What are the differences between Vim and Neovim?</h2>
+<h3 id="basic-differences-between-the-text-editors">Basic Differences between the text editors:</h3>
+<ul>
+<li>
+<p><strong>Extensibility:</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim uses Vimscript (A scripting language made for Vim). It has more of a restricted plugin system since the plugins are required to be written on Vimscript. So, getting more advanced features on Vim can be a very challenging task.</li>
+<li><strong>Neovim:</strong> Neovim, on the other hand, is a fork of Vim, which is made on Lua language, a language which has way better documentation than Vimscript and has support for plugins to be made on other programming languages as the function calls are supported by other programming languages too (Isn&rsquo;t that great!?). Neovim also supports asynchronous plugins which makes it more performant and responsive than Vim.</li>
+</ul>
+</li>
+<li>
+<p><strong>UI Features:</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim basically runs on a terminal emulator, even though it can be run in GUIs like GVim the UI features are heavily limited when in the case of Vim.</li>
+<li><strong>Neovim:</strong> Neovim on the other hand was also made to support external user interfaces. So it can be run on all sorts of terminal emulators and also in other GUIs (Neovide is a very good example which was made to run Neovim) for different user preferences and user workflows, thus giving us more opportunity to make use of the Open Source freedom when in the case of Neovim.</li>
+</ul>
+</li>
+<li>
+<p><strong>Built-In Terminal:</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim does not have a built-in terminal emulator, so we have to rely on another terminal tab opened up to run code.</li>
+<li><strong>Neovim:</strong> Neovim comes equipped with a built-in terminal emulator, making it easier to run code and commands in the emulator and interact with REPL within the editor.</li>
+</ul>
+</li>
+</ul>
+<h3 id="detailed-differences-between-the-two-text-editors">Detailed Differences between the two text editors:</h3>
+<ul>
+<li>
+<p><strong>LSP Support (Language Server Protocol):</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim does not have built-in support for LSPs.</li>
+<li><strong>Neovim:</strong> Neovim on the other hand, has very good built-in support for LSPs which is a JSON-RPC based protocol to interact with the LSP. This allows Neovim to interact with the LSPs of different languages to access language-specific features like code linting and code snippet completions.</li>
+</ul>
+</li>
+<li>
+<p><strong>Directory Structure:</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim hardcodes its config file location and requires the users to only change that specific file for the changes to act upon which affects configuration maintenance.</li>
+<li><strong>Neovim:</strong> Neovim uses the &ldquo;XDG Base Directory&rdquo; structure. So, programs that have these specifications have their config files stored in XDG_CONFIG_HOME i.e., <em>~/.config/nvim/init.lua</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Code Formatting:</strong></p>
+<ul>
+<li><strong>Vim:</strong> The code formatting in Vim is single-handedly done by a single person. So, the philosophy of code formatting lies in the hands of a single person.</li>
+<li><strong>Neovim:</strong> Whereas, in Neovim the code formatting principles are being maintained by a huge number of maintainers making Neovim&rsquo;s code formatting more than that of Vim.</li>
+</ul>
+</li>
+<li>
+<p><strong>Plugin Support:</strong></p>
+<ul>
+<li><strong>Vim:</strong> Vim has a very rich plugin support and also has a plugin support of its own. But, it is harder to use it for IDE-like features due to the reason that it was made in Vimscript.</li>
+<li><strong>Neovim:</strong> Neovim supports the plugin to be written in various languages. With the use of a &ldquo;actual&rdquo; programming language it became easier to implement IDE-like features on to Neovim unlike Vim.</li>
+</ul>
+</li>
+</ul>
+<h2 id="bottom-note">Bottom Note</h2>
+<p>Both Vim and Neovim are powerful, open-source text editors designed for customization and efficient workflows. While Vim has been a long-standing favorite for many developers, Neovim enhances the experience with modern features such as asynchronous plugin support, built-in terminal, LSP support, and improved extensibility through Lua. These advancements make Neovim more suitable for those seeking a flexible, IDE-like environment without sacrificing performance. Ultimately, the choice between the two depends on your specific needs, but for a more feature-rich and modern editing experience, Neovim stands out as the better option.</p>
+<h2 id="thank-you-for-reading-this-blog">Thank You for reading this blog</h2>
+<hr>
+
+</content>
+<p>
+  
+    <a class="blog-tags" href="/tags/vim/">#vim</a>
+  
+    <a class="blog-tags" href="/tags/neovim/">#neovim</a>
+  
+</p>
+
+
+  <p>
+    <a href='mailto:me@example.com?subject=Reply%20to%20"Vim%20vs%20Neovim"'>
+      Reply to this post by email ↪
+    </a>
+  </p>
+
+
+
+  </main>
+  <footer><small>
+  Amiitesh | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
+</small></footer>
+
+    
+</body>
+
+</html>
