@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="gruvbox-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewpoints and Thoughts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <style>
+        .post {
+            margin-bottom: 2rem;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid #444;
+            transition: all 0.3s ease;
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post h2 {
+            color: #D8A657;
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            text-decoration: underline;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .post h2:hover {
+            color: #fabd2f;
+        }
+
+        .post p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .post-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        .post-date {
+            color: var(--text-secondary);
+        }
+
+        .read-time {
+            color: var(--text-secondary);
+        }
+
+        a.post-title-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            border-bottom: 1px solid #bdae93;
+            width: 75%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        
+        <section class="post">
+            <a href="blog/workflow.html" class="post-title-link">
+                <h2>My Developer Workflow: OS, DE/WM, Editor and Tools</h2>
+            </a>
+            <p>In this blog, I will be discussing about the software and tools I use to develop projects.</p>
+            <div class="post-meta">
+                <span class="post-date">Sep 15, 2025</span>
+                <span class="read-time">8 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/vim_nvim.html" class="post-title-link">
+                <h2>Vim vs Neovim, What are the differences?</h2>
+            </a>
+            <p>In this blog, I will be discussing the differences between Vim and Neovim. And which is better to use...</p>
+            <div class="post-meta">
+                <span class="post-date">Sep 10, 2025</span>
+                <span class="read-time">12 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/why_linux.html" class="post-title-link">
+                <h2>What is Linux and why is it a better option for a daily driver?</h2>
+            </a>
+            <p>In this blog, I will be discussing what Linux is and why it is a better choice for a daily driver experience.</p>
+            <div class="post-meta">
+                <span class="post-date">Sep 5, 2025</span>
+                <span class="read-time">15 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/go_phil.html" class="post-title-link">
+                <h2>What is Golang and how to get started?</h2>
+            </a>
+            <p>In this blog, I will be discussing about Golang and covering the basics of The Go Programming Language.</p>
+            <div class="post-meta">
+                <span class="post-date">Aug 28, 2025</span>
+                <span class="read-time">18 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/tmux_config.html" class="post-title-link">
+                <h2>Configuring Tmux</h2>
+            </a>
+            <p>This blog is about configuring tmux from scratch, from setting custom keybinds to plugins manager</p>
+            <div class="post-meta">
+                <span class="post-date">Aug 20, 2025</span>
+                <span class="read-time">10 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/dwm/dwm.html" class="post-title-link">
+                <h2>DWM, A bloat-free Window Manager made in C</h2>
+            </a>
+            <p>This blog is about DWM, a window manager made in C to reduce bloat as much as possible</p>
+            <div class="post-meta">
+                <span class="post-date">Aug 15, 2025</span>
+                <span class="read-time">14 min</span>
+            </div>
+        </section>
+
+        <section class="post">
+            <a href="blog/zig-lang/zig.html" class="post-title-link">
+                <h2>Zig Programming Language: A better alternative for C...</h2>
+            </a>
+            <p>In this blog, I will be discussing about the advantages of Zig programming over C and its features that might change the way of programming.</p>
+            <div class="post-meta">
+                <span class="post-date">Aug 5, 2025</span>
+                <span class="read-time">16 min</span>
+            </div>
+        </section>
+
+        <section id="contact" class="post">
+            <h2>Contact</h2>
+            <p>If you'd like to collaborate or have any questions, feel free to reach out to me via email at <a href="mailto:tspamiitesh@gmail.com" style="color: var(--light-blue);">tspamiitesh@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Amiitesh Pradeep Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/shared.js"></script>
+    <script>
+        // Load components when page loads
+        loadComponents("eBits's Blog");
+    </script>
+</body>
+</html>
