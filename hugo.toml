@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://embeddingbits.is-a.dev/"
+baseURL = "https://embeddingbits.github.io/"
 theme = "hugo-bearcub"
 copyright = "Amiitesh"
 defaultContentLanguage = "en"
