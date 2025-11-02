@@ -57,7 +57,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.b5c8d47db85aa2b1592c950414131cb1cdfb0e69d2593c56cb08dd1c8c4e33e8.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.02841ab9d01a30561001edb0e3290c86f16dd9a725a4f66cc23c5db53b6fab41.css" media="all">
 
 
 
@@ -155,11 +155,11 @@
 </h2>
 <p>Zig is built on three big ideas: it’s <strong>simple</strong>, it’s <strong>fast</strong>, and it gives you <strong>control</strong>. Unlike some languages that make things complicated or force rules on you, Zig keeps things clear and lets you decide what to do.</p>
 <p>Here’s a simple Zig program that says hello:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">const</span> std = <span style="font-weight:bold;font-style:italic">@import</span>(<span style="color:#666;font-style:italic">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#fe8019">const</span> std <span style="color:#fe8019">=</span> <span style="color:#fabd2f">@import</span>(<span style="color:#b8bb26">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">pub</span> <span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>() !<span style="font-weight:bold;text-decoration:underline">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> stdout = std.io.<span style="color:#666;font-weight:bold;font-style:italic">getStdOut</span>().<span style="color:#666;font-weight:bold;font-style:italic">writer</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;Hello, {s}!</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{<span style="color:#666;font-style:italic">&#34;Zig&#34;</span>});
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">pub</span> <span style="color:#fe8019">fn</span> <span style="color:#fabd2f">main</span>() <span style="color:#fe8019">!</span><span style="color:#fabd2f">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> stdout <span style="color:#fe8019">=</span> std.io.<span style="color:#fabd2f">getStdOut</span>().<span style="color:#fabd2f">writer</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;Hello, {s}!</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{<span style="color:#b8bb26">&#34;Zig&#34;</span>});
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>This code prints <code>&quot;Hello, Zig!&quot;</code> to your screen. The <code>!void</code> part means the program might fail, and Zig makes sure you know it. We’ll talk more about that later.</p>
 <h2 class="heading" id="managing-memory-in-zig">
@@ -168,22 +168,22 @@
 </h2>
 <p>Memory is like space your program uses to store things. In Zig, <strong>you get to decide how to use that space</strong>—no automatic system does it for you. This makes your program fast and safe.</p>
 <p>Here’s an example of making a list of numbers:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">const</span> std = <span style="font-weight:bold;font-style:italic">@import</span>(<span style="color:#666;font-style:italic">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#fe8019">const</span> std <span style="color:#fe8019">=</span> <span style="color:#fabd2f">@import</span>(<span style="color:#b8bb26">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">pub</span> <span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>() !<span style="font-weight:bold;text-decoration:underline">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">var</span> gpa = std.heap.<span style="color:#666;font-weight:bold;font-style:italic">GeneralPurposeAllocator</span>(.{}){};
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> gpa.<span style="color:#666;font-weight:bold;font-style:italic">deinit</span>(); <span style="color:#888;font-style:italic">// Cleans up when done
-</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>    <span style="font-weight:bold;text-decoration:underline">const</span> allocator = gpa.<span style="color:#666;font-weight:bold;font-style:italic">allocator</span>();
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">pub</span> <span style="color:#fe8019">fn</span> <span style="color:#fabd2f">main</span>() <span style="color:#fe8019">!</span><span style="color:#fabd2f">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">var</span> gpa <span style="color:#fe8019">=</span> std.heap.<span style="color:#fabd2f">GeneralPurposeAllocator</span>(.{}){};
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> gpa.<span style="color:#fabd2f">deinit</span>(); <span style="color:#928374;font-style:italic">// Cleans up when done
+</span></span></span><span style="display:flex;"><span><span style="color:#928374;font-style:italic"></span>    <span style="color:#fe8019">const</span> allocator <span style="color:#fe8019">=</span> gpa.<span style="color:#fabd2f">allocator</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#888;font-style:italic">// Make a list of 5 numbers
-</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>    <span style="font-weight:bold;text-decoration:underline">var</span> numbers = <span style="font-weight:bold;text-decoration:underline">try</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">alloc</span>(<span style="font-weight:bold;text-decoration:underline">i32</span>, 5);
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">free</span>(numbers); <span style="color:#888;font-style:italic">// Free the list later
-</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>
-</span></span><span style="display:flex;"><span>    <span style="color:#888;font-style:italic">// Fill the list with numbers 0 to 4
-</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>    <span style="font-weight:bold;text-decoration:underline">for</span> (numbers, 0..) |*num, i| num.* = <span style="font-weight:bold;font-style:italic">@intCast</span>(<span style="font-weight:bold;text-decoration:underline">i32</span>, i);
+</span></span><span style="display:flex;"><span>    <span style="color:#928374;font-style:italic">// Make a list of 5 numbers
+</span></span></span><span style="display:flex;"><span><span style="color:#928374;font-style:italic"></span>    <span style="color:#fe8019">var</span> numbers <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> allocator.<span style="color:#fabd2f">alloc</span>(<span style="color:#fabd2f">i32</span>, <span style="color:#d3869b">5</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> allocator.<span style="color:#fabd2f">free</span>(numbers); <span style="color:#928374;font-style:italic">// Free the list later
+</span></span></span><span style="display:flex;"><span><span style="color:#928374;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>    <span style="color:#928374;font-style:italic">// Fill the list with numbers 0 to 4
+</span></span></span><span style="display:flex;"><span><span style="color:#928374;font-style:italic"></span>    <span style="color:#fe8019">for</span> (numbers, <span style="color:#d3869b">0</span>..) <span style="color:#fe8019">|*</span>num, i<span style="color:#fe8019">|</span> num.<span style="color:#fe8019">*</span> <span style="color:#fe8019">=</span> <span style="color:#fabd2f">@intCast</span>(<span style="color:#fabd2f">i32</span>, i);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> stdout = std.io.<span style="color:#666;font-weight:bold;font-style:italic">getStdOut</span>().<span style="color:#666;font-weight:bold;font-style:italic">writer</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;List: {any}</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{numbers});
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> stdout <span style="color:#fe8019">=</span> std.io.<span style="color:#fabd2f">getStdOut</span>().<span style="color:#fabd2f">writer</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;List: {any}</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{numbers});
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>What’s happening here:</strong></p>
 <ul>
@@ -198,30 +198,30 @@
 </h2>
 <p>Zig doesn’t hide problems—it <strong>tells you when something might go wrong</strong> and helps you fix it. It uses a special way to show if a task worked or failed.</p>
 <p>Here’s an example of reading a file:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">const</span> std = <span style="font-weight:bold;font-style:italic">@import</span>(<span style="color:#666;font-style:italic">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#fe8019">const</span> std <span style="color:#fe8019">=</span> <span style="color:#fabd2f">@import</span>(<span style="color:#b8bb26">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">pub</span> <span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">readFile</span>(allocator: std.mem.Allocator, path: []<span style="font-weight:bold;text-decoration:underline">const</span> <span style="font-weight:bold;text-decoration:underline">u8</span>) ![]<span style="font-weight:bold;text-decoration:underline">u8</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">var</span> file = <span style="font-weight:bold;text-decoration:underline">try</span> std.fs.<span style="color:#666;font-weight:bold;font-style:italic">cwd</span>().<span style="color:#666;font-weight:bold;font-style:italic">openFile</span>(path, .{});
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> file.<span style="color:#666;font-weight:bold;font-style:italic">close</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> size = <span style="font-weight:bold;text-decoration:underline">try</span> file.<span style="color:#666;font-weight:bold;font-style:italic">getEndPos</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> buffer = <span style="font-weight:bold;text-decoration:underline">try</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">alloc</span>(<span style="font-weight:bold;text-decoration:underline">u8</span>, size);
-</span></span><span style="display:flex;"><span>    _ = <span style="font-weight:bold;text-decoration:underline">try</span> file.<span style="color:#666;font-weight:bold;font-style:italic">readAll</span>(buffer);
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">return</span> buffer;
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">pub</span> <span style="color:#fe8019">fn</span> <span style="color:#fabd2f">readFile</span>(allocator<span style="color:#fe8019">:</span> std.mem.Allocator, path<span style="color:#fe8019">:</span> []<span style="color:#fe8019">const</span> <span style="color:#fabd2f">u8</span>) <span style="color:#fe8019">!</span>[]<span style="color:#fabd2f">u8</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">var</span> file <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> std.fs.<span style="color:#fabd2f">cwd</span>().<span style="color:#fabd2f">openFile</span>(path, .{});
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> file.<span style="color:#fabd2f">close</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> size <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> file.<span style="color:#fabd2f">getEndPos</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> buffer <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> allocator.<span style="color:#fabd2f">alloc</span>(<span style="color:#fabd2f">u8</span>, size);
+</span></span><span style="display:flex;"><span>    _ <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> file.<span style="color:#fabd2f">readAll</span>(buffer);
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">return</span> buffer;
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">pub</span> <span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>() !<span style="font-weight:bold;text-decoration:underline">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">var</span> gpa = std.heap.<span style="color:#666;font-weight:bold;font-style:italic">GeneralPurposeAllocator</span>(.{}){};
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> gpa.<span style="color:#666;font-weight:bold;font-style:italic">deinit</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> allocator = gpa.<span style="color:#666;font-weight:bold;font-style:italic">allocator</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> stdout = std.io.<span style="color:#666;font-weight:bold;font-style:italic">getStdOut</span>().<span style="color:#666;font-weight:bold;font-style:italic">writer</span>();
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">pub</span> <span style="color:#fe8019">fn</span> <span style="color:#fabd2f">main</span>() <span style="color:#fe8019">!</span><span style="color:#fabd2f">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">var</span> gpa <span style="color:#fe8019">=</span> std.heap.<span style="color:#fabd2f">GeneralPurposeAllocator</span>(.{}){};
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> gpa.<span style="color:#fabd2f">deinit</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> allocator <span style="color:#fe8019">=</span> gpa.<span style="color:#fabd2f">allocator</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> stdout <span style="color:#fe8019">=</span> std.io.<span style="color:#fabd2f">getStdOut</span>().<span style="color:#fabd2f">writer</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> content = <span style="color:#666;font-weight:bold;font-style:italic">readFile</span>(allocator, <span style="color:#666;font-style:italic">&#34;example.txt&#34;</span>) <span style="font-weight:bold;text-decoration:underline">catch</span> |err| {
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;Oops! Something went wrong: {}</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{err});
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">return</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> content <span style="color:#fe8019">=</span> <span style="color:#fabd2f">readFile</span>(allocator, <span style="color:#b8bb26">&#34;example.txt&#34;</span>) <span style="color:#fe8019">catch</span> <span style="color:#fe8019">|</span>err<span style="color:#fe8019">|</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;Oops! Something went wrong: {}</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{err});
+</span></span><span style="display:flex;"><span>        <span style="color:#fe8019">return</span>;
 </span></span><span style="display:flex;"><span>    };
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">free</span>(content);
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> allocator.<span style="color:#fabd2f">free</span>(content);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;File says: {s}</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{content});
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;File says: {s}</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{content});
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>What’s going on:</strong></p>
 <ul>
@@ -236,30 +236,30 @@
 </h2>
 <p>Zig is great for people who like to keep things <strong>simple and clear</strong>. It lets you control your program’s memory and <strong>warns you about problems before they ruin everything</strong>.</p>
 <p>Here’s the full file-reading code again:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">const</span> std = <span style="font-weight:bold;font-style:italic">@import</span>(<span style="color:#666;font-style:italic">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#fe8019">const</span> std <span style="color:#fe8019">=</span> <span style="color:#fabd2f">@import</span>(<span style="color:#b8bb26">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">readFile</span>(allocator: std.mem.Allocator, path: []<span style="font-weight:bold;text-decoration:underline">const</span> <span style="font-weight:bold;text-decoration:underline">u8</span>) ![]<span style="font-weight:bold;text-decoration:underline">u8</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">var</span> file = <span style="font-weight:bold;text-decoration:underline">try</span> std.fs.<span style="color:#666;font-weight:bold;font-style:italic">cwd</span>().<span style="color:#666;font-weight:bold;font-style:italic">openFile</span>(path, .{});
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> file.<span style="color:#666;font-weight:bold;font-style:italic">close</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> size = <span style="font-weight:bold;text-decoration:underline">try</span> file.<span style="color:#666;font-weight:bold;font-style:italic">getEndPos</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> buffer = <span style="font-weight:bold;text-decoration:underline">try</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">alloc</span>(<span style="font-weight:bold;text-decoration:underline">u8</span>, size);
-</span></span><span style="display:flex;"><span>    _ = <span style="font-weight:bold;text-decoration:underline">try</span> file.<span style="color:#666;font-weight:bold;font-style:italic">readAll</span>(buffer);
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">return</span> buffer;
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">fn</span> <span style="color:#fabd2f">readFile</span>(allocator<span style="color:#fe8019">:</span> std.mem.Allocator, path<span style="color:#fe8019">:</span> []<span style="color:#fe8019">const</span> <span style="color:#fabd2f">u8</span>) <span style="color:#fe8019">!</span>[]<span style="color:#fabd2f">u8</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">var</span> file <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> std.fs.<span style="color:#fabd2f">cwd</span>().<span style="color:#fabd2f">openFile</span>(path, .{});
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> file.<span style="color:#fabd2f">close</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> size <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> file.<span style="color:#fabd2f">getEndPos</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> buffer <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> allocator.<span style="color:#fabd2f">alloc</span>(<span style="color:#fabd2f">u8</span>, size);
+</span></span><span style="display:flex;"><span>    _ <span style="color:#fe8019">=</span> <span style="color:#fe8019">try</span> file.<span style="color:#fabd2f">readAll</span>(buffer);
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">return</span> buffer;
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">pub</span> <span style="font-weight:bold;text-decoration:underline">fn</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>() !<span style="font-weight:bold;text-decoration:underline">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">var</span> gpa = std.heap.<span style="color:#666;font-weight:bold;font-style:italic">GeneralPurposeAllocator</span>(.{}){};
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> gpa.<span style="color:#666;font-weight:bold;font-style:italic">deinit</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> allocator = gpa.<span style="color:#666;font-weight:bold;font-style:italic">allocator</span>();
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> stdout = std.io.<span style="color:#666;font-weight:bold;font-style:italic">getStdOut</span>().<span style="color:#666;font-weight:bold;font-style:italic">writer</span>();
+</span></span><span style="display:flex;"><span><span style="color:#fe8019">pub</span> <span style="color:#fe8019">fn</span> <span style="color:#fabd2f">main</span>() <span style="color:#fe8019">!</span><span style="color:#fabd2f">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">var</span> gpa <span style="color:#fe8019">=</span> std.heap.<span style="color:#fabd2f">GeneralPurposeAllocator</span>(.{}){};
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> gpa.<span style="color:#fabd2f">deinit</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> allocator <span style="color:#fe8019">=</span> gpa.<span style="color:#fabd2f">allocator</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> stdout <span style="color:#fe8019">=</span> std.io.<span style="color:#fabd2f">getStdOut</span>().<span style="color:#fabd2f">writer</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">const</span> content = <span style="color:#666;font-weight:bold;font-style:italic">readFile</span>(allocator, <span style="color:#666;font-style:italic">&#34;example.txt&#34;</span>) <span style="font-weight:bold;text-decoration:underline">catch</span> |err| {
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;Oops! Something went wrong: {}</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{err});
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold;text-decoration:underline">return</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">const</span> content <span style="color:#fe8019">=</span> <span style="color:#fabd2f">readFile</span>(allocator, <span style="color:#b8bb26">&#34;example.txt&#34;</span>) <span style="color:#fe8019">catch</span> <span style="color:#fe8019">|</span>err<span style="color:#fe8019">|</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;Oops! Something went wrong: {}</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{err});
+</span></span><span style="display:flex;"><span>        <span style="color:#fe8019">return</span>;
 </span></span><span style="display:flex;"><span>    };
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">defer</span> allocator.<span style="color:#666;font-weight:bold;font-style:italic">free</span>(content);
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">defer</span> allocator.<span style="color:#fabd2f">free</span>(content);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold;text-decoration:underline">try</span> stdout.<span style="color:#666;font-weight:bold;font-style:italic">print</span>(<span style="color:#666;font-style:italic">&#34;File says: {s}</span><span style="color:#666;font-style:italic">\n</span><span style="color:#666;font-style:italic">&#34;</span>, .{content});
+</span></span><span style="display:flex;"><span>    <span style="color:#fe8019">try</span> stdout.<span style="color:#fabd2f">print</span>(<span style="color:#b8bb26">&#34;File says: {s}</span><span style="color:#b8bb26">\n</span><span style="color:#b8bb26">&#34;</span>, .{content});
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Want to learn more? Check out Zig’s home on <strong>GitHub:</strong> <a href="https://github.com/ziglang/zig">https://github.com/ziglang/zig</a></p>
 <p>Have fun exploring Zig!</p>

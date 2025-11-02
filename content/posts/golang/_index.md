@@ -4,7 +4,7 @@ date: "2024-11-08"
 summary: "Golang and its Philosophy"
 description: "A small intro to Golang and why its helpful in networks and distributed systems"
 toc: true
-readTime: true
+readTime: false
 autonumber: true
 tags: ["networks", "golang", "distibuted systems"]
 showTags: false

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on eBits</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:46259/</link>
     <description>Recent content in Home on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:46259/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:46259/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:46259/about/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;Hi, I’m Amiitesh — an open-source enthusiast and passionate Linux and Neovim user. I love working at the intersection of Embedded Systems, Hardware Optimisation, and Low-Level Programming and VLSI.&lt;/p&gt;&#xA;&lt;p&gt;I contribute to projects across Embedded Systems, Computer Networks, and Systems Programming, and I’m currently diving deeper into Wayland and VLSI design. I enjoy crafting command-line tools and experimenting with C, Zig, C++, Golang and Verilog.&lt;/p&gt;&#xA;&lt;p&gt;Outside tech, I’m a classical pianist and a diehard fan of Chopin&amp;rsquo;s repertoire.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>http://localhost:46259/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>http://localhost:46259/projects/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;amiiteshs-projects&#34;&gt;&#xA;  Amiitesh&amp;rsquo;s Projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#amiiteshs-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;gort-scanner&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Gort Scanner&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#gort-scanner&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;high-performance port scanner&lt;/strong&gt; implementation in Go featuring &lt;strong&gt;concurrent goroutines&lt;/strong&gt; and &lt;strong&gt;channel-based communication&lt;/strong&gt;. Efficiently scans network ports with customizable threading and timeout configurations.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code&gt;Go&lt;/code&gt; • &lt;code&gt;Networking&lt;/code&gt; • &lt;code&gt;Concurrency&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;vat-viewer&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/vat-viewer&#34;&gt;Vat Viewer&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vat-viewer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;An &lt;strong&gt;enhanced file reader utility&lt;/strong&gt; written in Go that improves upon the traditional &lt;code&gt;&#39;cat&#39;&lt;/code&gt; command. Features &lt;strong&gt;Nord-theme syntax highlighting&lt;/strong&gt;, &lt;strong&gt;line numbering&lt;/strong&gt;, and better code readability for developers.&lt;/p&gt;</description>
     </item>
   </channel>

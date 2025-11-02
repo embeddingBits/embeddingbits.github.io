@@ -12,7 +12,7 @@ description = "Thoughts and Expressions"
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'default'
+colorPalette = 'gruvebox'
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -61,4 +61,4 @@ url = "/projects"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'algol'
+style = 'gruvbox'

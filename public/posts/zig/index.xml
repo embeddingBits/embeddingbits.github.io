@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zig Programming Language on eBits</title>
-    <link>http://localhost:1313/posts/zig/</link>
+    <link>http://localhost:46259/posts/zig/</link>
     <description>Recent content in Zig Programming Language on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/zig/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:46259/posts/zig/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
