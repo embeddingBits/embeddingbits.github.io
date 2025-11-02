@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hyprland on eBits</title>
-    <link>http://localhost:44399/tags/hyprland/</link>
+    <link>http://localhost:1313/tags/hyprland/</link>
     <description>Recent content in Hyprland on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44399/tags/hyprland/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hyprland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Workflow</title>
-      <link>http://localhost:44399/posts/workflow/</link>
+      <link>http://localhost:1313/posts/workflow/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/posts/workflow/</guid>
+      <guid>http://localhost:1313/posts/workflow/</guid>
       <description>My developer workflow</description>
     </item>
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:44399/posts/linux_overview/</link>
+      <link>http://localhost:1313/posts/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/posts/linux_overview/</guid>
+      <guid>http://localhost:1313/posts/linux_overview/</guid>
       <description>Overview of Linux and Debunking the myths</description>
     </item>
   </channel>

@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on eBits</title>
-    <link>http://localhost:44399/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44399/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>http://localhost:44399/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://localhost:44399/tags/terminal/</link>
+      <link>http://localhost:1313/tags/terminal/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/terminal/</guid>
+      <guid>http://localhost:1313/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Tmux</title>
-      <link>http://localhost:44399/tags/tmux/</link>
+      <link>http://localhost:1313/tags/tmux/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/tmux/</guid>
+      <guid>http://localhost:1313/tags/tmux/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
-      <link>http://localhost:44399/tags/neovim/</link>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Nvim</title>
-      <link>http://localhost:44399/tags/nvim/</link>
+      <link>http://localhost:1313/tags/nvim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/nvim/</guid>
+      <guid>http://localhost:1313/tags/nvim/</guid>
       <description></description>
     </item>
     <item>
       <title>Text Editor</title>
-      <link>http://localhost:44399/tags/text-editor/</link>
+      <link>http://localhost:1313/tags/text-editor/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/text-editor/</guid>
+      <guid>http://localhost:1313/tags/text-editor/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>http://localhost:44399/tags/vim/</link>
+      <link>http://localhost:1313/tags/vim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/vim/</guid>
+      <guid>http://localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>C</title>
-      <link>http://localhost:44399/tags/c/</link>
+      <link>http://localhost:1313/tags/c/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/c/</guid>
+      <guid>http://localhost:1313/tags/c/</guid>
       <description></description>
     </item>
     <item>
       <title>Language</title>
-      <link>http://localhost:44399/tags/language/</link>
+      <link>http://localhost:1313/tags/language/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/language/</guid>
+      <guid>http://localhost:1313/tags/language/</guid>
       <description></description>
     </item>
     <item>
       <title>Zig</title>
-      <link>http://localhost:44399/tags/zig/</link>
+      <link>http://localhost:1313/tags/zig/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/zig/</guid>
+      <guid>http://localhost:1313/tags/zig/</guid>
       <description></description>
     </item>
     <item>
       <title>Dwm</title>
-      <link>http://localhost:44399/tags/dwm/</link>
+      <link>http://localhost:1313/tags/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/dwm/</guid>
+      <guid>http://localhost:1313/tags/dwm/</guid>
       <description></description>
     </item>
     <item>
       <title>Window Manager</title>
-      <link>http://localhost:44399/tags/window-manager/</link>
+      <link>http://localhost:1313/tags/window-manager/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/window-manager/</guid>
+      <guid>http://localhost:1313/tags/window-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Hyprland</title>
-      <link>http://localhost:44399/tags/hyprland/</link>
+      <link>http://localhost:1313/tags/hyprland/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/hyprland/</guid>
+      <guid>http://localhost:1313/tags/hyprland/</guid>
       <description></description>
     </item>
     <item>
       <title>Lazygit</title>
-      <link>http://localhost:44399/tags/lazygit/</link>
+      <link>http://localhost:1313/tags/lazygit/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/lazygit/</guid>
+      <guid>http://localhost:1313/tags/lazygit/</guid>
       <description></description>
     </item>
     <item>
       <title>River</title>
-      <link>http://localhost:44399/tags/river/</link>
+      <link>http://localhost:1313/tags/river/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/river/</guid>
+      <guid>http://localhost:1313/tags/river/</guid>
       <description></description>
     </item>
     <item>
       <title>Wm</title>
-      <link>http://localhost:44399/tags/wm/</link>
+      <link>http://localhost:1313/tags/wm/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/wm/</guid>
+      <guid>http://localhost:1313/tags/wm/</guid>
       <description></description>
     </item>
     <item>
       <title>Distibuted Systems</title>
-      <link>http://localhost:44399/tags/distibuted-systems/</link>
+      <link>http://localhost:1313/tags/distibuted-systems/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/distibuted-systems/</guid>
+      <guid>http://localhost:1313/tags/distibuted-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://localhost:44399/tags/golang/</link>
+      <link>http://localhost:1313/tags/golang/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/golang/</guid>
+      <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Networks</title>
-      <link>http://localhost:44399/tags/networks/</link>
+      <link>http://localhost:1313/tags/networks/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:44399/tags/networks/</guid>
+      <guid>http://localhost:1313/tags/networks/</guid>
       <description></description>
     </item>
   </channel>
