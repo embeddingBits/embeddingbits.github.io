@@ -2,7 +2,7 @@
 <html lang="en-us"
   dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=45833&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34199&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
@@ -20,13 +20,13 @@
 
 
 
-<link rel="icon" type="image/ico" href="http://localhost:45833/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:45833/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:45833/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:45833/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:45833/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="http://localhost:34199/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:34199/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:34199/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:34199/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:34199/apple-touch-icon.png">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:45833/posts/tmux_config/index.xml" title="eBits">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:34199/posts/tmux_config/index.xml" title="eBits">
 <meta name="description" content=""/>
 
 
@@ -36,10 +36,9 @@
     Configuring Tmux | eBits
     
 </title>
+<link rel="canonical" href="http://localhost:34199/posts/tmux_config/"/>
 
-<link rel="canonical" href="http://localhost:45833/posts/tmux_config/"/>
-
-<meta property="og:url" content="http://localhost:45833/posts/tmux_config/">
+<meta property="og:url" content="http://localhost:34199/posts/tmux_config/">
   <meta property="og:site_name" content="eBits">
   <meta property="og:title" content="Configuring Tmux">
   <meta property="og:description" content="Configuring a really simple tmux config">
@@ -57,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.02841ab9d01a30561001edb0e3290c86f16dd9a725a4f66cc23c5db53b6fab41.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.6400689e30ceed63b4c0b7a0a648362b9087f87698eb77d50deadbfd682626e9.css" media="all">
 
 
 
@@ -90,45 +89,46 @@
 
 <div class="header">
 
-    
+      
 
-    <h1 class="header-title">
-        <a href="http://localhost:45833/">eBits</a>
-    </h1>
+      <h1 class="header-title">
+            <a href="http://localhost:34199/">eBits</a>
+      </h1>
 
-    <div class="header-menu">
-        
+      <div class="header-menu">
+            
 
-        
-        
+            
+            
 
-        <p
-            class="small ">
-            <a href="/posts" >
-                /posts
-            </a>
-        </p>
-        
+            <p
+                  class="small ">
+                  <a href="/posts" >
+                        /posts
+                  </a>
+            </p>
+            
 
-        <p
-            class="small ">
-            <a href="/about" >
-                /about
-            </a>
-        </p>
-        
+            <p
+                  class="small ">
+                  <a href="/about" >
+                        /about
+                  </a>
+            </p>
+            
 
-        <p
-            class="small ">
-            <a href="/projects" >
-                /projects
-            </a>
-        </p>
-        
-        
-    </div>
+            <p
+                  class="small ">
+                  <a href="/projects" >
+                        /projects
+                  </a>
+            </p>
+            
+            
+      </div>
+      <hr></hr>
 
-    
+      
 
 </div>
 
@@ -143,7 +143,8 @@
         <a href="/posts/tmux_config/">Configuring Tmux</a></div>
 
     <h1>Configuring Tmux</h1>
-    <h2 class="heading" id="introduction">
+    
+<h2 class="heading" id="introduction">
   Introduction
   <a class="anchor" href="#introduction">#</a>
 </h2>
@@ -155,6 +156,7 @@
 <p>In the above video, I opened a tmux session, created three split panes, created a tmux window, closed the terminal, and reattached using the session name <code>&quot;test&quot;</code>.</p>
 <p>The <strong>default configuration</strong> for tmux is good, but we can add our own <strong>plugins</strong>, <strong>colorschemes</strong>, <strong>custom keybinds</strong>, and more. Configuring tmux is <strong>not a tough job</strong> and is relatively easy. I use a simple minimal tmux configuration — and I’ll take you through the steps to achieve it.</p>
 <hr>
+
 <h2 class="heading" id="getting-started">
   Getting Started
   <a class="anchor" href="#getting-started">#</a>
@@ -169,6 +171,7 @@ bind r source-file ~/.tmux.conf
 <p>Now press <code>Ctrl+s</code>, then <code>r</code> to reload the config instantly.</p>
 </blockquote>
 <hr>
+
 <h2 class="heading" id="rebinding-the-default-prefix">
   Rebinding the default prefix
   <a class="anchor" href="#rebinding-the-default-prefix">#</a>
@@ -181,6 +184,7 @@ bind r source-file ~/.tmux.conf
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 </code></pre><hr>
+
 <h2 class="heading" id="adding-mouse-support">
   Adding mouse support
   <a class="anchor" href="#adding-mouse-support">#</a>
@@ -193,6 +197,7 @@ bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 </code></pre><hr>
+
 <h2 class="heading" id="setting-tmux-status-bar-position">
   Setting tmux status bar position
   <a class="anchor" href="#setting-tmux-status-bar-position">#</a>
@@ -205,6 +210,7 @@ set -g prefix C-s
 set -g mouse on
 set-option -g status-position top
 </code></pre><hr>
+
 <h2 class="heading" id="installing-tmux-plugin-manager-tpm">
   Installing Tmux Plugin Manager (TPM)
   <a class="anchor" href="#installing-tmux-plugin-manager-tpm">#</a>
@@ -223,6 +229,7 @@ run &#39;~/.tmux/plugins/tpm/tpm&#39;
 <p><strong>Reload tmux config</strong> (<code>Ctrl+s</code>, <code>r</code>) and press <code>Ctrl+s</code>, <code>I</code> (capital I) to install plugins.</p>
 </blockquote>
 <hr>
+
 <h2 class="heading" id="adding-colorscheme">
   Adding colorscheme
   <a class="anchor" href="#adding-colorscheme">#</a>
@@ -247,6 +254,7 @@ run &#39;~/.tmux/plugins/tpm/tpm&#39;
 <p>Reload (<code>Ctrl+s</code>, <code>r</code>) → Install plugins (<code>Ctrl+s</code>, <code>I</code>)</p>
 </blockquote>
 <hr>
+
 <h2 class="heading" id="conclusion">
   Conclusion
   <a class="anchor" href="#conclusion">#</a>

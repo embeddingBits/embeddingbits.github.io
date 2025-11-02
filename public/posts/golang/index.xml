@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang and its Philosophy on eBits</title>
-    <link>http://localhost:45833/posts/golang/</link>
+    <link>http://localhost:34199/posts/golang/</link>
     <description>Recent content in Golang and its Philosophy on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:45833/posts/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34199/posts/golang/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

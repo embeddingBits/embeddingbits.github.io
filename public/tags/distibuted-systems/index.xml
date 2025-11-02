@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distibuted Systems on eBits</title>
-    <link>http://localhost:46259/tags/distibuted-systems/</link>
+    <link>http://localhost:34199/tags/distibuted-systems/</link>
     <description>Recent content in Distibuted Systems on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:46259/tags/distibuted-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34199/tags/distibuted-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang and its Philosophy</title>
-      <link>http://localhost:46259/posts/golang/</link>
+      <link>http://localhost:34199/posts/golang/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46259/posts/golang/</guid>
+      <guid>http://localhost:34199/posts/golang/</guid>
       <description>Golang and its Philosophy</description>
     </item>
   </channel>
