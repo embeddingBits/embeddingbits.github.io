@@ -12,7 +12,7 @@ description = "Thoughts and Expressions"
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'gruvebox'
+colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
