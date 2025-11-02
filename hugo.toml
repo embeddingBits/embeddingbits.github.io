@@ -1,6 +1,6 @@
 baseURL = 'https://embeddingbits.github.io/'
 languageCode = 'en-us'
-title = 'eBits'
+title = 'eBits Base Address'
 theme = 'typo'
 
 [taxonomies]
