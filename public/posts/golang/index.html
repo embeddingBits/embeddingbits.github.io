@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/golang/index.xml" title="eBits">
+<meta name="description" content="A small intro to Golang and why its helpful in networks and distributed systems"/>
+
+
+
+<title>
+    
+    Golang and its Philosophy | eBits
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/golang/"/>
+
+<meta property="og:url" content="http://localhost:1313/posts/golang/">
+  <meta property="og:site_name" content="eBits">
+  <meta property="og:title" content="Golang and its Philosophy">
+  <meta property="og:description" content="A small intro to Golang and why its helpful in networks and distributed systems">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.2b7cf8e2ac08262b7d6946d800831a07430350b10b8122bdd5b8edbfbf57ca5a.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/">eBits</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+<div class="list-container">
+
+    <div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/golang/">Golang and its Philosophy</a></div>
+
+    <h1>Golang and its Philosophy</h1>
+    <h1 class="heading" id="what-is-golang-where-and-why-is-it-used">
+  What is Golang? Where and Why is it used?
+  <a class="anchor" href="#what-is-golang-where-and-why-is-it-used">#</a>
+</h1>
+<p>Go (or <strong>Golang</strong>) is an Open Source programming language developed by Google. Go has many use cases like building <strong>Microservices</strong>, <strong>Cloud Computing</strong>, <strong>Web Applications</strong>, and creating <strong>CLI Tools</strong>.</p>
+<p>Go is a <strong>statically typed language</strong>, and its structures and syntax resemble the <strong>C Programming Language</strong>. Due to Go’s <strong>fast startup time</strong>, <strong>low runtime overhead</strong>, and <strong>platform independence</strong>, it has become a very popular language for writing microservices and other systems. Go is also known for its <strong>concurrency</strong>, meaning it can execute multiple processes simultaneously.</p>
+<p>Golang uses <strong>Goroutines</strong> (lightweight processes) and a collection of <strong>packages and commands</strong> for dependency management. It was designed to solve issues like <strong>slow build times</strong>, <strong>difficulty writing tools</strong>, and <strong>cross-language development</strong>.</p>
+<p>In this blog, I’ll discuss Golang and provide resources to get started.</p>
+<hr>
+<h2 class="heading" id="history-of-go">
+  History of Go
+  <a class="anchor" href="#history-of-go">#</a>
+</h2>
+<p>Golang was created by Google to solve their internal software engineering issues as an alternative to <strong>C++</strong>. Development began in <strong>2007</strong>, with the goal of designing a language that was easier to use while incorporating the best features of C++, JavaScript, and Python.
+It was released as an <strong>Open Source project</strong> by Google in <strong>2009</strong>, allowing community contributions.</p>
+<p>Since then, new features have been added regularly, with a <strong>major update in 2022</strong> introducing <strong>Generics</strong> (a major feature from Java).</p>
+<p>Due to its fast growth and practical design, major companies such as <strong>Netflix</strong>, <strong>Microsoft</strong>, <strong>Cloudflare</strong>, <strong>Docker</strong>, <strong>Twitch</strong>, and <strong>Dropbox</strong> adopted Go in their codebases.</p>
+<hr>
+<h2 class="heading" id="philosophy-of-go">
+  Philosophy of Go
+  <a class="anchor" href="#philosophy-of-go">#</a>
+</h2>
+<p>The philosophy of Go and the problems it addresses are quite interesting:</p>
+<ul>
+<li><strong>Simplicity:</strong> Go focuses on simplicity. While many languages add features that lead to bloat, Go only includes features considered useful in the long term.</li>
+<li><strong>Efficiency:</strong> Go is designed for speed and efficiency — evident in its strong concurrency support.</li>
+<li><strong>Error Handling:</strong> Go encourages explicit and reliable error handling, with built-in mechanisms in most functions.</li>
+<li><strong>Pragmatism:</strong> Go emphasizes practical and logical solutions to real-world problems.</li>
+</ul>
+<hr>
+<h2 class="heading" id="features-of-go">
+  Features of Go
+  <a class="anchor" href="#features-of-go">#</a>
+</h2>
+<ul>
+<li><strong>Standard Library:</strong> Rich collection of standard libraries ranging from math to networking.</li>
+<li><strong>Package Management:</strong> Easy management of user-created packages and publishing them via CLI commands.</li>
+<li><strong>Static Typing:</strong> Types are assigned at compile time, preventing type-related runtime errors.</li>
+<li><strong>Unit Test Support:</strong> Built-in unit testing to ensure code quality and parallel debugging.</li>
+<li><strong>Platform Independence:</strong> Compiles and runs on any hardware or operating system.</li>
+<li><strong>Concurrency:</strong> Through <strong>Goroutines</strong>, Go allows multiple tasks to run in parallel — one of its defining features.</li>
+</ul>
+<hr>
+<h2 class="heading" id="some-useful-go-commands">
+  Some Useful Go Commands
+  <a class="anchor" href="#some-useful-go-commands">#</a>
+</h2>
+<h3 class="heading" id="go-run">
+  <code>go run</code>
+  <a class="anchor" href="#go-run">#</a>
+</h3>
+<p>Compiles and executes code simultaneously.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go run filename.go
+</span></span></code></pre></div><h3 class="heading" id="go-build">
+  <code>go build</code>
+  <a class="anchor" href="#go-build">#</a>
+</h3>
+<p>Compiles the code and creates an executable file.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go build filename.go
+</span></span></code></pre></div><h3 class="heading" id="go-get">
+  <code>go get</code>
+  <a class="anchor" href="#go-get">#</a>
+</h3>
+<p>Imports third-party libraries from repositories like GitHub.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go get github.com/libname
+</span></span></code></pre></div><h3 class="heading" id="go-fmt">
+  <code>go fmt</code>
+  <a class="anchor" href="#go-fmt">#</a>
+</h3>
+<p>Automatically formats code for readability using proper indentation and line spacing.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go fmt filename.go
+</span></span></code></pre></div><h4 class="heading" id="unformatted-file">
+  Unformatted File
+  <a class="anchor" href="#unformatted-file">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">package</span> main
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">import</span> <span style="color:#666;font-style:italic">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic;text-decoration:underline">func</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>(){
+</span></span><span style="display:flex;"><span>fmt.<span style="color:#666;font-weight:bold;font-style:italic">Println</span>(<span style="color:#666;font-style:italic">&#34;Sample Addition&#34;</span>)
+</span></span><span style="display:flex;"><span>a:=5
+</span></span><span style="display:flex;"><span>b:=4
+</span></span><span style="display:flex;"><span>c:=a+b
+</span></span><span style="display:flex;"><span>fmt.<span style="color:#666;font-weight:bold;font-style:italic">Println</span>(c)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 class="heading" id="formatted-file-with-go-fmt">
+  Formatted File with <code>go fmt</code>
+  <a class="anchor" href="#formatted-file-with-go-fmt">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">package</span> main
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;text-decoration:underline">import</span> <span style="color:#666;font-style:italic">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic;text-decoration:underline">func</span> <span style="color:#666;font-weight:bold;font-style:italic">main</span>() {
+</span></span><span style="display:flex;"><span>    fmt.<span style="color:#666;font-weight:bold;font-style:italic">Println</span>(<span style="color:#666;font-style:italic">&#34;Sample Addition&#34;</span>)
+</span></span><span style="display:flex;"><span>    a := 5
+</span></span><span style="display:flex;"><span>    b := 4
+</span></span><span style="display:flex;"><span>    c := a + b
+</span></span><span style="display:flex;"><span>    fmt.<span style="color:#666;font-weight:bold;font-style:italic">Println</span>(c)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can see how the command improves readability and structure.</p>
+<hr>
+<h2 class="heading" id="what-is-go-used-for">
+  What is Go Used For?
+  <a class="anchor" href="#what-is-go-used-for">#</a>
+</h2>
+<p>Go is widely used in various domains:</p>
+<ul>
+<li><strong>Container Services:</strong> Tools like <strong>Docker</strong> and <strong>Kubernetes</strong> use Go for efficient containerization and concurrency.</li>
+<li><strong>Network and Cloud Services:</strong> Ideal for writing high-performance web servers and APIs (e.g., <strong>Bitcoin Lightning Network</strong>, <strong>blockchain</strong> systems).</li>
+<li><strong>Web Services:</strong> Go’s built-in HTTP server helps companies like <strong>Netflix</strong> build scalable backend services.</li>
+<li><strong>Command-line Tools:</strong> Rich libraries for building powerful CLI tools.</li>
+<li><strong>Microservices:</strong> Used to develop microservices such as FTP/SMTP servers — used by companies like <strong>Uber</strong>.</li>
+<li><strong>Data Science:</strong> Go’s concurrency and memory management make it suitable for handling large datasets efficiently.</li>
+</ul>
+<hr>
+<h2 class="heading" id="how-to-learn-go">
+  How to Learn Go
+  <a class="anchor" href="#how-to-learn-go">#</a>
+</h2>
+<p>Go is relatively easy to learn. Some may find <strong>Goroutines</strong>, <strong>Channels</strong>, and <strong>Concurrency</strong> challenging — but these are also Go’s most powerful features.</p>
+<blockquote>
+<p>The best features always take effort to master!</p>
+</blockquote>
+<p>The best way to learn is through <strong>books and official documentation</strong>, not endless tutorials. Many beginners get stuck in &ldquo;tutorial hell&rdquo; — watching too many videos, getting confused, and eventually quitting.</p>
+<p>Go’s <strong>official documentation</strong> is among the best of any language, offering concept-based lessons and an <strong>interactive playground</strong>.</p>
+<p>The documentation is divided into two main parts:</p>
+<ul>
+<li><strong>A Tour of Go</strong> — covers syntax and fundamentals, from variables to concurrency.</li>
+<li><strong>Effective Go</strong> — teaches how to write clear, idiomatic Go code.</li>
+</ul>
+<h3 class="heading" id="official-docs">
+  Official Docs
+  <a class="anchor" href="#official-docs">#</a>
+</h3>
+<ul>
+<li><strong>A Tour of Go:</strong> <a href="https://go.dev/tour/welcome/1">https://go.dev/tour/welcome/1</a></li>
+<li><strong>Effective Go:</strong> <a href="https://go.dev/doc/effective_go">https://go.dev/doc/effective_go</a></li>
+</ul>
+<h3 class="heading" id="recommended-book">
+  Recommended Book
+  <a class="anchor" href="#recommended-book">#</a>
+</h3>
+<p>The best beginner-friendly book to learn Go:</p>
+<ul>
+<li><strong>Learning Go:</strong> <a href="https://www.miek.nl/go/">https://www.miek.nl/go/</a></li>
+</ul>
+<hr>
+<h2 class="heading" id="thank-you">
+  Thank You
+  <a class="anchor" href="#thank-you">#</a>
+</h2>
+<p><strong>Thank you for reading this blog!</strong></p>
+<hr>
+
+
+    
+
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+</div>
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

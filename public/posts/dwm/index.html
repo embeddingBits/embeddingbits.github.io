@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/dwm/index.xml" title="eBits">
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    DWM Window Manager | eBits
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/dwm/"/>
+
+<meta property="og:url" content="http://localhost:1313/posts/dwm/">
+  <meta property="og:site_name" content="eBits">
+  <meta property="og:title" content="DWM Window Manager">
+  <meta property="og:description" content="DWM window manager and how things are managed in dwm">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.2b7cf8e2ac08262b7d6946d800831a07430350b10b8122bdd5b8edbfbf57ca5a.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/">eBits</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+<div class="list-container">
+
+    <div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/dwm/">DWM Window Manager</a></div>
+
+    <h1>DWM Window Manager</h1>
+    <h2 class="heading" id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h2>
+<p>Welcome to this blog where I will be writing about <strong>DWM (Dynamic Window Manager)</strong> which is written in C intended to reduce bloat as much as possible giving us a smooth user experience. Configuring DWM can be hard for a few, but the end result is worth it. I recently wanted to try DWM for fun and turned out it was actually a very good experience that I have switched from Hyprland to DWM permanently.</p>
+<p>To configure DWM we have to manually edit the C source code, after the changes we save. Compile it with the <code>make</code> command and then finally quit DWM and log back in for the changes. If there are any errors with the source code, then DWM won&rsquo;t allow you to log inside the DWM until the error is corrected. So, what I did is I would backup after every stable change I make and in case of there are any errors I would copy the backup file or manually edit them in a tty.</p>
+<h2 class="heading" id="about-dwm">
+  About DWM
+  <a class="anchor" href="#about-dwm">#</a>
+</h2>
+<p>DWM is a window manager for X server made by <strong>suckless.org</strong> — a group of programmers working together to make software that &ldquo;suck less&rdquo;. They have made many tools like:</p>
+<ul>
+<li><code>st</code> (suckless terminal/simple terminal)</li>
+<li><code>surf</code> (a web browser)</li>
+<li>and some other &ldquo;core&rdquo; programs for a suckless experience.</li>
+</ul>
+<p>There are many layouts to manage windows like <strong>tiled</strong>, <strong>monocle</strong>, <strong>floating layout</strong>. We can switch between different layouts using keybinds dynamically according to the application that we are working with.</p>
+<h2 class="heading" id="how-are-windows-managed">
+  How are windows managed
+  <a class="anchor" href="#how-are-windows-managed">#</a>
+</h2>
+<p>In <strong>tiled mode</strong>, the windows are stacked above one another as a new window is created every time. Stack in the sense not &ldquo;literally&rdquo; stack but the windows act stacked in the memory as in the data structure &ldquo;stack&rdquo;.</p>
+<p>In <strong>monocle layout</strong>, all the windows are fullscreen and now are literally stacked above each other when they are created.</p>
+<p>In the <strong>floating layout</strong>, it is like what we use in rest of the desktop environments and in Windows. All the newly created windows are floating.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    
+    
+      
+        <div class="img-container" style="--w: 1920; --h: 1079;">
+            <img loading="lazy" alt="Stacked Windows" src="/posts/dwm/stacked.png" width="1920" height="1079">
+        </div>
+      
+    
+
+    
+</figure>
+</p>
+<h2 class="heading" id="workspacestags">
+  Workspaces/Tags
+  <a class="anchor" href="#workspacestags">#</a>
+</h2>
+<p>In DWM, the workspaces are called <strong>&ldquo;tags&rdquo;</strong>. By default, there are 10 tags but we can change them to however many we want. We can also replace them with a logo instead of just numbers.</p>
+<p>We can switch between them with shortcut key, <code>ALT + &quot;tag_number&quot;</code>. We can also change the keybinds to whatever we feel comfortable.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    
+    
+      
+        <div class="img-container" style="--w: 1914; --h: 1079;">
+            <img loading="lazy" alt="Tags Example" src="/posts/dwm/tags.png" width="1914" height="1079">
+        </div>
+      
+    
+
+    
+</figure>
+</p>
+<p><em>The red circled is what is called tags</em></p>
+<h2 class="heading" id="status-bar">
+  Status Bar
+  <a class="anchor" href="#status-bar">#</a>
+</h2>
+<p>There is a status bar by default provided by DWM. We can also add our own status bar if we want with <strong>patches</strong> (I&rsquo;ll cover that in the upcoming heading). The status bar is divided into three parts:</p>
+<ul>
+<li><strong>Left part</strong> for the tags</li>
+<li><strong>Middle part</strong> for the activity that we are doing like the window name</li>
+<li><strong>Right one</strong> is for custom modules that we would display by script files for everything. By default, there is nothing on the right part</li>
+</ul>
+<p>There are many status bars for the left part:</p>
+<ul>
+<li><code>slstatus</code></li>
+<li><code>dwmblocks</code></li>
+<li><code>dwmblocks</code> with color support</li>
+<li><code>anybar</code> (which allows us to use any bar other than the default one provided by DWM)</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    
+    
+      
+        <div class="img-container" style="--w: 1920; --h: 1080;">
+            <img loading="lazy" alt="Status Bar Example" src="/posts/dwm/bar1.png" width="1920" height="1080">
+        </div>
+      
+    
+
+    
+</figure>
+</p>
+<h2 class="heading" id="patches">
+  Patches
+  <a class="anchor" href="#patches">#</a>
+</h2>
+<p>We can add many other features we require by <strong>&ldquo;patching&rdquo;</strong> the main source code. This is one of the most exhausting parts of DWM for people who want extra features.</p>
+<p>The patches are mostly written by other users themselves. Patches are nothing but adding extra functionality to the source code.</p>
+<p>When applying the patches there is <strong>7/10 chance</strong> for a patch error to occur. The error is put into a <strong><code>.rej</code></strong> file with the changes that are to be made indicated with <code>+</code> and <code>-</code>. We have to manually edit them ourselves and compile the code. We have to add the lines that start with <code>+</code> and delete the line that start with <code>-</code>.</p>
+<p>This is the part where most quit because it&rsquo;s exhausting.</p>
+<p>This is because the patches are not intelligent enough to make all the changes by itself. They expect some block of code to be there but when there is no code block that the patch is expecting it returns an error and as I said — after we edit the file ourselves and if there are errors in the main source code, DWM won&rsquo;t allow us to get into the DWM.</p>
+<h2 class="heading" id="bottom-note">
+  Bottom Note
+  <a class="anchor" href="#bottom-note">#</a>
+</h2>
+<p>There are different Window managers but I really felt that this one was peculiar and thought of writing a blog on it.</p>
+<p>There are many window managers that are a fork of this like:</p>
+<ul>
+<li><a href="https://i3wm.org/">i3</a></li>
+<li><a href="https://github.com/baskerville/bspwm">bspwm</a></li>
+<li><a href="https://codeberg.org/dwl/dwl">dwl (which is a Wayland fork of dwm)</a></li>
+<li>and much more.</li>
+</ul>
+<p>You can try and install DWM if you want from the link below:</p>
+<p><strong>DWM:</strong> <a href="https://dwm.suckless.org/">https://dwm.suckless.org/</a></p>
+
+
+    
+
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+</div>
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

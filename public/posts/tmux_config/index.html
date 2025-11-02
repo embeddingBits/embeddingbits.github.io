@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/tmux_config/index.xml" title="eBits">
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    Configuring Tmux | eBits
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/tmux_config/"/>
+
+<meta property="og:url" content="http://localhost:1313/posts/tmux_config/">
+  <meta property="og:site_name" content="eBits">
+  <meta property="og:title" content="Configuring Tmux">
+  <meta property="og:description" content="Configuring a really simple tmux config">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.2b7cf8e2ac08262b7d6946d800831a07430350b10b8122bdd5b8edbfbf57ca5a.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/">eBits</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+<div class="list-container">
+
+    <div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/tmux_config/">Configuring Tmux</a></div>
+
+    <h1>Configuring Tmux</h1>
+    <h2 class="heading" id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h2>
+<p>Welcome to this blog where I will be taking you through certain steps to get your own <strong>tmux configuration</strong>.</p>
+<p>First of all, let&rsquo;s see: <strong>What is Tmux? and Why is it used?</strong></p>
+<p><strong>Tmux</strong> stands for <strong>Terminal Multiplexer</strong> and is used in Unix-like operating systems. It allows you to use <strong>multiple terminal sessions in a single terminal window</strong>. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session — which is helpful when we accidentally close the session without saving changes.</p>
+<p>Here’s how we can use tmux:</p>
+<!-- raw HTML omitted -->
+<p>In the above video, I opened a tmux session, created three split panes, created a tmux window, closed the terminal, and reattached using the session name <code>&quot;test&quot;</code>.</p>
+<p>The <strong>default configuration</strong> for tmux is good, but we can add our own <strong>plugins</strong>, <strong>colorschemes</strong>, <strong>custom keybinds</strong>, and more. Configuring tmux is <strong>not a tough job</strong> and is relatively easy. I use a simple minimal tmux configuration — and I’ll take you through the steps to achieve it.</p>
+<hr>
+<h2 class="heading" id="getting-started">
+  Getting Started
+  <a class="anchor" href="#getting-started">#</a>
+</h2>
+<p>To begin, locate the tmux configuration file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~/.tmux.conf
+</span></span></code></pre></div><p>Open it with your favorite editor.</p>
+<p>The <strong>first step</strong> is to create a shortcut to <strong>reload the config</strong> without restarting tmux:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+</code></pre><blockquote>
+<p>Now press <code>Ctrl+s</code>, then <code>r</code> to reload the config instantly.</p>
+</blockquote>
+<hr>
+<h2 class="heading" id="rebinding-the-default-prefix">
+  Rebinding the default prefix
+  <a class="anchor" href="#rebinding-the-default-prefix">#</a>
+</h2>
+<p>By default, tmux uses <strong><code>Ctrl+b</code></strong> as the prefix. This is not ergonomic.</p>
+<p>We’ll change it to <strong><code>Ctrl+s</code></strong> (you can choose any):</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">set -g prefix C-s
+</code></pre><p>Now your config looks like:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+set -g prefix C-s
+</code></pre><hr>
+<h2 class="heading" id="adding-mouse-support">
+  Adding mouse support
+  <a class="anchor" href="#adding-mouse-support">#</a>
+</h2>
+<p>Tmux is <strong>keyboard-driven by default</strong> — no mouse.</p>
+<p>Enable it with:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">set -g mouse on
+</code></pre><pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+set -g prefix C-s
+set -g mouse on
+</code></pre><hr>
+<h2 class="heading" id="setting-tmux-status-bar-position">
+  Setting tmux status bar position
+  <a class="anchor" href="#setting-tmux-status-bar-position">#</a>
+</h2>
+<p>Move the status bar to the <strong>top</strong> to avoid confusion with Vim/Neovim status lines:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">set-option -g status-position top
+</code></pre><pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+set -g prefix C-s
+set -g mouse on
+set-option -g status-position top
+</code></pre><hr>
+<h2 class="heading" id="installing-tmux-plugin-manager-tpm">
+  Installing Tmux Plugin Manager (TPM)
+  <a class="anchor" href="#installing-tmux-plugin-manager-tpm">#</a>
+</h2>
+<p>We’ll use <strong><a href="https://github.com/tmux-plugins/tpm">TPM</a></strong> to install plugins.</p>
+<p>Clone it:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+</span></span></code></pre></div><p>Add to <code>~/.tmux.conf</code>:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux"># List of plugins
+set -g @plugin &#39;tmux-plugins/tpm&#39;
+set -g @plugin &#39;tmux-plugins/tmux-sensible&#39;
+
+# Initialize TMUX plugin manager (keep this at the bottom)
+run &#39;~/.tmux/plugins/tpm/tpm&#39;
+</code></pre><blockquote>
+<p><strong>Reload tmux config</strong> (<code>Ctrl+s</code>, <code>r</code>) and press <code>Ctrl+s</code>, <code>I</code> (capital I) to install plugins.</p>
+</blockquote>
+<hr>
+<h2 class="heading" id="adding-colorscheme">
+  Adding colorscheme
+  <a class="anchor" href="#adding-colorscheme">#</a>
+</h2>
+<p>Add your favorite theme under <code># List of plugins</code>. I use <strong>Nord</strong>:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">set -g @plugin &#34;nordtheme/tmux&#34;
+</code></pre><p>Full config so far:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+set -g prefix C-s
+set -g mouse on
+set-option -g status-position top
+
+# List of plugins
+set -g @plugin &#39;tmux-plugins/tpm&#39;
+set -g @plugin &#39;tmux-plugins/tmux-sensible&#39;
+set -g @plugin &#34;nordtheme/tmux&#34;
+
+# Initialize TMUX plugin manager (keep this line at the very bottom)
+run &#39;~/.tmux/plugins/tpm/tpm&#39;
+</code></pre><blockquote>
+<p>Reload (<code>Ctrl+s</code>, <code>r</code>) → Install plugins (<code>Ctrl+s</code>, <code>I</code>)</p>
+</blockquote>
+<hr>
+<h2 class="heading" id="conclusion">
+  Conclusion
+  <a class="anchor" href="#conclusion">#</a>
+</h2>
+<p>Here’s your <strong>final minimal <code>.tmux.conf</code></strong>:</p>
+<pre tabindex="0"><code class="language-tmux" data-lang="tmux">unbind r
+bind r source-file ~/.tmux.conf
+set -g prefix C-s
+set -g mouse on
+set-option -g status-position top
+
+# List of plugins
+set -g @plugin &#39;tmux-plugins/tpm&#39;
+set -g @plugin &#39;tmux-plugins/tmux-sensible&#39;
+set -g @plugin &#34;nordtheme/tmux&#34;
+
+# Initialize TMUX plugin manager (keep this line at the very bottom)
+run &#39;~/.tmux/plugins/tpm/tpm&#39;
+</code></pre><p>I hope you got your own config that fits you too.</p>
+<p><strong>All Tmux Plugins:</strong><br>
+<a href="https://github.com/rothgar/awesome-tmux?tab=readme-ov-file">List of Tmux Plugins</a></p>
+<p>Hope this blog has helped you get a <strong>starter tmux configuration</strong> — and if you liked it, please follow up on future blogs!</p>
+
+
+    
+
+    
+    
+    
+    
+
+    
+
+    
+
+    
+
+</div>
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

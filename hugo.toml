@@ -1,0 +1,64 @@
+baseURL = 'https://embeddingbits.github.io/'
+languageCode = 'en-us'
+title = 'eBits'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Thoughts and Expressions"
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi, I'm eBits"
+homeIntroContent = """
+---
+Myself Amiitesh, I am an embedded systems engineer and a systems programmer with solid foundation in electronics, VLSI and optimising hardware.
+I am really interested in topics like RTOS, Baremetal programming, Linux Kernel, making TUIs, Wayland, Zig, Ricing Linux and much more.
+
+---
+"""
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/embeddingbits"
+
+# Main menu pages
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
