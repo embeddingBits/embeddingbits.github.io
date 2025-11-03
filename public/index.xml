@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on eBits</title>
+    <title>Home on eBits&#39;s Base Address</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on eBits</description>
+    <description>Recent content in Home on eBits&#39;s Base Address</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;h1 class=&#34;heading&#34; id=&#34;amiiteshs-projects&#34;&gt;&#xA;  Amiitesh&amp;rsquo;s Projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#amiiteshs-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;gort-scanner&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Gort Scanner&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#gort-scanner&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;high-performance port scanner&lt;/strong&gt; implementation in Go featuring &lt;strong&gt;concurrent goroutines&lt;/strong&gt; and &lt;strong&gt;channel-based communication&lt;/strong&gt;. Efficiently scans network ports with customizable threading and timeout configurations.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code&gt;Go&lt;/code&gt; • &lt;code&gt;Networking&lt;/code&gt; • &lt;code&gt;Concurrency&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;vat-viewer&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/vat-viewer&#34;&gt;Vat Viewer&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vat-viewer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;An &lt;strong&gt;enhanced file reader utility&lt;/strong&gt; written in Go that improves upon the traditional &lt;code&gt;&#39;cat&#39;&lt;/code&gt; command. Features &lt;strong&gt;Nord-theme syntax highlighting&lt;/strong&gt;, &lt;strong&gt;line numbering&lt;/strong&gt;, and better code readability for developers.&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;gort-scanner&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Gort Scanner&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#gort-scanner&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A &lt;strong&gt;high-performance port scanner&lt;/strong&gt; implementation in Go featuring &lt;strong&gt;concurrent goroutines&lt;/strong&gt; and &lt;strong&gt;channel-based communication&lt;/strong&gt;. Efficiently scans network ports with customizable threading and timeout configurations.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code&gt;Go&lt;/code&gt; • &lt;code&gt;Networking&lt;/code&gt; • &lt;code&gt;Concurrency&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/GortScanner&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;vat-viewer&#34;&gt;&#xA;  &lt;a href=&#34;https://github.com/EmbeddingBits/vat-viewer&#34;&gt;Vat Viewer&lt;/a&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vat-viewer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;An &lt;strong&gt;enhanced file reader utility&lt;/strong&gt; written in Go that improves upon the traditional &lt;code&gt;&#39;cat&#39;&lt;/code&gt; command. Features &lt;strong&gt;Nord-theme syntax highlighting&lt;/strong&gt;, &lt;strong&gt;line numbering&lt;/strong&gt;, and better code readability for developers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code&gt;Go&lt;/code&gt; • &lt;code&gt;Lexers&lt;/code&gt; • &lt;code&gt;CLI Tools&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
