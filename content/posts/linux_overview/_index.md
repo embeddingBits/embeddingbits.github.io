@@ -9,7 +9,7 @@ tags: ["linux", "hyprland", "river"]
 showTags: true
 ---
 
-# What is Linux and Why Linux?
+---
 
 Did you know Linux powers **90% of the world’s supercomputers** and most of the internet’s servers?
 But have you ever thought about using it as your **daily driver**?

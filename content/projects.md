@@ -3,7 +3,6 @@ title = "Projects"
 draft = false
 +++
 
-# Amiitesh's Projects
 
 ---
 
