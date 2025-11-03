@@ -2,157 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on eBits</title>
-    <link>https://embeddingbits.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://embeddingbits.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git</title>
-      <link>https://embeddingbits.github.io/tags/git/</link>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>https://embeddingbits.github.io/tags/projects/</link>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/projects/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>https://embeddingbits.github.io/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>https://embeddingbits.github.io/tags/terminal/</link>
+      <link>http://localhost:1313/tags/terminal/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/terminal/</guid>
+      <guid>http://localhost:1313/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Tmux</title>
-      <link>https://embeddingbits.github.io/tags/tmux/</link>
+      <link>http://localhost:1313/tags/tmux/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/tmux/</guid>
+      <guid>http://localhost:1313/tags/tmux/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
-      <link>https://embeddingbits.github.io/tags/neovim/</link>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Nvim</title>
-      <link>https://embeddingbits.github.io/tags/nvim/</link>
+      <link>http://localhost:1313/tags/nvim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/nvim/</guid>
+      <guid>http://localhost:1313/tags/nvim/</guid>
       <description></description>
     </item>
     <item>
       <title>Text Editor</title>
-      <link>https://embeddingbits.github.io/tags/text-editor/</link>
+      <link>http://localhost:1313/tags/text-editor/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/text-editor/</guid>
+      <guid>http://localhost:1313/tags/text-editor/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>https://embeddingbits.github.io/tags/vim/</link>
+      <link>http://localhost:1313/tags/vim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/vim/</guid>
+      <guid>http://localhost:1313/tags/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>C</title>
-      <link>https://embeddingbits.github.io/tags/c/</link>
+      <link>http://localhost:1313/tags/c/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/c/</guid>
+      <guid>http://localhost:1313/tags/c/</guid>
       <description></description>
     </item>
     <item>
       <title>Language</title>
-      <link>https://embeddingbits.github.io/tags/language/</link>
+      <link>http://localhost:1313/tags/language/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/language/</guid>
+      <guid>http://localhost:1313/tags/language/</guid>
       <description></description>
     </item>
     <item>
       <title>Zig</title>
-      <link>https://embeddingbits.github.io/tags/zig/</link>
+      <link>http://localhost:1313/tags/zig/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/zig/</guid>
+      <guid>http://localhost:1313/tags/zig/</guid>
       <description></description>
     </item>
     <item>
       <title>Dwm</title>
-      <link>https://embeddingbits.github.io/tags/dwm/</link>
+      <link>http://localhost:1313/tags/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/dwm/</guid>
+      <guid>http://localhost:1313/tags/dwm/</guid>
       <description></description>
     </item>
     <item>
       <title>Window Manager</title>
-      <link>https://embeddingbits.github.io/tags/window-manager/</link>
+      <link>http://localhost:1313/tags/window-manager/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/window-manager/</guid>
+      <guid>http://localhost:1313/tags/window-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Hyprland</title>
-      <link>https://embeddingbits.github.io/tags/hyprland/</link>
+      <link>http://localhost:1313/tags/hyprland/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/hyprland/</guid>
+      <guid>http://localhost:1313/tags/hyprland/</guid>
       <description></description>
     </item>
     <item>
       <title>Lazygit</title>
-      <link>https://embeddingbits.github.io/tags/lazygit/</link>
+      <link>http://localhost:1313/tags/lazygit/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/lazygit/</guid>
+      <guid>http://localhost:1313/tags/lazygit/</guid>
       <description></description>
     </item>
     <item>
       <title>River</title>
-      <link>https://embeddingbits.github.io/tags/river/</link>
+      <link>http://localhost:1313/tags/river/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/river/</guid>
+      <guid>http://localhost:1313/tags/river/</guid>
       <description></description>
     </item>
     <item>
       <title>Wm</title>
-      <link>https://embeddingbits.github.io/tags/wm/</link>
+      <link>http://localhost:1313/tags/wm/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/wm/</guid>
+      <guid>http://localhost:1313/tags/wm/</guid>
       <description></description>
     </item>
     <item>
       <title>Distibuted Systems</title>
-      <link>https://embeddingbits.github.io/tags/distibuted-systems/</link>
+      <link>http://localhost:1313/tags/distibuted-systems/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/distibuted-systems/</guid>
+      <guid>http://localhost:1313/tags/distibuted-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://embeddingbits.github.io/tags/golang/</link>
+      <link>http://localhost:1313/tags/golang/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/golang/</guid>
+      <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Networks</title>
-      <link>https://embeddingbits.github.io/tags/networks/</link>
+      <link>http://localhost:1313/tags/networks/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/tags/networks/</guid>
+      <guid>http://localhost:1313/tags/networks/</guid>
       <description></description>
     </item>
   </channel>

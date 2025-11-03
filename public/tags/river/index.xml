@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>River on eBits</title>
-    <link>https://embeddingbits.github.io/tags/river/</link>
+    <link>http://localhost:1313/tags/river/</link>
     <description>Recent content in River on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://embeddingbits.github.io/tags/river/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/river/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Workflow</title>
-      <link>https://embeddingbits.github.io/posts/workflow/</link>
+      <link>http://localhost:1313/posts/workflow/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/posts/workflow/</guid>
+      <guid>http://localhost:1313/posts/workflow/</guid>
       <description>My developer workflow</description>
     </item>
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>https://embeddingbits.github.io/posts/linux_overview/</link>
+      <link>http://localhost:1313/posts/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/posts/linux_overview/</guid>
+      <guid>http://localhost:1313/posts/linux_overview/</guid>
       <description>Overview of Linux and Debunking the myths</description>
     </item>
   </channel>

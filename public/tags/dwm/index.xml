@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dwm on eBits</title>
-    <link>https://embeddingbits.github.io/tags/dwm/</link>
+    <link>http://localhost:1313/tags/dwm/</link>
     <description>Recent content in Dwm on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://embeddingbits.github.io/tags/dwm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dwm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DWM Window Manager</title>
-      <link>https://embeddingbits.github.io/posts/dwm/</link>
+      <link>http://localhost:1313/posts/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://embeddingbits.github.io/posts/dwm/</guid>
+      <guid>http://localhost:1313/posts/dwm/</guid>
       <description>DWM window manager and how things are managed in dwm</description>
     </item>
   </channel>
