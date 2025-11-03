@@ -1,6 +1,6 @@
 baseURL = 'https://embeddingbits.github.io/'
 languageCode = 'en-us'
-title = 'eBits Base Address'
+title = 'eBits'
 theme = 'typo'
 
 [taxonomies]
@@ -61,4 +61,4 @@ url = "/projects"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'gruvbox'
+style = 'gruvebox'
