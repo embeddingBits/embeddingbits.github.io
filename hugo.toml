@@ -25,6 +25,8 @@ I am really interested in topics like RTOS, Baremetal programming, Linux Kernel,
 ---
 """
 
+language = 'en'
+
 # Lists parameters
 paginationSize = 100
 listSummaries = true
