@@ -6,7 +6,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["git", "projects"]
-showTags: false
+showTags: true
 ---
 ## Using Git
 To init a `git` in a repo run

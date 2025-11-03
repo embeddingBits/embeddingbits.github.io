@@ -6,7 +6,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["linux", "terminal", "tmux"]
-showTags: false
+showTags: true
 ---
 
 ## Introduction

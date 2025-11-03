@@ -6,7 +6,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["nvim", "neovim", "vim", "text editor"]
-showTags: false
+showTags: true
 ---
 
 # Vim vs Neovim: Which One Should You Choose?

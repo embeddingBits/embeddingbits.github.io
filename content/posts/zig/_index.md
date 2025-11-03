@@ -6,7 +6,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["zig", "c", "language"]
-showTags: false
+showTags: true
 ---
 
 

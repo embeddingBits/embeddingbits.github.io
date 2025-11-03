@@ -4,10 +4,10 @@ date: "2024-11-08"
 summary: "Golang and its Philosophy"
 description: "A small intro to Golang and why its helpful in networks and distributed systems"
 toc: true
-readTime: false
+readTime: true
 autonumber: true
 tags: ["networks", "golang", "distibuted systems"]
-showTags: false
+showTags: true
 ---
 
 # What is Golang? Where and Why is it used?

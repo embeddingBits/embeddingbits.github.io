@@ -6,7 +6,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["linux", "hyprland", "river"]
-showTags: false
+showTags: true
 ---
 
 # What is Linux and Why Linux?

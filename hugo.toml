@@ -61,4 +61,4 @@ url = "/projects"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'gruvebox'
+style = 'gruvbox'

@@ -7,7 +7,7 @@ toc: true
 readTime: true
 autonumber: true
 tags: ["hyprland", "lazygit", "window manager", "wm", "river"]
-showTags: false
+showTags: true
 ---
 
 ## Introduction

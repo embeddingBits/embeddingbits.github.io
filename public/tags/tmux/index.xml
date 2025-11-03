@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tmux on eBits Base Address</title>
-    <link>http://localhost:34199/tags/tmux/</link>
-    <description>Recent content in Tmux on eBits Base Address</description>
+    <title>Tmux on eBits</title>
+    <link>https://embeddingbits.github.io/tags/tmux/</link>
+    <description>Recent content in Tmux on eBits</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:34199/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.github.io/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuring Tmux</title>
-      <link>http://localhost:34199/posts/tmux_config/</link>
+      <link>https://embeddingbits.github.io/posts/tmux_config/</link>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34199/posts/tmux_config/</guid>
+      <guid>https://embeddingbits.github.io/posts/tmux_config/</guid>
       <description>Configuring a really simple tmux config</description>
     </item>
   </channel>
