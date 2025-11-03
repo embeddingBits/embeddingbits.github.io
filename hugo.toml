@@ -21,6 +21,7 @@ homeIntroContent = """
 Myself Amiitesh, I am an embedded systems engineer and a systems programmer with solid foundation in electronics, VLSI and optimising hardware.
 
 I am really interested in topics like RTOS, Baremetal programming, Linux Kernel, making TUIs, Wayland, Zig, Ricing Linux and much more.
+
 """
 
 language = 'en'
@@ -57,6 +58,10 @@ url = "/about"
 [[params.menu]]
 name = "projects"
 url = "/projects"
+
+[[params.menu]]
+name = "my_software"
+url = "/software"
 
 # Syntax highlight on code blocks
 [markup]
