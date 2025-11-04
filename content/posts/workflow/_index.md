@@ -2,7 +2,6 @@
 title: "My Workflow"
 date: 2024-11-25
 summary: "My developer workflow"
-description: "My developer workflow"
 toc: true
 readTime: true
 autonumber: true

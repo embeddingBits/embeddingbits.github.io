@@ -2,7 +2,6 @@
 title: "Golang and its Philosophy"
 date: "2024-11-08"
 summary: "Golang and its Philosophy"
-description: "A small intro to Golang and why its helpful in networks and distributed systems"
 toc: true
 readTime: true
 autonumber: true

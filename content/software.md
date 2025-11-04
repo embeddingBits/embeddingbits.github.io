@@ -1,8 +1,9 @@
 +++
 date = '2025-11-04'
 title = "Software that I use and You Can Love"
+tags = ["linux", "window manager", "terminal", "text editor", "utilities", "notes"]
+showTags = true
 draft = false
-summary = "Software that I use on a daily basis"
 readTime = true
 +++
 

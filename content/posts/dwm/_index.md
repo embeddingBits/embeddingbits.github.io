@@ -1,7 +1,7 @@
 +++
 title = "DWM Window Manager"
 date = "2024-12-09"
-summary = "DWM window manager and how things are managed in dwm"
+summary = "Over view of DWM Window manager"
 description = "Overview of DWM Window manager"
 readTime = true
 autonumber = true
