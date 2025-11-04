@@ -74,6 +74,10 @@ url = "/software"
 name = "tags"
 url = "/tags"
 
+[[params.menu]]
+name = "contact"
+url = "/contact"
+
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
