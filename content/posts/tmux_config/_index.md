@@ -1,13 +1,13 @@
----
-title: "Configuring Tmux"
-date: "2025-01-30"
-summary: "Configuring a really simple tmux config"
-toc: true
-readTime: true
-autonumber: true
-tags: ["linux", "terminal", "tmux"]
-showTags: true
----
++++
+title = "Configuring Tmux"
+date = "2025-01-30"
+summary = "Configuring a really simple tmux config"
+description = "Configuring a really simple tmux config"
+readTime = true
+autonumber = true
+tags = ["linux", "terminal", "tmux"]
+showTags = true
++++
 
 ## Introduction
 

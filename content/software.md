@@ -1,18 +1,24 @@
 +++
+date = '2025-11-04'
 title = "Software that I use and You Can Love"
 draft = false
+summary = "Software that I use on a daily basis"
+readTime = true
 +++
 
 ## Favourite
-**Operating System:** I use [Arch](https://archlinux.org)
+**Operating System:** I use [Arch](https://archlinux.org).
 
-**Text Editor:** I use [Neovim](https://neovim.io/) and [Zed](https://zed.dev/)
+**Text Editor:** I use [Neovim](https://neovim.io/) and [Zed](https://zed.dev/).
 
-**Window Manager:** I use [River](https://isaacfreund.com/software/river/)
+**Window Manager:** I use [River](https://isaacfreund.com/software/river/).
 
 **Terminal:** I use [Ghostty](https://ghostty.org/) combined with [fish](https://fishshell.com/) shell.
 
 Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love it so much :)
+
+---
+
 ## Utils
 
 **File Manager:** I use [Yazi](https://yazi-rs.github.io/) as my main and only file manager.
@@ -20,6 +26,10 @@ Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love
 **Web Browser:** I use [Firefox](https://www.firefox.com/) all the time.
 
 **PDF Viewer:** I use [Zathura](https://pwmt.org/projects/zathura/) as my pdf viewer and firefox sometimes.
+
+**Misc:** For most of the other stuff like Word, Excel, etc..., I use [LibreOffice](https://www.libreoffice.org/).
+
+---
 
 ## College
 

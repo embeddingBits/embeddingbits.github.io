@@ -1,14 +1,13 @@
----
-title: "DWM Window Manager"
-date: "2024-12-09"
-summary: "DWM window manager and how things are managed in dwm"
-description: "Overview of DWM Window manager"
-toc: true
-readTime: true
-autonumber: true
-tags: ["window manager", "linux", "dwm"]
-showTags: true
----
++++
+title = "DWM Window Manager"
+date = "2024-12-09"
+summary = "DWM window manager and how things are managed in dwm"
+description = "Overview of DWM Window manager"
+readTime = true
+autonumber = true
+tags = ["window manager", "linux", "dwm"]
+showTags = true
++++
 
 ## Introduction
 
