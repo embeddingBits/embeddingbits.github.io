@@ -1,7 +1,8 @@
 +++
 title = "Configuring Tmux"
-date = "2025-01-30"
+date = '2025-11-04T16:28:33+05:30'
 summary = "Configuring a really simple tmux config"
+toc = true
 readTime = true
 autonumber = true
 tags = ["linux", "terminal", "tmux"]

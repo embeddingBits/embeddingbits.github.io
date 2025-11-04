@@ -33,6 +33,10 @@ language = 'en'
 paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
+showFooter = true
+footerContent = """
+Copyright © 2025 Amiitesh TSP.
+"""
 
 # Breadcrumbs
 [params.breadcrumbs]
@@ -49,6 +53,10 @@ url = "https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"
 name = "github"
 url = "https://github.com/embeddingbits"
 
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/tspamiitesh"
+
 # Main menu pages
 [[params.menu]]
 name = "posts"
@@ -61,6 +69,10 @@ url = "/projects"
 [[params.menu]]
 name = "my_software"
 url = "/software"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
 
 # Syntax highlight on code blocks
 [markup]

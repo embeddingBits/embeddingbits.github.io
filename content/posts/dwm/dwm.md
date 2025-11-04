@@ -1,8 +1,8 @@
 +++
 title = "DWM Window Manager"
 date = "2024-12-09"
-summary = "Over view of DWM Window manager"
-description = "Overview of DWM Window manager"
+summary = "Overview of DWM Window Manager"
+toc = true
 readTime = true
 autonumber = true
 tags = ["window manager", "linux", "dwm"]
