@@ -49,3 +49,5 @@ I wanted to write about this since I've been noticing a rise in Perplexity ambas
 Browsers have been there for a while and they are one of the best creations of mankind and I can't imagine a world without them. They are also mature in terms of security as a result of multiple years of optimisation, fixes, reasearch and more.
 
 The sense of an AI browser breaks years of maturity of security enhancement due to a software browsing on behalf of the user with or without the user's confirmation.
+
+If we are still planning on using an AI browser, it is our responsibility to monitor every single action taken by the AI on behalf of the user and be a responsible digital user.
