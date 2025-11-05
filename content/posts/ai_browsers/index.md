@@ -42,7 +42,7 @@ We are nowhere near eliminating prompt injections in the near future, since it p
 
 LLMs are very prone to unexpected behaviour and will remain the same for at least the next few years, the market hype has led people to avoid researching a particular topic, tool, or software, resulting in major bugs and unexpected behavior being left unfixed. This leads to shorter release cycles that create more problems than a well-researched release would. 
 
-I wanted to write about this since I've been noticing a rise in Perplexity ambassadors in my college, and promoting something that exploits people's information isn’t really a good thing to do. :(
+I wanted to write about this since I've been noticing a lot more usage of AI browsers without precautions and side effects :(
 
 ## Bottom Note 
 
