@@ -43,3 +43,9 @@ We are nowhere near eliminating prompt injections in the near future, since it p
 LLMs are very prone to unexpected behaviour and will remain the same for at least the next few years, the market hype has led people to avoid researching a particular topic, tool, or software, resulting in major bugs and unexpected behavior being left unfixed. This leads to shorter release cycles that create more problems than a well-researched release would. 
 
 I wanted to write about this since I've been noticing a rise in Perplexity ambassadors in my college, and promoting something that exploits people's information isn’t really a good thing to do. :(
+
+## Bottom Note 
+
+Browsers have been there for a while and they are one of the best creations of mankind and I can't imagine a world without them. They are also mature in terms of security as a result of multiple years of optimisation, fixes, reasearch and more.
+
+The sense of an AI browsers breaks years of maturity of security enhancement due to a software browsing on behalf of the user with or without the user's confirmation.
