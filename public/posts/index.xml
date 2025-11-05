@@ -6,8 +6,15 @@
     <description>Recent content in Posts on eBits&#39;s Base Address</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 16:28:33 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI browser hype</title>
+      <link>http://localhost:1313/posts/ai_browsers/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai_browsers/</guid>
+      <description>Why is there a sudden increase in the AI browser Hype</description>
+    </item>
     <item>
       <title>Configuring Tmux</title>
       <link>http://localhost:1313/posts/tmux_config/tmux_config/</link>
