@@ -38,7 +38,7 @@ Personally, I don't owe my information to a malicious PDF or a reddit comment se
 ![opera](./opera_tnc.png)
 
 We are nowhere near eliminating prompt injections in the near future, since it purely depends on the user to prevent the browser from falling for the injection attacks.
-**Google** has made an effort to prevent prompt injection which is ultimately makes the AI dumber than what it usually was.
+**Google** has made an effort to prevent prompt injection which ultimately makes the AI dumber than what it usually was.
 
 LLMs are very prone to unexpected behaviour and will remain the same for at least the next few years, the market hype has led people to avoid researching a particular topic, tool, or software, resulting in major bugs and unexpected behavior being left unfixed. This leads to shorter release cycles that create more problems than a well-researched release would. 
 
