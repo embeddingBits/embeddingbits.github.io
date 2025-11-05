@@ -51,3 +51,5 @@ Browsers have been there for a while and they are one of the best creations of m
 The sense of an AI browser breaks years of maturity of security enhancement due to a software browsing on behalf of the user with or without the user's confirmation.
 
 If we are still planning on using an AI browser, it is our responsibility to monitor every single action taken by the AI on behalf of the user and be a responsible digital user.
+
+Thanks to Adam Convey on providing insights: [article](https://www.xda-developers.com/please-stop-using-ai-browsers/)
