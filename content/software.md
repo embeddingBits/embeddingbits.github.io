@@ -37,4 +37,4 @@ Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love
 
 **Editing Documents:** I edit my documents in LateX and I use Neovim with a LateX compiler that compiles as I save the file.
 
-**Taking Notes:** I manage my college and personal notes with [Obsidian](https://obsidian.md/).
+**Taking Notes and Documentation:** I manage my college and personal notes with [Obsidian](https://obsidian.md/) and [Neorg](https://github.com/nvim-neorg/neorg) neovim plugin.
