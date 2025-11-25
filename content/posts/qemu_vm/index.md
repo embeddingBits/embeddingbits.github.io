@@ -24,7 +24,7 @@ There are lots of virtual machine software like VirtualBox and VMWare. But why s
 3. There are many customisation that is possible with QEMU, it has virt-manager which provides a GUI to manage the VMs or we can use the normal command line.
 4. They can easily be automated with either scripts or Makefiles.
 5. They have really advanced I/O and storage features like Copy on Write (CoW), qcow snapshots and backing up files.
-6. This is really useful when it comes to building Operating systems for different architecture while working in a system in another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.
+6. This is really useful when it comes to building Operating systems for different architecture while working in a system with another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.
 
 ## Using QEMU to boot an ISO
 
