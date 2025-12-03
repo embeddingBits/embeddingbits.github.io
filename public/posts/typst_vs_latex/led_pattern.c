@@ -138,8 +138,8 @@ Typst is less cluttery to look at than LaTeX.
 
 ## Bottom Note 
 
-Both softwares are excellent in their own ways. LaTeX has been around since 1984 and is more mature, stable, and extensively documented. Its the industry standard for research papers, academic publishing, complex mathematical typesetting, and large technical documents.
+Both systems are excellent in their own domains. LaTeX has been around since 1984 and is far more mature, stable, and extensively documented. It's the industry standard for research papers, academic publishing, complex mathematical typesetting, and large technical documents.
 
-Typst, introduced in 2023, is a modern alternative that focuses on speed, simplicity, and a more intuitive syntax. It is especially useful for class assignments, note-taking, project reports, and general documentation, where quick iteration and readability matter more.
+Typst, introduced in 2023, is a modern alternative that focuses on speed, simplicity, and a more intuitive syntax. It is especially useful for class assignments, note-taking, project reports, and general documentation, where quick iteration and readability matter more than raw typesetting power.
 
 While LaTeX still dominates in formal publishing workflows, Typst is rapidly evolving and becoming a strong choice for students and developers who want clean, beautiful documents with less overhead.

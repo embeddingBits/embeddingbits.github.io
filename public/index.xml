@@ -6,14 +6,14 @@
     <description>Recent content in Home on eBits&#39;s Base Address</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Nov 2025 20:14:24 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Typst_vs_latex</title>
+      <title>Typst vs LaTeX</title>
       <link>http://localhost:1313/posts/typst_vs_latex/</link>
-      <pubDate>Sun, 30 Nov 2025 20:14:24 +0530</pubDate>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/typst_vs_latex/</guid>
-      <description></description>
+      <description>Typst and LaTeX: Differences and Use Cases</description>
     </item>
     <item>
       <title>Guide to QEMU as a Virtual Machine</title>
