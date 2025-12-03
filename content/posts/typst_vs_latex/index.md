@@ -15,7 +15,7 @@ We are in an era of arising "modern" alternatives. Almost all of the software an
 
 People were using **Vim** and now there is an alternative called **Neovim**. **C/C++** has modern alternatives like **Rust** and **Zig**. **Zoxide** is a better alternative of the `cd` command. **Zellij** is an alternative of **tmux**.
 
-Similarly, **LaTeX** has a easy alternative called **Typst**. LaTeX has been the best in what it has been doing for the past 4 years. LaTeX is a document preparation system and a typesetting language that is used to create professional documents which extensively uses complex scientific and mathematical equations.
+Similarly, **LaTeX** has an easy alternative called **Typst**. LaTeX has been the best in what it has been doing for the past 4 years. LaTeX is a document preparation system and a typesetting language that is used to create professional documents which extensively uses complex scientific and mathematical equations.
 
 Typst, similarly is a document preparation system which borrows its ideas and syntax from Markdown, LaTeX and other programming languages. It is much simpler than LaTeX, easier to debug and faster to prepare.
 
