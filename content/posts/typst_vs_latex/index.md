@@ -143,3 +143,7 @@ Both softwares are excellent in their own ways. LaTeX has been around since 1984
 Typst, introduced in 2023, is a modern alternative that focuses on speed, simplicity, and a more intuitive syntax. It is especially useful for class assignments, note-taking, project reports, and general documentation, where quick iteration and readability matter more.
 
 While LaTeX still dominates in formal publishing workflows, Typst is rapidly evolving and becoming a strong choice for students and developers who want clean, beautiful documents with less overhead.
+
+##### Links
+- [Typst](https://typst.app/)
+- [LaTeX](https://www.latex-project.org/)
