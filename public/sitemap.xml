@@ -2,34 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/qemu_vm/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
+    <lastmod>2025-11-30T20:14:24+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
+    <lastmod>2025-11-30T20:14:24+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/typst_vs_latex/</loc>
+    <lastmod>2025-11-30T20:14:24+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/qemu_vm/</loc>
+    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/qemu/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
+    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
+    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/vm/</loc>
-    <lastmod>2025-11-25T10:29:46+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bugfix/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/firefox/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/firefox_bug/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
