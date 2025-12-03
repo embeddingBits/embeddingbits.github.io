@@ -106,11 +106,11 @@ Typst is less cluttery to look at than LaTeX.
 ### Use Typst When
 - You want speed in writing and compiling.
 - You’re writing:
-        - Homework/assignments
-        - Reports
-        - Thesis drafts
-        - Technical documentation
-        - Notes
+    - Homework/assignments
+    - Reports
+    - Thesis drafts
+    - Technical documentation
+    - Notes
 - You want good output without fighting the compiler.
 - You need custom formatting or programmatic layouts.
 - Best for:
