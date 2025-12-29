@@ -6,10 +6,45 @@
     <description>Recent content in Tags on eBits&#39;s Base Address</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 10:23:03 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Documentation&#34;</title>
+      <title>Contribution</title>
+      <link>http://localhost:1313/tags/contribution/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/contribution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open_source</title>
+      <link>http://localhost:1313/tags/open_source/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/open_source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/tags/software/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wrapped</title>
+      <link>http://localhost:1313/tags/wrapped/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/wrapped/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
       <link>http://localhost:1313/tags/documentation/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/documentation/</guid>
@@ -20,6 +55,13 @@
       <link>http://localhost:1313/tags/latex/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Note_taking</title>
+      <link>http://localhost:1313/tags/note_taking/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/note_taking/</guid>
       <description></description>
     </item>
     <item>
@@ -121,13 +163,6 @@
       <description></description>
     </item>
     <item>
-      <title>Nvim</title>
-      <link>http://localhost:1313/tags/nvim/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nvim/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Vim</title>
       <link>http://localhost:1313/tags/vim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
@@ -209,6 +244,34 @@
       <link>http://localhost:1313/tags/networks/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>http://localhost:1313/tags/emacs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neorg</title>
+      <link>http://localhost:1313/tags/neorg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neorg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Org_mode</title>
+      <link>http://localhost:1313/tags/org_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/org_mode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text_editor</title>
+      <link>http://localhost:1313/tags/text_editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/text_editor/</guid>
       <description></description>
     </item>
   </channel>

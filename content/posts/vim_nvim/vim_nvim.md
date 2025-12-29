@@ -5,7 +5,7 @@ summary: "Differences between Vim and Neovim"
 toc: true
 readTime: true
 autonumber: true
-tags: ["nvim", "neovim", "vim", "text editor"]
+tags: ["neovim", "vim", "text editor"]
 showTags: true
 ---
 

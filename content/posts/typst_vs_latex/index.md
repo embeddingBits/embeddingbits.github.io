@@ -5,7 +5,7 @@ summary: "Typst and LaTeX: Differences and Use Cases"
 toc: true
 readTime: true
 autonumber: true
-tags: [documentation, latex, typst]
+tags: [documentation, note_taking, latex, typst]
 showTags: true
 ---
 

@@ -46,13 +46,13 @@ A **high-speed file downloader** built in Go that leverages **multi-threading** 
 
 ---
 
-### RISC-V Assembly Projects *(Coming Soon)*
+### [Fastsh](https://github.com/EmbeddingBits/fastsh)
 
-Collection of **RISC-V assembly language programs** and utilities for learning **computer organization** and **low-level programming concepts**. Includes bootloaders and basic OS components.
+A POSIX-complaint shell that I'm building for personal use cases (under dev).
 
-**Tech Stack:** `RISC-V Assembly` • `Computer Architecture` • `Systems Programming`
+**Tech Stack:** `Zig` • `Systems Programming`
 
-> *Coming Soon*
+[Source on GitHub](https://github.com/EmbeddingBits/fastsh)
 
 ---
 
@@ -61,7 +61,7 @@ Collection of **RISC-V assembly language programs** and utilities for learning *
 Interested in collaborating on a project or discussing technology? Feel free to reach out!
 
 - [Email](mailto:tspamiitesh@gmail.com)  
-- [LinkedIn](https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/)  
+- [LinkedIn](https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/)
 - [GitHub](https://github.com/embeddingbits)
 
 ---
