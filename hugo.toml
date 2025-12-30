@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "eBits's Base Address"
 theme = 'typo'
 
+googleAnalytics = "G-KP0G8R8WE2"
+
 [taxonomies]
 tag = 'tags'
 
