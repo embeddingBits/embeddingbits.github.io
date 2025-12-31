@@ -66,3 +66,4 @@ Host github.com
 
 The above configuration is a really basic one and you can add up on many other features 
 
+This is one of the most simplest ways to setup ssh
