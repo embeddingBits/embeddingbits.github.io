@@ -100,13 +100,6 @@
       <description>Golang and its Philosophy</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;Hi, I’m Amiitesh — an open-source enthusiast and passionate Linux and Neovim user. I love working at the intersection of Embedded Systems, Hardware Optimisation, and Low-Level Programming and VLSI.&lt;/p&gt;&#xA;&lt;p&gt;I contribute to projects across Embedded Systems, Computer Networks, and Systems Programming, and I’m currently diving deeper into Wayland and VLSI design. I enjoy crafting command-line tools and experimenting with C, Zig, C++, Golang and Verilog.&lt;/p&gt;&#xA;&lt;p&gt;Outside tech, I’m a classical pianist and a diehard fan of Chopin&amp;rsquo;s repertoire.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Contact Info</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
