@@ -1,13 +1,13 @@
----
-title: "My Workflow"
-date: 2024-11-25
-summary: "My developer workflow"
-toc: true
-readTime: true
-autonumber: true
-tags: ["hyprland", "lazygit", "window manager", "wm", "river"]
-showTags: true
----
++++
+title = "My Workflow"
+date = 2024-11-25
+summary = "My developer workflow"
+toc = true
+readTime = true
+autonumber = true
+tags = ["hyprland", "lazygit", "window manager", "wm", "river"]
+showTags = true
++++
 
 ## Introduction
 
@@ -82,19 +82,13 @@ One of the most important tool that I use everyday is **Git/GitHub combined with
 
 This is how LazyGit looks:
 
-![LazyGit TUI](lazygit.png)
+![lazygit](./lazygit.png)
 
 As you can see, viewing the changes and commits all under a same place makes us complete our job way faster.
 
 ### Tmux Terminal Session and uses
 
 Tmux is another one of such useful tools that I use. Tmux stands for Terminal Multiplexer and is used in Unix-like operating systems. It allows to use multiple terminal sessions in the terminal window. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session, which is helpful when we accidentally close the session without saveing the changes.
-
-Here is how we can use tmux:
-
-<video src="recording.mp4" height="500" width="750" autoplay controls></video>
-
-In the above video, I opened up a tmux session, created three split panes, created a tmux window and then and closed the terminal window and accessed back with the name of the session that I named as "test".
 
 ### Fish Shell and fzf fuzzy finder
 

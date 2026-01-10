@@ -26,7 +26,6 @@
 <link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/workflow/index.xml" title="eBits's Base Address">
 <meta name="description" content=""/>
 
 
@@ -43,7 +42,15 @@
   <meta property="og:title" content="My Workflow">
   <meta property="og:description" content="My developer workflow">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-25T00:00:00+00:00">
+    <meta property="article:tag" content="Hyprland">
+    <meta property="article:tag" content="Lazygit">
+    <meta property="article:tag" content="Window Manager">
+    <meta property="article:tag" content="Wm">
+    <meta property="article:tag" content="River">
 
 
 
@@ -56,7 +63,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.f0b206cae25533c94a2b664c3f2dd437c48fe57c8286bfd66c29d9eac8515d22.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.612c4341e1e65d1e79a04e4a63592df45028b4bb12ba7305cc73d1ace6db41a8.css" media="all">
 
 
 
@@ -132,6 +139,14 @@
                   </a>
             </p>
             
+
+            <p
+                  class="small ">
+                  <a href="/contact" >
+                        /contact
+                  </a>
+            </p>
+            
             
       </div>
       <hr></hr>
@@ -145,13 +160,84 @@
     <main class="main">
       
 
-<div class="list-container">
 
-    <div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+
+
+<div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
         <a href="/posts/workflow/">My Workflow</a></div>
 
-    <h1>My Workflow</h1>
+
+<div  class="autonumber" >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">My Workflow</h1>
+        <p class="single-summary">My developer workflow</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2024-11-25T00:00:00&#43;00:00">November 25, 2024</time>
+              &nbsp; · &nbsp;6 min read &nbsp;·&nbsp; 1275 words
+            </p>
+          </div>
+        </div>
+        
+    </header>    
+        <div class="single-tags"><span>
+                  <a href="http://localhost:1313/tags/hyprland/">#Hyprland</a>
+                </span><span>
+                  <a href="http://localhost:1313/tags/lazygit/">#Lazygit</a>
+                </span><span>
+                  <a href="http://localhost:1313/tags/window-manager/">#Window Manager</a>
+                </span><span>
+                  <a href="http://localhost:1313/tags/wm/">#Wm</a>
+                </span><span>
+                  <a href="http://localhost:1313/tags/river/">#River</a>
+                </span>
+        </div>
+      <aside class="toc">
+        <p><strong>Table of contents</strong></p>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#about-myself">About Myself</a></li>
+      </ul>
+    </li>
+    <li><a href="#operating-system">Operating System</a></li>
+    <li><a href="#desktop-environment">Desktop Environment</a>
+      <ul>
+        <li><a href="#so-heres-how-i-use-it">So, here&rsquo;s how I use it:</a></li>
+      </ul>
+    </li>
+    <li><a href="#terminal-and-code-editor">Terminal and Code Editor</a>
+      <ul>
+        <li><a href="#ghostty-terminal-emulator">Ghostty Terminal Emulator</a></li>
+        <li><a href="#neovim-text-editor">Neovim Text Editor</a></li>
+      </ul>
+    </li>
+    <li><a href="#tools-and-software">Tools and Software</a>
+      <ul>
+        <li><a href="#gitgithub-and-lazygit">Git/GitHub and LazyGit</a></li>
+        <li><a href="#tmux-terminal-session-and-uses">Tmux Terminal Session and uses</a></li>
+        <li><a href="#fish-shell-and-fzf-fuzzy-finder">Fish Shell and fzf fuzzy finder</a></li>
+      </ul>
+    </li>
+    <li><a href="#programming-language">Programming Language</a></li>
+    <li><a href="#bottom-note">Bottom Note</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </aside>
     
+    <div class="single-content">
+      
 <h2 class="heading" id="introduction">
   Introduction
   <a class="anchor" href="#introduction">#</a>
@@ -255,7 +341,7 @@
     
       
         <div class="img-container" style="--w: 1920; --h: 1080;">
-            <img loading="lazy" alt="LazyGit TUI" src="/posts/workflow/lazygit.png" width="1920" height="1080">
+            <img loading="lazy" alt="lazygit" src="/posts/workflow/lazygit.png" width="1920" height="1080">
         </div>
       
     
@@ -270,9 +356,6 @@
   <a class="anchor" href="#tmux-terminal-session-and-uses">#</a>
 </h3>
 <p>Tmux is another one of such useful tools that I use. Tmux stands for Terminal Multiplexer and is used in Unix-like operating systems. It allows to use multiple terminal sessions in the terminal window. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session, which is helpful when we accidentally close the session without saveing the changes.</p>
-<p>Here is how we can use tmux:</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p>In the above video, I opened up a tmux session, created three split panes, created a tmux window and then and closed the terminal window and accessed back with the name of the session that I named as &ldquo;test&rdquo;.</p>
 
 <h3 class="heading" id="fish-shell-and-fzf-fuzzy-finder">
   Fish Shell and fzf fuzzy finder
@@ -316,21 +399,68 @@
 </ul>
 <p>In the upcoming blogs, I&rsquo;ll write on how to configure Tmux for a better work experience.</p>
 
+    </div>
+  </article>
 
-    
+  
 
-    
-    
-    
-    
+  
 
-    
+  
+  
 
-    
+<div class="single-pagination">
+    <hr />
 
-    
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/linux_overview/linux_overview/">
+                        Why Linux is better than its other competitors
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/dwm/dwm/">
+                        DWM Window Manager
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
 
 </div>
+
 
     </main>
   </div>
