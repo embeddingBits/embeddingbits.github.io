@@ -1,3 +1,7 @@
 [submodule "themes/themes/typo"]
 	path = themes/themes/typo
 	url = https://github.com/embeddingbits/typo
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/embeddingbits/typo
+	branch = main
