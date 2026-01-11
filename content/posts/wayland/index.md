@@ -28,7 +28,7 @@ By the early 2000s, X11 was seriously backward technically. Linux ecosystem was 
 4. After recieving the request, the X server sends it to the hardware to let it render the UI. Meanwhile, the server calculates the bounding region and sends it to the compositor as a damage event.
 5. The damage event tells the compositor that something has happened to the screen and it has to recomposite the entire screen with the changes.
 
-![xserver](./x-architecture.png)
+![xserver](./x-architecture.png#small)
 
 ## Wayland Display Server
 
@@ -39,7 +39,7 @@ By the early 2000s, X11 was seriously backward technically. Linux ecosystem was 
 3.  As in the X case, when the client receives the event, it updates the UI in response. But in the Wayland case, the rendering happens in the client, and the client just sends a request to the compositor to indicate the region that was updated. 
 4.  The compositor collects damage requests from its clients and then recomposites the screen. The compositor can then directly issue an ioctl to schedule a pageflip with KMS. 
 
-![wayland](./wayland-architecture.png)
+![wayland](./wayland-architecture.png#small)
 
 ## Wayland is faster than X11
 
