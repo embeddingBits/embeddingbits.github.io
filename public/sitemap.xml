@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/git/</loc>
-    <lastmod>2025-12-31T21:52:16+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-31T21:52:16+05:30</lastmod>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/wayland/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wayland/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/x11/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2025-12-31T21:52:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ssh/</loc>
@@ -17,19 +38,10 @@
     <loc>http://localhost:1313/posts/ssh_config_git/</loc>
     <lastmod>2025-12-31T21:52:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-31T21:52:16+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/contribution/</loc>
     <lastmod>2025-12-29T10:23:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/open_source/</loc>
-    <lastmod>2025-12-29T10:23:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
-    <lastmod>2025-12-29T10:23:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
     <lastmod>2025-12-29T10:23:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/software_wrapped/</loc>
@@ -56,9 +68,6 @@
     <loc>http://localhost:1313/posts/qemu_vm/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/qemu/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -77,7 +86,7 @@
     <loc>http://localhost:1313/posts/ai_browsers/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tmux_config/tmux_config/</loc>
+    <loc>http://localhost:1313/posts/tmux_config/</loc>
     <lastmod>2025-11-04T16:28:33+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/terminal/</loc>
@@ -107,7 +116,7 @@
     <loc>http://localhost:1313/tags/vim/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vim_nvim/vim_nvim/</loc>
+    <loc>http://localhost:1313/posts/vim_nvim/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/c/</loc>
@@ -119,13 +128,13 @@
     <loc>http://localhost:1313/tags/zig/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/zig/zig/</loc>
+    <loc>http://localhost:1313/posts/zig/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dwm/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/dwm/dwm/</loc>
+    <loc>http://localhost:1313/posts/dwm/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hyprland/</loc>
@@ -134,7 +143,7 @@
     <loc>http://localhost:1313/tags/lazygit/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/workflow/workflow/</loc>
+    <loc>http://localhost:1313/posts/workflow/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/river/</loc>
@@ -143,7 +152,7 @@
     <loc>http://localhost:1313/tags/wm/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/linux_overview/linux_overview/</loc>
+    <loc>http://localhost:1313/posts/linux_overview/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/distibuted-systems/</loc>
@@ -152,7 +161,7 @@
     <loc>http://localhost:1313/tags/golang/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/golang/golang/</loc>
+    <loc>http://localhost:1313/posts/golang/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/networks/</loc>

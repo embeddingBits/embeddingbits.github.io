@@ -5,7 +5,7 @@ summary = "Overview of DWM Window Manager"
 toc = true
 readTime = true
 autonumber = true
-tags = ["window manager", "linux", "dwm"]
+tags = ["x11", "window manager", "linux", "dwm"]
 showTags = true
 +++
 
