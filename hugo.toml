@@ -13,7 +13,7 @@ tag = 'tags'
 description = "Thoughts and Expressions"
 
 # Appearance settings
-theme = 'auto'
+theme = 'dark'
 colorPalette = 'gruvebox'
 hideHeader = false
 
