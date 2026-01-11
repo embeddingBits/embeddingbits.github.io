@@ -1,6 +1,6 @@
 baseURL = 'https://embeddingbits.github.io/'
 languageCode = 'en-us'
-title = "eBits's Base Address"
+title = "eBits Blog"
 theme = 'typo'
 
 googleAnalytics = "G-KP0G8R8WE2"
@@ -13,8 +13,8 @@ tag = 'tags'
 description = "Thoughts and Expressions"
 
 # Appearance settings
-theme = 'dark'
-colorPalette = 'default'
+theme = 'auto'
+colorPalette = 'gruvebox'
 hideHeader = false
 
 # Intro on main page, content is markdown
