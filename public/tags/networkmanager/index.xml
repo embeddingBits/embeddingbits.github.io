@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Networks on eBits Blog</title>
-    <link>http://localhost:1313/tags/networks/</link>
-    <description>Recent content in Networks on eBits Blog</description>
+    <title>Networkmanager on eBits Blog</title>
+    <link>http://localhost:1313/tags/networkmanager/</link>
+    <description>Recent content in Networkmanager on eBits Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/networkmanager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
       <link>http://localhost:1313/posts/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
       <guid>http://localhost:1313/posts/nmtui/</guid>
       <description>Connecting to college WiFi</description>
-    </item>
-    <item>
-      <title>Golang and its Philosophy</title>
-      <link>http://localhost:1313/posts/golang/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/golang/</guid>
-      <description>Golang and its Philosophy</description>
     </item>
   </channel>
 </rss>
