@@ -6,8 +6,15 @@
     <description>Recent content in Software on eBits Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jan 2026 13:07:25 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect to college WiFi using nmtui or networkmanager</title>
+      <link>http://localhost:1313/posts/nmtui/</link>
+      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/nmtui/</guid>
+      <description>Connecting to college WiFi</description>
+    </item>
     <item>
       <title>Is Wayland better than X11</title>
       <link>http://localhost:1313/posts/wayland/</link>
