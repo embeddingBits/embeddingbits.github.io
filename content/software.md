@@ -1,21 +1,20 @@
 +++
 date = '2025-11-04'
-title = "Software that I use and You Can Love"
-summary = "Software That I use"
-tags = ["linux", "window manager", "terminal", "text editor", "utilities", "notes"]
+title = "Software that I use"
+summary = "Software that I use and you can love"
+tags = ["linux", "window manager", "terminal", "text editor", "utilities", "notes", "documentation"]
 showTags = true
 draft = false
 readTime = true
 +++
 
 ## Favourite
-**Operating System:** I use [Arch](https://archlinux.org).
 
-**Text Editor:** I use [Neovim](https://neovim.io/) and [Zed](https://zed.dev/).
-
-**Window Manager:** I use [River](https://isaacfreund.com/software/river/).
-
-**Terminal:** I use [Ghostty](https://ghostty.org/) combined with [fish](https://fishshell.com/) shell.
+- **Operating System:** I use [Arch Linux](https://archlinux.org).
+- **Text/Code Editor:** I use [Neovim](https://neovim.io/).
+- **Window Manager:** I use [River](https://isaacfreund.com/software/river/).
+- **Terminal and Shell:** I use [Ghostty](https://ghostty.org/) combined with [fish](https://fishshell.com/) shell.
+- **Dotfiles:** I use my own [dotfiles](https://github.com/embeddingbits/arch_dotfiles)
 
 Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love it so much :)
 
@@ -23,18 +22,14 @@ Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love
 
 ## Utils
 
-**File Manager:** I use [Yazi](https://yazi-rs.github.io/) as my main and only file manager.
-
-**Web Browser:** I use [Firefox](https://www.firefox.com/) all the time.
-
-**PDF Viewer:** I use [Zathura](https://pwmt.org/projects/zathura/) as my pdf viewer and firefox sometimes.
-
-**Misc:** For most of the other stuff like Word, Excel, etc..., I use [LibreOffice](https://www.libreoffice.org/).
+- **File Manager:** I use [Yazi](https://yazi-rs.github.io/) as my main and only file manager.
+- **Web Browser:** I use [Firefox](https://www.firefox.com/) and [Qutebrowser](https://www.qutebrowser.org/) all the time.
+- **PDF Viewer:** I use [Zathura](https://pwmt.org/projects/zathura/) as my pdf viewer and firefox.
+- **Misc:** For most of the other stuff like Word, Excel, etc..., I use [LibreOffice](https://www.libreoffice.org/).
 
 ---
 
 ## College
 
-**Editing Documents:** I edit my documents in LateX and I use Neovim with a LateX compiler that compiles as I save the file.
-
-**Taking Notes and Documentation:** I manage my college and personal notes with [Obsidian](https://obsidian.md/) and [Neorg](https://github.com/nvim-neorg/neorg) neovim plugin.
+- **Reports and Documents:** I use [Typst](https://typst.app/) and [LaTeX](https://www.latex-project.org/).
+- **Taking Notes:** I manage my college and personal notes with [Obsidian](https://obsidian.md/), [Neorg](https://github.com/nvim-neorg/neorg) and [Typst](https://typst.app/).
