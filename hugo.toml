@@ -64,6 +64,10 @@ name = "instagram"
 url = "https://instagram.com/tspamiitesh"
 
 [[params.social]]
+name = "mastodon"
+url = "https://mastodon.social/@ebits"
+
+[[params.social]]
 name = "medium"
 url = "https://medium.com/@tspamiitesh"
 
