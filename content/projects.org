@@ -1,0 +1,34 @@
++++
+title = "Projects"
+draft = false
++++
+
+** [[https://github.com/EmbeddingBits/simple-processor-simulation][4-bit Processor Simulation]]
+
+An *educational 4-bit processor design* implemented in *Verilog* for learning *computer architecture fundamentals*.  
+Includes instruction set design, ALU operations, and memory management simulation.
+
+- *Tech Stack:* =Verilog= • =VLSI= • =Computer Architecture=
+
+[[https://github.com/EmbeddingBits/simple-processor-simulation][Source on GitHub]]
+
+-----
+
+** [[https://github.com/EmbeddingBits/fastsh][Fastsh]]
+
+A POSIX-compliant shell that I'm building for personal use cases (*under development*).
+
+- *Tech Stack:* =Zig= • =Systems Programming=
+
+[[https://github.com/EmbeddingBits/fastsh][Source on GitHub]]
+
+-----
+
+* Get In Touch
+
+Interested in collaborating on a project or discussing technology?  
+Feel free to reach out!
+
+- [[mailto:tspamiitesh@gmail.com][Email]]
+- [[https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/][LinkedIn]]
+- [[https://github.com/embeddingbits][GitHub]]

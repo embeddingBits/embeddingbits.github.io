@@ -1,0 +1,35 @@
++++
+date = '2025-11-04'
+title = "Software that I use"
+summary = "Software that I use and you can love"
+tags = ["linux", "window manager", "terminal", "text editor", "utilities", "notes", "documentation"]
+showTags = true
+draft = false
+readTime = true
++++
+
+* Favourite
+
+- *Operating System:* I use [[https://archlinux.org][Arch Linux]].
+- *Text/Code Editor:* I use [[https://www.gnu.org/software/emacs/][Emacs]].
+- *Window Manager:* I use [[https://isaacfreund.com/software/river/][River]].
+- *Terminal and Shell:* I use [[https://ghostty.org/][Ghostty]] combined with [[https://fishshell.com/][fish]] shell.
+- *Dotfiles:* I use my own [[https://github.com/embeddingbits/arch_dotfiles][dotfiles]].
+
+Most of the software I use is made in [[https://ziglang.org/][Zig]] because I love it so much :)
+
+-----
+
+* Utils
+
+- *File Manager:* I use [[https://yazi-rs.github.io/][Yazi]] as my main and only file manager.
+- *Web Browser:* I use [[https://www.firefox.com/][Firefox]] and [[https://www.qutebrowser.org/][Qutebrowser]] all the time.
+- *PDF Viewer:* I use [[https://pwmt.org/projects/zathura/][Zathura]] and [[https://github.com/vedang/pdf-tools][pdf-tools]] in Emacs.
+- *Misc:* For most of the other stuff like Word, Excel, etc., I use [[https://www.libreoffice.org/][LibreOffice]].
+
+-----
+
+* College
+
+- *Reports and Documents:* I use [[https://typst.app/][Typst]] and I write in Org Mode and export it to [[https://www.latex-project.org/][LaTeX]].
+- *Taking Notes:* I manage my college and personal notes with [[https://orgmode.org/][Org Mode]].
