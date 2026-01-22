@@ -11,7 +11,7 @@ readTime = true
 ## Favourite
 
 - **Operating System:** I use [Arch Linux](https://archlinux.org).
-- **Text/Code Editor:** I use [Neovim](https://neovim.io/).
+- **Text/Code Editor:** I use [Emacs](https://www.gnu.org/software/emacs/).
 - **Window Manager:** I use [River](https://isaacfreund.com/software/river/).
 - **Terminal and Shell:** I use [Ghostty](https://ghostty.org/) combined with [fish](https://fishshell.com/) shell.
 - **Dotfiles:** I use my own [dotfiles](https://github.com/embeddingbits/arch_dotfiles)
@@ -24,7 +24,7 @@ Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love
 
 - **File Manager:** I use [Yazi](https://yazi-rs.github.io/) as my main and only file manager.
 - **Web Browser:** I use [Firefox](https://www.firefox.com/) and [Qutebrowser](https://www.qutebrowser.org/) all the time.
-- **PDF Viewer:** I use [Zathura](https://pwmt.org/projects/zathura/) as my pdf viewer and firefox.
+- **PDF Viewer:** I use [Zathura](https://pwmt.org/projects/zathura/) and [pdf-tools](https://github.com/vedang/pdf-tools) in emacs.
 - **Misc:** For most of the other stuff like Word, Excel, etc..., I use [LibreOffice](https://www.libreoffice.org/).
 
 ---
@@ -32,4 +32,4 @@ Most of the softwares I use are made in [Zig](https://ziglang.org/) cause I love
 ## College
 
 - **Reports and Documents:** I use [Typst](https://typst.app/) and [LaTeX](https://www.latex-project.org/).
-- **Taking Notes:** I manage my college and personal notes with [Obsidian](https://obsidian.md/), [Neorg](https://github.com/nvim-neorg/neorg) and [Typst](https://typst.app/).
+- **Taking Notes:** I manage my college and personal notes with [Org Mode](orgmode.org/).
