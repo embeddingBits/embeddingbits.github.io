@@ -20,9 +20,9 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = "Hi, I'm eBits"
 homeIntroContent = """
-Hi, I’m Amiitesh, an open-source enthusiast and passionate Linux and Emacs user. I love working at the intersection of Embedded Systems and VLSI. I also do Operating Systems and other systems programming as a hobby.
+Hi, I’m Amiitesh, an open-source enthusiast and passionate Linux and Emacs user. I love working at the intersection of Embedded Systems and VLSI. I also do Operating Systems and other systems programming as a hobby. I program in C/C++, Zig, Verilog and Golang and sometimes Matlab.
 
-Outside tech, I’m a classical pianist and have been practicing it for the past 10 years. I like to read self-help and philosophy. 
+Outside tech, I’m a classical pianist, I like to read self-help and philosophy and I like to go out for a ride to free out my mind.
 
 -----
 """
