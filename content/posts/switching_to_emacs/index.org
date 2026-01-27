@@ -2,20 +2,20 @@
 date = '2026-01-27T06:49:49+05:30'
 title = "Making the switch to Emacs"
 summary = "Switching from Neovim to Emacs"
-tags = []
-toc = true
+tags = ["Note_Taking", "Text Editor", "Emacs", "Org Mode"]
 showTags = true
 draft = false
+toc = false
 readTime = true
 +++
 
 ** Switching to Emacs
-I recently switched from Neovim to Emacs. I initially only wanted to try Emacs but turned out to be an actual switch to Emacs. Emacs was compelling enough to replace my default editor entirely.
+I recently switched from Neovim to Emacs. I initially only wanted to try Emacs and I saw myself rolling my own config and to be an actual switch to Emacs. Emacs was compelling enough to replace my default editor entirely.
 
-The most significant shift was in note taking. I moved away from Obsidian to pure Emacs Org mode. With Org-roam, my notes gained structure without losing simplicity. This completed the FOSSification of my note-taking. They feel durable in a way proprietary formats never did.
+The most significant shift was in note taking. I moved away from Obsidian to Emacs Org mode. With Org-roam, my notes gained structure without losing simplicity. The keybinds were more configurable than in Obsidian and gave me a greater control. This completed the FOSSification of my note-taking. I've always wanted to try out org mode for a long time, but I've been too lazy try out for some reason.
 
-Emacs also reduced my reliance on external tools. Previously, I depended on separate applications for specific tasks. Zathura was my primary PDF viewer. Now, pdf-tools inside Emacs handles that role. Search, annotations, and document links stay in one environment. This reduced constant window switching which I felt were easier to the change was easier on focus and on the eyes.
+Emacs also reduced my reliance on external tools. Previously, I depended on separate applications for specific tasks. Zathura was my primary PDF viewer. Now, pdf-tools inside Emacs handles that role. Search, annotations, and document links stay in one environment. This reduced constant window switching which I felt were easier to easier on focus and on the eyes.
 
 Fewer external dependencies also mean fewer chances for the system to fail. This consolidation aligns naturally with long-term FOSS thinking. Emacs feels less like an editor. It feels more like a programmable knowledge system. Neovim was efficient and sharp. Emacs feels infrastructural and expansive.
 
-I am grateful to my friend [[https://fedia.social/@zstg][@zstg]] for helping me with his valuable recommendations. 
+Thanks to my friend [[https://fedia.social/@zstg][@zstg]] for helping me with his valuable recommendations. 
