@@ -6,15 +6,8 @@
     <description>Recent content in Home on eBits Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:49:49 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Making the switch to Emacs</title>
-      <link>http://localhost:1313/posts/switching_to_emacs/</link>
-      <pubDate>Tue, 27 Jan 2026 06:49:49 +0530</pubDate>
-      <guid>http://localhost:1313/posts/switching_to_emacs/</guid>
-      <description>Switching from Neovim to Emacs</description>
-    </item>
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
       <link>http://localhost:1313/posts/nmtui/</link>
