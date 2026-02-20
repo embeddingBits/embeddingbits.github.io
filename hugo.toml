@@ -92,10 +92,6 @@ name = "tags"
 url = "/tags"
 
 [[params.menu]]
-name = "book_tags"
-url = "/book_tags"
-
-[[params.menu]]
 name = "contact"
 url = "/contact"
 
