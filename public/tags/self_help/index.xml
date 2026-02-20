@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self_help on eBits Blog</title>
+    <link>http://localhost:1313/tags/self_help/</link>
+    <description>Recent content in Self_help on eBits Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Feb 2026 11:59:02 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/self_help/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win Your Inner Battles by Darius Foroux</title>
+      <link>http://localhost:1313/books/win_your_inner_battles/</link>
+      <pubDate>Fri, 20 Feb 2026 11:59:02 +0530</pubDate>
+      <guid>http://localhost:1313/books/win_your_inner_battles/</guid>
+      <description>Defeat the enemy within and Live with Purpose</description>
+    </item>
+  </channel>
+</rss>

@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on eBits Blog</title><link>https://embeddingbits.github.io/tags/linux/</link><description>Recent content in Linux on eBits Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate><atom:link href="https://embeddingbits.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect to college WiFi using nmtui or networkmanager</title><link>https://embeddingbits.github.io/posts/nmtui/</link><pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate><guid>https://embeddingbits.github.io/posts/nmtui/</guid><description>Connecting to college WiFi</description></item><item><title>Is Wayland better than X11</title><link>https://embeddingbits.github.io/posts/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid>https://embeddingbits.github.io/posts/wayland/</guid><description>Advantages of Wayland over X11</description></item><item><title>Guide to QEMU as a Virtual Machine</title><link>https://embeddingbits.github.io/posts/qemu_vm/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/qemu_vm/</guid><description>Using QEMU as a Virtual Machine</description></item><item><title>Configuring Tmux</title><link>https://embeddingbits.github.io/posts/tmux_config/</link><pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate><guid>https://embeddingbits.github.io/posts/tmux_config/</guid><description>Configuring a really simple tmux config</description></item><item><title>Software that I use</title><link>https://embeddingbits.github.io/software/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/software/</guid><description>Software that I use and you can love</description></item><item><title>DWM Window Manager</title><link>https://embeddingbits.github.io/posts/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/dwm/</guid><description>Overview of DWM Window Manager</description></item><item><title>Why Linux is better than its other competitors</title><link>https://embeddingbits.github.io/posts/linux_overview/</link><pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/linux_overview/</guid><description>Overview of Linux and Debunking the myths</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on eBits Blog</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on eBits Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect to college WiFi using nmtui or networkmanager</title>
+      <link>http://localhost:1313/posts/nmtui/</link>
+      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/nmtui/</guid>
+      <description>Connecting to college WiFi</description>
+    </item>
+    <item>
+      <title>Is Wayland better than X11</title>
+      <link>http://localhost:1313/posts/wayland/</link>
+      <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
+      <guid>http://localhost:1313/posts/wayland/</guid>
+      <description>Advantages of Wayland over X11</description>
+    </item>
+    <item>
+      <title>Guide to QEMU as a Virtual Machine</title>
+      <link>http://localhost:1313/posts/qemu_vm/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qemu_vm/</guid>
+      <description>Using QEMU as a Virtual Machine</description>
+    </item>
+    <item>
+      <title>Configuring Tmux</title>
+      <link>http://localhost:1313/posts/tmux_config/</link>
+      <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
+      <guid>http://localhost:1313/posts/tmux_config/</guid>
+      <description>Configuring a really simple tmux config</description>
+    </item>
+    <item>
+      <title>Software that I use</title>
+      <link>http://localhost:1313/software/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/</guid>
+      <description>Software that I use and you can love</description>
+    </item>
+    <item>
+      <title>DWM Window Manager</title>
+      <link>http://localhost:1313/posts/dwm/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dwm/</guid>
+      <description>Overview of DWM Window Manager</description>
+    </item>
+    <item>
+      <title>Why Linux is better than its other competitors</title>
+      <link>http://localhost:1313/posts/linux_overview/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux_overview/</guid>
+      <description>Overview of Linux and Debunking the myths</description>
+    </item>
+  </channel>
+</rss>

@@ -1,42 +1,138 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on eBits Blog</title><link>https://embeddingbits.github.io/</link><description>Recent content in Home on eBits Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 Jan 2026 21:02:57 +0530</lastBuildDate><atom:link href="https://embeddingbits.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect to college WiFi using nmtui or networkmanager</title><link>https://embeddingbits.github.io/posts/nmtui/</link><pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate><guid>https://embeddingbits.github.io/posts/nmtui/</guid><description>Connecting to college WiFi</description></item><item><title>Is Wayland better than X11</title><link>https://embeddingbits.github.io/posts/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid>https://embeddingbits.github.io/posts/wayland/</guid><description>Advantages of Wayland over X11</description></item><item><title>SSH for remote git repos</title><link>https://embeddingbits.github.io/posts/ssh_config_git/</link><pubDate>Wed, 31 Dec 2025 21:52:16 +0530</pubDate><guid>https://embeddingbits.github.io/posts/ssh_config_git/</guid><description>Using ssh for remote git repositories</description></item><item><title>Tech Wrapped</title><link>https://embeddingbits.github.io/posts/software_wrapped/</link><pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate><guid>https://embeddingbits.github.io/posts/software_wrapped/</guid><description>My Tech Wrapped for 2025 from software that I used to the development I made</description></item><item><title>Typst vs LaTeX</title><link>https://embeddingbits.github.io/posts/typst_vs_latex/</link><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/typst_vs_latex/</guid><description>Typst and LaTeX: Differences and Use Cases</description></item><item><title>Guide to QEMU as a Virtual Machine</title><link>https://embeddingbits.github.io/posts/qemu_vm/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/qemu_vm/</guid><description>Using QEMU as a Virtual Machine</description></item><item><title>The AI browser hype</title><link>https://embeddingbits.github.io/posts/ai_browsers/</link><pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/ai_browsers/</guid><description>Why is there a sudden increase in the AI browser Hype</description></item><item><title>Configuring Tmux</title><link>https://embeddingbits.github.io/posts/tmux_config/</link><pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate><guid>https://embeddingbits.github.io/posts/tmux_config/</guid><description>Configuring a really simple tmux config</description></item><item><title>Software that I use</title><link>https://embeddingbits.github.io/software/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/software/</guid><description>Software that I use and you can love</description></item><item><title>Vim vs Neovim</title><link>https://embeddingbits.github.io/posts/vim_nvim/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/vim_nvim/</guid><description>Differences between Vim and Neovim</description></item><item><title>Zig Programming Language</title><link>https://embeddingbits.github.io/posts/zig/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/zig/</guid><description>Zig&amp;rsquo;s features</description></item><item><title>DWM Window Manager</title><link>https://embeddingbits.github.io/posts/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/dwm/</guid><description>Overview of DWM Window Manager</description></item><item><title>My Workflow</title><link>https://embeddingbits.github.io/posts/workflow/</link><pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/workflow/</guid><description>My developer workflow</description></item><item><title>Why Linux is better than its other competitors</title><link>https://embeddingbits.github.io/posts/linux_overview/</link><pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/linux_overview/</guid><description>Overview of Linux and Debunking the myths</description></item><item><title>Golang and its Philosophy</title><link>https://embeddingbits.github.io/posts/golang/</link><pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/posts/golang/</guid><description>Golang and its Philosophy</description></item><item><title>Contact Info</title><link>https://embeddingbits.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/contact/</guid><description>&lt;ul&gt;
-&lt;li&gt;Email: &lt;a href="tspamiitesh@gmail.com"&gt;tspamiitesh@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"&gt;Amiitesh Pradeep Kumar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Instagram: &lt;a href="https://instagram.com/tspamiitesh/"&gt;@tspamiitesh&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Discord: &lt;a href="https://discord.com/users/1312819280018018374"&gt;embeddingbits&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Projects</title><link>https://embeddingbits.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://embeddingbits.github.io/projects/</guid><description>&lt;div id="outline-container-headline-1" class="outline-3"&gt;
-&lt;h3 id="headline-1"&gt;
-&lt;a href="https://github.com/EmbeddingBits/simple-processor-simulation"&gt;4-bit Processor Simulation&lt;/a&gt;
-&lt;/h3&gt;
-&lt;div id="outline-text-headline-1" class="outline-text-3"&gt;
-&lt;p&gt;
-An &lt;strong&gt;educational 4-bit processor design&lt;/strong&gt; implemented in &lt;strong&gt;Verilog&lt;/strong&gt; for learning &lt;strong&gt;computer architecture fundamentals&lt;/strong&gt;. 
-Includes instruction set design, ALU operations, and memory management simulation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class="verbatim"&gt;Verilog&lt;/code&gt; • &lt;code class="verbatim"&gt;VLSI&lt;/code&gt; • &lt;code class="verbatim"&gt;Computer Architecture&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/EmbeddingBits/simple-processor-simulation"&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-headline-2" class="outline-3"&gt;
-&lt;h3 id="headline-2"&gt;
-&lt;a href="https://github.com/EmbeddingBits/fastsh"&gt;Fastsh&lt;/a&gt;
-&lt;/h3&gt;
-&lt;div id="outline-text-headline-2" class="outline-text-3"&gt;
-&lt;p&gt;
-A POSIX-compliant shell that I&amp;#39;m building for personal use cases (&lt;strong&gt;under development&lt;/strong&gt;).&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class="verbatim"&gt;Zig&lt;/code&gt; • &lt;code class="verbatim"&gt;Systems Programming&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/EmbeddingBits/fastsh"&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="outline-container-headline-3" class="outline-2"&gt;
-&lt;h2 id="headline-3"&gt;
-Get In Touch
-&lt;/h2&gt;
-&lt;div id="outline-text-headline-3" class="outline-text-2"&gt;
-&lt;p&gt;
-Interested in collaborating on a project or discussing technology? 
-Feel free to reach out!&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on eBits Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on eBits Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Feb 2026 11:59:02 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win Your Inner Battles by Darius Foroux</title>
+      <link>http://localhost:1313/books/win_your_inner_battles/</link>
+      <pubDate>Fri, 20 Feb 2026 11:59:02 +0530</pubDate>
+      <guid>http://localhost:1313/books/win_your_inner_battles/</guid>
+      <description>Defeat the enemy within and Live with Purpose</description>
+    </item>
+    <item>
+      <title>Connect to college WiFi using nmtui or networkmanager</title>
+      <link>http://localhost:1313/posts/nmtui/</link>
+      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/nmtui/</guid>
+      <description>Connecting to college WiFi</description>
+    </item>
+    <item>
+      <title>Is Wayland better than X11</title>
+      <link>http://localhost:1313/posts/wayland/</link>
+      <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
+      <guid>http://localhost:1313/posts/wayland/</guid>
+      <description>Advantages of Wayland over X11</description>
+    </item>
+    <item>
+      <title>SSH for remote git repos</title>
+      <link>http://localhost:1313/posts/ssh_config_git/</link>
+      <pubDate>Wed, 31 Dec 2025 21:52:16 +0530</pubDate>
+      <guid>http://localhost:1313/posts/ssh_config_git/</guid>
+      <description>Using ssh for remote git repositories</description>
+    </item>
+    <item>
+      <title>Tech Wrapped</title>
+      <link>http://localhost:1313/posts/software_wrapped/</link>
+      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+      <guid>http://localhost:1313/posts/software_wrapped/</guid>
+      <description>My Tech Wrapped for 2025 from software that I used to the development I made</description>
+    </item>
+    <item>
+      <title>Typst vs LaTeX</title>
+      <link>http://localhost:1313/posts/typst_vs_latex/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/typst_vs_latex/</guid>
+      <description>Typst and LaTeX: Differences and Use Cases</description>
+    </item>
+    <item>
+      <title>Guide to QEMU as a Virtual Machine</title>
+      <link>http://localhost:1313/posts/qemu_vm/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qemu_vm/</guid>
+      <description>Using QEMU as a Virtual Machine</description>
+    </item>
+    <item>
+      <title>The AI browser hype</title>
+      <link>http://localhost:1313/posts/ai_browsers/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai_browsers/</guid>
+      <description>Why is there a sudden increase in the AI browser Hype</description>
+    </item>
+    <item>
+      <title>Configuring Tmux</title>
+      <link>http://localhost:1313/posts/tmux_config/</link>
+      <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
+      <guid>http://localhost:1313/posts/tmux_config/</guid>
+      <description>Configuring a really simple tmux config</description>
+    </item>
+    <item>
+      <title>Software that I use</title>
+      <link>http://localhost:1313/software/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/</guid>
+      <description>Software that I use and you can love</description>
+    </item>
+    <item>
+      <title>Vim vs Neovim</title>
+      <link>http://localhost:1313/posts/vim_nvim/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vim_nvim/</guid>
+      <description>Differences between Vim and Neovim</description>
+    </item>
+    <item>
+      <title>Zig Programming Language</title>
+      <link>http://localhost:1313/posts/zig/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/zig/</guid>
+      <description>Zig&amp;rsquo;s features</description>
+    </item>
+    <item>
+      <title>DWM Window Manager</title>
+      <link>http://localhost:1313/posts/dwm/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dwm/</guid>
+      <description>Overview of DWM Window Manager</description>
+    </item>
+    <item>
+      <title>My Workflow</title>
+      <link>http://localhost:1313/posts/workflow/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workflow/</guid>
+      <description>My developer workflow</description>
+    </item>
+    <item>
+      <title>Why Linux is better than its other competitors</title>
+      <link>http://localhost:1313/posts/linux_overview/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux_overview/</guid>
+      <description>Overview of Linux and Debunking the myths</description>
+    </item>
+    <item>
+      <title>Golang and its Philosophy</title>
+      <link>http://localhost:1313/posts/golang/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/golang/</guid>
+      <description>Golang and its Philosophy</description>
+    </item>
+    <item>
+      <title>Contact Info</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;tspamiitesh@gmail.com&#34;&gt;tspamiitesh@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/&#34;&gt;Amiitesh Pradeep Kumar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Instagram: &lt;a href=&#34;https://instagram.com/tspamiitesh/&#34;&gt;@tspamiitesh&lt;/a&gt; &lt;/li&gt;&#xA;&lt;li&gt;Discord: &lt;a href=&#34;https://discord.com/users/1312819280018018374&#34;&gt;embeddingbits&lt;/a&gt; &lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;4-bit Processor Simulation&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;An &lt;strong&gt;educational 4-bit processor design&lt;/strong&gt; implemented in &lt;strong&gt;Verilog&lt;/strong&gt; for learning &lt;strong&gt;computer architecture fundamentals&lt;/strong&gt;.  &#xA;Includes instruction set design, ALU operations, and memory management simulation.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Verilog&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;VLSI&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Computer Architecture&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Fastsh&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;A POSIX-compliant shell that I&amp;#39;m building for personal use cases (&lt;strong&gt;under development&lt;/strong&gt;).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Zig&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Systems Programming&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-3&#34;&gt;&#xA;Get In Touch&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Interested in collaborating on a project or discussing technology?  &#xA;Feel free to reach out!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

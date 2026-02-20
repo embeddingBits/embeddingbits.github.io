@@ -15,7 +15,7 @@ description = "Thoughts and Expressions"
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'gruvebox'
+colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -80,12 +80,20 @@ name = "projects"
 url = "/projects"
 
 [[params.menu]]
+name = "book_reads"
+url = "/books"
+
+[[params.menu]]
 name = "my_software"
 url = "/software"
 
 [[params.menu]]
 name = "tags"
 url = "/tags"
+
+[[params.menu]]
+name = "book_tags"
+url = "/book_tags"
 
 [[params.menu]]
 name = "contact"
