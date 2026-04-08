@@ -6,6 +6,10 @@ theme = 'typo'
 googleAnalytics = "G-KP0G8R8WE2"
 enableRobotsTXT = true
 
+[outputs]
+home = ["HTML", "RSS"]
+posts = ["HTML", "RSS"]
+
 [taxonomies]
 tag = 'tags'
 
@@ -90,6 +94,10 @@ url = "/software"
 [[params.menu]]
 name = "tags"
 url = "/tags"
+
+[[params.menu]]
+name = "rss"
+url = "/index.xml"
 
 [[params.menu]]
 name = "contact"
