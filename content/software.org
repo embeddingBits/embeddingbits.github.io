@@ -11,19 +11,18 @@ readTime = true
 * Favourite
 
 - *Operating System:* I use [[https://archlinux.org][Arch Linux]].
-- *Text/Code Editor:* I use [[https://www.gnu.org/software/emacs/][Emacs]].
+- *Text/Code Editor:* I use [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://neovim.io/][Neovim]].
 - *Window Manager:* I use [[https://isaacfreund.com/software/river/][River]].
-- *Terminal and Shell:* I use [[https://ghostty.org/][Ghostty]] combined with [[https://fishshell.com/][fish]] shell.
+- *Terminal and Shell:* I use [[https://codeberg.org/dnkl/foot][Foot]] combined with [[https://fishshell.com/][fish]] shell.
 - *Dotfiles:* I use my own [[https://github.com/embeddingbits/arch_dotfiles][dotfiles]].
 
-Most of the software I use is made in [[https://ziglang.org/][Zig]] because I love it so much :)
 
 -----
 
 * Utils
 
 - *File Manager:* I use [[https://yazi-rs.github.io/][Yazi]] as my main and only file manager.
-- *Web Browser:* I use [[https://www.firefox.com/][Firefox]] and [[https://www.qutebrowser.org/][Qutebrowser]] all the time.
+- *Web Browser:* I use [[https://www.firefox.com/][Firefox]]
 - *PDF Viewer:* I use [[https://pwmt.org/projects/zathura/][Zathura]] and [[https://github.com/vedang/pdf-tools][pdf-tools]] in Emacs.
 - *Misc:* For most of the other stuff like Word, Excel, etc., I use [[https://www.libreoffice.org/][LibreOffice]].
 
