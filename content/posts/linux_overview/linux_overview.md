@@ -75,14 +75,6 @@ You can choose from many **Desktop Environments (DEs)** and **Window Managers (W
 * DEs: GNOME, KDE Plasma, XFCE, Sway
 * WMs: Hyprland, i3, AwesomeWM, DWM, BSPWM
 
-#### My Setup
-
-| Hyprland (WM)                               | KDE Plasma (DE) |
-| ------------------------------------------- | --------------- |
-| ![Hyprland](2025-01-16-075754_hyprshot.png) | ![KDE](all.png) |
-
-These are my personal Linux configurations — **Hyprland** on the left and **KDE Plasma** on the right.
-
 Linux allows you to **fully customize** your workflow and make your desktop **visually pleasing**.
 
 ---

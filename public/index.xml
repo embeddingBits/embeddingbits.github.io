@@ -1,138 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on eBits Blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on eBits Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 11:59:02 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>Win Your Inner Battles by Darius Foroux</title>
-      <link>http://localhost:1313/books/win_your_inner_battles/</link>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Sun, 26 Apr 2026 19:23:04 +0530</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/books/</link>
       <pubDate>Fri, 20 Feb 2026 11:59:02 +0530</pubDate>
-      <guid>http://localhost:1313/books/win_your_inner_battles/</guid>
-      <description>Defeat the enemy within and Live with Purpose</description>
+      <guid>http://localhost:1313/books/</guid>
+      <description></description>
     </item>
-    <item>
-      <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/posts/nmtui/</link>
-      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid>http://localhost:1313/posts/nmtui/</guid>
-      <description>Connecting to college WiFi</description>
-    </item>
-    <item>
-      <title>Is Wayland better than X11</title>
-      <link>http://localhost:1313/posts/wayland/</link>
-      <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid>http://localhost:1313/posts/wayland/</guid>
-      <description>Advantages of Wayland over X11</description>
-    </item>
-    <item>
-      <title>SSH for remote git repos</title>
-      <link>http://localhost:1313/posts/ssh_config_git/</link>
-      <pubDate>Wed, 31 Dec 2025 21:52:16 +0530</pubDate>
-      <guid>http://localhost:1313/posts/ssh_config_git/</guid>
-      <description>Using ssh for remote git repositories</description>
-    </item>
-    <item>
-      <title>Tech Wrapped</title>
-      <link>http://localhost:1313/posts/software_wrapped/</link>
-      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
-      <guid>http://localhost:1313/posts/software_wrapped/</guid>
-      <description>My Tech Wrapped for 2025 from software that I used to the development I made</description>
-    </item>
-    <item>
-      <title>Typst vs LaTeX</title>
-      <link>http://localhost:1313/posts/typst_vs_latex/</link>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/typst_vs_latex/</guid>
-      <description>Typst and LaTeX: Differences and Use Cases</description>
-    </item>
-    <item>
-      <title>Guide to QEMU as a Virtual Machine</title>
-      <link>http://localhost:1313/posts/qemu_vm/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/qemu_vm/</guid>
-      <description>Using QEMU as a Virtual Machine</description>
-    </item>
-    <item>
-      <title>The AI browser hype</title>
-      <link>http://localhost:1313/posts/ai_browsers/</link>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai_browsers/</guid>
-      <description>Why is there a sudden increase in the AI browser Hype</description>
-    </item>
-    <item>
-      <title>Configuring Tmux</title>
-      <link>http://localhost:1313/posts/tmux_config/</link>
-      <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
-      <guid>http://localhost:1313/posts/tmux_config/</guid>
-      <description>Configuring a really simple tmux config</description>
-    </item>
+    
     <item>
       <title>Software that I use</title>
       <link>http://localhost:1313/software/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/software/</guid>
-      <description>Software that I use and you can love</description>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Favourite
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Utils
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://yazi-rs.github.io/&#34;&gt;Yazi&lt;/a&gt; as my main and only file manager.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Browser:&lt;/strong&gt; I use &lt;a href=&#34;https://www.firefox.com/&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PDF Viewer:&lt;/strong&gt; I use &lt;a href=&#34;https://pwmt.org/projects/zathura/&#34;&gt;Zathura&lt;/a&gt; and &lt;a href=&#34;https://github.com/vedang/pdf-tools&#34;&gt;pdf-tools&lt;/a&gt; in Emacs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misc:&lt;/strong&gt; For most of the other stuff like Word, Excel, etc., I use &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+College
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reports and Documents:&lt;/strong&gt; I use &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt; and I write in Org Mode and export it to &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taking Notes:&lt;/strong&gt; I manage my college and personal notes with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org Mode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
-    <item>
-      <title>Vim vs Neovim</title>
-      <link>http://localhost:1313/posts/vim_nvim/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vim_nvim/</guid>
-      <description>Differences between Vim and Neovim</description>
-    </item>
-    <item>
-      <title>Zig Programming Language</title>
-      <link>http://localhost:1313/posts/zig/</link>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zig/</guid>
-      <description>Zig&amp;rsquo;s features</description>
-    </item>
-    <item>
-      <title>DWM Window Manager</title>
-      <link>http://localhost:1313/posts/dwm/</link>
-      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dwm/</guid>
-      <description>Overview of DWM Window Manager</description>
-    </item>
-    <item>
-      <title>My Workflow</title>
-      <link>http://localhost:1313/posts/workflow/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/workflow/</guid>
-      <description>My developer workflow</description>
-    </item>
-    <item>
-      <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/posts/linux_overview/</link>
-      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/linux_overview/</guid>
-      <description>Overview of Linux and Debunking the myths</description>
-    </item>
-    <item>
-      <title>Golang and its Philosophy</title>
-      <link>http://localhost:1313/posts/golang/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/golang/</guid>
-      <description>Golang and its Philosophy</description>
-    </item>
-    <item>
-      <title>Contact Info</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;tspamiitesh@gmail.com&#34;&gt;tspamiitesh@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/&#34;&gt;Amiitesh Pradeep Kumar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Instagram: &lt;a href=&#34;https://instagram.com/tspamiitesh/&#34;&gt;@tspamiitesh&lt;/a&gt; &lt;/li&gt;&#xA;&lt;li&gt;Discord: &lt;a href=&#34;https://discord.com/users/1312819280018018374&#34;&gt;embeddingbits&lt;/a&gt; &lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
+    
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;4-bit Processor Simulation&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;An &lt;strong&gt;educational 4-bit processor design&lt;/strong&gt; implemented in &lt;strong&gt;Verilog&lt;/strong&gt; for learning &lt;strong&gt;computer architecture fundamentals&lt;/strong&gt;.  &#xA;Includes instruction set design, ALU operations, and memory management simulation.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Verilog&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;VLSI&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Computer Architecture&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Fastsh&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;A POSIX-compliant shell that I&amp;#39;m building for personal use cases (&lt;strong&gt;under development&lt;/strong&gt;).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Zig&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Systems Programming&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-3&#34;&gt;&#xA;Get In Touch&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Interested in collaborating on a project or discussing technology?  &#xA;Feel free to reach out!&lt;/p&gt;</description>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;4-bit Processor Simulation&lt;/a&gt;
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+An &lt;strong&gt;educational 4-bit processor design&lt;/strong&gt; implemented in &lt;strong&gt;Verilog&lt;/strong&gt; for learning &lt;strong&gt;computer architecture fundamentals&lt;/strong&gt;.  
+Includes instruction set design, ALU operations, and memory management simulation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Verilog&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;VLSI&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Computer Architecture&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/simple-processor-simulation&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Fastsh&lt;/a&gt;
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;
+A POSIX-compliant shell that I&amp;#39;m building for personal use cases (&lt;strong&gt;under development&lt;/strong&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; &lt;code class=&#34;verbatim&#34;&gt;Zig&lt;/code&gt; • &lt;code class=&#34;verbatim&#34;&gt;Systems Programming&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmbeddingBits/fastsh&#34;&gt;Source on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Get In Touch
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;
+Interested in collaborating on a project or discussing technology?  
+Feel free to reach out!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:tspamiitesh@gmail.com&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/embeddingbits&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
+    
   </channel>
 </rss>
