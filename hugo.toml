@@ -1,4 +1,4 @@
-baseURL = 'https://embeddingbits.github.io/'
+baseURL = 'https://embeddingbits.is-a.dev/'
 languageCode = 'en-us'
 title = "eBits Blog"
 theme = 'typo'
