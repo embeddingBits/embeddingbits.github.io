@@ -50,7 +50,7 @@ There are hundreds of Linux distributions to choose from!
 
 ---
 
-### 🛡️ Security and Privacy
+### Security and Privacy
 
 * Linux’s **open-source nature** means vulnerabilities are quickly found and patched by the community.
 * Proprietary systems like Windows have **less transparency** and may include **hidden backdoors**.
@@ -58,14 +58,14 @@ There are hundreds of Linux distributions to choose from!
 
 ---
 
-### 💰 Cost Efficiency
+### Cost Efficiency
 
 Most popular Linux distros are **completely free**, unlike Windows which costs around ₹12,000 ($139).
 All Linux updates — whether **kernel**, **desktop environment**, or **system-level** — are free.
 
 ---
 
-### 🎨 Customizability
+### Customizability
 
 Linux is **highly customizable** compared to proprietary operating systems.
 You can choose from many **Desktop Environments (DEs)** and **Window Managers (WMs)** depending on your workflow.
@@ -99,7 +99,7 @@ Using Linux exposes you to the **FOSS ecosystem**, strengthening open-source awa
 
 ---
 
-### ⚙️ Performance and Stability
+### Performance and Stability
 
 Linux is known for its **performance and efficiency**, largely due to minimal bloatware.
 

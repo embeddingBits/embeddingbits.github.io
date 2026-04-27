@@ -6,7 +6,7 @@ tags = ["lazygit", "window manager", "river"]
 autonumber = true
 toc = true
 showTags = true
-draft = false
+draft = true
 readTime = true
 +++
 

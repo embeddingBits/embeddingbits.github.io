@@ -10,22 +10,6 @@
     
     
     <item>
-      <title>Writing_a_wayland_wallpaper_setter</title>
-      <link>http://localhost:1313/posts/writing_a_wayland_wallpaper_setter/</link>
-      <pubDate>Sun, 26 Apr 2026 19:23:04 +0530</pubDate>
-      <guid>http://localhost:1313/posts/writing_a_wayland_wallpaper_setter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New Workflow</title>
-      <link>http://localhost:1313/posts/new_workflow/</link>
-      <pubDate>Sun, 26 Apr 2026 18:24:50 +0530</pubDate>
-      <guid>http://localhost:1313/posts/new_workflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
       <link>http://localhost:1313/posts/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
@@ -1711,9 +1695,9 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;p&gt;There are hundreds of Linux distributions to choose from!&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;h3 class=&#34;heading&#34; id=&#34;-security-and-privacy&#34;&gt;
-  🛡️ Security and Privacy
-  &lt;a class=&#34;anchor&#34; href=&#34;#-security-and-privacy&#34;&gt;#&lt;/a&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;security-and-privacy&#34;&gt;
+  Security and Privacy
+  &lt;a class=&#34;anchor&#34; href=&#34;#security-and-privacy&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Linux’s &lt;strong&gt;open-source nature&lt;/strong&gt; means vulnerabilities are quickly found and patched by the community.&lt;/li&gt;
@@ -1722,17 +1706,17 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;/ul&gt;
 &lt;hr&gt;
 
-&lt;h3 class=&#34;heading&#34; id=&#34;-cost-efficiency&#34;&gt;
-  💰 Cost Efficiency
-  &lt;a class=&#34;anchor&#34; href=&#34;#-cost-efficiency&#34;&gt;#&lt;/a&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;cost-efficiency&#34;&gt;
+  Cost Efficiency
+  &lt;a class=&#34;anchor&#34; href=&#34;#cost-efficiency&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Most popular Linux distros are &lt;strong&gt;completely free&lt;/strong&gt;, unlike Windows which costs around ₹12,000 ($139).
 All Linux updates — whether &lt;strong&gt;kernel&lt;/strong&gt;, &lt;strong&gt;desktop environment&lt;/strong&gt;, or &lt;strong&gt;system-level&lt;/strong&gt; — are free.&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;h3 class=&#34;heading&#34; id=&#34;-customizability&#34;&gt;
-  🎨 Customizability
-  &lt;a class=&#34;anchor&#34; href=&#34;#-customizability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;customizability&#34;&gt;
+  Customizability
+  &lt;a class=&#34;anchor&#34; href=&#34;#customizability&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is &lt;strong&gt;highly customizable&lt;/strong&gt; compared to proprietary operating systems.
 You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt; and &lt;strong&gt;Window Managers (WMs)&lt;/strong&gt; depending on your workflow.&lt;/p&gt;
@@ -1764,9 +1748,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;p&gt;Using Linux exposes you to the &lt;strong&gt;FOSS ecosystem&lt;/strong&gt;, strengthening open-source awareness and collaboration.&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;h3 class=&#34;heading&#34; id=&#34;-performance-and-stability&#34;&gt;
-  ⚙️ Performance and Stability
-  &lt;a class=&#34;anchor&#34; href=&#34;#-performance-and-stability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;performance-and-stability&#34;&gt;
+  Performance and Stability
+  &lt;a class=&#34;anchor&#34; href=&#34;#performance-and-stability&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is known for its &lt;strong&gt;performance and efficiency&lt;/strong&gt;, largely due to minimal bloatware.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Advantages:&lt;/strong&gt;&lt;/p&gt;
