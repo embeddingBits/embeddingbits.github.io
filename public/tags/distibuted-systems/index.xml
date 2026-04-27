@@ -1,19 +1,186 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distibuted Systems on eBits Blog</title>
     <link>http://localhost:1313/tags/distibuted-systems/</link>
     <description>Recent content in Distibuted Systems on eBits Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/distibuted-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/distibuted-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Golang and its Philosophy</title>
       <link>http://localhost:1313/posts/golang/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/golang/</guid>
-      <description>Golang and its Philosophy</description>
+      <description>&lt;hr&gt;
+&lt;p&gt;Go (or &lt;strong&gt;Golang&lt;/strong&gt;) is an Open Source programming language developed by Google. Go has many use cases like building &lt;strong&gt;Microservices&lt;/strong&gt;, &lt;strong&gt;Cloud Computing&lt;/strong&gt;, &lt;strong&gt;Web Applications&lt;/strong&gt;, and creating &lt;strong&gt;CLI Tools&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Go is a &lt;strong&gt;statically typed language&lt;/strong&gt;, and its structures and syntax resemble the &lt;strong&gt;C Programming Language&lt;/strong&gt;. Due to Go’s &lt;strong&gt;fast startup time&lt;/strong&gt;, &lt;strong&gt;low runtime overhead&lt;/strong&gt;, and &lt;strong&gt;platform independence&lt;/strong&gt;, it has become a very popular language for writing microservices and other systems. Go is also known for its &lt;strong&gt;concurrency&lt;/strong&gt;, meaning it can execute multiple processes simultaneously.&lt;/p&gt;
+&lt;p&gt;Golang uses &lt;strong&gt;Goroutines&lt;/strong&gt; (lightweight processes) and a collection of &lt;strong&gt;packages and commands&lt;/strong&gt; for dependency management. It was designed to solve issues like &lt;strong&gt;slow build times&lt;/strong&gt;, &lt;strong&gt;difficulty writing tools&lt;/strong&gt;, and &lt;strong&gt;cross-language development&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In this blog, I’ll discuss Golang and provide resources to get started.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;history-of-go&#34;&gt;
+  History of Go
+  &lt;a class=&#34;anchor&#34; href=&#34;#history-of-go&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Golang was created by Google to solve their internal software engineering issues as an alternative to &lt;strong&gt;C++&lt;/strong&gt;. Development began in &lt;strong&gt;2007&lt;/strong&gt;, with the goal of designing a language that was easier to use while incorporating the best features of C++, JavaScript, and Python.
+It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google in &lt;strong&gt;2009&lt;/strong&gt;, allowing community contributions.&lt;/p&gt;
+&lt;p&gt;Since then, new features have been added regularly, with a &lt;strong&gt;major update in 2022&lt;/strong&gt; introducing &lt;strong&gt;Generics&lt;/strong&gt; (a major feature from Java).&lt;/p&gt;
+&lt;p&gt;Due to its fast growth and practical design, major companies such as &lt;strong&gt;Netflix&lt;/strong&gt;, &lt;strong&gt;Microsoft&lt;/strong&gt;, &lt;strong&gt;Cloudflare&lt;/strong&gt;, &lt;strong&gt;Docker&lt;/strong&gt;, &lt;strong&gt;Twitch&lt;/strong&gt;, and &lt;strong&gt;Dropbox&lt;/strong&gt; adopted Go in their codebases.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;philosophy-of-go&#34;&gt;
+  Philosophy of Go
+  &lt;a class=&#34;anchor&#34; href=&#34;#philosophy-of-go&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The philosophy of Go and the problems it addresses are quite interesting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity:&lt;/strong&gt; Go focuses on simplicity. While many languages add features that lead to bloat, Go only includes features considered useful in the long term.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efficiency:&lt;/strong&gt; Go is designed for speed and efficiency — evident in its strong concurrency support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Error Handling:&lt;/strong&gt; Go encourages explicit and reliable error handling, with built-in mechanisms in most functions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pragmatism:&lt;/strong&gt; Go emphasizes practical and logical solutions to real-world problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;features-of-go&#34;&gt;
+  Features of Go
+  &lt;a class=&#34;anchor&#34; href=&#34;#features-of-go&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Standard Library:&lt;/strong&gt; Rich collection of standard libraries ranging from math to networking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Package Management:&lt;/strong&gt; Easy management of user-created packages and publishing them via CLI commands.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Static Typing:&lt;/strong&gt; Types are assigned at compile time, preventing type-related runtime errors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unit Test Support:&lt;/strong&gt; Built-in unit testing to ensure code quality and parallel debugging.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platform Independence:&lt;/strong&gt; Compiles and runs on any hardware or operating system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concurrency:&lt;/strong&gt; Through &lt;strong&gt;Goroutines&lt;/strong&gt;, Go allows multiple tasks to run in parallel — one of its defining features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;some-useful-go-commands&#34;&gt;
+  Some Useful Go Commands
+  &lt;a class=&#34;anchor&#34; href=&#34;#some-useful-go-commands&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;go-run&#34;&gt;
+  &lt;code&gt;go run&lt;/code&gt;
+  &lt;a class=&#34;anchor&#34; href=&#34;#go-run&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Compiles and executes code simultaneously.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go run filename.go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;go-build&#34;&gt;
+  &lt;code&gt;go build&lt;/code&gt;
+  &lt;a class=&#34;anchor&#34; href=&#34;#go-build&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Compiles the code and creates an executable file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go build filename.go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;go-get&#34;&gt;
+  &lt;code&gt;go get&lt;/code&gt;
+  &lt;a class=&#34;anchor&#34; href=&#34;#go-get&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Imports third-party libraries from repositories like GitHub.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go get github.com/libname
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;go-fmt&#34;&gt;
+  &lt;code&gt;go fmt&lt;/code&gt;
+  &lt;a class=&#34;anchor&#34; href=&#34;#go-fmt&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Automatically formats code for readability using proper indentation and line spacing.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go fmt filename.go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 class=&#34;heading&#34; id=&#34;unformatted-file&#34;&gt;
+  Unformatted File
+  &lt;a class=&#34;anchor&#34; href=&#34;#unformatted-file&#34;&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;package&lt;/span&gt; main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;(){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fmt.&lt;span style=&#34;color:#fabd2f&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Sample Addition&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a&lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt;&lt;span style=&#34;color:#d3869b&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b&lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt;&lt;span style=&#34;color:#d3869b&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;c&lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt;a&lt;span style=&#34;color:#fe8019&#34;&gt;+&lt;/span&gt;b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fmt.&lt;span style=&#34;color:#fabd2f&#34;&gt;Println&lt;/span&gt;(c)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 class=&#34;heading&#34; id=&#34;formatted-file-with-go-fmt&#34;&gt;
+  Formatted File with &lt;code&gt;go fmt&lt;/code&gt;
+  &lt;a class=&#34;anchor&#34; href=&#34;#formatted-file-with-go-fmt&#34;&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;package&lt;/span&gt; main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fmt.&lt;span style=&#34;color:#fabd2f&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Sample Addition&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    a &lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#d3869b&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    b &lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#d3869b&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    c &lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt; a &lt;span style=&#34;color:#fe8019&#34;&gt;+&lt;/span&gt; b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fmt.&lt;span style=&#34;color:#fabd2f&#34;&gt;Println&lt;/span&gt;(c)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can see how the command improves readability and structure.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;what-is-go-used-for&#34;&gt;
+  What is Go Used For?
+  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-go-used-for&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Go is widely used in various domains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Container Services:&lt;/strong&gt; Tools like &lt;strong&gt;Docker&lt;/strong&gt; and &lt;strong&gt;Kubernetes&lt;/strong&gt; use Go for efficient containerization and concurrency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network and Cloud Services:&lt;/strong&gt; Ideal for writing high-performance web servers and APIs (e.g., &lt;strong&gt;Bitcoin Lightning Network&lt;/strong&gt;, &lt;strong&gt;blockchain&lt;/strong&gt; systems).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Services:&lt;/strong&gt; Go’s built-in HTTP server helps companies like &lt;strong&gt;Netflix&lt;/strong&gt; build scalable backend services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Command-line Tools:&lt;/strong&gt; Rich libraries for building powerful CLI tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microservices:&lt;/strong&gt; Used to develop microservices such as FTP/SMTP servers — used by companies like &lt;strong&gt;Uber&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Science:&lt;/strong&gt; Go’s concurrency and memory management make it suitable for handling large datasets efficiently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;how-to-learn-go&#34;&gt;
+  How to Learn Go
+  &lt;a class=&#34;anchor&#34; href=&#34;#how-to-learn-go&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Go is relatively easy to learn. Some may find &lt;strong&gt;Goroutines&lt;/strong&gt;, &lt;strong&gt;Channels&lt;/strong&gt;, and &lt;strong&gt;Concurrency&lt;/strong&gt; challenging — but these are also Go’s most powerful features.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The best features always take effort to master!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The best way to learn is through &lt;strong&gt;books and official documentation&lt;/strong&gt;, not endless tutorials. Many beginners get stuck in &amp;ldquo;tutorial hell&amp;rdquo; — watching too many videos, getting confused, and eventually quitting.&lt;/p&gt;
+&lt;p&gt;Go’s &lt;strong&gt;official documentation&lt;/strong&gt; is among the best of any language, offering concept-based lessons and an &lt;strong&gt;interactive playground&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The documentation is divided into two main parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A Tour of Go&lt;/strong&gt; — covers syntax and fundamentals, from variables to concurrency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effective Go&lt;/strong&gt; — teaches how to write clear, idiomatic Go code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;official-docs&#34;&gt;
+  Official Docs
+  &lt;a class=&#34;anchor&#34; href=&#34;#official-docs&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A Tour of Go:&lt;/strong&gt; &lt;a href=&#34;https://go.dev/tour/welcome/1&#34;&gt;https://go.dev/tour/welcome/1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effective Go:&lt;/strong&gt; &lt;a href=&#34;https://go.dev/doc/effective_go&#34;&gt;https://go.dev/doc/effective_go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;recommended-book&#34;&gt;
+  Recommended Book
+  &lt;a class=&#34;anchor&#34; href=&#34;#recommended-book&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The best beginner-friendly book to learn Go:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Learning Go:&lt;/strong&gt; &lt;a href=&#34;https://www.miek.nl/go/&#34;&gt;https://www.miek.nl/go/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;thank-you&#34;&gt;
+  Thank You
+  &lt;a class=&#34;anchor&#34; href=&#34;#thank-you&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Thank you for reading this blog!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
     </item>
+    
   </channel>
 </rss>

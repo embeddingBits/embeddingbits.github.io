@@ -1,19 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosophy on eBits Blog</title>
     <link>http://localhost:1313/tags/philosophy/</link>
     <description>Recent content in Philosophy on eBits Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 11:59:02 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Win Your Inner Battles by Darius Foroux</title>
       <link>http://localhost:1313/books/win_your_inner_battles/</link>
       <pubDate>Fri, 20 Feb 2026 11:59:02 +0530</pubDate>
       <guid>http://localhost:1313/books/win_your_inner_battles/</guid>
-      <description>Defeat the enemy within and Live with Purpose</description>
+      <description>
+&lt;h2 class=&#34;heading&#34; id=&#34;about-the-book&#34;&gt;
+  About the Book
+  &lt;a class=&#34;anchor&#34; href=&#34;#about-the-book&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I never had the thought of writing reviews for the books I read until yesterday. I have read a fair share of books ranging from novels to many philosophical texts.&lt;/p&gt;
+&lt;p&gt;As of now, I have decided to share my review and thoughts on this book called &lt;em&gt;Win Your Inner Battles&lt;/em&gt; by &lt;em&gt;Darius Forouz&lt;/em&gt;. It was an amazing read, and personally, I felt that it was a really good summary of Stoicism as a whole. There were quotes from Seneca, Epictetus, and Marcus Aurelius.&lt;/p&gt;
+&lt;p&gt;The main motive of this book is to focus on winning the battle against &lt;strong&gt;fear&lt;/strong&gt; and to &lt;strong&gt;live life&lt;/strong&gt; with a &lt;strong&gt;purpose&lt;/strong&gt;. The author talks about how fear has transitioned from a useful survival mechanism in the past to something that has now reduced to a mere obstacle, which I heavily agree with.&lt;/p&gt;
+&lt;p&gt;There is an aspect of fear in almost everything: standing out from the crowd, hesitating to try new things because we fear it might affect our daily workflow, or hesitating to say no. We have been conditioned in a certain way that makes us stick to this illusion of normalcy, which holds us back from reaching our true potential.&lt;/p&gt;
+&lt;p&gt;The book conveys the idea that fear is an emotion that can be controlled. Fear is often an illusion, and our mind sometimes struggles to differentiate between imagined fear and real danger. Most of the time, we find ourselves fearing simple things that pose no real threat.&lt;/p&gt;
+&lt;p&gt;It encourages us to expect that bad things might happen so that we won’t be caught off guard if they do. And if they don’t happen, that’s even better. In both cases, it becomes a win-win situation. The book also emphasizes the importance of setting smaller goals and breaking bigger goals into manageable steps. When we set large goals, we often feel overwhelmed, laziness creeps in, and fear begins to arise, ultimately holding us back from achieving them.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;favourite-quotes-from-the-book&#34;&gt;
+  Favourite Quotes from the Book
+  &lt;a class=&#34;anchor&#34; href=&#34;#favourite-quotes-from-the-book&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;“The mind is both the enemy and the warrior.”&lt;/li&gt;
+&lt;li&gt;“Success means we experience life instead of enduring it.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This book draws heavy inspiration from Stoicism, an impactful and timeless philosophy that teaches us to focus only on what is within our control: our thoughts, actions, and reactions, while accepting external events without complaint.&lt;/p&gt;
+&lt;p&gt;What I appreciate most about &lt;em&gt;Win Your Inner Battles&lt;/em&gt; is how it simplifies Stoic principles and makes them practical for modern life. It does not merely explain philosophy, it encourages application.&lt;/p&gt;
+&lt;p&gt;Having read many Stoic writings myself, I deeply admire this philosophy, and this book reinforces why. It serves as a reminder that the greatest battles we fight are not external, but internal. And when we learn to govern our mind, we begin to truly live with intention and purpose.&lt;/p&gt;
+</description>
     </item>
+    
   </channel>
 </rss>

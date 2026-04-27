@@ -1,19 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wayland on eBits Blog</title>
     <link>http://localhost:1313/tags/wayland/</link>
     <description>Recent content in Wayland on eBits Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jan 2026 13:07:25 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/wayland/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:1313/tags/wayland/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Is Wayland better than X11</title>
       <link>http://localhost:1313/posts/wayland/</link>
       <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
       <guid>http://localhost:1313/posts/wayland/</guid>
-      <description>Advantages of Wayland over X11</description>
+      <description>
+&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wayland and X11 are one of the most prominent display servers. Both of them have their fair share of advantages and disadvantages. While, all the Desktop Environments, Window Managers are switching to Wayland due to it being a better alternative. But what are the differences between these two and why are users and developers switching to Wayland over X11. I&amp;rsquo;ll try my best to give my opinion on both of these display servers.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;what-is-a-display-server&#34;&gt;
+  What is a Display Server?
+  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-a-display-server&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In Linux, A display server is a crucial component that acts as a intermediary between graphical applications and the hardware that is responsible for displaying them. It manages the graphical diplay and user input from input devices like keyboard and mouse.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;x11-display-server&#34;&gt;
+  X11 Display Server
+  &lt;a class=&#34;anchor&#34; href=&#34;#x11-display-server&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll first talk about the older display server. The X11 project began in 1987 and has the stable support for almost all the linux native software. X11 follows the client-server protocol where the X server owns all the screens and input devices and all the GUI applications are the clients of the X server. It was specifically designed to work over a network it assumes clients and the server may be on different machines which leads to serialization and backwards-compatibility. It was built with assumptions but most of them no longer holds true. As of today, Linux runs on locally connected displays which is not something that X was designed for. This became increasingly problematic as modern computing kept evolving.&lt;/p&gt;
+&lt;p&gt;By the early 2000s, X11 was seriously backward technically. Linux ecosystem was evolving which made most of X11&amp;rsquo;s features really unneccessary. Libraries like libinput started managing fonts which was a priviledge that only X11 had. Cairo and Freetype took over rendering which was earlier done by X11. Yet, X11 was still there with much of unneccessary feature which was seen as a bottleneck.&lt;/p&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;architecture&#34;&gt;
+  Architecture
+  &lt;a class=&#34;anchor&#34; href=&#34;#architecture&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The kernel gets an event from an input device and sends it to the X server through the evdev input driver and the kernel does all the job from controlling and translating the protocol into the required standard.&lt;/li&gt;
+&lt;li&gt;The X server then decides which window the event affects and sends it to that specific client. But X does not know how to do it properly since the windows are controlled by the compositor.&lt;/li&gt;
+&lt;li&gt;The client looks at the event and has to decides. The UI has the change when the user controls it. So, the client sends the rendering request to the X server.&lt;/li&gt;
+&lt;li&gt;After recieving the request, the X server sends it to the hardware to let it render the UI. Meanwhile, the server calculates the bounding region and sends it to the compositor as a damage event.&lt;/li&gt;
+&lt;li&gt;The damage event tells the compositor that something has happened to the screen and it has to recomposite the entire screen with the changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/posts/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;wayland-display-server&#34;&gt;
+  Wayland Display Server
+  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-display-server&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;architecture-1&#34;&gt;
+  Architecture
+  &lt;a class=&#34;anchor&#34; href=&#34;#architecture-1&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The kernel gets an event and immediately sends it to the compositor.&lt;/li&gt;
+&lt;li&gt;The compositor looks through the scenegraph to see which window get the event.&lt;/li&gt;
+&lt;li&gt;As in the X case, when the client receives the event, it updates the UI in response. But in the Wayland case, the rendering happens in the client, and the client just sends a request to the compositor to indicate the region that was updated.&lt;/li&gt;
+&lt;li&gt;The compositor collects damage requests from its clients and then recomposites the screen. The compositor can then directly issue an ioctl to schedule a pageflip with KMS.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/posts/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;wayland-is-faster-than-x11&#34;&gt;
+  Wayland is faster than X11
+  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-is-faster-than-x11&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In X11, the client talks to the X server -&amp;gt; X server talks to the window manager -&amp;gt; Window Manager to the compositor and finally the GPU. But in Wayland, the client directly interacts with the Compositor then to the GPU. X11 has to go through many steps which makes it slower and bloated when compared to Wayland.&lt;/p&gt;
+&lt;p&gt;In X11, the application renders to pixmap, and the pixmap is copied to X server and the compositor has to copy again and the GPU finally displays it. But in Wayland, the application directly renders to the GPU buffer and the compositor just has to reference it from the buffer.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Both the compositors have both of their pros and cons. X11 is more stable and has a mature codebase and it has a very predictable behaviour. X11 is ideal for screen recording remote desktops and has support for almost every software due to its maturity and a longer existence than Wayland. It is easier to write code for X11 and build low level tools. At the same time, It has many security flaws and broken features. The project is almost dead and many distros have continued to drop X11 as the default display server.&lt;/p&gt;
+&lt;p&gt;Wayland on the other hand, Wayland is faster than X11 because of the Zero-copy rendering and its more secure since it allows the applications to see only their input and their own surfaces. It has almost perfect frame timing, the compositor controls VSync, frame scheduling and presentation timing which prevents screen tearing. At the same time, its harder to write wayland clients, has weaker remote desktop control when compared to X11 and harder to write low level tools. It is still evolving and many of its protocol extensions are still changing constantly. Many software are yet to extend compatibility to Wayland and iss still growing at a faster rate.&lt;/p&gt;
+</description>
     </item>
+    
   </channel>
 </rss>

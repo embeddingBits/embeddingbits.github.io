@@ -1,8 +1,8 @@
 +++
-date = '2025-11-04'
+date = 2025-01-24
 title = "Software that I use"
-summary = "Software that I use and you can love"
-tags = ["linux", "window manager", "terminal", "text editor", "utilities", "notes", "documentation"]
+summary = ""
+toc = true
 showTags = true
 draft = false
 readTime = true

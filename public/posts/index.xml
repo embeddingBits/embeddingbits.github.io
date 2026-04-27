@@ -10,6 +10,22 @@
     
     
     <item>
+      <title>Writing a wayland wallpaper setter</title>
+      <link>http://localhost:1313/posts/writing_a_wayland_wallpaper_setter/</link>
+      <pubDate>Sun, 26 Apr 2026 19:23:04 +0530</pubDate>
+      <guid>http://localhost:1313/posts/writing_a_wayland_wallpaper_setter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Workflow</title>
+      <link>http://localhost:1313/posts/new_workflow/</link>
+      <pubDate>Sun, 26 Apr 2026 18:24:50 +0530</pubDate>
+      <guid>http://localhost:1313/posts/new_workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
       <link>http://localhost:1313/posts/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
@@ -1653,9 +1669,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/posts/linux_overview/linux_overview/</link>
+      <link>http://localhost:1313/posts/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/linux_overview/linux_overview/</guid>
+      <guid>http://localhost:1313/posts/linux_overview/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;Did you know Linux powers &lt;strong&gt;90% of the world’s supercomputers&lt;/strong&gt; and most of the internet’s servers?
 But have you ever thought about using it as your &lt;strong&gt;daily driver&lt;/strong&gt;?&lt;/p&gt;
