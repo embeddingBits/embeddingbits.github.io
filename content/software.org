@@ -1,9 +1,5 @@
 +++
-date = 2025-01-24
 title = "Software that I use"
-summary = ""
-toc = true
-showTags = true
 draft = false
 readTime = true
 +++

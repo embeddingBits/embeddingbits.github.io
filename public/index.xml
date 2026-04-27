@@ -10,66 +10,17 @@
     
     
     <item>
-      <title>Books</title>
-      <link>http://localhost:1313/books/</link>
-      <pubDate>Fri, 20 Feb 2026 11:59:02 +0530</pubDate>
-      <guid>http://localhost:1313/books/</guid>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Software that I use</title>
-      <link>http://localhost:1313/software/</link>
-      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/</guid>
-      <description>
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-1&#34;&gt;
-Favourite
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch Linux&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-2&#34;&gt;
-Utils
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;File Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://yazi-rs.github.io/&#34;&gt;Yazi&lt;/a&gt; as my main and only file manager.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web Browser:&lt;/strong&gt; I use &lt;a href=&#34;https://www.firefox.com/&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PDF Viewer:&lt;/strong&gt; I use &lt;a href=&#34;https://pwmt.org/projects/zathura/&#34;&gt;Zathura&lt;/a&gt; and &lt;a href=&#34;https://github.com/vedang/pdf-tools&#34;&gt;pdf-tools&lt;/a&gt; in Emacs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Misc:&lt;/strong&gt; For most of the other stuff like Word, Excel, etc., I use &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
-&lt;h2 id=&#34;headline-3&#34;&gt;
-College
-&lt;/h2&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reports and Documents:&lt;/strong&gt; I use &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt; and I write in Org Mode and export it to &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Taking Notes:&lt;/strong&gt; I manage my college and personal notes with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org Mode&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
     </item>
     
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
       <description>
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
@@ -120,11 +71,52 @@ Feel free to reach out!&lt;/p&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/</link>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/</guid>
-      <description></description>
+      <title>Software that I use</title>
+      <link>http://localhost:1313/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/software/</guid>
+      <description>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Favourite
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Utils
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;File Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://yazi-rs.github.io/&#34;&gt;Yazi&lt;/a&gt; as my main and only file manager.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Browser:&lt;/strong&gt; I use &lt;a href=&#34;https://www.firefox.com/&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PDF Viewer:&lt;/strong&gt; I use &lt;a href=&#34;https://pwmt.org/projects/zathura/&#34;&gt;Zathura&lt;/a&gt; and &lt;a href=&#34;https://github.com/vedang/pdf-tools&#34;&gt;pdf-tools&lt;/a&gt; in Emacs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Misc:&lt;/strong&gt; For most of the other stuff like Word, Excel, etc., I use &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+College
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reports and Documents:&lt;/strong&gt; I use &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt; and I write in Org Mode and export it to &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taking Notes:&lt;/strong&gt; I manage my college and personal notes with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org Mode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
