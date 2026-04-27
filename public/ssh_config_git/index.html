@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    SSH for remote git repos | eBits Blog
+    
+</title>
+<link rel="canonical" href="http://localhost:1313/ssh_config_git/"/>
+
+<meta property="og:url" content="http://localhost:1313/ssh_config_git/">
+  <meta property="og:site_name" content="eBits Blog">
+  <meta property="og:title" content="SSH for remote git repos">
+  <meta property="og:description" content="Using ssh for remote git repositories">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2025-12-31T21:52:16+05:30">
+    <meta property="article:modified_time" content="2025-12-31T21:52:16+05:30">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Ssh">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.b347c8cd5f96a25e485bb613d47f603531a966d978f2aa97fc6eb66919065a43.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+      
+
+      <h1 class="header-title">
+            <a href="http://localhost:1313/">eBits Blog</a>
+      </h1>
+
+      <div class="header-menu">
+            
+
+            
+            
+
+            <p
+                  class="small ">
+                  <a href="/posts" >
+                        /posts
+                  </a>
+            </p>
+            
+
+            <p
+                  class="small ">
+                  <a href="/software" >
+                        /my_software
+                  </a>
+            </p>
+            
+
+            <p
+                  class="small ">
+                  <a href="/tags" >
+                        /tags
+                  </a>
+            </p>
+            
+
+            <p
+                  class="small ">
+                  <a href="/index.xml" >
+                        /rss
+                  </a>
+            </p>
+            
+            
+      </div>
+      <hr></hr>
+
+      
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span>
+        <a href="/ssh_config_git/">SSH for remote git repos</a></div>
+
+
+<div >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">SSH for remote git repos</h1>
+        <p class="single-summary">Using ssh for remote git repositories</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2025-12-31T21:52:16&#43;05:30">December 31, 2025</time>
+              &nbsp; · &nbsp;1 min read &nbsp;·&nbsp; 191 words
+            </p>
+          </div>
+        </div>
+        
+    </header>    
+        <div class="single-tags"><span>
+                  <a href="http://localhost:1313/tags/git/">#Git</a>
+                </span><span>
+                  <a href="http://localhost:1313/tags/ssh/">#Ssh</a>
+                </span>
+        </div>
+      <aside class="toc">
+        <p><strong>Table of contents</strong></p>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </aside>
+    
+    <div class="single-content">
+      
+<h2 class="heading" id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h2>
+<p>There are different ways to connect to a remote git repository like GitHub, CodeBerg, GitLab, etc:</p>
+<ul>
+<li>HTTPS</li>
+<li>SSH</li>
+</ul>
+<p>HTTPS is for beginners and for casual coding and SSH on the other hand is more secure, easy to work with and used by professionals and few beginners.<br>
+The setup is fairly easier and once setup is really easy to work with.</p>
+
+<h3 class="heading" id="setup">
+  Setup
+  <a class="anchor" href="#setup">#</a>
+</h3>
+
+<h4 class="heading" id="step-1-generate-a-ssh-key">
+  Step 1: Generate a ssh key
+  <a class="anchor" href="#step-1-generate-a-ssh-key">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen -t ed25519 -a <span style="color:#d3869b">100</span> -f ~/.ssh/git -C <span style="color:#b8bb26">&#34;git@tspamiitesh@gmail.com&#34;</span>
+</span></span></code></pre></div>
+<h4 class="heading" id="step-2-start-the-ssh-agent">
+  Step 2: Start the ssh agent
+  <a class="anchor" href="#step-2-start-the-ssh-agent">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#fabd2f">eval</span> <span style="color:#b8bb26">&#34;</span><span style="color:#fe8019">$(</span>ssh-agent -s<span style="color:#fe8019">)</span><span style="color:#b8bb26">&#34;</span> <span style="color:#928374;font-style:italic"># Depends upon the shell</span>
+</span></span><span style="display:flex;"><span>ssh-add ~/.ssh/git
+</span></span></code></pre></div>
+<h4 class="heading" id="step-3-add-ssh-public-key-to-github">
+  Step 3: Add ssh public key to GitHub
+  <a class="anchor" href="#step-3-add-ssh-public-key-to-github">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ~/.ssh/git.pub
+</span></span></code></pre></div><p>Then,</p>
+<ul>
+<li>Open GitHub (or any remote git service) → Settings</li>
+<li>Go to SSH and GPG keys</li>
+<li>Click New SSH key</li>
+<li>Paste the key</li>
+<li>Save</li>
+</ul>
+
+<h4 class="heading" id="step-4-test-the-ssh-connection">
+  Step 4: Test the ssh connection
+  <a class="anchor" href="#step-4-test-the-ssh-connection">#</a>
+</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -T git@github.com
+</span></span></code></pre></div>
+<h4 class="heading" id="step-5-config-file">
+  Step 5: Config File
+  <a class="anchor" href="#step-5-config-file">#</a>
+</h4>
+<pre tabindex="0"><code>Host *
+    AddKeysToAgent yes
+    IdentitiesOnly yes
+    PreferredAuthentications publickey
+
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/git
+</code></pre><p>The above configuration is a really basic one and you can add up on many other features</p>
+<p>This is one of the most simplest ways to setup ssh</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/software_wrapped/">
+                        Tech Wrapped
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/wayland/">
+                        Is Wayland better than X11
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    
+    
+    <p>Copyright © 2025 Amiitesh TSP.</p>
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

@@ -1,0 +1,42 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} — {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ if eq .Title .Site.Title }}{{ .Site.Params.description | default (printf "Recent content on %s" .Site.Title) }}{{ else }}Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}{{ end }}</description>
+    <generator>Hugo {{ hugo.Version }} -- gohugo.io</generator>
+    <language>{{ .Site.LanguageCode }}</language>
+    <copyright>Copyright © {{ now.Format "2006" }} {{ .Site.Params.author | default .Site.Title }}. All rights reserved.</copyright>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{ with .Site.Params.author }}<managingEditor>{{ $.Site.Params.email | default "" }} ({{ . }})</managingEditor>{{ end }}
+    {{ with .Site.Params.author }}<webMaster>{{ $.Site.Params.email | default "" }} ({{ . }})</webMaster>{{ end }}
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    {{ with .OutputFormats.Get "RSS" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{ end }}
+    {{- $limit := (.Site.Params.rssLimit | default 50) -}}
+    {{- $pages := where .Site.RegularPages "Kind" "page" -}}
+    {{- if not .IsHome -}}
+      {{- $pages = .RegularPages -}}
+    {{- end -}}
+    {{- $pages = ($pages | first $limit) -}}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      {{ with .Site.Params.author }}<dc:creator>{{ . }}</dc:creator>{{ end }}
+      {{- range .Params.tags }}
+      <category>{{ . }}</category>
+      {{- end }}
+      <description>{{ with .Description }}{{ . | html }}{{ else }}{{ with .Summary }}{{ . | html }}{{ end }}{{ end }}</description>
+      <content:encoded>{{ .Content | html }}</content:encoded>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
