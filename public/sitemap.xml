@@ -2,28 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-26T19:23:04+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/writing_a_wayland_wallpaper_setter/</loc>
-    <lastmod>2026-04-26T19:23:04+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/lazygit/</loc>
-    <lastmod>2026-04-26T18:24:50+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/new_workflow/</loc>
-    <lastmod>2026-04-26T18:24:50+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/river/</loc>
-    <lastmod>2026-04-26T18:24:50+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-26T18:24:50+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/window-manager/</loc>
-    <lastmod>2026-04-26T18:24:50+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/books/</loc>
+    <lastmod>2026-02-20T11:59:02+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-20T11:59:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/philosophy/</loc>
@@ -33,6 +15,9 @@
     <lastmod>2026-02-20T11:59:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/stoicism/</loc>
+    <lastmod>2026-02-20T11:59:02+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-02-20T11:59:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/win_your_inner_battles/</loc>
@@ -51,6 +36,9 @@
     <lastmod>2026-01-13T21:02:57+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/nmtui/</loc>
+    <lastmod>2026-01-13T21:02:57+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-01-13T21:02:57+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/software/</loc>
@@ -170,10 +158,22 @@
     <loc>http://localhost:1313/posts/dwm/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/window-manager/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/hyprland/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/lazygit/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/workflow/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/river/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wm/</loc>
@@ -190,9 +190,5 @@
   </url><url>
     <loc>http://localhost:1313/posts/golang/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
   </url>
 </urlset>
