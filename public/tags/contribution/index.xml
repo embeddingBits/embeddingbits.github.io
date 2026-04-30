@@ -10,7 +10,7 @@
     <generator>Hugo 0.160.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 27 Apr 2026 23:04:44 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 19:34:12 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -20,9 +20,9 @@
     
     <item>
       <title>Tech Wrapped</title>
-      <link>http://localhost:1313/tech/tech-wrapped/</link>
+      <link>http://localhost:1313/tech/software_wrapped/software_wrapped/</link>
       <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/tech-wrapped/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/software_wrapped/software_wrapped/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wrapped</category>
       <category>tech</category>

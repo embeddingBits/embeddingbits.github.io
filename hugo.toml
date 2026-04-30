@@ -2,8 +2,6 @@ baseURL = 'https://embeddingbits.is-a.dev/'
 languageCode = 'en-us'
 title = "eBits Blog"
 theme = 'typo'
-
-googleAnalytics = "G-KP0G8R8WE2"
 enableRobotsTXT = true
 
 [taxonomies]
@@ -23,7 +21,7 @@ rssLimit = 50
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'gruvebox'
+colorPalette = 'default'
 hideHeader = false
 
 language = 'en'
@@ -83,8 +81,10 @@ url = "/tags"
 name = "rss"
 url = "/index.xml"
 
-[permalinks]
-tech = '/tech/:slug'
+[params.umami]
+enable = true
+websiteId = "cd6448d2-05fa-46d8-978e-02140c4b5470"
+jsLocation = "https://cloud.umami.is/script.js"
 
 # Syntax highlight on code blocks
 [markup]
