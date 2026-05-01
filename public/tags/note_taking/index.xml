@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Note_taking — eBits Blog</title>
-    <link>http://localhost:1313/tags/note_taking/</link>
+    <link>https://embeddingbits.is-a.dev/tags/note_taking/</link>
     <description>Recent content in Note_taking on eBits Blog</description>
     <generator>Hugo 0.160.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Apr 2026 19:34:12 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 10:48:06 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/note_taking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/note_taking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Typst vs LaTeX</title>
-      <link>http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</link>
+      <link>https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>documentation</category>
       <category>note_taking</category>

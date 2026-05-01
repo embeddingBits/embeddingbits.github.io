@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Software — eBits Blog</title>
-    <link>http://localhost:1313/tags/software/</link>
+    <link>https://embeddingbits.is-a.dev/tags/software/</link>
     <description>Recent content in Software on eBits Blog</description>
     <generator>Hugo 0.160.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Apr 2026 19:34:12 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 10:48:06 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
+      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -207,9 +207,9 @@
     
     <item>
       <title>Is Wayland better than X11</title>
-      <link>http://localhost:1313/tech/wayland/wayland/</link>
+      <link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link>
       <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wayland</category>
       <category>x11</category>
@@ -329,9 +329,9 @@
     
     <item>
       <title>Tech Wrapped</title>
-      <link>http://localhost:1313/tech/software_wrapped/software_wrapped/</link>
+      <link>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</link>
       <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/software_wrapped/software_wrapped/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wrapped</category>
       <category>tech</category>
