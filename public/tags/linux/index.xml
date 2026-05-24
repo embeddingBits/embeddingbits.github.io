@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Linux — eBits Blog</title>
-    <link>https://embeddingbits.is-a.dev/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on eBits Blog</description>
-    <generator>Hugo 0.160.1 -- gohugo.io</generator>
+    <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 01 May 2026 10:48:06 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 17:35:18 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
+      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -207,9 +207,9 @@
     
     <item>
       <title>Is Wayland better than X11</title>
-      <link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link>
+      <link>http://localhost:1313/tech/wayland/wayland/</link>
       <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wayland</category>
       <category>x11</category>
@@ -329,9 +329,9 @@
     
     <item>
       <title>Guide to QEMU as a Virtual Machine</title>
-      <link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link>
+      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>qemu</category>
       <category>vm</category>
@@ -406,9 +406,9 @@
     
     <item>
       <title>Configuring Tmux</title>
-      <link>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</link>
+      <link>http://localhost:1313/tech/tmux_config/tmux_config/</link>
       <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/tmux_config/tmux_config/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -553,9 +553,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>DWM Window Manager</title>
-      <link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link>
+      <link>http://localhost:1313/tech/dwm/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>x11</category>
       <category>window manager</category>
@@ -705,9 +705,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link>
+      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>hyprland</category>

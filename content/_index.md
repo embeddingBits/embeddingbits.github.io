@@ -5,9 +5,7 @@ title = "Home"
 
 # Hello!
 
-Hello, I’m Amiitesh, a B.Tech student specializing in Electronics and Computer Engineering 
-
-I spend most of my time messing around with Linux, programming, and exploring systems like operating systems, VLSI, and embedded systems. Apart from tech, I like reading, music, and writing.
+Hi, I'm Amiitesh. I work with Linux, programming, systems stuff like OS, VLSI and embedded systems. Apart from tech I do reading, writing blogs and music. 
 
 I use [Arch Linux](https://archlinux.org) currently and enjoy ricing my setup. You can check out my [dotfiles](https://codeberg.org/embeddingbits/dotfiles). 
 
