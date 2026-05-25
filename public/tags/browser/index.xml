@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Browser — eBits Blog</title>
-    <link>http://localhost:1313/tags/browser/</link>
+    <link>https://embeddingbits.is-a.dev/tags/browser/</link>
     <description>Recent content in Browser on eBits Blog</description>
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 24 May 2026 17:35:18 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 17:28:52 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The AI browser hype</title>
-      <link>http://localhost:1313/tech/ai_browsers/ai_browsers/</link>
+      <link>https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/ai_browsers/ai_browsers/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>AI</category>
       <category>browser</category>
@@ -61,6 +61,10 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
 
     
     
+      &lt;div class=&#34;img-container&#34;&gt;
+          &lt;img loading=&#34;lazy&#34; alt=&#34;injection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/ai_browsers/injection.png&#34;&gt;
+      &lt;/div&gt;
+    
 
     
 &lt;/figure&gt;
@@ -83,6 +87,10 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      &lt;div class=&#34;img-container&#34;&gt;
+          &lt;img loading=&#34;lazy&#34; alt=&#34;opera&#34; src=&#34;https://embeddingbits.is-a.dev/tech/ai_browsers/opera_tnc.png&#34;&gt;
+      &lt;/div&gt;
     
 
     
