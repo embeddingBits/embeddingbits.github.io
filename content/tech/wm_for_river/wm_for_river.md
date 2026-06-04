@@ -5,7 +5,7 @@ summary = "Writing my own scrollable window manager for River"
 tags = ['river', 'linux', 'software', 'window manager', 'wayland', 'open_source']
 toc = true
 showTags = true
-draft = false
+draft = true
 readTime = true
 +++
 
