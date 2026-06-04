@@ -1,0 +1,12 @@
+.side-rays-container {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}

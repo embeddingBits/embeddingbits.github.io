@@ -5,24 +5,47 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>River — eBits Blog</title>
-    <link>http://localhost:1313/tags/river/</link>
+    <link>https://embeddingbits.is-a.dev/tags/river/</link>
     <description>Recent content in River on eBits Blog</description>
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 30 May 2026 14:02:27 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/river/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/river/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Writing a Window Manager for River</title>
+      <link>https://embeddingbits.is-a.dev/tech/wm_for_river/wm_for_river/</link>
+      <pubDate>Thu, 04 Jun 2026 08:21:16 +0530</pubDate>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wm_for_river/wm_for_river/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>river</category>
+      <category>linux</category>
+      <category>software</category>
+      <category>window manager</category>
+      <category>wayland</category>
+      <category>open_source</category>
+      <description>Writing my own scrollable window manager for River</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;writing-my-own-window-manager-for-riverwm&#34;&gt;
+  Writing my own Window Manager for RiverWM
+  &lt;a class=&#34;anchor&#34; href=&#34;#writing-my-own-window-manager-for-riverwm&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;There has been a new update for River. Following the versions from &lt;code&gt;0.4.x&lt;/code&gt;, they have seperated the compositor with the window manager. It provides the users with either persoanlly made window managers or community made window managers.&lt;/p&gt;
+&lt;p&gt;It uses &lt;code&gt;river-window-management-v1&lt;/code&gt; protocol to communicate with the window management. I have been wanting to learn wayland protocol for a long time and I felt that it&amp;rsquo;s the time that I learn wayland for my own take on window management.&lt;/p&gt;
+</content:encoded>
+    </item>
     
     <item>
       <title>My Workflow</title>
-      <link>http://localhost:1313/tech/workflow/workflow/</link>
+      <link>https://embeddingbits.is-a.dev/tech/workflow/workflow/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/workflow/workflow/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/workflow/workflow/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>hyprland</category>
       <category>lazygit</category>
@@ -132,10 +155,6 @@
 
     
     
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;http://localhost:1313/tech/workflow/lazygit.png&#34;&gt;
-      &lt;/div&gt;
-    
 
     
 &lt;/figure&gt;
@@ -194,9 +213,9 @@
     
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
+      <link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>hyprland</category>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+{{ $theme := "auto"}}
+
+{{ with .Param "theme" }}
+{{ $theme = .}}
+{{ end }}
+
+<body class="{{ $theme }}">
+
+  <div class="side-rays-container" id="side-rays"></div>
+
+  <div class="content">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+
+    <main class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+
+  {{/* Body end hook */}}
+  {{ partial "functions/get_hook.html" (dict "hook" "body_end" "context" .) }}
+
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+
+  {{ if .Param "math" }}
+  {{ partialCached "math.html" . }}
+  {{ end }}
+  <script src="https://cdn.jsdelivr.net/npm/ogl/dist/ogl.umd.js"></script>
+  <script src="{{ "js/side-rays.js" | relURL }}"></script>
+  <script>
+    (function() {
+      var container = document.getElementById('side-rays');
+      if (!container || typeof SideRays === 'undefined') return;
+      new SideRays(container, {
+        speed: 2.5,
+        rayColor1: '#EAB308',
+        rayColor2: '#96c8ff',
+        intensity: 3,
+        spread: 2,
+        origin: 'top-right',
+        tilt: 0,
+        saturation: 1.5,
+        blend: 0.75,
+        falloff: 1.6,
+        opacity: 1.0
+      });
+    })();
+  </script>
+  <script defer src="{{ "js/theme-switch.js" | relURL }}"></script>
+  <script defer src="{{ "js/copy-code.js" | relURL }}"></script>
+</body>
+
+</html>

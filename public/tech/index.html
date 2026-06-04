@@ -56,7 +56,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.3fbc12e996de8f4a114f0f33ed462a3e1d120ae52ab51acc36959acb0cb3cf10.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.8a658bc1f4ed063d08326b9e805338f38b3afa9cc330dece0d316a23563c9e82.css" media="all">
 
 
 
@@ -82,6 +82,8 @@
 
 
 <body class="dark">
+
+  <div class="side-rays-container" id="side-rays"></div>
 
   <div class="content">
     <header>
@@ -153,6 +155,26 @@
     
         
             <h2 class="year-heading">2026</h2>
+            
+                
+<div class="post-line">
+    
+        <p class="line-date">
+            4 Jun 2026
+        </p>
+    
+    <div>
+        <p class="line-title">
+            <a href="/tech/wm_for_river/wm_for_river/">
+                Writing a Window Manager for River
+            </a>
+        </p>
+        
+        <p class="line-summary">Writing my own scrollable window manager for River</p>
+        
+    </div>
+</div>
+
             
                 
 <div class="post-line">
@@ -484,8 +506,29 @@
   </footer>
 
   
+  <script src="https://cdn.jsdelivr.net/npm/ogl/dist/ogl.umd.js"></script>
+  <script src="/js/side-rays.js"></script>
+  <script>
+    (function() {
+      var container = document.getElementById('side-rays');
+      if (!container || typeof SideRays === 'undefined') return;
+      new SideRays(container, {
+        speed: 2.5,
+        rayColor1: '#EAB308',
+        rayColor2: '#96c8ff',
+        intensity: 3,
+        spread: 2,
+        origin: 'top-right',
+        tilt: 0,
+        saturation: 1.5,
+        blend: 0.75,
+        falloff: 1.6,
+        opacity: 1.0
+      });
+    })();
+  </script>
+  <script defer src="/js/theme-switch.js"></script>
+  <script defer src="/js/copy-code.js"></script>
 </body>
 
-<script src="/js/theme-switch.js"></script>
-<script defer src="/js/copy-code.js"></script>
 </html>

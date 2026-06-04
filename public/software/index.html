@@ -2,7 +2,7 @@
 <html lang="en-us"
   dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
@@ -20,11 +20,11 @@
 
 
 
-<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="https://embeddingbits.is-a.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://embeddingbits.is-a.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://embeddingbits.is-a.dev/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://embeddingbits.is-a.dev/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://embeddingbits.is-a.dev/apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -35,9 +35,9 @@
     Software that I use | eBits Blog
     
 </title>
-<link rel="canonical" href="http://localhost:1313/software/"/>
+<link rel="canonical" href="https://embeddingbits.is-a.dev/software/"/>
 
-<meta property="og:url" content="http://localhost:1313/software/">
+<meta property="og:url" content="https://embeddingbits.is-a.dev/software/">
   <meta property="og:site_name" content="eBits Blog">
   <meta property="og:title" content="Software that I use">
   <meta property="og:description" content="Favourite Operating System: I use Arch Linux. Text/Code Editor: I use Emacs and Neovim. Window Manager: I use River. Terminal and Shell: I use Foot combined with fish shell. Dotfiles: I use my own dotfiles. Utils File Manager: I use Yazi as my main and only file manager. Web Browser: I use Firefox PDF Viewer: I use Zathura and pdf-tools in Emacs. Misc: For most of the other stuff like Word, Excel, etc., I use LibreOffice. College Reports and Documents: I use Typst and I write in Org Mode and export it to LaTeX. Taking Notes: I manage my college and personal notes with Org Mode.">
@@ -55,7 +55,19 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.3fbc12e996de8f4a114f0f33ed462a3e1d120ae52ab51acc36959acb0cb3cf10.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.8a658bc1f4ed063d08326b9e805338f38b3afa9cc330dece0d316a23563c9e82.css" media="all">
+
+
+
+
+
+
+<script
+  async
+  defer
+  data-website-id="cd6448d2-05fa-46d8-978e-02140c4b5470"
+  src="https://cloud.umami.is/script.js"
+></script>
 
 
 
@@ -82,6 +94,8 @@
 
 <body class="dark">
 
+  <div class="side-rays-container" id="side-rays"></div>
+
   <div class="content">
     <header>
       
@@ -91,7 +105,7 @@
       
 
       <h1 class="header-title">
-            <a href="http://localhost:1313/">eBits Blog</a>
+            <a href="https://embeddingbits.is-a.dev/">eBits Blog</a>
       </h1>
 
       <div class="header-menu">
@@ -279,8 +293,29 @@ College
   </footer>
 
   
+  <script src="https://cdn.jsdelivr.net/npm/ogl/dist/ogl.umd.js"></script>
+  <script src="/js/side-rays.js"></script>
+  <script>
+    (function() {
+      var container = document.getElementById('side-rays');
+      if (!container || typeof SideRays === 'undefined') return;
+      new SideRays(container, {
+        speed: 2.5,
+        rayColor1: '#EAB308',
+        rayColor2: '#96c8ff',
+        intensity: 2,
+        spread: 2,
+        origin: 'top-right',
+        tilt: 0,
+        saturation: 1.5,
+        blend: 0.75,
+        falloff: 1.6,
+        opacity: 1.0
+      });
+    })();
+  </script>
+  <script defer src="/js/theme-switch.js"></script>
+  <script defer src="/js/copy-code.js"></script>
 </body>
 
-<script src="/js/theme-switch.js"></script>
-<script defer src="/js/copy-code.js"></script>
 </html>

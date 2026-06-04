@@ -44,7 +44,7 @@
   <meta property="og:title" content="Home">
   <meta property="og:description" content="Hello! # Hi, I’m Amiitesh. I work with Linux, programming. I deal with low-level stuff like OS, embedded systems and VLSI. Apart from tech I do reading, writing blogs and music.
 I use Arch Linux currently and enjoy ricing my setup. You can check out my dotfiles.
-I’m also into Free and Open Source Software (FOSS). I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my software and software that I use here. I write blogs about what I learn, things I find interesting, and ideas I’m experimenting with.">
+I’m also into Free and Open Source Software (FOSS). I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my software and software that I use here.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
@@ -59,7 +59,7 @@ I’m also into Free and Open Source Software (FOSS). I like the idea of open co
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.3fbc12e996de8f4a114f0f33ed462a3e1d120ae52ab51acc36959acb0cb3cf10.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.8a658bc1f4ed063d08326b9e805338f38b3afa9cc330dece0d316a23563c9e82.css" media="all">
 
 
 
@@ -85,6 +85,8 @@ I’m also into Free and Open Source Software (FOSS). I like the idea of open co
 
 
 <body class="dark">
+
+  <div class="side-rays-container" id="side-rays"></div>
 
   <div class="content">
     <header>
@@ -155,8 +157,8 @@ I’m also into Free and Open Source Software (FOSS). I like the idea of open co
 </h1>
 <p>Hi, I&rsquo;m Amiitesh. I work with Linux, programming. I deal with low-level stuff like OS, embedded systems and VLSI. Apart from tech I do reading, writing blogs and music.</p>
 <p>I use <a href="https://archlinux.org">Arch Linux</a> currently and enjoy ricing my setup. You can check out my <a href="https://codeberg.org/embeddingbits/dotfiles">dotfiles</a>.</p>
-<p>I’m also into Free and Open Source Software (FOSS). I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my <a href="https://codeberg.org/embeddingbits/">software</a> and software that I use <a href="https://embeddingbits.is-a.dev/software">here</a>.
-I write blogs about what I learn, things I find interesting, and ideas I’m experimenting with.</p>
+<p>I’m also into Free and Open Source Software (FOSS). I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my <a href="https://codeberg.org/embeddingbits/">software</a> and software that I use <a href="https://embeddingbits.is-a.dev/software">here</a>.</p>
+<p>I write blogs about what I learn, things I find interesting, and ideas I’m experimenting with.</p>
 <p>You can contact me at:</p>
 <ul>
 <li>Email: <a href="tspamiitesh@gmail.com">tspamiitesh@gmail.com</a></li>
@@ -252,8 +254,29 @@ I write blogs about what I learn, things I find interesting, and ideas I’m exp
   </footer>
 
   
+  <script src="https://cdn.jsdelivr.net/npm/ogl/dist/ogl.umd.js"></script>
+  <script src="/js/side-rays.js"></script>
+  <script>
+    (function() {
+      var container = document.getElementById('side-rays');
+      if (!container || typeof SideRays === 'undefined') return;
+      new SideRays(container, {
+        speed: 2.5,
+        rayColor1: '#EAB308',
+        rayColor2: '#96c8ff',
+        intensity: 3,
+        spread: 2,
+        origin: 'top-right',
+        tilt: 0,
+        saturation: 1.5,
+        blend: 0.75,
+        falloff: 1.6,
+        opacity: 1.0
+      });
+    })();
+  </script>
+  <script defer src="/js/theme-switch.js"></script>
+  <script defer src="/js/copy-code.js"></script>
 </body>
 
-<script src="/js/theme-switch.js"></script>
-<script defer src="/js/copy-code.js"></script>
 </html>

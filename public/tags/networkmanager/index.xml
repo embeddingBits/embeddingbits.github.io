@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Networkmanager — eBits Blog</title>
-    <link>http://localhost:1313/tags/networkmanager/</link>
+    <link>https://embeddingbits.is-a.dev/tags/networkmanager/</link>
     <description>Recent content in Networkmanager on eBits Blog</description>
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 30 May 2026 14:02:27 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/networkmanager/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/networkmanager/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
+      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -54,10 +54,6 @@
 
     
     
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui_start.png&#34;&gt;
-      &lt;/div&gt;
-    
 
     
 &lt;/figure&gt;
@@ -79,10 +75,6 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
-    
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui_connection.png&#34;&gt;
-      &lt;/div&gt;
     
 
     
@@ -124,10 +116,6 @@
 
     
     
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmgui_start.png#small&#34;&gt;
-      &lt;/div&gt;
-    
 
     
 &lt;/figure&gt;
@@ -151,10 +139,6 @@
 &lt;figure class=&#34; img-small&#34;&gt;
 
     
-    
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmgui_image.png#small&#34;&gt;
-      &lt;/div&gt;
     
 
     
@@ -180,10 +164,6 @@
 
     
     
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmgui_field.png#small&#34;&gt;
-      &lt;/div&gt;
-    
 
     
 &lt;/figure&gt;
@@ -204,10 +184,6 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
-    
-      &lt;div class=&#34;img-container&#34;&gt;
-          &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmgui_connection.png&#34;&gt;
-      &lt;/div&gt;
     
 
     
