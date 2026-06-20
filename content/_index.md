@@ -7,7 +7,7 @@ title = "Home"
 
 Hi, I'm Amiitesh. I work with Linux, programming. I deal with low-level stuff like OS, embedded systems and VLSI. Apart from tech I do reading, writing blogs and music. 
 
-I use [Arch Linux](https://archlinux.org) currently and enjoy ricing my setup. You can check out my [dotfiles](https://codeberg.org/embeddingbits/dotfiles). 
+I use [NixOS](https://nixos.org) currently and enjoy ricing my setup. You can check out my [dotfiles](https://codeberg.org/embeddingbits/nixos-dotfiles). 
 
 I’m also into Free and Open Source Software (FOSS). I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my [software](https://codeberg.org/embeddingbits/) and software that I use [here](https://embeddingbits.is-a.dev/software).
 

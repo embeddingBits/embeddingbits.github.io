@@ -10,7 +10,7 @@
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:12:44 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -30,42 +30,22 @@
       <category>wm</category>
       <category>river</category>
       <description>My developer workflow</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;about-myself&#34;&gt;
-  About Myself
-  &lt;a class=&#34;anchor&#34; href=&#34;#about-myself&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+      <content:encoded>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h3 id=&#34;about-myself&#34;&gt;About Myself&lt;/h3&gt;
 &lt;p&gt;Welcome to this blog, in this blog I&amp;rsquo;ll be discussing about my developer workflow.&lt;/p&gt;
 &lt;p&gt;I am a college student, currently in my freshman year. I develop many open source projects and through my journey of developing projects, I have tried many tools and software to make my job easier and interesting to work on. In this blog, I will be sharing all the tools and software I use everyday ranging from Desktop to CLI Tools.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;operating-system&#34;&gt;
-  Operating System
-  &lt;a class=&#34;anchor&#34; href=&#34;#operating-system&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;operating-system&#34;&gt;Operating System&lt;/h2&gt;
 &lt;p&gt;This is one of my most favourite part. I have used &lt;strong&gt;Linux&lt;/strong&gt; since my childhood, because I was influenced by my dad that I started using Linux as he uses Linux and MacOS most of the time. I am so used to using Linux that is often annoys me when I have to use Windows here at college during labs cause I am more used to coding in terminal and terminal-based editors.&lt;/p&gt;
 &lt;p&gt;Now, for the part of the operating system, Arch Linux. I used to use Ubuntu and wanted to try out Arch Linux for fun and it turned out that I liked it. Arch Linux is more of a DIY Operating System, it gives up complete freedom over what we want to do right from the time of installation.&lt;/p&gt;
 &lt;p&gt;It has one of the most powerful package managers, &lt;strong&gt;pacman&lt;/strong&gt; and &lt;strong&gt;AUR (Arch User Repository)&lt;/strong&gt; package managers like &lt;strong&gt;yay&lt;/strong&gt; and &lt;strong&gt;paru&lt;/strong&gt;. There is almost every imaginable package or software in the AUR, so much so that anything that does not exist in the AUR can be said &amp;ldquo;uninvented&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Arch is a very &lt;strong&gt;lightweight distro&lt;/strong&gt; and can be very well suitable to be used on old hardware. Almost every desktop environment is stable on Arch and we can choose whatever we find suitable for us.&lt;/p&gt;
 &lt;p&gt;Another advantage of using Linux is that we can configure almost everything right from the kernel to the visually-pleasing DEs.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;desktop-environment&#34;&gt;
-  Desktop Environment
-  &lt;a class=&#34;anchor&#34; href=&#34;#desktop-environment&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;desktop-environment&#34;&gt;Desktop Environment&lt;/h2&gt;
 &lt;p&gt;For the desktop environment, I use two different desktop environments: &lt;strong&gt;River&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;My primary DE is River, River is not exactly a DE but its called Window Manager, they automatically tile windows when they are created instead of manually adjusting them by ourselves.&lt;/p&gt;
 &lt;p&gt;Now, I&amp;rsquo;ll explain why and how I use River. I follow certain rules that have become a habit for me over time. I initially got this idea from one of my favorite tech YouTubers, ThePrimeagen, and his way of using window managers.&lt;/p&gt;
 &lt;p&gt;Window Managers are convenient for people who use keyboard more than the mouse like myself. Everything can be configured with keybinds right from switching panes to switching workspaces. In my config, I have 5 workspaces by default and I could switch them using &amp;ldquo;SUPER + workspace_number&amp;rdquo; (SUPER is nothing but the window key).&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;so-heres-how-i-use-it&#34;&gt;
-  So, here&amp;rsquo;s how I use it:
-  &lt;a class=&#34;anchor&#34; href=&#34;#so-heres-how-i-use-it&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;so-heres-how-i-use-it&#34;&gt;So, here&amp;rsquo;s how I use it:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Workspace 1:&lt;/strong&gt; In the first workspace, I have the &lt;strong&gt;text editor&lt;/strong&gt; and the &lt;strong&gt;terminal&lt;/strong&gt; I&amp;rsquo;m working running on a &lt;strong&gt;tmux session&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Workspace 2:&lt;/strong&gt; In workspace 2, I have my &lt;strong&gt;browser&lt;/strong&gt; open for whenever I encounter issues; I get them fixed with Stack Overflow.&lt;/li&gt;
@@ -73,34 +53,18 @@
 &lt;li&gt;&lt;strong&gt;Workspace 4:&lt;/strong&gt; I don&amp;rsquo;t usually use 4 and 5 but it depends. But, most of the times its just junk that I have in here.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So, following the above rules over time, they became ingrained in my muscle memory. Now, when I think &amp;rsquo;editor,&amp;rsquo; my fingers instinctively press &amp;lsquo;SUPER + 1,&amp;rsquo; and when I think &amp;lsquo;browser,&amp;rsquo; they press &amp;lsquo;SUPER + 2,&amp;rsquo; and so on for the rest.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;terminal-and-code-editor&#34;&gt;
-  Terminal and Code Editor
-  &lt;a class=&#34;anchor&#34; href=&#34;#terminal-and-code-editor&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;terminal-and-code-editor&#34;&gt;Terminal and Code Editor&lt;/h2&gt;
 &lt;p&gt;This is also one of the most parts of my workflow. I live in the terminal/command line (Shortly as TUI). The only time I use the GUI is for browsing the web, the rest of the time I only spend it in the terminal. So configuring a good terminal and a good terminal-based code editor is one of the most important part for people like me.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For the terminal emulator, I use &lt;strong&gt;ghostty&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;For the code editor, I use &lt;strong&gt;Neovim&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;ghostty-terminal-emulator&#34;&gt;
-  Ghostty Terminal Emulator
-  &lt;a class=&#34;anchor&#34; href=&#34;#ghostty-terminal-emulator&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;ghostty-terminal-emulator&#34;&gt;Ghostty Terminal Emulator&lt;/h3&gt;
 &lt;p&gt;I use the kitty terminal with my minimal configuration like fonts, colorscheme and etc.&lt;/p&gt;
 &lt;p&gt;For the fonts, I use a global configuration with IosevkaTerm Nerd Font and for the colorscheme I use Gruvbox all over my Linux config.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;neovim-text-editor&#34;&gt;
-  Neovim Text Editor
-  &lt;a class=&#34;anchor&#34; href=&#34;#neovim-text-editor&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;neovim-text-editor&#34;&gt;Neovim Text Editor&lt;/h3&gt;
 &lt;p&gt;I use &lt;strong&gt;Neovim&lt;/strong&gt; as a text editor for all purposes, from &lt;strong&gt;editing LaTeX documents to writing code&lt;/strong&gt;. Neovim has a &lt;strong&gt;steep learning curve&lt;/strong&gt;, but ultimately it&amp;rsquo;s incredibly useful because I rarely need to take my hands off the keyboard.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;tools-and-software&#34;&gt;
-  Tools and Software
-  &lt;a class=&#34;anchor&#34; href=&#34;#tools-and-software&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;tools-and-software&#34;&gt;Tools and Software&lt;/h2&gt;
 &lt;p&gt;There are many CLI tools and software that makes my job done easier and faster.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Git/Github&lt;/li&gt;
@@ -109,70 +73,27 @@
 &lt;li&gt;Tmux&lt;/li&gt;
 &lt;li&gt;fzf&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;gitgithub-and-lazygit&#34;&gt;
-  Git/GitHub and LazyGit
-  &lt;a class=&#34;anchor&#34; href=&#34;#gitgithub-and-lazygit&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;gitgithub-and-lazygit&#34;&gt;Git/GitHub and LazyGit&lt;/h3&gt;
 &lt;p&gt;One of the most important tool that I use everyday is &lt;strong&gt;Git/GitHub combined with LazyGit&lt;/strong&gt;. I don&amp;rsquo;t store my codes or projects locally. Even if the project is uncompleted I store them on GitHub under a public or a private repo. LazyGit makes Git a easy job. Instead of wanting to have type all the commands manually, LazyGit created a TUI (Terminal User Interface) driven by keybinds. It helps view changes, stage them, write commits and push them to remote repo under just keybinds.&lt;/p&gt;
 &lt;p&gt;This is how LazyGit looks:&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./lazygit.png&#34; alt=&#34;lazygit&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As you can see, viewing the changes and commits all under a same place makes us complete our job way faster.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;tmux-terminal-session-and-uses&#34;&gt;
-  Tmux Terminal Session and uses
-  &lt;a class=&#34;anchor&#34; href=&#34;#tmux-terminal-session-and-uses&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;tmux-terminal-session-and-uses&#34;&gt;Tmux Terminal Session and uses&lt;/h3&gt;
 &lt;p&gt;Tmux is another one of such useful tools that I use. Tmux stands for Terminal Multiplexer and is used in Unix-like operating systems. It allows to use multiple terminal sessions in the terminal window. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session, which is helpful when we accidentally close the session without saveing the changes.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;fish-shell-and-fzf-fuzzy-finder&#34;&gt;
-  Fish Shell and fzf fuzzy finder
-  &lt;a class=&#34;anchor&#34; href=&#34;#fish-shell-and-fzf-fuzzy-finder&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;fish-shell-and-fzf-fuzzy-finder&#34;&gt;Fish Shell and fzf fuzzy finder&lt;/h3&gt;
 &lt;p&gt;The standard shell for all the Linux distros is bash. We can choose whatever shell we want after that. The most common choices for shells are bash, zsh and fish. The syntax and structure of fish is way different than what it is in zsh.&lt;/p&gt;
 &lt;p&gt;Fish is a interactive shell where we can directly interact with the terminal. For example: In bash if we type ls and hit tab it will display the files and directories but we cannot directly interact with the shell to choose, instead we have to look at the file we want and type it and hit tab to complete. Whereas, in fish we can select it directly using the keys.&lt;/p&gt;
 &lt;p&gt;With the combined use of fzf (a fuzzy finder), we can make fish shell more powerful than what it already is.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;programming-language&#34;&gt;
-  Programming Language
-  &lt;a class=&#34;anchor&#34; href=&#34;#programming-language&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;programming-language&#34;&gt;Programming Language&lt;/h2&gt;
 &lt;p&gt;For the part of programming language, I am more into Cybersecurity, Network programming, DevOps and Kernel development. So I work mostly in C, C++, Assembly (for reverse engineering), Python and bash script.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For Kernel development, I use C programming.&lt;/li&gt;
 &lt;li&gt;For embedded systems, I use C and Zig.&lt;/li&gt;
 &lt;li&gt;For systems programming, I use C, Zig and C++.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;bottom-note&#34;&gt;Bottom Note&lt;/h2&gt;
 &lt;p&gt;These are the tools and software that I use when I develop projects and much more. I uniformly use the Nord colorscheme.&lt;/p&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;here-are-the-links-to-everything-i-use&#34;&gt;
-  Here are the links to everything I use:
-  &lt;a class=&#34;anchor&#34; href=&#34;#here-are-the-links-to-everything-i-use&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;h4 id=&#34;here-are-the-links-to-everything-i-use&#34;&gt;Here are the links to everything I use:&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;My Linux Configuration:&lt;/strong&gt; &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Arch Linux:&lt;/strong&gt; &lt;a href=&#34;https://archlinux.org/&#34;&gt;https://archlinux.org/&lt;/a&gt;&lt;/li&gt;

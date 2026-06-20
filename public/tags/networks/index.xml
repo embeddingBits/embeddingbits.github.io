@@ -10,7 +10,7 @@
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:12:44 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -32,54 +32,12 @@
       <category>nmtui</category>
       <category>networkmanager</category>
       <description>Connecting to college WiFi</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;
-  Connecting to college WiFi using nmtui
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-nmtui&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+      <content:encoded>&lt;h2 id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;Connecting to college WiFi using nmtui&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open a terminal and run &lt;code&gt;nmtui&lt;/code&gt; and in the selection navigate to &lt;code&gt;activate a connection&lt;/code&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;img src=&#34;./nmtui_start.png&#34; alt=&#34;nmtui_start&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the list, select the WiFi you want to connect to.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; You&amp;rsquo;ll be taken to a screen similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;img src=&#34;./nmtui_connection.png&#34; alt=&#34;nmtui_connection&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Verify that the SSID matches the network you want to connect to, then configure the settings below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Authentication -&amp;gt; PEAP (Protected PEAP)&lt;/li&gt;
@@ -91,104 +49,15 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
 &lt;p&gt;Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;
-  Connecting to college WiFi using NetworkManager GUI
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;Connecting to college WiFi using NetworkManager GUI&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open the application -&amp;gt; &lt;strong&gt;Advanced Network Configuration&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./nmgui_start.png#small&#34; alt=&#34;nmgui_start&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the dropdown menu, Select WiFi and enter &lt;em&gt;Create&amp;hellip;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./nmgui_image.png#small&#34; alt=&#34;nmgui_start&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Under the &lt;em&gt;WiFi&lt;/em&gt; tab, enter the name of the WiFi connection that you want to connect to in the SSID field.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./nmgui_field.png#small&#34; alt=&#34;nmgui_field&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Now after that go to the &lt;em&gt;WiFi Security&lt;/em&gt; tab, you&amp;rsquo;ll see a configuration window similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-
-    
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;img src=&#34;./nmgui_connection.png&#34; alt=&#34;nmgui_connection&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Under &lt;em&gt;WiFi Security&lt;/em&gt;, check if SSID is the network you want to connect to under the &lt;em&gt;WiFi&lt;/em&gt; tab and after that under the &lt;em&gt;WiFi Security&lt;/em&gt; tab change the settings to the one below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Security -&amp;gt; WPA/WPA2 Enterprise&lt;/li&gt;
@@ -221,21 +90,13 @@
 &lt;p&gt;Golang uses &lt;strong&gt;Goroutines&lt;/strong&gt; (lightweight processes) and a collection of &lt;strong&gt;packages and commands&lt;/strong&gt; for dependency management. It was designed to solve issues like &lt;strong&gt;slow build times&lt;/strong&gt;, &lt;strong&gt;difficulty writing tools&lt;/strong&gt;, and &lt;strong&gt;cross-language development&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;In this blog, I’ll discuss Golang and provide resources to get started.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;history-of-go&#34;&gt;
-  History of Go
-  &lt;a class=&#34;anchor&#34; href=&#34;#history-of-go&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;history-of-go&#34;&gt;History of Go&lt;/h2&gt;
 &lt;p&gt;Golang was created by Google to solve their internal software engineering issues as an alternative to &lt;strong&gt;C++&lt;/strong&gt;. Development began in &lt;strong&gt;2007&lt;/strong&gt;, with the goal of designing a language that was easier to use while incorporating the best features of C++, JavaScript, and Python.
 It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google in &lt;strong&gt;2009&lt;/strong&gt;, allowing community contributions.&lt;/p&gt;
 &lt;p&gt;Since then, new features have been added regularly, with a &lt;strong&gt;major update in 2022&lt;/strong&gt; introducing &lt;strong&gt;Generics&lt;/strong&gt; (a major feature from Java).&lt;/p&gt;
 &lt;p&gt;Due to its fast growth and practical design, major companies such as &lt;strong&gt;Netflix&lt;/strong&gt;, &lt;strong&gt;Microsoft&lt;/strong&gt;, &lt;strong&gt;Cloudflare&lt;/strong&gt;, &lt;strong&gt;Docker&lt;/strong&gt;, &lt;strong&gt;Twitch&lt;/strong&gt;, and &lt;strong&gt;Dropbox&lt;/strong&gt; adopted Go in their codebases.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;philosophy-of-go&#34;&gt;
-  Philosophy of Go
-  &lt;a class=&#34;anchor&#34; href=&#34;#philosophy-of-go&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;philosophy-of-go&#34;&gt;Philosophy of Go&lt;/h2&gt;
 &lt;p&gt;The philosophy of Go and the problems it addresses are quite interesting:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Simplicity:&lt;/strong&gt; Go focuses on simplicity. While many languages add features that lead to bloat, Go only includes features considered useful in the long term.&lt;/li&gt;
@@ -244,11 +105,7 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;li&gt;&lt;strong&gt;Pragmatism:&lt;/strong&gt; Go emphasizes practical and logical solutions to real-world problems.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;features-of-go&#34;&gt;
-  Features of Go
-  &lt;a class=&#34;anchor&#34; href=&#34;#features-of-go&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;features-of-go&#34;&gt;Features of Go&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Standard Library:&lt;/strong&gt; Rich collection of standard libraries ranging from math to networking.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Package Management:&lt;/strong&gt; Easy management of user-created packages and publishing them via CLI commands.&lt;/li&gt;
@@ -258,44 +115,20 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;li&gt;&lt;strong&gt;Concurrency:&lt;/strong&gt; Through &lt;strong&gt;Goroutines&lt;/strong&gt;, Go allows multiple tasks to run in parallel — one of its defining features.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;some-useful-go-commands&#34;&gt;
-  Some Useful Go Commands
-  &lt;a class=&#34;anchor&#34; href=&#34;#some-useful-go-commands&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;go-run&#34;&gt;
-  &lt;code&gt;go run&lt;/code&gt;
-  &lt;a class=&#34;anchor&#34; href=&#34;#go-run&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h2 id=&#34;some-useful-go-commands&#34;&gt;Some Useful Go Commands&lt;/h2&gt;
+&lt;h3 id=&#34;go-run&#34;&gt;&lt;code&gt;go run&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Compiles and executes code simultaneously.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go run filename.go
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 class=&#34;heading&#34; id=&#34;go-build&#34;&gt;
-  &lt;code&gt;go build&lt;/code&gt;
-  &lt;a class=&#34;anchor&#34; href=&#34;#go-build&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;go-build&#34;&gt;&lt;code&gt;go build&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Compiles the code and creates an executable file.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go build filename.go
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 class=&#34;heading&#34; id=&#34;go-get&#34;&gt;
-  &lt;code&gt;go get&lt;/code&gt;
-  &lt;a class=&#34;anchor&#34; href=&#34;#go-get&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;go-get&#34;&gt;&lt;code&gt;go get&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Imports third-party libraries from repositories like GitHub.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go get github.com/libname
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 class=&#34;heading&#34; id=&#34;go-fmt&#34;&gt;
-  &lt;code&gt;go fmt&lt;/code&gt;
-  &lt;a class=&#34;anchor&#34; href=&#34;#go-fmt&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;go-fmt&#34;&gt;&lt;code&gt;go fmt&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;Automatically formats code for readability using proper indentation and line spacing.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go fmt filename.go
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 class=&#34;heading&#34; id=&#34;unformatted-file&#34;&gt;
-  Unformatted File
-  &lt;a class=&#34;anchor&#34; href=&#34;#unformatted-file&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;unformatted-file&#34;&gt;Unformatted File&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;package&lt;/span&gt; main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -306,11 +139,7 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;c&lt;span style=&#34;color:#fe8019&#34;&gt;:=&lt;/span&gt;a&lt;span style=&#34;color:#fe8019&#34;&gt;+&lt;/span&gt;b
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fmt.&lt;span style=&#34;color:#fabd2f&#34;&gt;Println&lt;/span&gt;(c)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 class=&#34;heading&#34; id=&#34;formatted-file-with-go-fmt&#34;&gt;
-  Formatted File with &lt;code&gt;go fmt&lt;/code&gt;
-  &lt;a class=&#34;anchor&#34; href=&#34;#formatted-file-with-go-fmt&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;formatted-file-with-go-fmt&#34;&gt;Formatted File with &lt;code&gt;go fmt&lt;/code&gt;&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;package&lt;/span&gt; main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -323,11 +152,7 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can see how the command improves readability and structure.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-is-go-used-for&#34;&gt;
-  What is Go Used For?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-go-used-for&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-go-used-for&#34;&gt;What is Go Used For?&lt;/h2&gt;
 &lt;p&gt;Go is widely used in various domains:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Container Services:&lt;/strong&gt; Tools like &lt;strong&gt;Docker&lt;/strong&gt; and &lt;strong&gt;Kubernetes&lt;/strong&gt; use Go for efficient containerization and concurrency.&lt;/li&gt;
@@ -338,11 +163,7 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;li&gt;&lt;strong&gt;Data Science:&lt;/strong&gt; Go’s concurrency and memory management make it suitable for handling large datasets efficiently.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;how-to-learn-go&#34;&gt;
-  How to Learn Go
-  &lt;a class=&#34;anchor&#34; href=&#34;#how-to-learn-go&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;how-to-learn-go&#34;&gt;How to Learn Go&lt;/h2&gt;
 &lt;p&gt;Go is relatively easy to learn. Some may find &lt;strong&gt;Goroutines&lt;/strong&gt;, &lt;strong&gt;Channels&lt;/strong&gt;, and &lt;strong&gt;Concurrency&lt;/strong&gt; challenging — but these are also Go’s most powerful features.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The best features always take effort to master!&lt;/p&gt;
@@ -354,30 +175,18 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;li&gt;&lt;strong&gt;A Tour of Go&lt;/strong&gt; — covers syntax and fundamentals, from variables to concurrency.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Effective Go&lt;/strong&gt; — teaches how to write clear, idiomatic Go code.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;official-docs&#34;&gt;
-  Official Docs
-  &lt;a class=&#34;anchor&#34; href=&#34;#official-docs&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;official-docs&#34;&gt;Official Docs&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;A Tour of Go:&lt;/strong&gt; &lt;a href=&#34;https://go.dev/tour/welcome/1&#34;&gt;https://go.dev/tour/welcome/1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Effective Go:&lt;/strong&gt; &lt;a href=&#34;https://go.dev/doc/effective_go&#34;&gt;https://go.dev/doc/effective_go&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;recommended-book&#34;&gt;
-  Recommended Book
-  &lt;a class=&#34;anchor&#34; href=&#34;#recommended-book&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id=&#34;recommended-book&#34;&gt;Recommended Book&lt;/h3&gt;
 &lt;p&gt;The best beginner-friendly book to learn Go:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Learning Go:&lt;/strong&gt; &lt;a href=&#34;https://www.miek.nl/go/&#34;&gt;https://www.miek.nl/go/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;thank-you&#34;&gt;
-  Thank You
-  &lt;a class=&#34;anchor&#34; href=&#34;#thank-you&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;thank-you&#34;&gt;Thank You&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Thank you for reading this blog!&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 </content:encoded>

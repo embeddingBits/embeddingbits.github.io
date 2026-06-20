@@ -2,31 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://embeddingbits.is-a.dev/tags/linux/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/open_source/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/river/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/software/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/wayland/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tags/window-manager/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
-    <loc>https://embeddingbits.is-a.dev/tech/wm_for_river/wm_for_river/</loc>
-    <lastmod>2026-06-04T08:21:16+05:30</lastmod>
-  </url><url>
     <loc>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</loc>
+    <lastmod>2026-01-13T21:02:57+05:30</lastmod>
+  </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/linux/</loc>
     <lastmod>2026-01-13T21:02:57+05:30</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/networkmanager/</loc>
@@ -36,6 +15,12 @@
     <lastmod>2026-01-13T21:02:57+05:30</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/nmtui/</loc>
+    <lastmod>2026-01-13T21:02:57+05:30</lastmod>
+  </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/software/</loc>
+    <lastmod>2026-01-13T21:02:57+05:30</lastmod>
+  </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/</loc>
     <lastmod>2026-01-13T21:02:57+05:30</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tech/</loc>
@@ -53,6 +38,9 @@
     <loc>https://embeddingbits.is-a.dev/tags/tech/</loc>
     <lastmod>2026-01-11T13:07:25+05:30</lastmod>
   </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/wayland/</loc>
+    <lastmod>2026-01-11T13:07:25+05:30</lastmod>
+  </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/x11/</loc>
     <lastmod>2026-01-11T13:07:25+05:30</lastmod>
   </url><url>
@@ -66,6 +54,9 @@
     <lastmod>2025-12-31T21:52:16+05:30</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/contribution/</loc>
+    <lastmod>2025-12-29T10:23:03+05:30</lastmod>
+  </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/open_source/</loc>
     <lastmod>2025-12-29T10:23:03+05:30</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</loc>
@@ -146,6 +137,9 @@
     <loc>https://embeddingbits.is-a.dev/tech/dwm/dwm/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/window-manager/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/hyprland/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -153,6 +147,9 @@
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tech/workflow/workflow/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://embeddingbits.is-a.dev/tags/river/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://embeddingbits.is-a.dev/tags/wm/</loc>

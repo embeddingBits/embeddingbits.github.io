@@ -10,7 +10,7 @@
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:12:44 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -27,11 +27,7 @@
       <category>git</category>
       <category>ssh</category>
       <description>Using ssh for remote git repositories</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+      <content:encoded>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;There are different ways to connect to a remote git repository like GitHub, CodeBerg, GitLab, etc:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;HTTPS&lt;/li&gt;
@@ -39,29 +35,13 @@
 &lt;/ul&gt;
 &lt;p&gt;HTTPS is for beginners and for casual coding and SSH on the other hand is more secure, easy to work with and used by professionals and few beginners.&lt;br&gt;
 The setup is fairly easier and once setup is really easy to work with.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;setup&#34;&gt;
-  Setup
-  &lt;a class=&#34;anchor&#34; href=&#34;#setup&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;step-1-generate-a-ssh-key&#34;&gt;
-  Step 1: Generate a ssh key
-  &lt;a class=&#34;anchor&#34; href=&#34;#step-1-generate-a-ssh-key&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
+&lt;h4 id=&#34;step-1-generate-a-ssh-key&#34;&gt;Step 1: Generate a ssh key&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-keygen -t ed25519 -a &lt;span style=&#34;color:#d3869b&#34;&gt;100&lt;/span&gt; -f ~/.ssh/git -C &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;git@tspamiitesh@gmail.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 class=&#34;heading&#34; id=&#34;step-2-start-the-ssh-agent&#34;&gt;
-  Step 2: Start the ssh agent
-  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-start-the-ssh-agent&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-start-the-ssh-agent&#34;&gt;Step 2: Start the ssh agent&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;eval&lt;/span&gt; &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span style=&#34;color:#fe8019&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#928374;font-style:italic&#34;&gt;# Depends upon the shell&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-add ~/.ssh/git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 class=&#34;heading&#34; id=&#34;step-3-add-ssh-public-key-to-github&#34;&gt;
-  Step 3: Add ssh public key to GitHub
-  &lt;a class=&#34;anchor&#34; href=&#34;#step-3-add-ssh-public-key-to-github&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-add-ssh-public-key-to-github&#34;&gt;Step 3: Add ssh public key to GitHub&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat ~/.ssh/git.pub
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then,&lt;/p&gt;
 &lt;ul&gt;
@@ -71,17 +51,9 @@ The setup is fairly easier and once setup is really easy to work with.&lt;/p&gt;
 &lt;li&gt;Paste the key&lt;/li&gt;
 &lt;li&gt;Save&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;step-4-test-the-ssh-connection&#34;&gt;
-  Step 4: Test the ssh connection
-  &lt;a class=&#34;anchor&#34; href=&#34;#step-4-test-the-ssh-connection&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;h4 id=&#34;step-4-test-the-ssh-connection&#34;&gt;Step 4: Test the ssh connection&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh -T git@github.com
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 class=&#34;heading&#34; id=&#34;step-5-config-file&#34;&gt;
-  Step 5: Config File
-  &lt;a class=&#34;anchor&#34; href=&#34;#step-5-config-file&#34;&gt;#&lt;/a&gt;
-&lt;/h4&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-5-config-file&#34;&gt;Step 5: Config File&lt;/h4&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Host *
     AddKeysToAgent yes
     IdentitiesOnly yes

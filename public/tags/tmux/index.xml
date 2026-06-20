@@ -10,7 +10,7 @@
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:12:44 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -28,11 +28,7 @@
       <category>terminal</category>
       <category>tmux</category>
       <description>Configuring a really simple tmux config</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+      <content:encoded>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Welcome to this blog where I will be taking you through certain steps to get your own &lt;strong&gt;tmux configuration&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;First of all, let&amp;rsquo;s see: &lt;strong&gt;What is Tmux? and Why is it used?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tmux&lt;/strong&gt; stands for &lt;strong&gt;Terminal Multiplexer&lt;/strong&gt; and is used in Unix-like operating systems. It allows you to use &lt;strong&gt;multiple terminal sessions in a single terminal window&lt;/strong&gt;. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session — which is helpful when we accidentally close the session without saving changes.&lt;/p&gt;
@@ -41,11 +37,7 @@
 &lt;p&gt;In the above video, I opened a tmux session, created three split panes, created a tmux window, closed the terminal, and reattached using the session name &lt;code&gt;&amp;quot;test&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;default configuration&lt;/strong&gt; for tmux is good, but we can add our own &lt;strong&gt;plugins&lt;/strong&gt;, &lt;strong&gt;colorschemes&lt;/strong&gt;, &lt;strong&gt;custom keybinds&lt;/strong&gt;, and more. Configuring tmux is &lt;strong&gt;not a tough job&lt;/strong&gt; and is relatively easy. I use a simple minimal tmux configuration — and I’ll take you through the steps to achieve it.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;getting-started&#34;&gt;
-  Getting Started
-  &lt;a class=&#34;anchor&#34; href=&#34;#getting-started&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
 &lt;p&gt;To begin, locate the tmux configuration file:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~/.tmux.conf
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Open it with your favorite editor.&lt;/p&gt;
@@ -56,11 +48,7 @@ bind r source-file ~/.tmux.conf
 &lt;p&gt;Now press &lt;code&gt;Ctrl+s&lt;/code&gt;, then &lt;code&gt;r&lt;/code&gt; to reload the config instantly.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;rebinding-the-default-prefix&#34;&gt;
-  Rebinding the default prefix
-  &lt;a class=&#34;anchor&#34; href=&#34;#rebinding-the-default-prefix&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;rebinding-the-default-prefix&#34;&gt;Rebinding the default prefix&lt;/h2&gt;
 &lt;p&gt;By default, tmux uses &lt;strong&gt;&lt;code&gt;Ctrl+b&lt;/code&gt;&lt;/strong&gt; as the prefix. This is not ergonomic.&lt;/p&gt;
 &lt;p&gt;We’ll change it to &lt;strong&gt;&lt;code&gt;Ctrl+s&lt;/code&gt;&lt;/strong&gt; (you can choose any):&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g prefix C-s
@@ -69,11 +57,7 @@ bind r source-file ~/.tmux.conf
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;adding-mouse-support&#34;&gt;
-  Adding mouse support
-  &lt;a class=&#34;anchor&#34; href=&#34;#adding-mouse-support&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;adding-mouse-support&#34;&gt;Adding mouse support&lt;/h2&gt;
 &lt;p&gt;Tmux is &lt;strong&gt;keyboard-driven by default&lt;/strong&gt; — no mouse.&lt;/p&gt;
 &lt;p&gt;Enable it with:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g mouse on
@@ -82,11 +66,7 @@ bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;setting-tmux-status-bar-position&#34;&gt;
-  Setting tmux status bar position
-  &lt;a class=&#34;anchor&#34; href=&#34;#setting-tmux-status-bar-position&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;setting-tmux-status-bar-position&#34;&gt;Setting tmux status bar position&lt;/h2&gt;
 &lt;p&gt;Move the status bar to the &lt;strong&gt;top&lt;/strong&gt; to avoid confusion with Vim/Neovim status lines:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set-option -g status-position top
 &lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
@@ -95,11 +75,7 @@ set -g prefix C-s
 set -g mouse on
 set-option -g status-position top
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;installing-tmux-plugin-manager-tpm&#34;&gt;
-  Installing Tmux Plugin Manager (TPM)
-  &lt;a class=&#34;anchor&#34; href=&#34;#installing-tmux-plugin-manager-tpm&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;installing-tmux-plugin-manager-tpm&#34;&gt;Installing Tmux Plugin Manager (TPM)&lt;/h2&gt;
 &lt;p&gt;We’ll use &lt;strong&gt;&lt;a href=&#34;https://github.com/tmux-plugins/tpm&#34;&gt;TPM&lt;/a&gt;&lt;/strong&gt; to install plugins.&lt;/p&gt;
 &lt;p&gt;Clone it:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
@@ -114,11 +90,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;p&gt;&lt;strong&gt;Reload tmux config&lt;/strong&gt; (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt;) and press &lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;I&lt;/code&gt; (capital I) to install plugins.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;adding-colorscheme&#34;&gt;
-  Adding colorscheme
-  &lt;a class=&#34;anchor&#34; href=&#34;#adding-colorscheme&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;adding-colorscheme&#34;&gt;Adding colorscheme&lt;/h2&gt;
 &lt;p&gt;Add your favorite theme under &lt;code&gt;# List of plugins&lt;/code&gt;. I use &lt;strong&gt;Nord&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g @plugin &amp;#34;nordtheme/tmux&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Full config so far:&lt;/p&gt;
@@ -139,11 +111,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;p&gt;Reload (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt;) → Install plugins (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;I&lt;/code&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;conclusion&#34;&gt;
-  Conclusion
-  &lt;a class=&#34;anchor&#34; href=&#34;#conclusion&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Here’s your &lt;strong&gt;final minimal &lt;code&gt;.tmux.conf&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
 bind r source-file ~/.tmux.conf

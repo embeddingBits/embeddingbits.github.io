@@ -10,7 +10,7 @@
     <generator>Hugo 0.161.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 11:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:12:44 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -28,11 +28,7 @@
       <category>vm</category>
       <category>linux</category>
       <description>Using QEMU as a Virtual Machine</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;why-qemu&#34;&gt;
-  Why QEMU?
-  &lt;a class=&#34;anchor&#34; href=&#34;#why-qemu&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+      <content:encoded>&lt;h2 id=&#34;why-qemu&#34;&gt;Why QEMU?&lt;/h2&gt;
 &lt;p&gt;There are lots of virtual machine software like VirtualBox and VMWare. But why specifically QEMU?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -61,11 +57,7 @@
 &lt;p&gt;This is really useful when it comes to building Operating systems for different architecture while working in a system with another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;using-qemu-to-boot-an-iso&#34;&gt;
-  Using QEMU to boot an ISO
-  &lt;a class=&#34;anchor&#34; href=&#34;#using-qemu-to-boot-an-iso&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
+&lt;h2 id=&#34;using-qemu-to-boot-an-iso&#34;&gt;Using QEMU to boot an ISO&lt;/h2&gt;
 &lt;p&gt;To create a VM, we have to initialise a virtual hard disk.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
