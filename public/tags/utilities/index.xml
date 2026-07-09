@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Utilities — eBits Blog</title>
-    <link>https://embeddingbits.is-a.dev/tags/utilities/</link>
+    <link>http://localhost:1313/tags/utilities/</link>
     <description>Recent content in Utilities on eBits Blog</description>
-    <generator>Hugo 0.161.1 -- gohugo.io</generator>
+    <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 20 Jun 2026 19:15:06 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 18:38:38 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
+      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -32,12 +32,54 @@
       <category>nmtui</category>
       <category>networkmanager</category>
       <description>Connecting to college WiFi</description>
-      <content:encoded>&lt;h2 id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;Connecting to college WiFi using nmtui&lt;/h2&gt;
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;
+  Connecting to college WiFi using nmtui
+  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-nmtui&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open a terminal and run &lt;code&gt;nmtui&lt;/code&gt; and in the selection navigate to &lt;code&gt;activate a connection&lt;/code&gt;
-&lt;img src=&#34;./nmtui_start.png&#34; alt=&#34;nmtui_start&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the list, select the WiFi you want to connect to.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; You&amp;rsquo;ll be taken to a screen similar to the one below:
-&lt;img src=&#34;./nmtui_connection.png&#34; alt=&#34;nmtui_connection&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Verify that the SSID matches the network you want to connect to, then configure the settings below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Authentication -&amp;gt; PEAP (Protected PEAP)&lt;/li&gt;
@@ -49,15 +91,104 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
 &lt;p&gt;Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.&lt;/p&gt;
-&lt;h2 id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;Connecting to college WiFi using NetworkManager GUI&lt;/h2&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;
+  Connecting to college WiFi using NetworkManager GUI
+  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open the application -&amp;gt; &lt;strong&gt;Advanced Network Configuration&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./nmgui_start.png#small&#34; alt=&#34;nmgui_start&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the dropdown menu, Select WiFi and enter &lt;em&gt;Create&amp;hellip;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./nmgui_image.png#small&#34; alt=&#34;nmgui_start&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Under the &lt;em&gt;WiFi&lt;/em&gt; tab, enter the name of the WiFi connection that you want to connect to in the SSID field.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./nmgui_field.png#small&#34; alt=&#34;nmgui_field&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Now after that go to the &lt;em&gt;WiFi Security&lt;/em&gt; tab, you&amp;rsquo;ll see a configuration window similar to the one below:
-&lt;img src=&#34;./nmgui_connection.png&#34; alt=&#34;nmgui_connection&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Under &lt;em&gt;WiFi Security&lt;/em&gt;, check if SSID is the network you want to connect to under the &lt;em&gt;WiFi&lt;/em&gt; tab and after that under the &lt;em&gt;WiFi Security&lt;/em&gt; tab change the settings to the one below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Security -&amp;gt; WPA/WPA2 Enterprise&lt;/li&gt;

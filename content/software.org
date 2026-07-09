@@ -10,9 +10,7 @@ readTime = true
 - *Text/Code Editor:* I use [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://neovim.io/][Neovim]].
 - *Window Manager:* I use [[https://isaacfreund.com/software/river/][River]].
 - *Terminal and Shell:* I use [[https://codeberg.org/dnkl/foot][Foot]] combined with [[https://fishshell.com/][fish]] shell.
-- *Dotfiles:* I use my own [[https://github.com/embeddingbits/arch_dotfiles][dotfiles]].
-
-
+- *Dotfiles:* I use my own [[https://codeberg.org/embeddingbits/nixos-dotfiles][dotfiles]].
 -----
 
 * Utils

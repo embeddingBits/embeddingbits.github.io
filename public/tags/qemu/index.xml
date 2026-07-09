@@ -5,30 +5,34 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Qemu — eBits Blog</title>
-    <link>https://embeddingbits.is-a.dev/tags/qemu/</link>
+    <link>http://localhost:1313/tags/qemu/</link>
     <description>Recent content in Qemu on eBits Blog</description>
-    <generator>Hugo 0.161.1 -- gohugo.io</generator>
+    <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 20 Jun 2026 19:15:06 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 18:38:38 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Guide to QEMU as a Virtual Machine</title>
-      <link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link>
+      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>qemu</category>
       <category>vm</category>
       <category>linux</category>
       <description>Using QEMU as a Virtual Machine</description>
-      <content:encoded>&lt;h2 id=&#34;why-qemu&#34;&gt;Why QEMU?&lt;/h2&gt;
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;why-qemu&#34;&gt;
+  Why QEMU?
+  &lt;a class=&#34;anchor&#34; href=&#34;#why-qemu&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;There are lots of virtual machine software like VirtualBox and VMWare. But why specifically QEMU?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -57,7 +61,11 @@
 &lt;p&gt;This is really useful when it comes to building Operating systems for different architecture while working in a system with another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;using-qemu-to-boot-an-iso&#34;&gt;Using QEMU to boot an ISO&lt;/h2&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;using-qemu-to-boot-an-iso&#34;&gt;
+  Using QEMU to boot an ISO
+  &lt;a class=&#34;anchor&#34; href=&#34;#using-qemu-to-boot-an-iso&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;To create a VM, we have to initialise a virtual hard disk.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
