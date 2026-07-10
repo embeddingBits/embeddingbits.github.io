@@ -10,7 +10,7 @@
     <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 09 Jul 2026 18:38:38 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 18:20:00 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -2038,7 +2038,7 @@ Favourite
 &lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://codeberg.org/embeddingbits/nixos-dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;/div&gt;
@@ -2079,7 +2079,7 @@ Favourite
 &lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dotfiles:&lt;/strong&gt; I use my own &lt;a href=&#34;https://codeberg.org/embeddingbits/nixos-dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;/div&gt;

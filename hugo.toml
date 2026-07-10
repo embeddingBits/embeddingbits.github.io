@@ -41,12 +41,20 @@ enabled = true
 
 # Social icons
 [[params.social]]
+name = "codeberg"
+url = "https://codeberg.org/embeddingbits"
+
+[[params.social]]
 name = "github"
 url = "https://github.com/embeddingbits"
 
 [[params.social]]
-name = "codeberg"
-url = "https://codeberg.org/embeddingbits"
+name = "mastodon"
+url = "https://mastodon.social/@ebits"
+
+[[params.social]]
+name = "matrix"
+url = "https://matrix.to/#/@embeddingbits:matrix.org"
 
 [[params.social]]
 name = "linkedin"
@@ -55,14 +63,6 @@ url = "https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"
 [[params.social]]
 name = "instagram"
 url = "https://instagram.com/tspamiitesh"
-
-[[params.social]]
-name = "mastodon"
-url = "https://mastodon.social/@ebits"
-
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@tspamiitesh"
 
 # Main menu pages
 [[params.menu]]
