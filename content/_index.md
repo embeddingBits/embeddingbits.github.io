@@ -5,7 +5,7 @@ title = "Home"
 
 # Hello!
 
-Hi, I'm Amiitesh. I work with Linux, programming. I deal with low-level stuff like OS, embedded systems and VLSI. Apart from tech I do reading, writing blogs and music. 
+Hi, I'm Amiitesh. I work with Linux, programming. I deal with low-level stuff like operating systems, networks, embedded systems and VLSI. Apart from tech I do reading, writing blogs and music. 
 
 I use [NixOS](https://nixos.org) currently and enjoy ricing my setup. You can check out my [dotfiles](https://codeberg.org/embeddingbits/nixos-dotfiles). 
 
