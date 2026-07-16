@@ -1,5 +1,6 @@
 +++
 title = "My Workflow"
+url = "/tech/workflow/workflow/"
 date = 2024-11-25
 summary = "My developer workflow"
 toc = true

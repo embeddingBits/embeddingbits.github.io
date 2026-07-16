@@ -1,7 +1,7 @@
 +++
 date = '2025-11-05'
 draft = false
-slug = "ai_browsers"
+url = "/tech/ai_browsers/ai_browsers/"
 title = 'The AI browser hype'
 readTime = true
 autonumber = true

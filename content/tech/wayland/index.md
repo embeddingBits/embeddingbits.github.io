@@ -1,5 +1,6 @@
 +++
 date = '2026-01-11T13:07:25+05:30'
+url = "/tech/wayland/wayland/"
 title = 'Is Wayland better than X11'
 summary = "Advantages of Wayland over X11"
 tags = ["wayland", "x11", "linux", "software", "tech"]

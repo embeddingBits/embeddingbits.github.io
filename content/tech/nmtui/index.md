@@ -1,5 +1,6 @@
 +++
 date = '2026-01-13T21:02:57+05:30'
+url = "/tech/nmtui/nmtui/"
 title = "Connect to college WiFi using nmtui or networkmanager"
 summary = "Connecting to college WiFi"
 tags = ["linux", "terminal", "utilities", "networks", "software", "nmtui", "networkmanager"]

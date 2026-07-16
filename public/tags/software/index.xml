@@ -10,7 +10,7 @@
     <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 18:20:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:18:14 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -54,6 +54,12 @@
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1009;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -75,6 +81,12 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1893; --h: 1008;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     
@@ -116,6 +128,12 @@
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1010;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -139,6 +157,12 @@
 &lt;figure class=&#34; img-small&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 734; --h: 485;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     
@@ -164,6 +188,12 @@
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 692; --h: 619;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -184,6 +214,12 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 693; --h: 765;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     
@@ -267,6 +303,12 @@
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -305,6 +347,12 @@
 &lt;figure class=&#34; img-small&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     

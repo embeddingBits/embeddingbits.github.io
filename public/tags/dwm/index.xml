@@ -10,7 +10,7 @@
     <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 18:20:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:18:14 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -72,6 +72,12 @@
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -98,6 +104,12 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     
@@ -137,6 +149,12 @@
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     

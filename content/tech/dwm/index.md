@@ -1,5 +1,6 @@
 +++
 title = "DWM Window Manager"
+url = "/tech/dwm/dwm/"
 date = "2024-12-09"
 summary = "Overview of DWM Window Manager"
 toc = true

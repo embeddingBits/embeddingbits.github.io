@@ -10,7 +10,7 @@
     <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 18:20:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:18:14 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -61,6 +61,12 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
 
     
     
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1104; --h: 692;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;injection&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/injection.png&#34; width=&#34;1104&#34; height=&#34;692&#34;&gt;
+        &lt;/div&gt;
+      
+    
 
     
 &lt;/figure&gt;
@@ -83,6 +89,12 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
 &lt;figure class=&#34;&#34;&gt;
 
     
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 823; --h: 140;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;opera&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/opera_tnc.png&#34; width=&#34;823&#34; height=&#34;140&#34;&gt;
+        &lt;/div&gt;
+      
     
 
     
