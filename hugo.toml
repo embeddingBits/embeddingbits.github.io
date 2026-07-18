@@ -32,7 +32,9 @@ listSummaries = true
 listDateFormat = '2 Jan 2006'
 showFooter = true
 footerContent = """
-Copyright © 2025 Amiitesh TSP.
+<a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=prev">←</a>
+<a href="https://webring-vit.vercel.app/random">random site</a>
+<a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=next">→</a>
 """
 
 # Breadcrumbs
