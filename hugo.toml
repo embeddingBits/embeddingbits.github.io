@@ -21,7 +21,7 @@ rssLimit = 50
 
 # Appearance settings
 theme = 'dark'
-colorPalette = 'default'
+colorPalette = 'gruvebox'
 hideHeader = false
 
 language = 'en'
@@ -92,5 +92,7 @@ jsLocation = "https://cloud.umami.is/script.js"
 
 # Syntax highlight on code blocks
 [markup]
+[markup.goldmark.renderer]
+unsafe = true
 [markup.highlight]
 style = 'gruvbox'

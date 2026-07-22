@@ -10,7 +10,7 @@
     <generator>Hugo 0.162.1 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 18 Jul 2026 12:01:49 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 18:14:16 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -260,7 +260,9 @@
 &lt;p&gt;First of all, let&amp;rsquo;s see: &lt;strong&gt;What is Tmux? and Why is it used?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tmux&lt;/strong&gt; stands for &lt;strong&gt;Terminal Multiplexer&lt;/strong&gt; and is used in Unix-like operating systems. It allows you to use &lt;strong&gt;multiple terminal sessions in a single terminal window&lt;/strong&gt;. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session — which is helpful when we accidentally close the session without saving changes.&lt;/p&gt;
 &lt;p&gt;Here’s how we can use tmux:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div align=&#34;center&#34;&gt;
+  &lt;video src=&#34;recording.mp4&#34; height=&#34;1500&#34; width=&#34;1000&#34; autoplay controls&gt;&lt;/video&gt;
+&lt;/div&gt;
 &lt;p&gt;In the above video, I opened a tmux session, created three split panes, created a tmux window, closed the terminal, and reattached using the session name &lt;code&gt;&amp;quot;test&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;default configuration&lt;/strong&gt; for tmux is good, but we can add our own &lt;strong&gt;plugins&lt;/strong&gt;, &lt;strong&gt;colorschemes&lt;/strong&gt;, &lt;strong&gt;custom keybinds&lt;/strong&gt;, and more. Configuring tmux is &lt;strong&gt;not a tough job&lt;/strong&gt; and is relatively easy. I use a simple minimal tmux configuration — and I’ll take you through the steps to achieve it.&lt;/p&gt;
 &lt;hr&gt;
