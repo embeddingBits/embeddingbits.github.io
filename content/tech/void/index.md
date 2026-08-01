@@ -48,3 +48,28 @@ sudo xbps-install nvidia
 ```
 
 Nvidia only works if you enable the non free repo, there is an option for open source noveau drivers but I wanted to stability so I chose the dkms as always.
+
+## Network Configuration
+
+Void Linux uses dhcpcd as the default networking service. But, I use NetworkManager. 
+
+```bash
+sudo xbps-install NetworkManager
+sudo rm -rf /var/service/dhcpcd
+sudo ln -s /etc/sv/NetworkManager /var/service
+```
+
+## Audio Servers
+
+This is the place where I had some hardships trying to configure the audio server. But, this was just me. Coming from systemd, systemd runs audio servers as a service, but runit runs audio server as a per user session in the process.
+
+```bash
+sudo xbps-remove pulseaudio
+sudo xbps-install -S pipewire wireplumber alsa-pipewire
+```
+
+Then, write a script to autostart pipewire, wireplumber and pipewire-pulse for pulseaudio support.
+
+These were the things that I had to do to install Void Linux and so far I've been having a good time with it. Let's see if it came be my long time distro.
+
+**Thanks for Reading :)**
