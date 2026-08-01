@@ -6,7 +6,7 @@ readTime = true
 
 * Favourite
 
-- *Operating System:* I use [[https://nixos.org][NixOS]].
+- *Operating System:* I use [[https://voidlinux.org][Void Linux]].
 - *Text/Code Editor:* I use [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://neovim.io/][Neovim]].
 - *Window Manager:* I use [[https://isaacfreund.com/software/river/][River]].
 - *Terminal and Shell:* I use [[https://codeberg.org/dnkl/foot][Foot]] combined with [[https://fishshell.com/][fish]] shell.
