@@ -7,16 +7,33 @@
     <title>Home — eBits Blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on eBits Blog</description>
-    <generator>Hugo 0.162.1 -- gohugo.io</generator>
+    <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Jul 2026 20:20:03 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 14:17:52 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Void Linux Installation</title>
+      <link>http://localhost:1313/tech/void/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>linux</category>
+      <category>tech</category>
+      <description>A small guide to what I did when I installed Void Linux</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;void-linux-installation&#34;&gt;
+  Void Linux Installation
+  &lt;a class=&#34;anchor&#34; href=&#34;#void-linux-installation&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+</content:encoded>
+    </item>
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
@@ -2120,7 +2137,7 @@ Favourite
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://nixos.org&#34;&gt;NixOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;
@@ -2161,7 +2178,7 @@ Favourite
 &lt;/h2&gt;
 &lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://nixos.org&#34;&gt;NixOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operating System:&lt;/strong&gt; I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Text/Code Editor:&lt;/strong&gt; I use &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; and &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Window Manager:&lt;/strong&gt; I use &lt;a href=&#34;https://isaacfreund.com/software/river/&#34;&gt;River&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Terminal and Shell:&lt;/strong&gt; I use &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;Foot&lt;/a&gt; combined with &lt;a href=&#34;https://fishshell.com/&#34;&gt;fish&lt;/a&gt; shell.&lt;/li&gt;

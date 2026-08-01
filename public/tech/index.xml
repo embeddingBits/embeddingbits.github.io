@@ -7,16 +7,67 @@
     <title>Tech — eBits Blog</title>
     <link>http://localhost:1313/tech/</link>
     <description>Recent content in Tech on eBits Blog</description>
-    <generator>Hugo 0.162.1 -- gohugo.io</generator>
+    <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Jul 2026 20:20:03 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 14:56:33 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
     <atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Void Linux Installation</title>
+      <link>http://localhost:1313/tech/void/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>linux</category>
+      <category>tech</category>
+      <description>A small guide to what I did when I installed Void Linux</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;void-linux-installation&#34;&gt;
+  Void Linux Installation
+  &lt;a class=&#34;anchor&#34; href=&#34;#void-linux-installation&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I had been using Arch Linux for quite a while and I had switched to NixOS for about two months now. Only reason of me switching was cause of buzzwords. I switched to NixOS cause I wanted to try out the declarative environment. Now, finally I actually wanted to try out an init system other than systemd cause why not.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;installation&#34;&gt;
+  Installation
+  &lt;a class=&#34;anchor&#34; href=&#34;#installation&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The Void Linux ISO choices were pretty interesting as they give an option for a musl and glibc implementation of libc. Though, I did choose glibc cause its pretty much popular and way more battle tested than musl.&lt;/p&gt;
+&lt;p&gt;The installation was pretty straight forward and as easy as archinstall script. I liked the fact that you have to manage the groups yourself cause of &lt;code&gt;runit&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;packages&#34;&gt;
+  Packages
+  &lt;a class=&#34;anchor&#34; href=&#34;#packages&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Void be default allows only free packages in its repo. So, I had to install nonfree repo packages for proprietary software.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -Syu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Void repos are relatively much smaller than the AUR and nixpkgs, so a lot of the packages was still missing. To cover that up and added flathub remote to it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 class=&#34;heading&#34; id=&#34;init-system&#34;&gt;
+  Init System
+  &lt;a class=&#34;anchor&#34; href=&#34;#init-system&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Void Linux uses runit as its init system. As a long-time user of systemd, it took me time to get used to it. But man, I have to give it to runit. Its codebase is small, and it is much, much faster than systemd. Sometimes, when a particular software is referred to as faster, we don&amp;rsquo;t really see the difference, but runit was much faster and it was really evident.&lt;/p&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;intel-and-nvidia-drivers&#34;&gt;
+  Intel and NVIDIA Drivers
+  &lt;a class=&#34;anchor&#34; href=&#34;#intel-and-nvidia-drivers&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I installed intel drivers and proprietary dkms nvidia drivers.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S vulkan-loader mesa-vulkan-intel intel-video-accel
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install nvidia
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nvidia only works if you enable the non free repo, there is an option for open source noveau drivers but I wanted to stability so I chose the dkms as always.&lt;/p&gt;
+</content:encoded>
+    </item>
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>

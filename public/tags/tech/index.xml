@@ -7,16 +7,33 @@
     <title>Tech — eBits Blog</title>
     <link>http://localhost:1313/tags/tech/</link>
     <description>Recent content in Tech on eBits Blog</description>
-    <generator>Hugo 0.162.1 -- gohugo.io</generator>
+    <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Jul 2026 20:20:03 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 14:17:52 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
     <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Void Linux Installation</title>
+      <link>http://localhost:1313/tech/void/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>linux</category>
+      <category>tech</category>
+      <description>A small guide to what I did when I installed Void Linux</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;void-linux-installation&#34;&gt;
+  Void Linux Installation
+  &lt;a class=&#34;anchor&#34; href=&#34;#void-linux-installation&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+</content:encoded>
+    </item>
     
     <item>
       <title>Is Wayland better than X11</title>
