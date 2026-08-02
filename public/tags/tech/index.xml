@@ -4,13 +4,13 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Tech — eBits Blog</title>
+    <title>Tech — eBits Base</title>
     <link>http://localhost:1313/tags/tech/</link>
-    <description>Recent content in Tech on eBits Blog</description>
+    <description>Recent content in Tech on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 01 Aug 2026 18:57:15 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 21:11:24 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -67,11 +67,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install nvidia
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nvidia only works if you enable the non free repo, there is an option for open source noveau drivers but I wanted to stability so I chose the dkms as always.&lt;/p&gt;
 
+&lt;h2 class=&#34;heading&#34; id=&#34;network-configuration&#34;&gt;
+  Network Configuration
+  &lt;a class=&#34;anchor&#34; href=&#34;#network-configuration&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Void Linux uses dhcpcd as the default networking service. But, I use NetworkManager.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install NetworkManager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo rm -rf /var/service/dhcpcd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo ln -s /etc/sv/NetworkManager /var/service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 class=&#34;heading&#34; id=&#34;audio-servers&#34;&gt;
   Audio Servers
   &lt;a class=&#34;anchor&#34; href=&#34;#audio-servers&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;This&lt;/p&gt;
+&lt;p&gt;This is the place where I had some hardships trying to configure the audio server. But, this was just me. Coming from systemd, systemd runs audio servers as a service, but runit runs audio server as a per user session in the process.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-remove pulseaudio
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S pipewire wireplumber alsa-pipewire
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, write a script to autostart pipewire, wireplumber and pipewire-pulse for pulseaudio support.&lt;/p&gt;
+&lt;p&gt;These were the things that I had to do to install Void Linux and so far I&amp;rsquo;ve been having a good time with it. Let&amp;rsquo;s see if it came be my long time distro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thanks for Reading :)&lt;/strong&gt;&lt;/p&gt;
 </content:encoded>
     </item>
     

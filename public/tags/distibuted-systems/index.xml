@@ -4,13 +4,13 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Distibuted Systems — eBits Blog</title>
+    <title>Distibuted Systems — eBits Base</title>
     <link>http://localhost:1313/tags/distibuted-systems/</link>
-    <description>Recent content in Distibuted Systems on eBits Blog</description>
+    <description>Recent content in Distibuted Systems on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 01 Aug 2026 18:57:15 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 21:11:24 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>

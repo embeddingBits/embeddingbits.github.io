@@ -26,6 +26,10 @@ hideHeader = false
 
 language = 'en'
 
+# Homepage
+homeCollectionTitle = 'Posts'
+homeCollection = 'tech'
+
 # Lists parameters
 paginationSize = 100
 listSummaries = true
@@ -80,6 +84,10 @@ url = "/software"
 [[params.menu]]
 name = "tags"
 url = "/tags"
+
+[[params.menu]]
+name = "about"
+url = "/about"
 
 [[params.menu]]
 name = "rss"

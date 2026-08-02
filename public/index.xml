@@ -4,13 +4,13 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Home — eBits Blog</title>
+    <title>Home — eBits Base</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on eBits Blog</description>
+    <description>Recent content in Home on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 01 Aug 2026 18:57:15 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 21:22:13 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -67,11 +67,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install nvidia
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nvidia only works if you enable the non free repo, there is an option for open source noveau drivers but I wanted to stability so I chose the dkms as always.&lt;/p&gt;
 
+&lt;h2 class=&#34;heading&#34; id=&#34;network-configuration&#34;&gt;
+  Network Configuration
+  &lt;a class=&#34;anchor&#34; href=&#34;#network-configuration&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Void Linux uses dhcpcd as the default networking service. But, I use NetworkManager.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install NetworkManager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo rm -rf /var/service/dhcpcd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo ln -s /etc/sv/NetworkManager /var/service
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 class=&#34;heading&#34; id=&#34;audio-servers&#34;&gt;
   Audio Servers
   &lt;a class=&#34;anchor&#34; href=&#34;#audio-servers&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;This&lt;/p&gt;
+&lt;p&gt;This is the place where I had some hardships trying to configure the audio server. But, this was just me. Coming from systemd, systemd runs audio servers as a service, but runit runs audio server as a per user session in the process.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-remove pulseaudio
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S pipewire wireplumber alsa-pipewire
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, write a script to autostart pipewire, wireplumber and pipewire-pulse for pulseaudio support.&lt;/p&gt;
+&lt;p&gt;These were the things that I had to do to install Void Linux and so far I&amp;rsquo;ve been having a good time with it. Let&amp;rsquo;s see if it came be my long time distro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thanks for Reading :)&lt;/strong&gt;&lt;/p&gt;
 </content:encoded>
     </item>
     
@@ -2162,6 +2176,40 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Thank you for reading this blog!&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
+</content:encoded>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/about/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <description>&lt;p&gt;I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like operating systems, embedded systems, networks, and VLSI. Apart from tech I like reading, writing blogs and compose music.&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt; currently and enjoy ricing my setup. You can check out my &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I like my software &lt;em&gt;libre&lt;/em&gt; so I&amp;rsquo;m a &lt;strong&gt;big advocate&lt;/strong&gt; of FOSS and I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my &lt;a href=&#34;https://codeberg.org/embeddingbits/&#34;&gt;software&lt;/a&gt; and software that I use &lt;a href=&#34;https://embeddingbits.is-a.dev/software&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like operating systems, embedded systems, networks, and VLSI. Apart from tech I like reading, writing blogs and compose music.&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt; currently and enjoy ricing my setup. You can check out my &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I like my software &lt;em&gt;libre&lt;/em&gt; so I&amp;rsquo;m a &lt;strong&gt;big advocate&lt;/strong&gt; of FOSS and I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my &lt;a href=&#34;https://codeberg.org/embeddingbits/&#34;&gt;software&lt;/a&gt; and software that I use &lt;a href=&#34;https://embeddingbits.is-a.dev/software&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;software-i-like-and-you-can-love&#34;&gt;
+  Software I like and you can love
+  &lt;a class=&#34;anchor&#34; href=&#34;#software-i-like-and-you-can-love&#34;&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Neovim&lt;/li&gt;
+&lt;li&gt;Emacs&lt;/li&gt;
+&lt;li&gt;Org Mode&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;stm32 and esp32&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get in touch with me at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email - &lt;a href=&#34;mailto:tspamiitesh@gmail.com&#34;&gt;tspamiitesh@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discord - &lt;a href=&#34;https://discord.com/users/1312819280018018374&#34;&gt;ebits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Matrix - @embeddingbits:matrix.org&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
     </item>
     
