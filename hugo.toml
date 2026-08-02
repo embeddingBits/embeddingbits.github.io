@@ -1,6 +1,6 @@
 baseURL = 'https://embeddingbits.is-a.dev/'
 languageCode = 'en-us'
-title = "eBits Blog"
+title = "eBits Base"
 theme = 'typo'
 enableRobotsTXT = true
 
