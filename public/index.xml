@@ -10,7 +10,7 @@
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2026 17:27:11 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:30:15 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -2192,14 +2192,17 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
 &lt;p&gt;I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt; currently and enjoy ricing my setup. You can check out my &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I like my software &lt;em&gt;libre&lt;/em&gt; so I&amp;rsquo;m a &lt;strong&gt;big advocate&lt;/strong&gt; of FOSS and I like the idea of open collaboration and contribute to my open source projects whenever I could. You can check out some of my &lt;a href=&#34;https://codeberg.org/embeddingbits/&#34;&gt;software&lt;/a&gt; and software that I use &lt;a href=&#34;https://embeddingbits.is-a.dev/software&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 class=&#34;heading&#34; id=&#34;software-i-like-and-you-can-love&#34;&gt;
-  Software I like and you can love
-  &lt;a class=&#34;anchor&#34; href=&#34;#software-i-like-and-you-can-love&#34;&gt;#&lt;/a&gt;
+&lt;h3 class=&#34;heading&#34; id=&#34;techsoftware-i-like-and-you-can-love&#34;&gt;
+  Tech/Software I like and you can love
+  &lt;a class=&#34;anchor&#34; href=&#34;#techsoftware-i-like-and-you-can-love&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Neovim&lt;/li&gt;
 &lt;li&gt;Emacs&lt;/li&gt;
 &lt;li&gt;Org Mode&lt;/li&gt;
+&lt;li&gt;Embedded&lt;/li&gt;
+&lt;li&gt;Networks&lt;/li&gt;
+&lt;li&gt;Low level&lt;/li&gt;
 &lt;li&gt;C&lt;/li&gt;
 &lt;li&gt;Golang&lt;/li&gt;
 &lt;li&gt;stm32 and esp32&lt;/li&gt;
