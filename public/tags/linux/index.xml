@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Linux — eBits Base</title>
-    <link>http://localhost:1313/tags/linux/</link>
+    <link>https://embeddingbits.is-a.dev/tags/linux/</link>
     <description>Recent content in Linux on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 02 Aug 2026 21:11:24 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:27:11 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Void Linux Installation</title>
-      <link>http://localhost:1313/tech/void/</link>
+      <link>https://embeddingbits.is-a.dev/tech/void/</link>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/void/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>tech</category>
@@ -91,9 +91,9 @@
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
+      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -127,7 +127,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1009;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
         &lt;/div&gt;
       
     
@@ -155,7 +155,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1893; --h: 1008;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
         &lt;/div&gt;
       
     
@@ -201,7 +201,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1010;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
         &lt;/div&gt;
       
     
@@ -231,7 +231,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 734; --h: 485;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
         &lt;/div&gt;
       
     
@@ -261,7 +261,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 692; --h: 619;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
         &lt;/div&gt;
       
     
@@ -288,7 +288,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 693; --h: 765;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
         &lt;/div&gt;
       
     
@@ -314,9 +314,9 @@
     
     <item>
       <title>Is Wayland better than X11</title>
-      <link>http://localhost:1313/tech/wayland/wayland/</link>
+      <link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link>
       <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wayland</category>
       <category>x11</category>
@@ -376,7 +376,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;https://embeddingbits.is-a.dev/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
         &lt;/div&gt;
       
     
@@ -421,7 +421,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;https://embeddingbits.is-a.dev/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
         &lt;/div&gt;
       
     
@@ -448,9 +448,9 @@
     
     <item>
       <title>Guide to QEMU as a Virtual Machine</title>
-      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
+      <link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>qemu</category>
       <category>vm</category>
@@ -525,9 +525,9 @@
     
     <item>
       <title>Configuring Tmux</title>
-      <link>http://localhost:1313/tech/tmux_config/tmux_config/</link>
+      <link>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</link>
       <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/tmux_config/tmux_config/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -674,9 +674,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>DWM Window Manager</title>
-      <link>http://localhost:1313/tech/dwm/dwm/</link>
+      <link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>x11</category>
       <category>window manager</category>
@@ -728,7 +728,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -761,7 +761,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -806,7 +806,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
         &lt;/div&gt;
       
     
@@ -844,9 +844,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
+      <link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
+      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>hyprland</category>

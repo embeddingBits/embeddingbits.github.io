@@ -5,18 +5,18 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Tags — eBits Base</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://embeddingbits.is-a.dev/tags/</link>
     <description>Recent content in Tags on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 02 Aug 2026 21:11:24 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:27:11 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://embeddingbits.is-a.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

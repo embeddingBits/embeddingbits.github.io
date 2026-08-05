@@ -78,16 +78,16 @@ name = "posts"
 url = "/tech"
 
 [[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
 name = "my_software"
 url = "/software"
 
 [[params.menu]]
 name = "tags"
 url = "/tags"
-
-[[params.menu]]
-name = "about"
-url = "/about"
 
 [[params.menu]]
 name = "rss"
