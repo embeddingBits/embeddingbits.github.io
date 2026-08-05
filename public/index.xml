@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Home — eBits Base</title>
-    <link>https://embeddingbits.is-a.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2026 17:30:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 22:57:35 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Void Linux Installation</title>
-      <link>https://embeddingbits.is-a.dev/tech/void/</link>
+      <link>http://localhost:1313/tech/void/</link>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/void/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>tech</category>
@@ -91,9 +91,9 @@
     
     <item>
       <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link>
+      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
       <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -127,7 +127,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1009;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
         &lt;/div&gt;
       
     
@@ -155,7 +155,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1893; --h: 1008;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
         &lt;/div&gt;
       
     
@@ -201,7 +201,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1010;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
         &lt;/div&gt;
       
     
@@ -231,7 +231,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 734; --h: 485;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
         &lt;/div&gt;
       
     
@@ -261,7 +261,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 692; --h: 619;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
         &lt;/div&gt;
       
     
@@ -288,7 +288,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 693; --h: 765;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
         &lt;/div&gt;
       
     
@@ -314,9 +314,9 @@
     
     <item>
       <title>Is Wayland better than X11</title>
-      <link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link>
+      <link>http://localhost:1313/tech/wayland/wayland/</link>
       <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wayland</category>
       <category>x11</category>
@@ -376,7 +376,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;https://embeddingbits.is-a.dev/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
         &lt;/div&gt;
       
     
@@ -421,7 +421,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;https://embeddingbits.is-a.dev/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
         &lt;/div&gt;
       
     
@@ -448,9 +448,9 @@
     
     <item>
       <title>SSH for remote git repos</title>
-      <link>https://embeddingbits.is-a.dev/tech/ssh_config_git/ssh_config/</link>
+      <link>http://localhost:1313/tech/ssh_config_git/ssh_config/</link>
       <pubDate>Wed, 31 Dec 2025 21:52:16 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/ssh_config_git/ssh_config/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/ssh_config_git/ssh_config/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>git</category>
       <category>ssh</category>
@@ -526,9 +526,9 @@ Host github.com
     
     <item>
       <title>Tech Wrapped</title>
-      <link>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</link>
+      <link>http://localhost:1313/tech/software_wrapped/software_wrapped/</link>
       <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/software_wrapped/software_wrapped/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>wrapped</category>
       <category>tech</category>
@@ -684,9 +684,9 @@ Added battery status support directly to the top bar alongside brightness contro
     
     <item>
       <title>Typst vs LaTeX</title>
-      <link>https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</link>
+      <link>http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>documentation</category>
       <category>note_taking</category>
@@ -882,9 +882,9 @@ Added battery status support directly to the top bar alongside brightness contro
     
     <item>
       <title>Guide to QEMU as a Virtual Machine</title>
-      <link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link>
+      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>qemu</category>
       <category>vm</category>
@@ -959,9 +959,9 @@ Added battery status support directly to the top bar alongside brightness contro
     
     <item>
       <title>The AI browser hype</title>
-      <link>https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</link>
+      <link>http://localhost:1313/tech/ai_browsers/ai_browsers/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/ai_browsers/ai_browsers/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>AI</category>
       <category>browser</category>
@@ -1002,7 +1002,7 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1104; --h: 692;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;injection&#34; src=&#34;https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/injection.png&#34; width=&#34;1104&#34; height=&#34;692&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;injection&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/injection.png&#34; width=&#34;1104&#34; height=&#34;692&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1031,7 +1031,7 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 823; --h: 140;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;opera&#34; src=&#34;https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/opera_tnc.png&#34; width=&#34;823&#34; height=&#34;140&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;opera&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/opera_tnc.png&#34; width=&#34;823&#34; height=&#34;140&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1057,9 +1057,9 @@ The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/
     
     <item>
       <title>Configuring Tmux</title>
-      <link>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</link>
+      <link>http://localhost:1313/tech/tmux_config/tmux_config/</link>
       <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/tmux_config/tmux_config/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>terminal</category>
@@ -1206,9 +1206,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Vim vs Neovim</title>
-      <link>https://embeddingbits.is-a.dev/tech/vim_nvim/vim_nvim/</link>
+      <link>http://localhost:1313/tech/vim_nvim/vim_nvim/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/vim_nvim/vim_nvim/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/vim_nvim/vim_nvim/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>neovim</category>
       <category>vim</category>
@@ -1321,9 +1321,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Zig Programming Language</title>
-      <link>https://embeddingbits.is-a.dev/tech/zig/zig/</link>
+      <link>http://localhost:1313/tech/zig/zig/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/zig/zig/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/zig/zig/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>zig</category>
       <category>c</category>
@@ -1460,9 +1460,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>DWM Window Manager</title>
-      <link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link>
+      <link>http://localhost:1313/tech/dwm/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>x11</category>
       <category>window manager</category>
@@ -1514,7 +1514,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1547,7 +1547,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1592,7 +1592,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1630,9 +1630,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>My Workflow</title>
-      <link>https://embeddingbits.is-a.dev/tech/workflow/workflow/</link>
+      <link>http://localhost:1313/tech/workflow/workflow/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/workflow/workflow/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/workflow/workflow/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>hyprland</category>
       <category>lazygit</category>
@@ -1744,7 +1744,7 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;https://embeddingbits.is-a.dev/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;http://localhost:1313/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
         &lt;/div&gt;
       
     
@@ -1806,9 +1806,9 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
     
     <item>
       <title>Why Linux is better than its other competitors</title>
-      <link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link>
+      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>linux</category>
       <category>hyprland</category>
@@ -2003,9 +2003,9 @@ You might just discover a &lt;strong&gt;new way of computing&lt;/strong&gt;.&lt;
     
     <item>
       <title>Golang and its Philosophy</title>
-      <link>https://embeddingbits.is-a.dev/tech/golang/golang/</link>
+      <link>http://localhost:1313/tech/golang/golang/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/golang/golang/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/golang/golang/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>networks</category>
       <category>golang</category>
@@ -2181,9 +2181,9 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
     
     <item>
       <title>About</title>
-      <link>https://embeddingbits.is-a.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/about/</guid>
+      <guid isPermaLink="true">http://localhost:1313/about/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <description>&lt;p&gt;I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like operating systems, embedded systems, networks, and VLSI. Apart from tech I like reading, writing blogs and compose music.&lt;/p&gt;
 &lt;p&gt;I use &lt;a href=&#34;https://voidlinux.org&#34;&gt;Void Linux&lt;/a&gt; currently and enjoy ricing my setup. You can check out my &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;dotfiles&lt;/a&gt;.&lt;/p&gt;
@@ -2218,9 +2218,9 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
     
     <item>
       <title>Software that I use</title>
-      <link>https://embeddingbits.is-a.dev/software/</link>
+      <link>http://localhost:1313/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/software/</guid>
+      <guid isPermaLink="true">http://localhost:1313/software/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;

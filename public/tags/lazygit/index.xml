@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Lazygit — eBits Base</title>
-    <link>https://embeddingbits.is-a.dev/tags/lazygit/</link>
+    <link>http://localhost:1313/tags/lazygit/</link>
     <description>Recent content in Lazygit on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2026 17:30:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 22:57:35 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/tags/lazygit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lazygit/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Workflow</title>
-      <link>https://embeddingbits.is-a.dev/tech/workflow/workflow/</link>
+      <link>http://localhost:1313/tech/workflow/workflow/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/workflow/workflow/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/workflow/workflow/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>hyprland</category>
       <category>lazygit</category>
@@ -134,7 +134,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;https://embeddingbits.is-a.dev/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;http://localhost:1313/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
         &lt;/div&gt;
       
     

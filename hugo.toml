@@ -18,7 +18,6 @@ description = "Thoughts and Expressions"
 author = "Amiitesh TSP"
 email = "tspamiitesh@gmail.com"
 rssLimit = 50
-
 # Appearance settings
 theme = 'dark'
 colorPalette = 'gruvebox'
@@ -80,6 +79,10 @@ url = "/tech"
 [[params.menu]]
 name = "about"
 url = "/about"
+
+[[params.menu]]
+name = "resume"
+url = "/resume.pdf"
 
 [[params.menu]]
 name = "my_software"

@@ -5,24 +5,24 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Dwm — eBits Base</title>
-    <link>https://embeddingbits.is-a.dev/tags/dwm/</link>
+    <link>http://localhost:1313/tags/dwm/</link>
     <description>Recent content in Dwm on eBits Base</description>
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2026 17:30:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 22:57:35 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
     
-    <atom:link href="https://embeddingbits.is-a.dev/tags/dwm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dwm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DWM Window Manager</title>
-      <link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link>
+      <link>http://localhost:1313/tech/dwm/dwm/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid>
+      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
       <dc:creator>Amiitesh TSP</dc:creator>
       <category>x11</category>
       <category>window manager</category>
@@ -74,7 +74,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -107,7 +107,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
         &lt;/div&gt;
       
     
@@ -152,7 +152,7 @@
     
       
         &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
         &lt;/div&gt;
       
     
