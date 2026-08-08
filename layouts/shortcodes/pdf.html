@@ -1,0 +1,10 @@
+{{ $pdf_url := .Get "src" }}
+<iframe
+    src="{{ $pdf_url }}"
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end }}
+    class="pdf-viewer"
+    style="border: none;"
+>
+    <p>Unable to display PDF file. <a href="{{ $pdf_url }}">Download</a> instead.</p>
+</iframe>

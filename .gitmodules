@@ -2,3 +2,6 @@
 	path = themes/typo
 	url = https://github.com/embeddingbits/typo
 	branch = main
+[submodule "hugo-pdf"]
+	path = themes/hugo-pdf
+	url = https://github.com/sytranvn/hugo-pdf.git
