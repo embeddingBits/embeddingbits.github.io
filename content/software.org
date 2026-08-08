@@ -17,12 +17,12 @@ readTime = true
 
 - *File Manager:* I use [[https://yazi-rs.github.io/][Yazi]] as my main and only file manager.
 - *Web Browser:* I use [[https://www.firefox.com/][Firefox]]
-- *PDF Viewer:* I use [[https://pwmt.org/projects/zathura/][Zathura]] and [[https://github.com/vedang/pdf-tools][pdf-tools]] in Emacs.
-- *Misc:* For most of the other stuff like Word, Excel, etc., I use [[https://www.libreoffice.org/][LibreOffice]].
+- *PDF Viewer:* I use [[https://github.com/vedang/pdf-tools][pdf-tools]] in Emacs.
+- *Misc:* For most of the other stuff like Word, Excel, etc., I use [[https://www.onlyoffice.com/][OnlyOffice]].
 
 -----
 
 * College
 
-- *Reports and Documents:* I use [[https://typst.app/][Typst]] and I write in Org Mode and export it to [[https://www.latex-project.org/][LaTeX]].
+- *Reports and Documents:* I use [[https://typst.app/][Typst]]. 
 - *Taking Notes:* I manage my college and personal notes with [[https://orgmode.org/][Org Mode]].
