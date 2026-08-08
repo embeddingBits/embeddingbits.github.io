@@ -82,7 +82,7 @@ url = "/about"
 
 [[params.menu]]
 name = "resume"
-url = "/resume.pdf"
+url = "/resume"
 
 [[params.menu]]
 name = "my_software"
