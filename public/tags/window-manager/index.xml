@@ -1,13 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Window Manager — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/window-manager/</link><description>Recent content in Window Manager on eBits Base</description><generator>Hugo 0.164.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Tue, 11 Aug 2026 16:36:50 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/window-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>DWM Window Manager</title><link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid><dc:creator>Amiitesh TSP</dc:creator><category>x11</category><category>window manager</category><category>linux</category><category>dwm</category><description>Overview of DWM Window Manager</description><content:encoded>
-&lt;h2 class="heading" id="introduction"&gt;
-Introduction
-&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Window Manager — eBits Base</title>
+    <link>http://localhost:1313/tags/window-manager/</link>
+    <description>Recent content in Window Manager on eBits Base</description>
+    <generator>Hugo 0.164.0 -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
+    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
+    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    
+    <atom:link href="http://localhost:1313/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DWM Window Manager</title>
+      <link>http://localhost:1313/tech/dwm/dwm/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>x11</category>
+      <category>window manager</category>
+      <category>linux</category>
+      <category>dwm</category>
+      <description>Overview of DWM Window Manager</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Welcome to this blog where I will be writing about &lt;strong&gt;DWM (Dynamic Window Manager)&lt;/strong&gt; which is written in C intended to reduce bloat as much as possible giving us a smooth user experience. Configuring DWM can be hard for a few, but the end result is worth it. I recently wanted to try DWM for fun and turned out it was actually a very good experience that I have switched from Hyprland to DWM permanently.&lt;/p&gt;
 &lt;p&gt;To configure DWM we have to manually edit the C source code, after the changes we save. Compile it with the &lt;code&gt;make&lt;/code&gt; command and then finally quit DWM and log back in for the changes. If there are any errors with the source code, then DWM won&amp;rsquo;t allow you to log inside the DWM until the error is corrected. So, what I did is I would backup after every stable change I make and in case of there are any errors I would copy the backup file or manually edit them in a tty.&lt;/p&gt;
-&lt;h2 class="heading" id="about-dwm"&gt;
-About DWM
-&lt;a class="anchor" href="#about-dwm"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;about-dwm&#34;&gt;
+  About DWM
+  &lt;a class=&#34;anchor&#34; href=&#34;#about-dwm&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;DWM is a window manager for X server made by &lt;strong&gt;suckless.org&lt;/strong&gt; — a group of programmers working together to make software that &amp;ldquo;suck less&amp;rdquo;. They have made many tools like:&lt;/p&gt;
 &lt;ul&gt;
@@ -16,37 +48,78 @@ About DWM
 &lt;li&gt;and some other &amp;ldquo;core&amp;rdquo; programs for a suckless experience.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There are many layouts to manage windows like &lt;strong&gt;tiled&lt;/strong&gt;, &lt;strong&gt;monocle&lt;/strong&gt;, &lt;strong&gt;floating layout&lt;/strong&gt;. We can switch between different layouts using keybinds dynamically according to the application that we are working with.&lt;/p&gt;
-&lt;h2 class="heading" id="how-are-windows-managed"&gt;
-How are windows managed
-&lt;a class="anchor" href="#how-are-windows-managed"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;how-are-windows-managed&#34;&gt;
+  How are windows managed
+  &lt;a class=&#34;anchor&#34; href=&#34;#how-are-windows-managed&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In &lt;strong&gt;tiled mode&lt;/strong&gt;, the windows are stacked above one another as a new window is created every time. Stack in the sense not &amp;ldquo;literally&amp;rdquo; stack but the windows act stacked in the memory as in the data structure &amp;ldquo;stack&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;In &lt;strong&gt;monocle layout&lt;/strong&gt;, all the windows are fullscreen and now are literally stacked above each other when they are created.&lt;/p&gt;
 &lt;p&gt;In the &lt;strong&gt;floating layout&lt;/strong&gt;, it is like what we use in rest of the desktop environments and in Windows. All the newly created windows are floating.&lt;/p&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1920; --h: 1079;"&gt;
-&lt;img loading="lazy" alt="Stacked Windows" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png" width="1920" height="1079"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="workspacestags"&gt;
-Workspaces/Tags
-&lt;a class="anchor" href="#workspacestags"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;workspacestags&#34;&gt;
+  Workspaces/Tags
+  &lt;a class=&#34;anchor&#34; href=&#34;#workspacestags&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In DWM, the workspaces are called &lt;strong&gt;&amp;ldquo;tags&amp;rdquo;&lt;/strong&gt;. By default, there are 10 tags but we can change them to however many we want. We can also replace them with a logo instead of just numbers.&lt;/p&gt;
 &lt;p&gt;We can switch between them with shortcut key, &lt;code&gt;ALT + &amp;quot;tag_number&amp;quot;&lt;/code&gt;. We can also change the keybinds to whatever we feel comfortable.&lt;/p&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1914; --h: 1079;"&gt;
-&lt;img loading="lazy" alt="Tags Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png" width="1914" height="1079"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The red circled is what is called tags&lt;/em&gt;&lt;/p&gt;
-&lt;h2 class="heading" id="status-bar"&gt;
-Status Bar
-&lt;a class="anchor" href="#status-bar"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;status-bar&#34;&gt;
+  Status Bar
+  &lt;a class=&#34;anchor&#34; href=&#34;#status-bar&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There is a status bar by default provided by DWM. We can also add our own status bar if we want with &lt;strong&gt;patches&lt;/strong&gt; (I&amp;rsquo;ll cover that in the upcoming heading). The status bar is divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -62,65 +135,106 @@ Status Bar
 &lt;li&gt;&lt;code&gt;anybar&lt;/code&gt; (which allows us to use any bar other than the default one provided by DWM)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1920; --h: 1080;"&gt;
-&lt;img loading="lazy" alt="Status Bar Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png" width="1920" height="1080"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="patches"&gt;
-Patches
-&lt;a class="anchor" href="#patches"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;patches&#34;&gt;
+  Patches
+  &lt;a class=&#34;anchor&#34; href=&#34;#patches&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;We can add many other features we require by &lt;strong&gt;&amp;ldquo;patching&amp;rdquo;&lt;/strong&gt; the main source code. This is one of the most exhausting parts of DWM for people who want extra features.&lt;/p&gt;
 &lt;p&gt;The patches are mostly written by other users themselves. Patches are nothing but adding extra functionality to the source code.&lt;/p&gt;
 &lt;p&gt;When applying the patches there is &lt;strong&gt;7/10 chance&lt;/strong&gt; for a patch error to occur. The error is put into a &lt;strong&gt;&lt;code&gt;.rej&lt;/code&gt;&lt;/strong&gt; file with the changes that are to be made indicated with &lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;. We have to manually edit them ourselves and compile the code. We have to add the lines that start with &lt;code&gt;+&lt;/code&gt; and delete the line that start with &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This is the part where most quit because it&amp;rsquo;s exhausting.&lt;/p&gt;
 &lt;p&gt;This is because the patches are not intelligent enough to make all the changes by itself. They expect some block of code to be there but when there is no code block that the patch is expecting it returns an error and as I said — after we edit the file ourselves and if there are errors in the main source code, DWM won&amp;rsquo;t allow us to get into the DWM.&lt;/p&gt;
-&lt;h2 class="heading" id="bottom-note"&gt;
-Bottom Note
-&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are different Window managers but I really felt that this one was peculiar and thought of writing a blog on it.&lt;/p&gt;
 &lt;p&gt;There are many window managers that are a fork of this like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://i3wm.org/"&gt;i3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/baskerville/bspwm"&gt;bspwm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://codeberg.org/dwl/dwl"&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://i3wm.org/&#34;&gt;i3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/baskerville/bspwm&#34;&gt;bspwm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeberg.org/dwl/dwl&#34;&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can try and install DWM if you want from the link below:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href="https://dwm.suckless.org/"&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>My Workflow</title><link>https://embeddingbits.is-a.dev/tech/workflow/workflow/</link><pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/workflow/workflow/</guid><dc:creator>Amiitesh TSP</dc:creator><category>hyprland</category><category>lazygit</category><category>window manager</category><category>wm</category><category>river</category><description>My developer workflow</description><content:encoded>
-&lt;h2 class="heading" id="introduction"&gt;
-Introduction
-&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href=&#34;https://dwm.suckless.org/&#34;&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+    </item>
+    
+    <item>
+      <title>My Workflow</title>
+      <link>http://localhost:1313/tech/workflow/workflow/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/workflow/workflow/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>hyprland</category>
+      <category>lazygit</category>
+      <category>window manager</category>
+      <category>wm</category>
+      <category>river</category>
+      <description>My developer workflow</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;h3 class="heading" id="about-myself"&gt;
-About Myself
-&lt;a class="anchor" href="#about-myself"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;about-myself&#34;&gt;
+  About Myself
+  &lt;a class=&#34;anchor&#34; href=&#34;#about-myself&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Welcome to this blog, in this blog I&amp;rsquo;ll be discussing about my developer workflow.&lt;/p&gt;
 &lt;p&gt;I am a college student, currently in my freshman year. I develop many open source projects and through my journey of developing projects, I have tried many tools and software to make my job easier and interesting to work on. In this blog, I will be sharing all the tools and software I use everyday ranging from Desktop to CLI Tools.&lt;/p&gt;
-&lt;h2 class="heading" id="operating-system"&gt;
-Operating System
-&lt;a class="anchor" href="#operating-system"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;operating-system&#34;&gt;
+  Operating System
+  &lt;a class=&#34;anchor&#34; href=&#34;#operating-system&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This is one of my most favourite part. I have used &lt;strong&gt;Linux&lt;/strong&gt; since my childhood, because I was influenced by my dad that I started using Linux as he uses Linux and MacOS most of the time. I am so used to using Linux that is often annoys me when I have to use Windows here at college during labs cause I am more used to coding in terminal and terminal-based editors.&lt;/p&gt;
 &lt;p&gt;Now, for the part of the operating system, Arch Linux. I used to use Ubuntu and wanted to try out Arch Linux for fun and it turned out that I liked it. Arch Linux is more of a DIY Operating System, it gives up complete freedom over what we want to do right from the time of installation.&lt;/p&gt;
 &lt;p&gt;It has one of the most powerful package managers, &lt;strong&gt;pacman&lt;/strong&gt; and &lt;strong&gt;AUR (Arch User Repository)&lt;/strong&gt; package managers like &lt;strong&gt;yay&lt;/strong&gt; and &lt;strong&gt;paru&lt;/strong&gt;. There is almost every imaginable package or software in the AUR, so much so that anything that does not exist in the AUR can be said &amp;ldquo;uninvented&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Arch is a very &lt;strong&gt;lightweight distro&lt;/strong&gt; and can be very well suitable to be used on old hardware. Almost every desktop environment is stable on Arch and we can choose whatever we find suitable for us.&lt;/p&gt;
 &lt;p&gt;Another advantage of using Linux is that we can configure almost everything right from the kernel to the visually-pleasing DEs.&lt;/p&gt;
-&lt;h2 class="heading" id="desktop-environment"&gt;
-Desktop Environment
-&lt;a class="anchor" href="#desktop-environment"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;desktop-environment&#34;&gt;
+  Desktop Environment
+  &lt;a class=&#34;anchor&#34; href=&#34;#desktop-environment&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;For the desktop environment, I use two different desktop environments: &lt;strong&gt;River&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;My primary DE is River, River is not exactly a DE but its called Window Manager, they automatically tile windows when they are created instead of manually adjusting them by ourselves.&lt;/p&gt;
 &lt;p&gt;Now, I&amp;rsquo;ll explain why and how I use River. I follow certain rules that have become a habit for me over time. I initially got this idea from one of my favorite tech YouTubers, ThePrimeagen, and his way of using window managers.&lt;/p&gt;
 &lt;p&gt;Window Managers are convenient for people who use keyboard more than the mouse like myself. Everything can be configured with keybinds right from switching panes to switching workspaces. In my config, I have 5 workspaces by default and I could switch them using &amp;ldquo;SUPER + workspace_number&amp;rdquo; (SUPER is nothing but the window key).&lt;/p&gt;
-&lt;h3 class="heading" id="so-heres-how-i-use-it"&gt;
-So, here&amp;rsquo;s how I use it:
-&lt;a class="anchor" href="#so-heres-how-i-use-it"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;so-heres-how-i-use-it&#34;&gt;
+  So, here&amp;rsquo;s how I use it:
+  &lt;a class=&#34;anchor&#34; href=&#34;#so-heres-how-i-use-it&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Workspace 1:&lt;/strong&gt; In the first workspace, I have the &lt;strong&gt;text editor&lt;/strong&gt; and the &lt;strong&gt;terminal&lt;/strong&gt; I&amp;rsquo;m working running on a &lt;strong&gt;tmux session&lt;/strong&gt;.&lt;/li&gt;
@@ -129,29 +243,33 @@ So, here&amp;rsquo;s how I use it:
 &lt;li&gt;&lt;strong&gt;Workspace 4:&lt;/strong&gt; I don&amp;rsquo;t usually use 4 and 5 but it depends. But, most of the times its just junk that I have in here.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So, following the above rules over time, they became ingrained in my muscle memory. Now, when I think &amp;rsquo;editor,&amp;rsquo; my fingers instinctively press &amp;lsquo;SUPER + 1,&amp;rsquo; and when I think &amp;lsquo;browser,&amp;rsquo; they press &amp;lsquo;SUPER + 2,&amp;rsquo; and so on for the rest.&lt;/p&gt;
-&lt;h2 class="heading" id="terminal-and-code-editor"&gt;
-Terminal and Code Editor
-&lt;a class="anchor" href="#terminal-and-code-editor"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;terminal-and-code-editor&#34;&gt;
+  Terminal and Code Editor
+  &lt;a class=&#34;anchor&#34; href=&#34;#terminal-and-code-editor&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This is also one of the most parts of my workflow. I live in the terminal/command line (Shortly as TUI). The only time I use the GUI is for browsing the web, the rest of the time I only spend it in the terminal. So configuring a good terminal and a good terminal-based code editor is one of the most important part for people like me.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For the terminal emulator, I use &lt;strong&gt;ghostty&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;For the code editor, I use &lt;strong&gt;Neovim&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 class="heading" id="ghostty-terminal-emulator"&gt;
-Ghostty Terminal Emulator
-&lt;a class="anchor" href="#ghostty-terminal-emulator"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;ghostty-terminal-emulator&#34;&gt;
+  Ghostty Terminal Emulator
+  &lt;a class=&#34;anchor&#34; href=&#34;#ghostty-terminal-emulator&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;I use the kitty terminal with my minimal configuration like fonts, colorscheme and etc.&lt;/p&gt;
 &lt;p&gt;For the fonts, I use a global configuration with IosevkaTerm Nerd Font and for the colorscheme I use Gruvbox all over my Linux config.&lt;/p&gt;
-&lt;h3 class="heading" id="neovim-text-editor"&gt;
-Neovim Text Editor
-&lt;a class="anchor" href="#neovim-text-editor"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;neovim-text-editor&#34;&gt;
+  Neovim Text Editor
+  &lt;a class=&#34;anchor&#34; href=&#34;#neovim-text-editor&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;I use &lt;strong&gt;Neovim&lt;/strong&gt; as a text editor for all purposes, from &lt;strong&gt;editing LaTeX documents to writing code&lt;/strong&gt;. Neovim has a &lt;strong&gt;steep learning curve&lt;/strong&gt;, but ultimately it&amp;rsquo;s incredibly useful because I rarely need to take my hands off the keyboard.&lt;/p&gt;
-&lt;h2 class="heading" id="tools-and-software"&gt;
-Tools and Software
-&lt;a class="anchor" href="#tools-and-software"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;tools-and-software&#34;&gt;
+  Tools and Software
+  &lt;a class=&#34;anchor&#34; href=&#34;#tools-and-software&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are many CLI tools and software that makes my job done easier and faster.&lt;/p&gt;
 &lt;ul&gt;
@@ -161,35 +279,58 @@ Tools and Software
 &lt;li&gt;Tmux&lt;/li&gt;
 &lt;li&gt;fzf&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 class="heading" id="gitgithub-and-lazygit"&gt;
-Git/GitHub and LazyGit
-&lt;a class="anchor" href="#gitgithub-and-lazygit"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;gitgithub-and-lazygit&#34;&gt;
+  Git/GitHub and LazyGit
+  &lt;a class=&#34;anchor&#34; href=&#34;#gitgithub-and-lazygit&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;One of the most important tool that I use everyday is &lt;strong&gt;Git/GitHub combined with LazyGit&lt;/strong&gt;. I don&amp;rsquo;t store my codes or projects locally. Even if the project is uncompleted I store them on GitHub under a public or a private repo. LazyGit makes Git a easy job. Instead of wanting to have type all the commands manually, LazyGit created a TUI (Terminal User Interface) driven by keybinds. It helps view changes, stage them, write commits and push them to remote repo under just keybinds.&lt;/p&gt;
 &lt;p&gt;This is how LazyGit looks:&lt;/p&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1920; --h: 1080;"&gt;
-&lt;img loading="lazy" alt="lazygit" src="https://embeddingbits.is-a.dev/tech/workflow/workflow/lazygit.png" width="1920" height="1080"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;http://localhost:1313/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As you can see, viewing the changes and commits all under a same place makes us complete our job way faster.&lt;/p&gt;
-&lt;h3 class="heading" id="tmux-terminal-session-and-uses"&gt;
-Tmux Terminal Session and uses
-&lt;a class="anchor" href="#tmux-terminal-session-and-uses"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;tmux-terminal-session-and-uses&#34;&gt;
+  Tmux Terminal Session and uses
+  &lt;a class=&#34;anchor&#34; href=&#34;#tmux-terminal-session-and-uses&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Tmux is another one of such useful tools that I use. Tmux stands for Terminal Multiplexer and is used in Unix-like operating systems. It allows to use multiple terminal sessions in the terminal window. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session, which is helpful when we accidentally close the session without saveing the changes.&lt;/p&gt;
-&lt;h3 class="heading" id="fish-shell-and-fzf-fuzzy-finder"&gt;
-Fish Shell and fzf fuzzy finder
-&lt;a class="anchor" href="#fish-shell-and-fzf-fuzzy-finder"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;fish-shell-and-fzf-fuzzy-finder&#34;&gt;
+  Fish Shell and fzf fuzzy finder
+  &lt;a class=&#34;anchor&#34; href=&#34;#fish-shell-and-fzf-fuzzy-finder&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;The standard shell for all the Linux distros is bash. We can choose whatever shell we want after that. The most common choices for shells are bash, zsh and fish. The syntax and structure of fish is way different than what it is in zsh.&lt;/p&gt;
 &lt;p&gt;Fish is a interactive shell where we can directly interact with the terminal. For example: In bash if we type ls and hit tab it will display the files and directories but we cannot directly interact with the shell to choose, instead we have to look at the file we want and type it and hit tab to complete. Whereas, in fish we can select it directly using the keys.&lt;/p&gt;
 &lt;p&gt;With the combined use of fzf (a fuzzy finder), we can make fish shell more powerful than what it already is.&lt;/p&gt;
-&lt;h2 class="heading" id="programming-language"&gt;
-Programming Language
-&lt;a class="anchor" href="#programming-language"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;programming-language&#34;&gt;
+  Programming Language
+  &lt;a class=&#34;anchor&#34; href=&#34;#programming-language&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;For the part of programming language, I am more into Cybersecurity, Network programming, DevOps and Kernel development. So I work mostly in C, C++, Assembly (for reverse engineering), Python and bash script.&lt;/p&gt;
 &lt;ul&gt;
@@ -197,24 +338,31 @@ Programming Language
 &lt;li&gt;For embedded systems, I use C and Zig.&lt;/li&gt;
 &lt;li&gt;For systems programming, I use C, Zig and C++.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 class="heading" id="bottom-note"&gt;
-Bottom Note
-&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;These are the tools and software that I use when I develop projects and much more. I uniformly use the Nord colorscheme.&lt;/p&gt;
-&lt;h4 class="heading" id="here-are-the-links-to-everything-i-use"&gt;
-Here are the links to everything I use:
-&lt;a class="anchor" href="#here-are-the-links-to-everything-i-use"&gt;#&lt;/a&gt;
+
+&lt;h4 class=&#34;heading&#34; id=&#34;here-are-the-links-to-everything-i-use&#34;&gt;
+  Here are the links to everything I use:
+  &lt;a class=&#34;anchor&#34; href=&#34;#here-are-the-links-to-everything-i-use&#34;&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;My Linux Configuration:&lt;/strong&gt; &lt;a href="https://github.com/embeddingbits/arch_dotfiles"&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Arch Linux:&lt;/strong&gt; &lt;a href="https://archlinux.org/"&gt;https://archlinux.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;River DE:&lt;/strong&gt; &lt;a href="https://codeberg.org/river"&gt;https://codeberg.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ghostty Terminal:&lt;/strong&gt; &lt;a href="https://ghostty.org/"&gt;https://ghostty.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Neovim:&lt;/strong&gt; &lt;a href="https://neovim.io/"&gt;https://neovim.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Custom Neovim Config&lt;/strong&gt;: &lt;a href="https://github.com/embeddingbits/arch_dotfiles"&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LazyGit:&lt;/strong&gt; &lt;a href="https://github.com/jesseduffield/lazygit"&gt;https://github.com/jesseduffield/lazygit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tmux:&lt;/strong&gt; &lt;a href="https://github.com/tmux/tmux/wiki"&gt;https://github.com/tmux/tmux/wiki&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fish Shell:&lt;/strong&gt; &lt;a href="https://fishshell.com/"&gt;https://fishshell.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My Linux Configuration:&lt;/strong&gt; &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arch Linux:&lt;/strong&gt; &lt;a href=&#34;https://archlinux.org/&#34;&gt;https://archlinux.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;River DE:&lt;/strong&gt; &lt;a href=&#34;https://codeberg.org/river&#34;&gt;https://codeberg.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ghostty Terminal:&lt;/strong&gt; &lt;a href=&#34;https://ghostty.org/&#34;&gt;https://ghostty.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Neovim:&lt;/strong&gt; &lt;a href=&#34;https://neovim.io/&#34;&gt;https://neovim.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Neovim Config&lt;/strong&gt;: &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LazyGit:&lt;/strong&gt; &lt;a href=&#34;https://github.com/jesseduffield/lazygit&#34;&gt;https://github.com/jesseduffield/lazygit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tmux:&lt;/strong&gt; &lt;a href=&#34;https://github.com/tmux/tmux/wiki&#34;&gt;https://github.com/tmux/tmux/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fish Shell:&lt;/strong&gt; &lt;a href=&#34;https://fishshell.com/&#34;&gt;https://fishshell.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In the upcoming blogs, I&amp;rsquo;ll write on how to configure Tmux for a better work experience.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;In the upcoming blogs, I&amp;rsquo;ll write on how to configure Tmux for a better work experience.&lt;/p&gt;
+</content:encoded>
+    </item>
+    
+  </channel>
+</rss>

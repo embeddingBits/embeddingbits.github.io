@@ -1,23 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>X11 — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/x11/</link><description>Recent content in X11 on eBits Base</description><generator>Hugo 0.164.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Tue, 11 Aug 2026 16:36:50 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/x11/index.xml" rel="self" type="application/rss+xml"/><item><title>Is Wayland better than X11</title><link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid><dc:creator>Amiitesh TSP</dc:creator><category>wayland</category><category>x11</category><category>linux</category><category>software</category><category>tech</category><description>Advantages of Wayland over X11</description><content:encoded>
-&lt;h2 class="heading" id="introduction"&gt;
-Introduction
-&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>X11 — eBits Base</title>
+    <link>http://localhost:1313/tags/x11/</link>
+    <description>Recent content in X11 on eBits Base</description>
+    <generator>Hugo 0.164.0 -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
+    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
+    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    
+    <atom:link href="http://localhost:1313/tags/x11/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is Wayland better than X11</title>
+      <link>http://localhost:1313/tech/wayland/wayland/</link>
+      <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>wayland</category>
+      <category>x11</category>
+      <category>linux</category>
+      <category>software</category>
+      <category>tech</category>
+      <description>Advantages of Wayland over X11</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Wayland and X11 are one of the most prominent display servers. Both of them have their fair share of advantages and disadvantages. While, all the Desktop Environments, Window Managers are switching to Wayland due to it being a better alternative. But what are the differences between these two and why are users and developers switching to Wayland over X11. I&amp;rsquo;ll try my best to give my opinion on both of these display servers.&lt;/p&gt;
-&lt;h2 class="heading" id="what-is-a-display-server"&gt;
-What is a Display Server?
-&lt;a class="anchor" href="#what-is-a-display-server"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;what-is-a-display-server&#34;&gt;
+  What is a Display Server?
+  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-a-display-server&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In Linux, A display server is a crucial component that acts as a intermediary between graphical applications and the hardware that is responsible for displaying them. It manages the graphical diplay and user input from input devices like keyboard and mouse.&lt;/p&gt;
-&lt;h2 class="heading" id="x11-display-server"&gt;
-X11 Display Server
-&lt;a class="anchor" href="#x11-display-server"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;x11-display-server&#34;&gt;
+  X11 Display Server
+  &lt;a class=&#34;anchor&#34; href=&#34;#x11-display-server&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ll first talk about the older display server. The X11 project began in 1987 and has the stable support for almost all the linux native software. X11 follows the client-server protocol where the X server owns all the screens and input devices and all the GUI applications are the clients of the X server. It was specifically designed to work over a network it assumes clients and the server may be on different machines which leads to serialization and backwards-compatibility. It was built with assumptions but most of them no longer holds true. As of today, Linux runs on locally connected displays which is not something that X was designed for. This became increasingly problematic as modern computing kept evolving.&lt;/p&gt;
 &lt;p&gt;By the early 2000s, X11 was seriously backward technically. Linux ecosystem was evolving which made most of X11&amp;rsquo;s features really unneccessary. Libraries like libinput started managing fonts which was a priviledge that only X11 had. Cairo and Freetype took over rendering which was earlier done by X11. Yet, X11 was still there with much of unneccessary feature which was seen as a bottleneck.&lt;/p&gt;
-&lt;h3 class="heading" id="architecture"&gt;
-Architecture
-&lt;a class="anchor" href="#architecture"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;architecture&#34;&gt;
+  Architecture
+  &lt;a class=&#34;anchor&#34; href=&#34;#architecture&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;The kernel gets an event from an input device and sends it to the X server through the evdev input driver and the kernel does all the job from controlling and translating the protocol into the required standard.&lt;/li&gt;
@@ -27,19 +62,43 @@ Architecture
 &lt;li&gt;The damage event tells the compositor that something has happened to the screen and it has to recomposite the entire screen with the changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
-&lt;figure class=" img-small"&gt;
-&lt;div class="img-container" style="--w: 533; --h: 507;"&gt;
-&lt;img loading="lazy" alt="xserver" src="https://embeddingbits.is-a.dev/tech/wayland/wayland/x-architecture.png#small" width="533" height="507"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="wayland-display-server"&gt;
-Wayland Display Server
-&lt;a class="anchor" href="#wayland-display-server"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;wayland-display-server&#34;&gt;
+  Wayland Display Server
+  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-display-server&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;h3 class="heading" id="architecture-1"&gt;
-Architecture
-&lt;a class="anchor" href="#architecture-1"&gt;#&lt;/a&gt;
+
+&lt;h3 class=&#34;heading&#34; id=&#34;architecture-1&#34;&gt;
+  Architecture
+  &lt;a class=&#34;anchor&#34; href=&#34;#architecture-1&#34;&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;The kernel gets an event and immediately sends it to the compositor.&lt;/li&gt;
@@ -48,33 +107,73 @@ Architecture
 &lt;li&gt;The compositor collects damage requests from its clients and then recomposites the screen. The compositor can then directly issue an ioctl to schedule a pageflip with KMS.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
-&lt;figure class=" img-small"&gt;
-&lt;div class="img-container" style="--w: 319; --h: 500;"&gt;
-&lt;img loading="lazy" alt="wayland" src="https://embeddingbits.is-a.dev/tech/wayland/wayland/wayland-architecture.png#small" width="319" height="500"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34; img-small&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="wayland-is-faster-than-x11"&gt;
-Wayland is faster than X11
-&lt;a class="anchor" href="#wayland-is-faster-than-x11"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;wayland-is-faster-than-x11&#34;&gt;
+  Wayland is faster than X11
+  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-is-faster-than-x11&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In X11, the client talks to the X server -&amp;gt; X server talks to the window manager -&amp;gt; Window Manager to the compositor and finally the GPU. But in Wayland, the client directly interacts with the Compositor then to the GPU. X11 has to go through many steps which makes it slower and bloated when compared to Wayland.&lt;/p&gt;
 &lt;p&gt;In X11, the application renders to pixmap, and the pixmap is copied to X server and the compositor has to copy again and the GPU finally displays it. But in Wayland, the application directly renders to the GPU buffer and the compositor just has to reference it from the buffer.&lt;/p&gt;
-&lt;h2 class="heading" id="bottom-note"&gt;
-Bottom Note
-&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Both the compositors have both of their pros and cons. X11 is more stable and has a mature codebase and it has a very predictable behaviour. X11 is ideal for screen recording remote desktops and has support for almost every software due to its maturity and a longer existence than Wayland. It is easier to write code for X11 and build low level tools. At the same time, It has many security flaws and broken features. The project is almost dead and many distros have continued to drop X11 as the default display server.&lt;/p&gt;
-&lt;p&gt;Wayland on the other hand, Wayland is faster than X11 because of the Zero-copy rendering and its more secure since it allows the applications to see only their input and their own surfaces. It has almost perfect frame timing, the compositor controls VSync, frame scheduling and presentation timing which prevents screen tearing. At the same time, its harder to write wayland clients, has weaker remote desktop control when compared to X11 and harder to write low level tools. It is still evolving and many of its protocol extensions are still changing constantly. Many software are yet to extend compatibility to Wayland and iss still growing at a faster rate.&lt;/p&gt;</content:encoded></item><item><title>DWM Window Manager</title><link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid><dc:creator>Amiitesh TSP</dc:creator><category>x11</category><category>window manager</category><category>linux</category><category>dwm</category><description>Overview of DWM Window Manager</description><content:encoded>
-&lt;h2 class="heading" id="introduction"&gt;
-Introduction
-&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;p&gt;Wayland on the other hand, Wayland is faster than X11 because of the Zero-copy rendering and its more secure since it allows the applications to see only their input and their own surfaces. It has almost perfect frame timing, the compositor controls VSync, frame scheduling and presentation timing which prevents screen tearing. At the same time, its harder to write wayland clients, has weaker remote desktop control when compared to X11 and harder to write low level tools. It is still evolving and many of its protocol extensions are still changing constantly. Many software are yet to extend compatibility to Wayland and iss still growing at a faster rate.&lt;/p&gt;
+</content:encoded>
+    </item>
+    
+    <item>
+      <title>DWM Window Manager</title>
+      <link>http://localhost:1313/tech/dwm/dwm/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>x11</category>
+      <category>window manager</category>
+      <category>linux</category>
+      <category>dwm</category>
+      <description>Overview of DWM Window Manager</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Welcome to this blog where I will be writing about &lt;strong&gt;DWM (Dynamic Window Manager)&lt;/strong&gt; which is written in C intended to reduce bloat as much as possible giving us a smooth user experience. Configuring DWM can be hard for a few, but the end result is worth it. I recently wanted to try DWM for fun and turned out it was actually a very good experience that I have switched from Hyprland to DWM permanently.&lt;/p&gt;
 &lt;p&gt;To configure DWM we have to manually edit the C source code, after the changes we save. Compile it with the &lt;code&gt;make&lt;/code&gt; command and then finally quit DWM and log back in for the changes. If there are any errors with the source code, then DWM won&amp;rsquo;t allow you to log inside the DWM until the error is corrected. So, what I did is I would backup after every stable change I make and in case of there are any errors I would copy the backup file or manually edit them in a tty.&lt;/p&gt;
-&lt;h2 class="heading" id="about-dwm"&gt;
-About DWM
-&lt;a class="anchor" href="#about-dwm"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;about-dwm&#34;&gt;
+  About DWM
+  &lt;a class=&#34;anchor&#34; href=&#34;#about-dwm&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;DWM is a window manager for X server made by &lt;strong&gt;suckless.org&lt;/strong&gt; — a group of programmers working together to make software that &amp;ldquo;suck less&amp;rdquo;. They have made many tools like:&lt;/p&gt;
 &lt;ul&gt;
@@ -83,37 +182,78 @@ About DWM
 &lt;li&gt;and some other &amp;ldquo;core&amp;rdquo; programs for a suckless experience.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There are many layouts to manage windows like &lt;strong&gt;tiled&lt;/strong&gt;, &lt;strong&gt;monocle&lt;/strong&gt;, &lt;strong&gt;floating layout&lt;/strong&gt;. We can switch between different layouts using keybinds dynamically according to the application that we are working with.&lt;/p&gt;
-&lt;h2 class="heading" id="how-are-windows-managed"&gt;
-How are windows managed
-&lt;a class="anchor" href="#how-are-windows-managed"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;how-are-windows-managed&#34;&gt;
+  How are windows managed
+  &lt;a class=&#34;anchor&#34; href=&#34;#how-are-windows-managed&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In &lt;strong&gt;tiled mode&lt;/strong&gt;, the windows are stacked above one another as a new window is created every time. Stack in the sense not &amp;ldquo;literally&amp;rdquo; stack but the windows act stacked in the memory as in the data structure &amp;ldquo;stack&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;In &lt;strong&gt;monocle layout&lt;/strong&gt;, all the windows are fullscreen and now are literally stacked above each other when they are created.&lt;/p&gt;
 &lt;p&gt;In the &lt;strong&gt;floating layout&lt;/strong&gt;, it is like what we use in rest of the desktop environments and in Windows. All the newly created windows are floating.&lt;/p&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1920; --h: 1079;"&gt;
-&lt;img loading="lazy" alt="Stacked Windows" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png" width="1920" height="1079"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="workspacestags"&gt;
-Workspaces/Tags
-&lt;a class="anchor" href="#workspacestags"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;workspacestags&#34;&gt;
+  Workspaces/Tags
+  &lt;a class=&#34;anchor&#34; href=&#34;#workspacestags&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In DWM, the workspaces are called &lt;strong&gt;&amp;ldquo;tags&amp;rdquo;&lt;/strong&gt;. By default, there are 10 tags but we can change them to however many we want. We can also replace them with a logo instead of just numbers.&lt;/p&gt;
 &lt;p&gt;We can switch between them with shortcut key, &lt;code&gt;ALT + &amp;quot;tag_number&amp;quot;&lt;/code&gt;. We can also change the keybinds to whatever we feel comfortable.&lt;/p&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1914; --h: 1079;"&gt;
-&lt;img loading="lazy" alt="Tags Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png" width="1914" height="1079"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The red circled is what is called tags&lt;/em&gt;&lt;/p&gt;
-&lt;h2 class="heading" id="status-bar"&gt;
-Status Bar
-&lt;a class="anchor" href="#status-bar"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;status-bar&#34;&gt;
+  Status Bar
+  &lt;a class=&#34;anchor&#34; href=&#34;#status-bar&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There is a status bar by default provided by DWM. We can also add our own status bar if we want with &lt;strong&gt;patches&lt;/strong&gt; (I&amp;rsquo;ll cover that in the upcoming heading). The status bar is divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -129,32 +269,58 @@ Status Bar
 &lt;li&gt;&lt;code&gt;anybar&lt;/code&gt; (which allows us to use any bar other than the default one provided by DWM)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-&lt;figure class=""&gt;
-&lt;div class="img-container" style="--w: 1920; --h: 1080;"&gt;
-&lt;img loading="lazy" alt="Status Bar Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png" width="1920" height="1080"&gt;
-&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;&#34;&gt;
+
+    
+    
+      
+        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
+            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
+        &lt;/div&gt;
+      
+    
+
+    
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 class="heading" id="patches"&gt;
-Patches
-&lt;a class="anchor" href="#patches"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;patches&#34;&gt;
+  Patches
+  &lt;a class=&#34;anchor&#34; href=&#34;#patches&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;We can add many other features we require by &lt;strong&gt;&amp;ldquo;patching&amp;rdquo;&lt;/strong&gt; the main source code. This is one of the most exhausting parts of DWM for people who want extra features.&lt;/p&gt;
 &lt;p&gt;The patches are mostly written by other users themselves. Patches are nothing but adding extra functionality to the source code.&lt;/p&gt;
 &lt;p&gt;When applying the patches there is &lt;strong&gt;7/10 chance&lt;/strong&gt; for a patch error to occur. The error is put into a &lt;strong&gt;&lt;code&gt;.rej&lt;/code&gt;&lt;/strong&gt; file with the changes that are to be made indicated with &lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;. We have to manually edit them ourselves and compile the code. We have to add the lines that start with &lt;code&gt;+&lt;/code&gt; and delete the line that start with &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This is the part where most quit because it&amp;rsquo;s exhausting.&lt;/p&gt;
 &lt;p&gt;This is because the patches are not intelligent enough to make all the changes by itself. They expect some block of code to be there but when there is no code block that the patch is expecting it returns an error and as I said — after we edit the file ourselves and if there are errors in the main source code, DWM won&amp;rsquo;t allow us to get into the DWM.&lt;/p&gt;
-&lt;h2 class="heading" id="bottom-note"&gt;
-Bottom Note
-&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
+  Bottom Note
+  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are different Window managers but I really felt that this one was peculiar and thought of writing a blog on it.&lt;/p&gt;
 &lt;p&gt;There are many window managers that are a fork of this like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://i3wm.org/"&gt;i3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/baskerville/bspwm"&gt;bspwm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://codeberg.org/dwl/dwl"&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://i3wm.org/&#34;&gt;i3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/baskerville/bspwm&#34;&gt;bspwm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeberg.org/dwl/dwl&#34;&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can try and install DWM if you want from the link below:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href="https://dwm.suckless.org/"&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href=&#34;https://dwm.suckless.org/&#34;&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+    </item>
+    
+  </channel>
+</rss>

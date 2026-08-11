@@ -3,7 +3,7 @@ date = 2023-08-12
 title = "Home"
 +++
 
-# Hello!
+# Hello
 
 Hi, I'm <span style="color: #d79921">Amiitesh</span>.
 
