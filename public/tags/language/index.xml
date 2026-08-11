@@ -1,78 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Language — eBits Base</title>
-    <link>http://localhost:1313/tags/language/</link>
-    <description>Recent content in Language on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 14:25:06 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/language/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Zig Programming Language</title>
-      <link>http://localhost:1313/tech/zig/zig/</link>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/zig/zig/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>zig</category>
-      <category>c</category>
-      <category>language</category>
-      <description>Zig&amp;rsquo;s features</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Language — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/language/</link><description>Recent content in Language on eBits Base</description><generator>Hugo 0.164.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Tue, 11 Aug 2026 16:36:50 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/language/index.xml" rel="self" type="application/rss+xml"/><item><title>Zig Programming Language</title><link>https://embeddingbits.is-a.dev/tech/zig/zig/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/zig/zig/</guid><dc:creator>Amiitesh TSP</dc:creator><category>zig</category><category>c</category><category>language</category><description>Zig&amp;rsquo;s features</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Zig is a modern programming language that is meant to be the successor of C programming language. Zig is a general-purpose programming language and toolchain for maintaining &lt;strong&gt;robust, optimal and reusable software&lt;/strong&gt;. There is no hidden control flow, no hidden memory allocations and no preprocessors and macros as in C.&lt;/p&gt;
 &lt;p&gt;Zig has a very important and maybe the standout feature of the language and a new approach to metaprogramming. In Zig, we can call the functions at &lt;strong&gt;compile time&lt;/strong&gt; and the datatypes can be assigned at &lt;strong&gt;compile time&lt;/strong&gt; and much more to it.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-makes-zig-special&#34;&gt;
-  What Makes Zig Special
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-makes-zig-special&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="what-makes-zig-special"&gt;
+What Makes Zig Special
+&lt;a class="anchor" href="#what-makes-zig-special"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Zig is built on three big ideas: it’s &lt;strong&gt;simple&lt;/strong&gt;, it’s &lt;strong&gt;fast&lt;/strong&gt;, and it gives you &lt;strong&gt;control&lt;/strong&gt;. Unlike some languages that make things complicated or force rules on you, Zig keeps things clear and lets you decide what to do.&lt;/p&gt;
 &lt;p&gt;Here’s a simple Zig program that says hello:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zig&#34; data-lang=&#34;zig&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; std &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;@import&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;() &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;void&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; stdout &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.io.&lt;span style=&#34;color:#fabd2f&#34;&gt;getStdOut&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;writer&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Hello, {s}!&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Zig&amp;#34;&lt;/span&gt;});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-zig" data-lang="zig"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; std &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;@import&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;pub&lt;/span&gt; &lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;main&lt;/span&gt;() &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;void&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; stdout &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.io.&lt;span style="color:#fabd2f"&gt;getStdOut&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;writer&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;Hello, {s}!&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{&lt;span style="color:#b8bb26"&gt;&amp;#34;Zig&amp;#34;&lt;/span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This code prints &lt;code&gt;&amp;quot;Hello, Zig!&amp;quot;&lt;/code&gt; to your screen. The &lt;code&gt;!void&lt;/code&gt; part means the program might fail, and Zig makes sure you know it. We’ll talk more about that later.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;managing-memory-in-zig&#34;&gt;
-  Managing Memory in Zig
-  &lt;a class=&#34;anchor&#34; href=&#34;#managing-memory-in-zig&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="managing-memory-in-zig"&gt;
+Managing Memory in Zig
+&lt;a class="anchor" href="#managing-memory-in-zig"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Memory is like space your program uses to store things. In Zig, &lt;strong&gt;you get to decide how to use that space&lt;/strong&gt;—no automatic system does it for you. This makes your program fast and safe.&lt;/p&gt;
 &lt;p&gt;Here’s an example of making a list of numbers:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zig&#34; data-lang=&#34;zig&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; std &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;@import&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;() &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;void&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; gpa &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.heap.&lt;span style=&#34;color:#fabd2f&#34;&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;deinit&lt;/span&gt;(); &lt;span style=&#34;color:#928374;font-style:italic&#34;&gt;// Cleans up when done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; allocator &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;allocator&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#928374;font-style:italic&#34;&gt;// Make a list of 5 numbers&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; numbers &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;alloc&lt;/span&gt;(&lt;span style=&#34;color:#fabd2f&#34;&gt;i32&lt;/span&gt;, &lt;span style=&#34;color:#d3869b&#34;&gt;5&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;free&lt;/span&gt;(numbers); &lt;span style=&#34;color:#928374;font-style:italic&#34;&gt;// Free the list later&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#928374;font-style:italic&#34;&gt;// Fill the list with numbers 0 to 4&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;for&lt;/span&gt; (numbers, &lt;span style=&#34;color:#d3869b&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;..&lt;/span&gt;) &lt;span style=&#34;color:#fe8019&#34;&gt;|*&lt;/span&gt;num, i&lt;span style=&#34;color:#fe8019&#34;&gt;|&lt;/span&gt; num&lt;span style=&#34;color:#fe8019&#34;&gt;.*&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;@intCast&lt;/span&gt;(&lt;span style=&#34;color:#fabd2f&#34;&gt;i32&lt;/span&gt;, i);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; stdout &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.io.&lt;span style=&#34;color:#fabd2f&#34;&gt;getStdOut&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;writer&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;List: {any}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{numbers});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-zig" data-lang="zig"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; std &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;@import&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;pub&lt;/span&gt; &lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;main&lt;/span&gt;() &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;void&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; gpa &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.heap.&lt;span style="color:#fabd2f"&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;deinit&lt;/span&gt;(); &lt;span style="color:#928374;font-style:italic"&gt;// Cleans up when done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; allocator &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;allocator&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#928374;font-style:italic"&gt;// Make a list of 5 numbers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; numbers &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;alloc&lt;/span&gt;(&lt;span style="color:#fabd2f"&gt;i32&lt;/span&gt;, &lt;span style="color:#d3869b"&gt;5&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;free&lt;/span&gt;(numbers); &lt;span style="color:#928374;font-style:italic"&gt;// Free the list later&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#928374;font-style:italic"&gt;// Fill the list with numbers 0 to 4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;for&lt;/span&gt; (numbers, &lt;span style="color:#d3869b"&gt;0&lt;/span&gt;&lt;span style="color:#fe8019"&gt;..&lt;/span&gt;) &lt;span style="color:#fe8019"&gt;|*&lt;/span&gt;num, i&lt;span style="color:#fe8019"&gt;|&lt;/span&gt; num&lt;span style="color:#fe8019"&gt;.*&lt;/span&gt; &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;@intCast&lt;/span&gt;(&lt;span style="color:#fabd2f"&gt;i32&lt;/span&gt;, i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; stdout &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.io.&lt;span style="color:#fabd2f"&gt;getStdOut&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;writer&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;List: {any}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{numbers});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;What’s happening here:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;You Choose:&lt;/strong&gt; You tell Zig how to create and free the list.&lt;/li&gt;
@@ -80,38 +48,37 @@
 &lt;li&gt;&lt;strong&gt;Safety:&lt;/strong&gt; Zig checks everything when you build the program.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This way, you avoid mistakes like losing track of memory or using it twice by accident.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;handling-problems-in-zig&#34;&gt;
-  Handling Problems in Zig
-  &lt;a class=&#34;anchor&#34; href=&#34;#handling-problems-in-zig&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="handling-problems-in-zig"&gt;
+Handling Problems in Zig
+&lt;a class="anchor" href="#handling-problems-in-zig"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Zig doesn’t hide problems—it &lt;strong&gt;tells you when something might go wrong&lt;/strong&gt; and helps you fix it. It uses a special way to show if a task worked or failed.&lt;/p&gt;
 &lt;p&gt;Here’s an example of reading a file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zig&#34; data-lang=&#34;zig&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; std &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;@import&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;readFile&lt;/span&gt;(allocator: std.mem.Allocator, path: []&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt;) &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;[]&lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; file &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; std.fs.&lt;span style=&#34;color:#fabd2f&#34;&gt;cwd&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;openFile&lt;/span&gt;(path, .{});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;close&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; size &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;getEndPos&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; buffer &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;alloc&lt;/span&gt;(&lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt;, size);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    _ &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;readAll&lt;/span&gt;(buffer);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;return&lt;/span&gt; buffer;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;() &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;void&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; gpa &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.heap.&lt;span style=&#34;color:#fabd2f&#34;&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;deinit&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; allocator &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;allocator&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; stdout &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.io.&lt;span style=&#34;color:#fabd2f&#34;&gt;getStdOut&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;writer&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; content &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;readFile&lt;/span&gt;(allocator, &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;example.txt&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#fe8019&#34;&gt;catch&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;|&lt;/span&gt;err&lt;span style=&#34;color:#fe8019&#34;&gt;|&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Oops! Something went wrong: {}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{err});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fe8019&#34;&gt;return&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    };
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;free&lt;/span&gt;(content);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;File says: {s}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{content});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-zig" data-lang="zig"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; std &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;@import&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;pub&lt;/span&gt; &lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;readFile&lt;/span&gt;(allocator: std.mem.Allocator, path: []&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt;) &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;[]&lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; file &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; std.fs.&lt;span style="color:#fabd2f"&gt;cwd&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;openFile&lt;/span&gt;(path, .{});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;close&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; size &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;getEndPos&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; buffer &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;alloc&lt;/span&gt;(&lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt;, size);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; _ &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;readAll&lt;/span&gt;(buffer);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;return&lt;/span&gt; buffer;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;pub&lt;/span&gt; &lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;main&lt;/span&gt;() &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;void&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; gpa &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.heap.&lt;span style="color:#fabd2f"&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;deinit&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; allocator &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;allocator&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; stdout &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.io.&lt;span style="color:#fabd2f"&gt;getStdOut&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;writer&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; content &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;readFile&lt;/span&gt;(allocator, &lt;span style="color:#b8bb26"&gt;&amp;#34;example.txt&amp;#34;&lt;/span&gt;) &lt;span style="color:#fe8019"&gt;catch&lt;/span&gt; &lt;span style="color:#fe8019"&gt;|&lt;/span&gt;err&lt;span style="color:#fe8019"&gt;|&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;Oops! Something went wrong: {}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{err});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;return&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;free&lt;/span&gt;(content);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;File says: {s}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{content});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;What’s going on:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Success or Fail:&lt;/strong&gt; The &lt;code&gt;!&lt;/code&gt; means this might work or might not.&lt;/li&gt;
@@ -119,43 +86,37 @@
 &lt;li&gt;&lt;strong&gt;Catch:&lt;/strong&gt; If it fails, this part runs to handle the problem.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This makes sure you always know what’s happening—no surprises!&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;wrapping-up&#34;&gt;
-  Wrapping Up
-  &lt;a class=&#34;anchor&#34; href=&#34;#wrapping-up&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="wrapping-up"&gt;
+Wrapping Up
+&lt;a class="anchor" href="#wrapping-up"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Zig is great for people who like to keep things &lt;strong&gt;simple and clear&lt;/strong&gt;. It lets you control your program’s memory and &lt;strong&gt;warns you about problems before they ruin everything&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Here’s the full file-reading code again:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-zig&#34; data-lang=&#34;zig&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; std &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;@import&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;readFile&lt;/span&gt;(allocator: std.mem.Allocator, path: []&lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt;) &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;[]&lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; file &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; std.fs.&lt;span style=&#34;color:#fabd2f&#34;&gt;cwd&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;openFile&lt;/span&gt;(path, .{});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;close&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; size &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;getEndPos&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; buffer &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;alloc&lt;/span&gt;(&lt;span style=&#34;color:#fabd2f&#34;&gt;u8&lt;/span&gt;, size);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    _ &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; file.&lt;span style=&#34;color:#fabd2f&#34;&gt;readAll&lt;/span&gt;(buffer);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;return&lt;/span&gt; buffer;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;pub&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;fn&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;main&lt;/span&gt;() &lt;span style=&#34;color:#fe8019&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;void&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;var&lt;/span&gt; gpa &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.heap.&lt;span style=&#34;color:#fabd2f&#34;&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;deinit&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; allocator &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; gpa.&lt;span style=&#34;color:#fabd2f&#34;&gt;allocator&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; stdout &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; std.io.&lt;span style=&#34;color:#fabd2f&#34;&gt;getStdOut&lt;/span&gt;().&lt;span style=&#34;color:#fabd2f&#34;&gt;writer&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;const&lt;/span&gt; content &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;readFile&lt;/span&gt;(allocator, &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;example.txt&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#fe8019&#34;&gt;catch&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;|&lt;/span&gt;err&lt;span style=&#34;color:#fe8019&#34;&gt;|&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;Oops! Something went wrong: {}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{err});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fe8019&#34;&gt;return&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    };
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;defer&lt;/span&gt; allocator.&lt;span style=&#34;color:#fabd2f&#34;&gt;free&lt;/span&gt;(content);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fe8019&#34;&gt;try&lt;/span&gt; stdout.&lt;span style=&#34;color:#fabd2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;File says: {s}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;&lt;/span&gt;, .{content});
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Want to learn more? Check out Zig’s home on &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/ziglang/zig&#34;&gt;https://github.com/ziglang/zig&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-zig" data-lang="zig"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; std &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;@import&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;std&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;readFile&lt;/span&gt;(allocator: std.mem.Allocator, path: []&lt;span style="color:#fe8019"&gt;const&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt;) &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;[]&lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; file &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; std.fs.&lt;span style="color:#fabd2f"&gt;cwd&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;openFile&lt;/span&gt;(path, .{});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;close&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; size &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;getEndPos&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; buffer &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;alloc&lt;/span&gt;(&lt;span style="color:#fabd2f"&gt;u8&lt;/span&gt;, size);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; _ &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; file.&lt;span style="color:#fabd2f"&gt;readAll&lt;/span&gt;(buffer);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;return&lt;/span&gt; buffer;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;pub&lt;/span&gt; &lt;span style="color:#fe8019"&gt;fn&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;main&lt;/span&gt;() &lt;span style="color:#fe8019"&gt;!&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;void&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;var&lt;/span&gt; gpa &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.heap.&lt;span style="color:#fabd2f"&gt;GeneralPurposeAllocator&lt;/span&gt;(.{}){};
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;deinit&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; allocator &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; gpa.&lt;span style="color:#fabd2f"&gt;allocator&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; stdout &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; std.io.&lt;span style="color:#fabd2f"&gt;getStdOut&lt;/span&gt;().&lt;span style="color:#fabd2f"&gt;writer&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;const&lt;/span&gt; content &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;readFile&lt;/span&gt;(allocator, &lt;span style="color:#b8bb26"&gt;&amp;#34;example.txt&amp;#34;&lt;/span&gt;) &lt;span style="color:#fe8019"&gt;catch&lt;/span&gt; &lt;span style="color:#fe8019"&gt;|&lt;/span&gt;err&lt;span style="color:#fe8019"&gt;|&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;Oops! Something went wrong: {}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{err});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;return&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;defer&lt;/span&gt; allocator.&lt;span style="color:#fabd2f"&gt;free&lt;/span&gt;(content);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#fe8019"&gt;try&lt;/span&gt; stdout.&lt;span style="color:#fabd2f"&gt;print&lt;/span&gt;(&lt;span style="color:#b8bb26"&gt;&amp;#34;File says: {s}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;\n&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;&amp;#34;&lt;/span&gt;, .{content});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Want to learn more? Check out Zig’s home on &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/ziglang/zig"&gt;https://github.com/ziglang/zig&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Have fun exploring Zig!&lt;/p&gt;
-&lt;hr&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;hr&gt;</content:encoded></item></channel></rss>

@@ -1,95 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Networkmanager — eBits Base</title>
-    <link>http://localhost:1313/tags/networkmanager/</link>
-    <description>Recent content in Networkmanager on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 14:25:06 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/networkmanager/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
-      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>terminal</category>
-      <category>utilities</category>
-      <category>networks</category>
-      <category>software</category>
-      <category>nmtui</category>
-      <category>networkmanager</category>
-      <description>Connecting to college WiFi</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;
-  Connecting to college WiFi using nmtui
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-nmtui&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Networkmanager — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/networkmanager/</link><description>Recent content in Networkmanager on eBits Base</description><generator>Hugo 0.164.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Tue, 11 Aug 2026 16:36:50 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/networkmanager/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect to college WiFi using nmtui or networkmanager</title><link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link><pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>terminal</category><category>utilities</category><category>networks</category><category>software</category><category>nmtui</category><category>networkmanager</category><description>Connecting to college WiFi</description><content:encoded>
+&lt;h2 class="heading" id="connecting-to-college-wifi-using-nmtui"&gt;
+Connecting to college WiFi using nmtui
+&lt;a class="anchor" href="#connecting-to-college-wifi-using-nmtui"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open a terminal and run &lt;code&gt;nmtui&lt;/code&gt; and in the selection navigate to &lt;code&gt;activate a connection&lt;/code&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1009;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1895; --h: 1009;"&gt;
+&lt;img loading="lazy" alt="nmtui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_start.png" width="1895" height="1009"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the list, select the WiFi you want to connect to.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; You&amp;rsquo;ll be taken to a screen similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1893; --h: 1008;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1893; --h: 1008;"&gt;
+&lt;img loading="lazy" alt="nmtui_connection" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_connection.png" width="1893" height="1008"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Verify that the SSID matches the network you want to connect to, then configure the settings below:&lt;/p&gt;
@@ -103,126 +29,39 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
 &lt;p&gt;Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;
-  Connecting to college WiFi using NetworkManager GUI
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="connecting-to-college-wifi-using-networkmanager-gui"&gt;
+Connecting to college WiFi using NetworkManager GUI
+&lt;a class="anchor" href="#connecting-to-college-wifi-using-networkmanager-gui"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open the application -&amp;gt; &lt;strong&gt;Advanced Network Configuration&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1010;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 1895; --h: 1010;"&gt;
+&lt;img loading="lazy" alt="nmgui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_start.png#small" width="1895" height="1010"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the dropdown menu, Select WiFi and enter &lt;em&gt;Create&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 734; --h: 485;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 734; --h: 485;"&gt;
+&lt;img loading="lazy" alt="nmgui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_image.png#small" width="734" height="485"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Under the &lt;em&gt;WiFi&lt;/em&gt; tab, enter the name of the WiFi connection that you want to connect to in the SSID field.&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 692; --h: 619;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 692; --h: 619;"&gt;
+&lt;img loading="lazy" alt="nmgui_field" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_field.png#small" width="692" height="619"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Now after that go to the &lt;em&gt;WiFi Security&lt;/em&gt; tab, you&amp;rsquo;ll see a configuration window similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 693; --h: 765;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 693; --h: 765;"&gt;
+&lt;img loading="lazy" alt="nmgui_connection" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_connection.png" width="693" height="765"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Under &lt;em&gt;WiFi Security&lt;/em&gt;, check if SSID is the network you want to connect to under the &lt;em&gt;WiFi&lt;/em&gt; tab and after that under the &lt;em&gt;WiFi Security&lt;/em&gt; tab change the settings to the one below:&lt;/p&gt;
@@ -237,9 +76,4 @@
 &lt;li&gt;Inner authentication -&amp;gt; MSCHAPV2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
-&lt;p&gt;Following these steps will get you connected to the college WiFi&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Following these steps will get you connected to the college WiFi&lt;/p&gt;</content:encoded></item></channel></rss>

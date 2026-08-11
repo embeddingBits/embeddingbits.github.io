@@ -1,37 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Neovim — eBits Base</title>
-    <link>http://localhost:1313/tags/neovim/</link>
-    <description>Recent content in Neovim on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 14:25:06 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Vim vs Neovim</title>
-      <link>http://localhost:1313/tech/vim_nvim/vim_nvim/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/vim_nvim/vim_nvim/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>neovim</category>
-      <category>vim</category>
-      <category>text editor</category>
-      <description>Differences between Vim and Neovim</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Neovim — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/neovim/</link><description>Recent content in Neovim on eBits Base</description><generator>Hugo 0.164.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Tue, 11 Aug 2026 16:36:50 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/neovim/index.xml" rel="self" type="application/rss+xml"/><item><title>Vim vs Neovim</title><link>https://embeddingbits.is-a.dev/tech/vim_nvim/vim_nvim/</link><pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/vim_nvim/vim_nvim/</guid><dc:creator>Amiitesh TSP</dc:creator><category>neovim</category><category>vim</category><category>text editor</category><description>Differences between Vim and Neovim</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Welcome to this blog, where I&amp;rsquo;ll be plotting the differences between &lt;strong&gt;Vim&lt;/strong&gt; and &lt;strong&gt;Neovim&lt;/strong&gt;. I&amp;rsquo;ll also be discussing which editor to use between the two for a better workflow and a better code editing experience.&lt;/p&gt;
 &lt;p&gt;Vim and Neovim are &lt;strong&gt;Open Source text editors&lt;/strong&gt; which can be tweaked for our convenience and changed according to our workflow.&lt;/p&gt;
@@ -43,15 +13,13 @@
 &lt;li&gt;To perform tasks like copy, paste, macros → &lt;strong&gt;Command Mode&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-are-the-differences-between-vim-and-neovim&#34;&gt;
-  What are the differences between Vim and Neovim?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-are-the-differences-between-vim-and-neovim&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="what-are-the-differences-between-vim-and-neovim"&gt;
+What are the differences between Vim and Neovim?
+&lt;a class="anchor" href="#what-are-the-differences-between-vim-and-neovim"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;basic-differences-between-the-text-editors&#34;&gt;
-  Basic Differences between the text editors:
-  &lt;a class=&#34;anchor&#34; href=&#34;#basic-differences-between-the-text-editors&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="basic-differences-between-the-text-editors"&gt;
+Basic Differences between the text editors:
+&lt;a class="anchor" href="#basic-differences-between-the-text-editors"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -77,10 +45,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;detailed-differences-between-the-two-text-editors&#34;&gt;
-  Detailed Differences between the two text editors:
-  &lt;a class=&#34;anchor&#34; href=&#34;#detailed-differences-between-the-two-text-editors&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="detailed-differences-between-the-two-text-editors"&gt;
+Detailed Differences between the two text editors:
+&lt;a class="anchor" href="#detailed-differences-between-the-two-text-editors"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -113,10 +80,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Both &lt;strong&gt;Vim&lt;/strong&gt; and &lt;strong&gt;Neovim&lt;/strong&gt; are powerful, open-source text editors designed for customization and efficient workflows. While &lt;strong&gt;Vim&lt;/strong&gt; has been a long-standing favorite for many developers, &lt;strong&gt;Neovim&lt;/strong&gt; enhances the experience with modern features such as:&lt;/p&gt;
 &lt;ul&gt;
@@ -129,9 +95,4 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Ultimately, the choice depends on your needs — but for a more feature-rich and modern editing experience, Neovim stands out as the better option.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;hr&gt;</content:encoded></item></channel></rss>
