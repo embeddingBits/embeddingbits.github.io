@@ -10,7 +10,7 @@
     <generator>Hugo 0.164.0 -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 09 Aug 2026 05:09:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 14:25:06 +0530</lastBuildDate>
     <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
     <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -2180,40 +2180,6 @@ It was released as an &lt;strong&gt;Open Source project&lt;/strong&gt; by Google
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/about/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <description>&lt;p&gt;I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like embedded systems, operating systems, networks, and VLSI. Apart from tech I like reading, writing blogs and compose music.&lt;/p&gt;
-&lt;p&gt;I like my software &lt;em&gt;libre&lt;/em&gt; so I&amp;rsquo;m a &lt;strong&gt;big advocate&lt;/strong&gt; of FOSS and I write/contribute to Open Source Souftware. You can check out some &lt;a href=&#34;https://codeberg.org/embeddingbits/&#34;&gt;software&lt;/a&gt; that I wrote, &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;rice&lt;/a&gt; and software that I use &lt;a href=&#34;https://embeddingbits.is-a.dev/software&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content:encoded>&lt;p&gt;I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like embedded systems, operating systems, networks, and VLSI. Apart from tech I like reading, writing blogs and compose music.&lt;/p&gt;
-&lt;p&gt;I like my software &lt;em&gt;libre&lt;/em&gt; so I&amp;rsquo;m a &lt;strong&gt;big advocate&lt;/strong&gt; of FOSS and I write/contribute to Open Source Souftware. You can check out some &lt;a href=&#34;https://codeberg.org/embeddingbits/&#34;&gt;software&lt;/a&gt; that I wrote, &lt;a href=&#34;https://codeberg.org/embeddingbits/dotfiles&#34;&gt;rice&lt;/a&gt; and software that I use &lt;a href=&#34;https://embeddingbits.is-a.dev/software&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;tech-i-like-and-you-can-love&#34;&gt;
-  Tech I like and you can love
-  &lt;a class=&#34;anchor&#34; href=&#34;#tech-i-like-and-you-can-love&#34;&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Neovim/Emacs&lt;/li&gt;
-&lt;li&gt;Void Linux&lt;/li&gt;
-&lt;li&gt;NixOS&lt;/li&gt;
-&lt;li&gt;Org Mode&lt;/li&gt;
-&lt;li&gt;C&lt;/li&gt;
-&lt;li&gt;Golang&lt;/li&gt;
-&lt;li&gt;Typst&lt;/li&gt;
-&lt;li&gt;stm32 and esp32&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can get in touch with me at:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Email - &lt;a href=&#34;mailto:tspamiitesh@gmail.com&#34;&gt;tspamiitesh@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Discord - &lt;a href=&#34;https://discord.com/users/1312819280018018374&#34;&gt;ebits&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Matrix - @embeddingbits:matrix.org&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2282,6 +2248,23 @@ College
 &lt;li&gt;&lt;strong&gt;Taking Notes:&lt;/strong&gt; I manage my college and personal notes with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org Mode&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Tech I like and you can love
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Neovim/Emacs&lt;/li&gt;
+&lt;li&gt;Void Linux&lt;/li&gt;
+&lt;li&gt;NixOS&lt;/li&gt;
+&lt;li&gt;Org Mode&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;Typst&lt;/li&gt;
+&lt;li&gt;stm32 and esp32&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
       <content:encoded>
 &lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
@@ -2321,6 +2304,23 @@ College
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Reports and Documents:&lt;/strong&gt; I use &lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;. &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Taking Notes:&lt;/strong&gt; I manage my college and personal notes with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org Mode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Tech I like and you can love
+&lt;/h2&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Neovim/Emacs&lt;/li&gt;
+&lt;li&gt;Void Linux&lt;/li&gt;
+&lt;li&gt;NixOS&lt;/li&gt;
+&lt;li&gt;Org Mode&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;Typst&lt;/li&gt;
+&lt;li&gt;stm32 and esp32&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;

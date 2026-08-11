@@ -26,3 +26,15 @@ readTime = true
 
 - *Reports and Documents:* I use [[https://typst.app/][Typst]]. 
 - *Taking Notes:* I manage my college and personal notes with [[https://orgmode.org/][Org Mode]].
+
+
+* Tech I like and you can love
+
+- Neovim/Emacs
+- Void Linux
+- NixOS
+- Org Mode
+- C
+- Golang
+- Typst
+- stm32 and esp32
