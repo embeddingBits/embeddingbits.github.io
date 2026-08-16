@@ -77,10 +77,6 @@ name = "posts"
 url = "/tech"
 
 [[params.menu]]
-name = "resume"
-url = "/resume"
-
-[[params.menu]]
 name = "my_software"
 url = "/software"
 
