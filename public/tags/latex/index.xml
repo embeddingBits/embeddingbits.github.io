@@ -1,113 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Latex — eBits Base</title>
-    <link>http://localhost:1313/tags/latex/</link>
-    <description>Recent content in Latex on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/latex/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Typst vs LaTeX</title>
-      <link>http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</link>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/typst_vs_latex/typst_vs_latex/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>documentation</category>
-      <category>note_taking</category>
-      <category>latex</category>
-      <category>typst</category>
-      <description>Typst and LaTeX: Differences and Use Cases</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Latex — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/latex/</link><description>Recent content in Latex on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>Typst vs LaTeX</title><link>https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</link><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/typst_vs_latex/typst_vs_latex/</guid><dc:creator>Amiitesh TSP</dc:creator><category>documentation</category><category>note_taking</category><category>latex</category><category>typst</category><description>Typst and LaTeX: Differences and Use Cases</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;We are in an era of arising &amp;ldquo;modern&amp;rdquo; alternatives. Almost all of the software and hardware products that we are using has a modern alternative.&lt;/p&gt;
 &lt;p&gt;People were using &lt;strong&gt;Vim&lt;/strong&gt; and now there is an alternative called &lt;strong&gt;Neovim&lt;/strong&gt;. &lt;strong&gt;C/C++&lt;/strong&gt; has modern alternatives like &lt;strong&gt;Rust&lt;/strong&gt; and &lt;strong&gt;Zig&lt;/strong&gt;. &lt;strong&gt;Zoxide&lt;/strong&gt; is a better alternative of the &lt;code&gt;cd&lt;/code&gt; command. &lt;strong&gt;Zellij&lt;/strong&gt; is an alternative of &lt;strong&gt;tmux&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Similarly, &lt;strong&gt;LaTeX&lt;/strong&gt; has an easy alternative called &lt;strong&gt;Typst&lt;/strong&gt;. LaTeX has been the best in what it has been doing for the past 4 years. LaTeX is a document preparation system and a typesetting language that is used to create professional documents which extensively uses complex scientific and mathematical equations.&lt;/p&gt;
 &lt;p&gt;Typst, similarly is a document preparation system which borrows its ideas and syntax from Markdown, LaTeX and other programming languages. It is much simpler than LaTeX, easier to debug and faster to prepare.&lt;/p&gt;
 &lt;p&gt;Typst is still developing and its growing much faster whereas on the other hand, LaTeX is much powerful and has been the standard for most of the research papers and articles.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;syntax&#34;&gt;
-  Syntax
-  &lt;a class=&#34;anchor&#34; href=&#34;#syntax&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="syntax"&gt;
+Syntax
+&lt;a class="anchor" href="#syntax"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\documentclass&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;article&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\begin&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;document&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\section&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;Introduction&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is the introduction to the document.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\subsection&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;Background&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Details about the background of the topic.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\subsubsection&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;Historical Context&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;A brief overview of the historical context.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\section*&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;Acknowledgements&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Special thanks to everyone involved.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;\end&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;document&lt;span style=&#34;color:#fabd2f&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-typst&#34; data-lang=&#34;typst&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;#set&lt;/span&gt; &lt;span style=&#34;color:#fabd2f&#34;&gt;heading&lt;/span&gt;(numbering: &lt;span style=&#34;color:#b8bb26&#34;&gt;&amp;#34;1.&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;= Introduction&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is the introduction to the document.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;== Background&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Details about the background of the project.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;== Historical Context&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;A brief overview of the historical context.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#b8bb26;font-weight:bold&#34;&gt;== Acknowledgements&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Special thanks to everyone involved.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\documentclass&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;article&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\begin&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;document&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\section&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;Introduction&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;This is the introduction to the document.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\subsection&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;Background&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Details about the background of the topic.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\subsubsection&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;Historical Context&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;A brief overview of the historical context.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\section*&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;Acknowledgements&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Special thanks to everyone involved.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;\end&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;document&lt;span style="color:#fabd2f"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typst" data-lang="typst"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#fe8019"&gt;#set&lt;/span&gt; &lt;span style="color:#fabd2f"&gt;heading&lt;/span&gt;(numbering: &lt;span style="color:#b8bb26"&gt;&amp;#34;1.&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;= Introduction&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;This is the introduction to the document.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;== Background&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Details about the background of the project.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;== Historical Context&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;A brief overview of the historical context.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#b8bb26;font-weight:bold"&gt;== Acknowledgements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Special thanks to everyone involved.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is just a really simple demonstration to show the simplicity of LaTeX, but in larger documents LaTeX uses many macros and importing of several other libraries to achieve a simple structured document.&lt;/p&gt;
 &lt;p&gt;Similarly, writing math equations in Typst is really simpler than LaTeX&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;LaTeX&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The quadratic equation is given by &lt;span style=&#34;color:#b8bb26&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;x &lt;/span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt; &lt;/span&gt;\frac&lt;span style=&#34;color:#fabd2f&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;b &lt;/span&gt;\pm&lt;span style=&#34;color:#fabd2f&#34;&gt; &lt;/span&gt;\sqrt&lt;span style=&#34;color:#fabd2f&#34;&gt;{b^&lt;/span&gt;&lt;span style=&#34;color:#d3869b&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#fe8019&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d3869b&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;ac}}{&lt;/span&gt;&lt;span style=&#34;color:#d3869b&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#fabd2f&#34;&gt;a}&lt;/span&gt;&lt;span style=&#34;color:#b8bb26&#34;&gt;$&lt;/span&gt;.
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The quadratic equation is given by &lt;span style="color:#b8bb26"&gt;$&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;x &lt;/span&gt;&lt;span style="color:#fe8019"&gt;=&lt;/span&gt;&lt;span style="color:#fabd2f"&gt; &lt;/span&gt;\frac&lt;span style="color:#fabd2f"&gt;{&lt;/span&gt;&lt;span style="color:#fe8019"&gt;-&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;b &lt;/span&gt;\pm&lt;span style="color:#fabd2f"&gt; &lt;/span&gt;\sqrt&lt;span style="color:#fabd2f"&gt;{b^&lt;/span&gt;&lt;span style="color:#d3869b"&gt;2&lt;/span&gt;&lt;span style="color:#fabd2f"&gt; &lt;/span&gt;&lt;span style="color:#fe8019"&gt;-&lt;/span&gt;&lt;span style="color:#fabd2f"&gt; &lt;/span&gt;&lt;span style="color:#d3869b"&gt;4&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;ac}}{&lt;/span&gt;&lt;span style="color:#d3869b"&gt;2&lt;/span&gt;&lt;span style="color:#fabd2f"&gt;a}&lt;/span&gt;&lt;span style="color:#b8bb26"&gt;$&lt;/span&gt;.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Typst&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-typst&#34; data-lang=&#34;typst&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The quadratic equation is given by $x &lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#fe8019&#34;&gt;-&lt;/span&gt;b  plus.&lt;span style=&#34;color:#fabd2f&#34;&gt;minus&lt;/span&gt; (&lt;span style=&#34;color:#fabd2f&#34;&gt;sqrt&lt;/span&gt;(b^&lt;span style=&#34;color:#d3869b&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#fe8019&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#d3869b&#34;&gt;4&lt;/span&gt; a c))) &lt;span style=&#34;color:#fe8019&#34;&gt;/&lt;/span&gt; (&lt;span style=&#34;color:#d3869b&#34;&gt;2&lt;/span&gt;a)$
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typst" data-lang="typst"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The quadratic equation is given by $x &lt;span style="color:#fe8019"&gt;=&lt;/span&gt; (&lt;span style="color:#fe8019"&gt;-&lt;/span&gt;b plus.&lt;span style="color:#fabd2f"&gt;minus&lt;/span&gt; (&lt;span style="color:#fabd2f"&gt;sqrt&lt;/span&gt;(b^&lt;span style="color:#d3869b"&gt;2&lt;/span&gt; &lt;span style="color:#fe8019"&gt;-&lt;/span&gt; &lt;span style="color:#d3869b"&gt;4&lt;/span&gt; a c))) &lt;span style="color:#fe8019"&gt;/&lt;/span&gt; (&lt;span style="color:#d3869b"&gt;2&lt;/span&gt;a)$
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Typst is less cluttery to look at than LaTeX.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;differences&#34;&gt;
-  Differences
-  &lt;a class=&#34;anchor&#34; href=&#34;#differences&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="differences"&gt;
+Differences
+&lt;a class="anchor" href="#differences"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;learning-curve&#34;&gt;
-  Learning Curve
-  &lt;a class=&#34;anchor&#34; href=&#34;#learning-curve&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="learning-curve"&gt;
+Learning Curve
+&lt;a class="anchor" href="#learning-curve"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;LaTeX&lt;/strong&gt;: It has a really steep learning curve and a lot of packages to learn.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Typst&lt;/strong&gt;: It is really to learn and its much flatter than LaTeX.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;compilation&#34;&gt;
-  Compilation
-  &lt;a class=&#34;anchor&#34; href=&#34;#compilation&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="compilation"&gt;
+Compilation
+&lt;a class="anchor" href="#compilation"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;LaTeX:&lt;/strong&gt; Compilation times are really long and debugging is really hard in LaTeX.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Typst:&lt;/strong&gt; Rapid compilation times and debugging is really than debugging in LaTeX.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;language&#34;&gt;
-  Language
-  &lt;a class=&#34;anchor&#34; href=&#34;#language&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="language"&gt;
+Language
+&lt;a class="anchor" href="#language"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;LaTeX:&lt;/strong&gt;
@@ -122,10 +86,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;packages&#34;&gt;
-  Packages
-  &lt;a class=&#34;anchor&#34; href=&#34;#packages&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="packages"&gt;
+Packages
+&lt;a class="anchor" href="#packages"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;LaTeX:&lt;/strong&gt; There are many packages that are old and new and almost everything exists.&lt;/li&gt;
@@ -137,15 +100,13 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;use-cases-when-to-use-what&#34;&gt;
-  Use Cases: When to Use What
-  &lt;a class=&#34;anchor&#34; href=&#34;#use-cases-when-to-use-what&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="use-cases-when-to-use-what"&gt;
+Use Cases: When to Use What
+&lt;a class="anchor" href="#use-cases-when-to-use-what"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;use-typst-when&#34;&gt;
-  Use Typst When
-  &lt;a class=&#34;anchor&#34; href=&#34;#use-typst-when&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="use-typst-when"&gt;
+Use Typst When
+&lt;a class="anchor" href="#use-typst-when"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You want speed in writing and compiling.&lt;/li&gt;
@@ -169,10 +130,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;use-latex-when&#34;&gt;
-  Use LaTeX When
-  &lt;a class=&#34;anchor&#34; href=&#34;#use-latex-when&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="use-latex-when"&gt;
+Use LaTeX When
+&lt;a class="anchor" href="#use-latex-when"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;You are submitting to a journal/conference that requires LaTeX.&lt;/li&gt;
@@ -196,25 +156,18 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Both softwares are excellent in their own ways. LaTeX has been around since 1984 and is more mature, stable, and extensively documented. Its the industry standard for research papers, academic publishing, complex mathematical typesetting, and large technical documents.&lt;/p&gt;
 &lt;p&gt;Typst, introduced in 2023, is a modern alternative that focuses on speed, simplicity, and a more intuitive syntax. It is especially useful for class assignments, note-taking, project reports, and general documentation, where quick iteration and readability matter more.&lt;/p&gt;
 &lt;p&gt;While LaTeX still dominates in formal publishing workflows, Typst is rapidly evolving and becoming a strong choice for students and developers who want clean, beautiful documents with less overhead.&lt;/p&gt;
-
-&lt;h5 class=&#34;heading&#34; id=&#34;links&#34;&gt;
-  Links
-  &lt;a class=&#34;anchor&#34; href=&#34;#links&#34;&gt;#&lt;/a&gt;
+&lt;h5 class="heading" id="links"&gt;
+Links
+&lt;a class="anchor" href="#links"&gt;#&lt;/a&gt;
 &lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://typst.app/&#34;&gt;Typst&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;li&gt;&lt;a href="https://typst.app/"&gt;Typst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.latex-project.org/"&gt;LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

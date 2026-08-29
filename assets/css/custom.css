@@ -2,11 +2,31 @@
     --yellow: #d79921;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--yellow);
-}
-
 :root {
     --yellow: #b57614;
+}
+
+@font-face {
+  font-family: "Titan One";
+  src: url("/fonts/TitanOne/TitanOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--yellow);
+    font-family: "Titan One", cursive;
+    font-weight: 400;
+}
+
+.header-title,
+.single-title,
+.line-title,
+.tag-title,
+.list-container h1,
+.year-heading {
+    font-family: "Titan One", cursive;
+    font-weight: 400;
 }
 

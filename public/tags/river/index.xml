@@ -1,70 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>River — eBits Base</title>
-    <link>http://localhost:1313/tags/river/</link>
-    <description>Recent content in River on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/river/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>My Workflow</title>
-      <link>http://localhost:1313/tech/workflow/workflow/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/workflow/workflow/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>hyprland</category>
-      <category>lazygit</category>
-      <category>window manager</category>
-      <category>wm</category>
-      <category>river</category>
-      <description>My developer workflow</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>River — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/river/</link><description>Recent content in River on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/river/index.xml" rel="self" type="application/rss+xml"/><item><title>My Workflow</title><link>https://embeddingbits.is-a.dev/tech/workflow/workflow/</link><pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/workflow/workflow/</guid><dc:creator>Amiitesh TSP</dc:creator><category>hyprland</category><category>lazygit</category><category>window manager</category><category>wm</category><category>river</category><description>My developer workflow</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;about-myself&#34;&gt;
-  About Myself
-  &lt;a class=&#34;anchor&#34; href=&#34;#about-myself&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="about-myself"&gt;
+About Myself
+&lt;a class="anchor" href="#about-myself"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Welcome to this blog, in this blog I&amp;rsquo;ll be discussing about my developer workflow.&lt;/p&gt;
 &lt;p&gt;I am a college student, currently in my freshman year. I develop many open source projects and through my journey of developing projects, I have tried many tools and software to make my job easier and interesting to work on. In this blog, I will be sharing all the tools and software I use everyday ranging from Desktop to CLI Tools.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;operating-system&#34;&gt;
-  Operating System
-  &lt;a class=&#34;anchor&#34; href=&#34;#operating-system&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="operating-system"&gt;
+Operating System
+&lt;a class="anchor" href="#operating-system"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This is one of my most favourite part. I have used &lt;strong&gt;Linux&lt;/strong&gt; since my childhood, because I was influenced by my dad that I started using Linux as he uses Linux and MacOS most of the time. I am so used to using Linux that is often annoys me when I have to use Windows here at college during labs cause I am more used to coding in terminal and terminal-based editors.&lt;/p&gt;
 &lt;p&gt;Now, for the part of the operating system, Arch Linux. I used to use Ubuntu and wanted to try out Arch Linux for fun and it turned out that I liked it. Arch Linux is more of a DIY Operating System, it gives up complete freedom over what we want to do right from the time of installation.&lt;/p&gt;
 &lt;p&gt;It has one of the most powerful package managers, &lt;strong&gt;pacman&lt;/strong&gt; and &lt;strong&gt;AUR (Arch User Repository)&lt;/strong&gt; package managers like &lt;strong&gt;yay&lt;/strong&gt; and &lt;strong&gt;paru&lt;/strong&gt;. There is almost every imaginable package or software in the AUR, so much so that anything that does not exist in the AUR can be said &amp;ldquo;uninvented&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Arch is a very &lt;strong&gt;lightweight distro&lt;/strong&gt; and can be very well suitable to be used on old hardware. Almost every desktop environment is stable on Arch and we can choose whatever we find suitable for us.&lt;/p&gt;
 &lt;p&gt;Another advantage of using Linux is that we can configure almost everything right from the kernel to the visually-pleasing DEs.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;desktop-environment&#34;&gt;
-  Desktop Environment
-  &lt;a class=&#34;anchor&#34; href=&#34;#desktop-environment&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="desktop-environment"&gt;
+Desktop Environment
+&lt;a class="anchor" href="#desktop-environment"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;For the desktop environment, I use two different desktop environments: &lt;strong&gt;River&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;My primary DE is River, River is not exactly a DE but its called Window Manager, they automatically tile windows when they are created instead of manually adjusting them by ourselves.&lt;/p&gt;
 &lt;p&gt;Now, I&amp;rsquo;ll explain why and how I use River. I follow certain rules that have become a habit for me over time. I initially got this idea from one of my favorite tech YouTubers, ThePrimeagen, and his way of using window managers.&lt;/p&gt;
 &lt;p&gt;Window Managers are convenient for people who use keyboard more than the mouse like myself. Everything can be configured with keybinds right from switching panes to switching workspaces. In my config, I have 5 workspaces by default and I could switch them using &amp;ldquo;SUPER + workspace_number&amp;rdquo; (SUPER is nothing but the window key).&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;so-heres-how-i-use-it&#34;&gt;
-  So, here&amp;rsquo;s how I use it:
-  &lt;a class=&#34;anchor&#34; href=&#34;#so-heres-how-i-use-it&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="so-heres-how-i-use-it"&gt;
+So, here&amp;rsquo;s how I use it:
+&lt;a class="anchor" href="#so-heres-how-i-use-it"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Workspace 1:&lt;/strong&gt; In the first workspace, I have the &lt;strong&gt;text editor&lt;/strong&gt; and the &lt;strong&gt;terminal&lt;/strong&gt; I&amp;rsquo;m working running on a &lt;strong&gt;tmux session&lt;/strong&gt;.&lt;/li&gt;
@@ -73,33 +37,29 @@
 &lt;li&gt;&lt;strong&gt;Workspace 4:&lt;/strong&gt; I don&amp;rsquo;t usually use 4 and 5 but it depends. But, most of the times its just junk that I have in here.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So, following the above rules over time, they became ingrained in my muscle memory. Now, when I think &amp;rsquo;editor,&amp;rsquo; my fingers instinctively press &amp;lsquo;SUPER + 1,&amp;rsquo; and when I think &amp;lsquo;browser,&amp;rsquo; they press &amp;lsquo;SUPER + 2,&amp;rsquo; and so on for the rest.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;terminal-and-code-editor&#34;&gt;
-  Terminal and Code Editor
-  &lt;a class=&#34;anchor&#34; href=&#34;#terminal-and-code-editor&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="terminal-and-code-editor"&gt;
+Terminal and Code Editor
+&lt;a class="anchor" href="#terminal-and-code-editor"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This is also one of the most parts of my workflow. I live in the terminal/command line (Shortly as TUI). The only time I use the GUI is for browsing the web, the rest of the time I only spend it in the terminal. So configuring a good terminal and a good terminal-based code editor is one of the most important part for people like me.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;For the terminal emulator, I use &lt;strong&gt;ghostty&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;For the code editor, I use &lt;strong&gt;Neovim&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;ghostty-terminal-emulator&#34;&gt;
-  Ghostty Terminal Emulator
-  &lt;a class=&#34;anchor&#34; href=&#34;#ghostty-terminal-emulator&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="ghostty-terminal-emulator"&gt;
+Ghostty Terminal Emulator
+&lt;a class="anchor" href="#ghostty-terminal-emulator"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;I use the kitty terminal with my minimal configuration like fonts, colorscheme and etc.&lt;/p&gt;
 &lt;p&gt;For the fonts, I use a global configuration with IosevkaTerm Nerd Font and for the colorscheme I use Gruvbox all over my Linux config.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;neovim-text-editor&#34;&gt;
-  Neovim Text Editor
-  &lt;a class=&#34;anchor&#34; href=&#34;#neovim-text-editor&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="neovim-text-editor"&gt;
+Neovim Text Editor
+&lt;a class="anchor" href="#neovim-text-editor"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;I use &lt;strong&gt;Neovim&lt;/strong&gt; as a text editor for all purposes, from &lt;strong&gt;editing LaTeX documents to writing code&lt;/strong&gt;. Neovim has a &lt;strong&gt;steep learning curve&lt;/strong&gt;, but ultimately it&amp;rsquo;s incredibly useful because I rarely need to take my hands off the keyboard.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;tools-and-software&#34;&gt;
-  Tools and Software
-  &lt;a class=&#34;anchor&#34; href=&#34;#tools-and-software&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="tools-and-software"&gt;
+Tools and Software
+&lt;a class="anchor" href="#tools-and-software"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are many CLI tools and software that makes my job done easier and faster.&lt;/p&gt;
 &lt;ul&gt;
@@ -109,58 +69,35 @@
 &lt;li&gt;Tmux&lt;/li&gt;
 &lt;li&gt;fzf&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;gitgithub-and-lazygit&#34;&gt;
-  Git/GitHub and LazyGit
-  &lt;a class=&#34;anchor&#34; href=&#34;#gitgithub-and-lazygit&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="gitgithub-and-lazygit"&gt;
+Git/GitHub and LazyGit
+&lt;a class="anchor" href="#gitgithub-and-lazygit"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;One of the most important tool that I use everyday is &lt;strong&gt;Git/GitHub combined with LazyGit&lt;/strong&gt;. I don&amp;rsquo;t store my codes or projects locally. Even if the project is uncompleted I store them on GitHub under a public or a private repo. LazyGit makes Git a easy job. Instead of wanting to have type all the commands manually, LazyGit created a TUI (Terminal User Interface) driven by keybinds. It helps view changes, stage them, write commits and push them to remote repo under just keybinds.&lt;/p&gt;
 &lt;p&gt;This is how LazyGit looks:&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;lazygit&#34; src=&#34;http://localhost:1313/tech/workflow/workflow/lazygit.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1920; --h: 1080;"&gt;
+&lt;img loading="lazy" alt="lazygit" src="https://embeddingbits.is-a.dev/tech/workflow/workflow/lazygit.png" width="1920" height="1080"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;As you can see, viewing the changes and commits all under a same place makes us complete our job way faster.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;tmux-terminal-session-and-uses&#34;&gt;
-  Tmux Terminal Session and uses
-  &lt;a class=&#34;anchor&#34; href=&#34;#tmux-terminal-session-and-uses&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="tmux-terminal-session-and-uses"&gt;
+Tmux Terminal Session and uses
+&lt;a class="anchor" href="#tmux-terminal-session-and-uses"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Tmux is another one of such useful tools that I use. Tmux stands for Terminal Multiplexer and is used in Unix-like operating systems. It allows to use multiple terminal sessions in the terminal window. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session, which is helpful when we accidentally close the session without saveing the changes.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;fish-shell-and-fzf-fuzzy-finder&#34;&gt;
-  Fish Shell and fzf fuzzy finder
-  &lt;a class=&#34;anchor&#34; href=&#34;#fish-shell-and-fzf-fuzzy-finder&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="fish-shell-and-fzf-fuzzy-finder"&gt;
+Fish Shell and fzf fuzzy finder
+&lt;a class="anchor" href="#fish-shell-and-fzf-fuzzy-finder"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;The standard shell for all the Linux distros is bash. We can choose whatever shell we want after that. The most common choices for shells are bash, zsh and fish. The syntax and structure of fish is way different than what it is in zsh.&lt;/p&gt;
 &lt;p&gt;Fish is a interactive shell where we can directly interact with the terminal. For example: In bash if we type ls and hit tab it will display the files and directories but we cannot directly interact with the shell to choose, instead we have to look at the file we want and type it and hit tab to complete. Whereas, in fish we can select it directly using the keys.&lt;/p&gt;
 &lt;p&gt;With the combined use of fzf (a fuzzy finder), we can make fish shell more powerful than what it already is.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;programming-language&#34;&gt;
-  Programming Language
-  &lt;a class=&#34;anchor&#34; href=&#34;#programming-language&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="programming-language"&gt;
+Programming Language
+&lt;a class="anchor" href="#programming-language"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;For the part of programming language, I am more into Cybersecurity, Network programming, DevOps and Kernel development. So I work mostly in C, C++, Assembly (for reverse engineering), Python and bash script.&lt;/p&gt;
 &lt;ul&gt;
@@ -168,71 +105,52 @@
 &lt;li&gt;For embedded systems, I use C and Zig.&lt;/li&gt;
 &lt;li&gt;For systems programming, I use C, Zig and C++.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;These are the tools and software that I use when I develop projects and much more. I uniformly use the Nord colorscheme.&lt;/p&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;here-are-the-links-to-everything-i-use&#34;&gt;
-  Here are the links to everything I use:
-  &lt;a class=&#34;anchor&#34; href=&#34;#here-are-the-links-to-everything-i-use&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="here-are-the-links-to-everything-i-use"&gt;
+Here are the links to everything I use:
+&lt;a class="anchor" href="#here-are-the-links-to-everything-i-use"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;My Linux Configuration:&lt;/strong&gt; &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Arch Linux:&lt;/strong&gt; &lt;a href=&#34;https://archlinux.org/&#34;&gt;https://archlinux.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;River DE:&lt;/strong&gt; &lt;a href=&#34;https://codeberg.org/river&#34;&gt;https://codeberg.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ghostty Terminal:&lt;/strong&gt; &lt;a href=&#34;https://ghostty.org/&#34;&gt;https://ghostty.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Neovim:&lt;/strong&gt; &lt;a href=&#34;https://neovim.io/&#34;&gt;https://neovim.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Custom Neovim Config&lt;/strong&gt;: &lt;a href=&#34;https://github.com/embeddingbits/arch_dotfiles&#34;&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LazyGit:&lt;/strong&gt; &lt;a href=&#34;https://github.com/jesseduffield/lazygit&#34;&gt;https://github.com/jesseduffield/lazygit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tmux:&lt;/strong&gt; &lt;a href=&#34;https://github.com/tmux/tmux/wiki&#34;&gt;https://github.com/tmux/tmux/wiki&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fish Shell:&lt;/strong&gt; &lt;a href=&#34;https://fishshell.com/&#34;&gt;https://fishshell.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;My Linux Configuration:&lt;/strong&gt; &lt;a href="https://github.com/embeddingbits/arch_dotfiles"&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arch Linux:&lt;/strong&gt; &lt;a href="https://archlinux.org/"&gt;https://archlinux.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;River DE:&lt;/strong&gt; &lt;a href="https://codeberg.org/river"&gt;https://codeberg.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ghostty Terminal:&lt;/strong&gt; &lt;a href="https://ghostty.org/"&gt;https://ghostty.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Neovim:&lt;/strong&gt; &lt;a href="https://neovim.io/"&gt;https://neovim.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Neovim Config&lt;/strong&gt;: &lt;a href="https://github.com/embeddingbits/arch_dotfiles"&gt;https://github.com/embeddingbits/arch_dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LazyGit:&lt;/strong&gt; &lt;a href="https://github.com/jesseduffield/lazygit"&gt;https://github.com/jesseduffield/lazygit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tmux:&lt;/strong&gt; &lt;a href="https://github.com/tmux/tmux/wiki"&gt;https://github.com/tmux/tmux/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fish Shell:&lt;/strong&gt; &lt;a href="https://fishshell.com/"&gt;https://fishshell.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In the upcoming blogs, I&amp;rsquo;ll write on how to configure Tmux for a better work experience.&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
-      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>hyprland</category>
-      <category>river</category>
-      <description>Overview of Linux and Debunking the myths</description>
-      <content:encoded>&lt;hr&gt;
+&lt;p&gt;In the upcoming blogs, I&amp;rsquo;ll write on how to configure Tmux for a better work experience.&lt;/p&gt;</content:encoded></item><item><title>Why Linux is better than its other competitors</title><link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link><pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>hyprland</category><category>river</category><description>Overview of Linux and Debunking the myths</description><content:encoded>&lt;hr&gt;
 &lt;p&gt;Did you know Linux powers &lt;strong&gt;90% of the world’s supercomputers&lt;/strong&gt; and most of the internet’s servers?
 But have you ever thought about using it as your &lt;strong&gt;daily driver&lt;/strong&gt;?&lt;/p&gt;
 &lt;p&gt;Welcome to this blog!
 In this post, I’ll be discussing &lt;strong&gt;Linux&lt;/strong&gt; and why it’s better to daily-drive a Linux system.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-is-linux&#34;&gt;
-  What is Linux?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="what-is-linux"&gt;
+What is Linux?
+&lt;a class="anchor" href="#what-is-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is an &lt;strong&gt;Operating System&lt;/strong&gt; (or more precisely, a &lt;strong&gt;Kernel&lt;/strong&gt;) based on &lt;strong&gt;Unix-like&lt;/strong&gt; systems, created by &lt;strong&gt;Linus Torvalds in 1991&lt;/strong&gt;.
 It is &lt;strong&gt;open-source&lt;/strong&gt; and has huge use cases in the world of technology.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;kernel&lt;/strong&gt; is a set of rules that instructs computer hardware to follow specific protocols, acting as a &lt;strong&gt;bridge between hardware and software&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;Linux kernel&lt;/strong&gt; is primarily written in &lt;strong&gt;C&lt;/strong&gt;, with some parts being rewritten in &lt;strong&gt;Rust&lt;/strong&gt; for improved safety and performance.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;why-is-it-a-better-option-to-daily-drive-linux&#34;&gt;
-  Why is it a better option to daily-drive Linux?
-  &lt;a class=&#34;anchor&#34; href=&#34;#why-is-it-a-better-option-to-daily-drive-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="why-is-it-a-better-option-to-daily-drive-linux"&gt;
+Why is it a better option to daily-drive Linux?
+&lt;a class="anchor" href="#why-is-it-a-better-option-to-daily-drive-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is a &lt;strong&gt;lightweight&lt;/strong&gt; operating system that typically uses &lt;strong&gt;1.5–2.5 GB of RAM&lt;/strong&gt;, making it ideal for older laptops and PCs.
 In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6 GB on average&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Linux is &lt;strong&gt;faster than Windows&lt;/strong&gt; by a wide margin, in nearly every situation.&lt;/p&gt;
 &lt;p&gt;Since Linux is a &lt;strong&gt;kernel&lt;/strong&gt;, its source code is used to create many &lt;strong&gt;distributions&lt;/strong&gt; (distros). Each distro serves general and specific purposes.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;examples-of-linux-distributions&#34;&gt;
-  Examples of Linux Distributions
-  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-linux-distributions&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="examples-of-linux-distributions"&gt;
+Examples of Linux Distributions
+&lt;a class="anchor" href="#examples-of-linux-distributions"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Mint Linux&lt;/strong&gt; – Stable and beginner-friendly.&lt;/li&gt;
@@ -242,10 +160,9 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;/ol&gt;
 &lt;p&gt;There are hundreds of Linux distributions to choose from!&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;security-and-privacy&#34;&gt;
-  Security and Privacy
-  &lt;a class=&#34;anchor&#34; href=&#34;#security-and-privacy&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="security-and-privacy"&gt;
+Security and Privacy
+&lt;a class="anchor" href="#security-and-privacy"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Linux’s &lt;strong&gt;open-source nature&lt;/strong&gt; means vulnerabilities are quickly found and patched by the community.&lt;/li&gt;
@@ -253,18 +170,16 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;li&gt;Due to its lower market share, &lt;strong&gt;malware targeting Linux&lt;/strong&gt; is extremely rare.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;cost-efficiency&#34;&gt;
-  Cost Efficiency
-  &lt;a class=&#34;anchor&#34; href=&#34;#cost-efficiency&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="cost-efficiency"&gt;
+Cost Efficiency
+&lt;a class="anchor" href="#cost-efficiency"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Most popular Linux distros are &lt;strong&gt;completely free&lt;/strong&gt;, unlike Windows which costs around ₹12,000 ($139).
 All Linux updates — whether &lt;strong&gt;kernel&lt;/strong&gt;, &lt;strong&gt;desktop environment&lt;/strong&gt;, or &lt;strong&gt;system-level&lt;/strong&gt; — are free.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;customizability&#34;&gt;
-  Customizability
-  &lt;a class=&#34;anchor&#34; href=&#34;#customizability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="customizability"&gt;
+Customizability
+&lt;a class="anchor" href="#customizability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is &lt;strong&gt;highly customizable&lt;/strong&gt; compared to proprietary operating systems.
 You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt; and &lt;strong&gt;Window Managers (WMs)&lt;/strong&gt; depending on your workflow.&lt;/p&gt;
@@ -275,10 +190,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;/ul&gt;
 &lt;p&gt;Linux allows you to &lt;strong&gt;fully customize&lt;/strong&gt; your workflow and make your desktop &lt;strong&gt;visually pleasing&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;software-availability&#34;&gt;
-  Software Availability
-  &lt;a class=&#34;anchor&#34; href=&#34;#software-availability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="software-availability"&gt;
+Software Availability
+&lt;a class="anchor" href="#software-availability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Contrary to popular belief, Linux doesn’t lack software — it has &lt;strong&gt;more options&lt;/strong&gt; than most think.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Package Managers by Family:&lt;/strong&gt;&lt;/p&gt;
@@ -295,10 +209,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;/ul&gt;
 &lt;p&gt;Using Linux exposes you to the &lt;strong&gt;FOSS ecosystem&lt;/strong&gt;, strengthening open-source awareness and collaboration.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;performance-and-stability&#34;&gt;
-  Performance and Stability
-  &lt;a class=&#34;anchor&#34; href=&#34;#performance-and-stability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="performance-and-stability"&gt;
+Performance and Stability
+&lt;a class="anchor" href="#performance-and-stability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is known for its &lt;strong&gt;performance and efficiency&lt;/strong&gt;, largely due to minimal bloatware.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Advantages:&lt;/strong&gt;&lt;/p&gt;
@@ -306,10 +219,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;li&gt;&lt;strong&gt;Minimal Resource Usage:&lt;/strong&gt; Low background memory usage.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;No Forced Updates:&lt;/strong&gt; You control updates — even after 15 years, it will still work fine.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;lts-distributions-and-kernels&#34;&gt;
-  LTS Distributions and Kernels
-  &lt;a class=&#34;anchor&#34; href=&#34;#lts-distributions-and-kernels&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="lts-distributions-and-kernels"&gt;
+LTS Distributions and Kernels
+&lt;a class="anchor" href="#lts-distributions-and-kernels"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;LTS&lt;/strong&gt; = &lt;em&gt;Long Term Support&lt;/em&gt;.
 Some Linux versions are maintained for years with guaranteed stability and updates.&lt;/p&gt;
@@ -319,10 +231,9 @@ Some Linux versions are maintained for years with guaranteed stability and updat
 &lt;/ul&gt;
 &lt;p&gt;There are also &lt;strong&gt;LTS kernel versions&lt;/strong&gt; that ensure stable driver and security updates.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;enhanced-productivity-and-use-cases&#34;&gt;
-  Enhanced Productivity and Use Cases
-  &lt;a class=&#34;anchor&#34; href=&#34;#enhanced-productivity-and-use-cases&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="enhanced-productivity-and-use-cases"&gt;
+Enhanced Productivity and Use Cases
+&lt;a class="anchor" href="#enhanced-productivity-and-use-cases"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux boosts productivity due to its &lt;strong&gt;speed and command-line efficiency&lt;/strong&gt;.
 While it supports great GUIs, many users eventually prefer using the &lt;strong&gt;terminal&lt;/strong&gt; for faster workflows.&lt;/p&gt;
@@ -332,49 +243,44 @@ While it supports great GUIs, many users eventually prefer using the &lt;strong&
 &lt;li&gt;Linux proficiency is a &lt;strong&gt;valuable skill&lt;/strong&gt; during technical interviews.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;common-myths-about-linux&#34;&gt;
-  Common Myths About Linux
-  &lt;a class=&#34;anchor&#34; href=&#34;#common-myths-about-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="common-myths-about-linux"&gt;
+Common Myths About Linux
+&lt;a class="anchor" href="#common-myths-about-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;myth-1-linux-is-only-for-tech-geeks&#34;&gt;
-  Myth 1: Linux is only for tech geeks
-  &lt;a class=&#34;anchor&#34; href=&#34;#myth-1-linux-is-only-for-tech-geeks&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="myth-1-linux-is-only-for-tech-geeks"&gt;
+Myth 1: Linux is only for tech geeks
+&lt;a class="anchor" href="#myth-1-linux-is-only-for-tech-geeks"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Not true!
 Linux can be used for general purposes. The terminal is not mandatory — it’s just powerful.
 You can browse the web, use apps, and enjoy a normal desktop experience.&lt;/p&gt;
 &lt;p&gt;Beginner-friendly distros include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ubuntu.com/download/desktop&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/workstation/download&#34;&gt;Fedora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntu.com/download/desktop"&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/workstation/download"&gt;Fedora&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;myth-2-its-hard-to-install-software-or-use-browsers&#34;&gt;
-  Myth 2: It’s hard to install software or use browsers
-  &lt;a class=&#34;anchor&#34; href=&#34;#myth-2-its-hard-to-install-software-or-use-browsers&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="myth-2-its-hard-to-install-software-or-use-browsers"&gt;
+Myth 2: It’s hard to install software or use browsers
+&lt;a class="anchor" href="#myth-2-its-hard-to-install-software-or-use-browsers"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;False again.
 Package managers make installing software much easier than Windows.
 And yes — you can use browsers like Chrome, Firefox, Brave, etc. just as usual.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;getting-started-with-linux&#34;&gt;
-  Getting Started with Linux
-  &lt;a class=&#34;anchor&#34; href=&#34;#getting-started-with-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="getting-started-with-linux"&gt;
+Getting Started with Linux
+&lt;a class="anchor" href="#getting-started-with-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Try these &lt;strong&gt;beginner-friendly distros&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linuxmint.com/download.php&#34;&gt;Linux Mint&lt;/a&gt; — Highly recommended&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ubuntu.com/download/desktop&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/workstation/download&#34;&gt;Fedora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linuxmint.com/download.php"&gt;Linux Mint&lt;/a&gt; — Highly recommended&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntu.com/download/desktop"&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/workstation/download"&gt;Fedora&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is more than an operating system — it’s a &lt;strong&gt;philosophy of freedom, efficiency, and empowerment&lt;/strong&gt;.
 With its vast software library, security, performance, and endless customization, Linux is a &lt;strong&gt;powerful alternative&lt;/strong&gt; to traditional systems.&lt;/p&gt;
@@ -383,13 +289,7 @@ With its vast software library, security, performance, and endless customization
 &lt;p&gt;So, why not give Linux a try?
 You might just discover a &lt;strong&gt;new way of computing&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;thank-you-for-reading&#34;&gt;
-  Thank You for Reading
-  &lt;a class=&#34;anchor&#34; href=&#34;#thank-you-for-reading&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;h2 class="heading" id="thank-you-for-reading"&gt;
+Thank You for Reading
+&lt;a class="anchor" href="#thank-you-for-reading"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</content:encoded></item></channel></rss>

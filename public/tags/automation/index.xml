@@ -1,120 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Automation — eBits Base</title>
-    <link>http://localhost:1313/tags/automation/</link>
-    <description>Recent content in Automation on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>The AI browser hype</title>
-      <link>http://localhost:1313/tech/ai_browsers/ai_browsers/</link>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/ai_browsers/ai_browsers/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>AI</category>
-      <category>browser</category>
-      <category>automation</category>
-      <description>Why is there a sudden increase in the AI browser Hype</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;what-is-an-ai-browser&#34;&gt;
-  What is an AI Browser?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-an-ai-browser&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Automation — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/automation/</link><description>Recent content in Automation on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>The AI browser hype</title><link>https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</link><pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/</guid><dc:creator>Amiitesh TSP</dc:creator><category>AI</category><category>browser</category><category>automation</category><description>Why is there a sudden increase in the AI browser Hype</description><content:encoded>
+&lt;h2 class="heading" id="what-is-an-ai-browser"&gt;
+What is an AI Browser?
+&lt;a class="anchor" href="#what-is-an-ai-browser"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;So, basically an &lt;strong&gt;AI Browser&lt;/strong&gt; is something that integrates Artificial Intelligence to automate tasks, summarise pages and much more.
-There were &lt;strong&gt;0 to no&lt;/strong&gt; AI Browsers until July when Perplexity decided to beta launch &lt;a href=&#34;https://www.perplexity.ai/comet&#34;&gt;Comet&lt;/a&gt; on July 22nd.&lt;/p&gt;
+There were &lt;strong&gt;0 to no&lt;/strong&gt; AI Browsers until July when Perplexity decided to beta launch &lt;a href="https://www.perplexity.ai/comet"&gt;Comet&lt;/a&gt; on July 22nd.&lt;/p&gt;
 &lt;p&gt;People are going crazy over this hype, they are booking tickets (by filling all the required details), applying jobs (submitting resume, filling up the questions and forms).
 The new term for stuff like these are called &lt;strong&gt;Agentic Browsing&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;are-they-safe-do-they-ensure-privacy&#34;&gt;
-  Are they safe? Do they ensure privacy?
-  &lt;a class=&#34;anchor&#34; href=&#34;#are-they-safe-do-they-ensure-privacy&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="are-they-safe-do-they-ensure-privacy"&gt;
+Are they safe? Do they ensure privacy?
+&lt;a class="anchor" href="#are-they-safe-do-they-ensure-privacy"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Now asking the real question, how safe are they and whether they ensure privacy.&lt;/p&gt;
 &lt;p&gt;Personally, I&amp;rsquo;m nowhere closer to using an AI Browser, I have a fair share of important accounts logged in and I dont trust an LLM with my information. You&amp;rsquo;re basically giving a rock that was trained with mathematics to deal with your browser automation, filling tickets, automating payments. AI does not know to differentiate between &lt;em&gt;genuine prompts&lt;/em&gt; and &lt;em&gt;prompt injection&lt;/em&gt; attacks.&lt;/p&gt;
 &lt;p&gt;For the people who aren&amp;rsquo;t aware of &lt;strong&gt;prompt injection&lt;/strong&gt;, it&amp;rsquo;s a cyberattack made to exploit LLMs to perform unintended action. I saw this really interesting article where a user had performed a prompt injection as a reddit comment.&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1104; --h: 692;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;injection&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/injection.png&#34; width=&#34;1104&#34; height=&#34;692&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1104; --h: 692;"&gt;
+&lt;img loading="lazy" alt="injection" src="https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/injection.png" width="1104" height="692"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;In this injection, a comment in the post’s comment section sends a request to the Comet AI browser to open a link and then email certain details to a specified address, all without the user’s confirmation.&lt;/p&gt;
 &lt;p&gt;Another common form of prompt injection involves providing a PDF containing ANSI escape characters or whitespace language and asking the AI to read it. The AI then executes the actions embedded in the ANSI escape sequences instead of following the user’s actual request.&lt;/p&gt;
 &lt;p&gt;Personally, I don&amp;rsquo;t owe my information to a malicious PDF or a reddit comment section. &lt;strong&gt;Opera&lt;/strong&gt; has it&amp;rsquo;s own AI browser called the Opera Neon, and Opera themselves have warned about prompt injection:&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 823; --h: 140;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;opera&#34; src=&#34;http://localhost:1313/tech/ai_browsers/ai_browsers/opera_tnc.png&#34; width=&#34;823&#34; height=&#34;140&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 823; --h: 140;"&gt;
+&lt;img loading="lazy" alt="opera" src="https://embeddingbits.is-a.dev/tech/ai_browsers/ai_browsers/opera_tnc.png" width="823" height="140"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;We are nowhere near eliminating prompt injections in the near future, since it purely depends on the user to prevent the browser from falling for the injection attacks.
 &lt;strong&gt;Google&lt;/strong&gt; has made an effort to prevent prompt injection which ultimately makes the AI dumber than what it usually was.&lt;/p&gt;
 &lt;p&gt;LLMs are very prone to unexpected behaviour and will remain the same for at least the next few years, the market hype has led people to avoid researching a particular topic, tool, or software, resulting in major bugs and unexpected behavior being left unfixed. This leads to shorter release cycles that create more problems than a well-researched release would.&lt;/p&gt;
 &lt;p&gt;I wanted to write about this since I&amp;rsquo;ve been noticing a lot more usage of AI browsers without precautions and side effects :(&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Browsers have been there for a while and they are one of the best creations of mankind and I can&amp;rsquo;t imagine a world without them. They are also mature in terms of security as a result of multiple years of optimisation, fixes, reasearch and more.&lt;/p&gt;
 &lt;p&gt;The sense of an AI browser breaks years of maturity of security enhancement due to a software browsing on behalf of the user with or without the user&amp;rsquo;s confirmation.&lt;/p&gt;
 &lt;p&gt;If we are still planning on using an AI browser, it is our responsibility to monitor every single action taken by the AI on behalf of the user and be a responsible digital user.&lt;/p&gt;
-&lt;p&gt;Thanks to Adam Convey on providing insights: &lt;a href=&#34;https://www.xda-developers.com/please-stop-using-ai-browsers/&#34;&gt;article&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Thanks to Adam Convey on providing insights: &lt;a href="https://www.xda-developers.com/please-stop-using-ai-browsers/"&gt;article&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

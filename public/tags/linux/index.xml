@@ -1,166 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Linux — eBits Base</title>
-    <link>http://localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Void Linux Installation</title>
-      <link>http://localhost:1313/tech/void/</link>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/void/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>tech</category>
-      <description>A small guide to what I did when I installed Void Linux</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;void-linux-installation&#34;&gt;
-  Void Linux Installation
-  &lt;a class=&#34;anchor&#34; href=&#34;#void-linux-installation&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Linux — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/linux/</link><description>Recent content in Linux on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Void Linux Installation</title><link>https://embeddingbits.is-a.dev/tech/void/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/void/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>tech</category><description>A small guide to what I did when I installed Void Linux</description><content:encoded>
+&lt;h2 class="heading" id="void-linux-installation"&gt;
+Void Linux Installation
+&lt;a class="anchor" href="#void-linux-installation"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;I had been using Arch Linux for quite a while and I had switched to NixOS for about two months now. Only reason of me switching was cause of buzzwords. I switched to NixOS cause I wanted to try out the declarative environment. Now, finally I actually wanted to try out an init system other than systemd cause why not.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;installation&#34;&gt;
-  Installation
-  &lt;a class=&#34;anchor&#34; href=&#34;#installation&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="installation"&gt;
+Installation
+&lt;a class="anchor" href="#installation"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;The Void Linux ISO choices were pretty interesting as they give an option for a musl and glibc implementation of libc. Though, I did choose glibc cause its pretty much popular and way more battle tested than musl.&lt;/p&gt;
 &lt;p&gt;The installation was pretty straight forward and as easy as archinstall script. I liked the fact that you have to manage the groups yourself cause of &lt;code&gt;runit&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;packages&#34;&gt;
-  Packages
-  &lt;a class=&#34;anchor&#34; href=&#34;#packages&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="packages"&gt;
+Packages
+&lt;a class="anchor" href="#packages"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Void be default allows only free packages in its repo. So, I had to install nonfree repo packages for proprietary software.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -Syu
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install -S void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install -Syu
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Void repos are relatively much smaller than the AUR and nixpkgs, so a lot of the packages was still missing. To cover that up and added flathub remote to it:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S flatpak
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install -S flatpak
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 class=&#34;heading&#34; id=&#34;init-system&#34;&gt;
-  Init System
-  &lt;a class=&#34;anchor&#34; href=&#34;#init-system&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="init-system"&gt;
+Init System
+&lt;a class="anchor" href="#init-system"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Void Linux uses runit as its init system. As a long-time user of systemd, it took me time to get used to it. But man, I have to give it to runit. Its codebase is small, and it is much, much faster than systemd. Sometimes, when a particular software is referred to as faster, we don&amp;rsquo;t really see the difference, but runit was much faster and it was really evident.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;intel-and-nvidia-drivers&#34;&gt;
-  Intel and NVIDIA Drivers
-  &lt;a class=&#34;anchor&#34; href=&#34;#intel-and-nvidia-drivers&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="intel-and-nvidia-drivers"&gt;
+Intel and NVIDIA Drivers
+&lt;a class="anchor" href="#intel-and-nvidia-drivers"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;I installed intel drivers and proprietary dkms nvidia drivers.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S vulkan-loader mesa-vulkan-intel intel-video-accel
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install nvidia
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install -S vulkan-loader mesa-vulkan-intel intel-video-accel
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install nvidia
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nvidia only works if you enable the non free repo, there is an option for open source noveau drivers but I wanted to stability so I chose the dkms as always.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;network-configuration&#34;&gt;
-  Network Configuration
-  &lt;a class=&#34;anchor&#34; href=&#34;#network-configuration&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="network-configuration"&gt;
+Network Configuration
+&lt;a class="anchor" href="#network-configuration"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Void Linux uses dhcpcd as the default networking service. But, I use NetworkManager.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install NetworkManager
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo rm -rf /var/service/dhcpcd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo ln -s /etc/sv/NetworkManager /var/service
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install NetworkManager
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rm -rf /var/service/dhcpcd
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo ln -s /etc/sv/NetworkManager /var/service
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 class=&#34;heading&#34; id=&#34;audio-servers&#34;&gt;
-  Audio Servers
-  &lt;a class=&#34;anchor&#34; href=&#34;#audio-servers&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="audio-servers"&gt;
+Audio Servers
+&lt;a class="anchor" href="#audio-servers"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This is the place where I had some hardships trying to configure the audio server. But, this was just me. Coming from systemd, systemd runs audio servers as a service, but runit runs audio server as a per user session in the process.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-remove pulseaudio
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xbps-install -S pipewire wireplumber alsa-pipewire
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-remove pulseaudio
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo xbps-install -S pipewire wireplumber alsa-pipewire
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, write a script to autostart pipewire, wireplumber and pipewire-pulse for pulseaudio support.&lt;/p&gt;
 &lt;p&gt;These were the things that I had to do to install Void Linux and so far I&amp;rsquo;ve been having a good time with it. Let&amp;rsquo;s see if it came be my long time distro.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thanks for Reading :)&lt;/strong&gt;&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>Connect to college WiFi using nmtui or networkmanager</title>
-      <link>http://localhost:1313/tech/nmtui/nmtui/</link>
-      <pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/nmtui/nmtui/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>terminal</category>
-      <category>utilities</category>
-      <category>networks</category>
-      <category>software</category>
-      <category>nmtui</category>
-      <category>networkmanager</category>
-      <description>Connecting to college WiFi</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-nmtui&#34;&gt;
-  Connecting to college WiFi using nmtui
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-nmtui&#34;&gt;#&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Thanks for Reading :)&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title>Connect to college WiFi using nmtui or networkmanager</title><link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link><pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>terminal</category><category>utilities</category><category>networks</category><category>software</category><category>nmtui</category><category>networkmanager</category><description>Connecting to college WiFi</description><content:encoded>
+&lt;h2 class="heading" id="connecting-to-college-wifi-using-nmtui"&gt;
+Connecting to college WiFi using nmtui
+&lt;a class="anchor" href="#connecting-to-college-wifi-using-nmtui"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open a terminal and run &lt;code&gt;nmtui&lt;/code&gt; and in the selection navigate to &lt;code&gt;activate a connection&lt;/code&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1009;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_start.png&#34; width=&#34;1895&#34; height=&#34;1009&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1895; --h: 1009;"&gt;
+&lt;img loading="lazy" alt="nmtui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_start.png" width="1895" height="1009"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the list, select the WiFi you want to connect to.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; You&amp;rsquo;ll be taken to a screen similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1893; --h: 1008;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmtui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmtui_connection.png&#34; width=&#34;1893&#34; height=&#34;1008&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1893; --h: 1008;"&gt;
+&lt;img loading="lazy" alt="nmtui_connection" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmtui_connection.png" width="1893" height="1008"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Verify that the SSID matches the network you want to connect to, then configure the settings below:&lt;/p&gt;
@@ -174,126 +83,39 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
 &lt;p&gt;Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;
-  Connecting to college WiFi using NetworkManager GUI
-  &lt;a class=&#34;anchor&#34; href=&#34;#connecting-to-college-wifi-using-networkmanager-gui&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="connecting-to-college-wifi-using-networkmanager-gui"&gt;
+Connecting to college WiFi using NetworkManager GUI
+&lt;a class="anchor" href="#connecting-to-college-wifi-using-networkmanager-gui"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Open the application -&amp;gt; &lt;strong&gt;Advanced Network Configuration&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1895; --h: 1010;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_start.png#small&#34; width=&#34;1895&#34; height=&#34;1010&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 1895; --h: 1010;"&gt;
+&lt;img loading="lazy" alt="nmgui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_start.png#small" width="1895" height="1010"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; From the dropdown menu, Select WiFi and enter &lt;em&gt;Create&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 734; --h: 485;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_start&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_image.png#small&#34; width=&#34;734&#34; height=&#34;485&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 734; --h: 485;"&gt;
+&lt;img loading="lazy" alt="nmgui_start" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_image.png#small" width="734" height="485"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Under the &lt;em&gt;WiFi&lt;/em&gt; tab, enter the name of the WiFi connection that you want to connect to in the SSID field.&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 692; --h: 619;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_field&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_field.png#small&#34; width=&#34;692&#34; height=&#34;619&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 692; --h: 619;"&gt;
+&lt;img loading="lazy" alt="nmgui_field" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_field.png#small" width="692" height="619"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Now after that go to the &lt;em&gt;WiFi Security&lt;/em&gt; tab, you&amp;rsquo;ll see a configuration window similar to the one below:
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 693; --h: 765;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;nmgui_connection&#34; src=&#34;http://localhost:1313/tech/nmtui/nmtui/nmgui_connection.png&#34; width=&#34;693&#34; height=&#34;765&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 693; --h: 765;"&gt;
+&lt;img loading="lazy" alt="nmgui_connection" src="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/nmgui_connection.png" width="693" height="765"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; Under &lt;em&gt;WiFi Security&lt;/em&gt;, check if SSID is the network you want to connect to under the &lt;em&gt;WiFi&lt;/em&gt; tab and after that under the &lt;em&gt;WiFi Security&lt;/em&gt; tab change the settings to the one below:&lt;/p&gt;
@@ -308,45 +130,26 @@
 &lt;li&gt;Inner authentication -&amp;gt; MSCHAPV2&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; After configuring the settings as said below, enter your username and password and press enter.&lt;/p&gt;
-&lt;p&gt;Following these steps will get you connected to the college WiFi&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>Is Wayland better than X11</title>
-      <link>http://localhost:1313/tech/wayland/wayland/</link>
-      <pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/wayland/wayland/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>wayland</category>
-      <category>x11</category>
-      <category>linux</category>
-      <category>software</category>
-      <category>tech</category>
-      <description>Advantages of Wayland over X11</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+&lt;p&gt;Following these steps will get you connected to the college WiFi&lt;/p&gt;</content:encoded></item><item><title>Is Wayland better than X11</title><link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid><dc:creator>Amiitesh TSP</dc:creator><category>wayland</category><category>x11</category><category>linux</category><category>software</category><category>tech</category><description>Advantages of Wayland over X11</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Wayland and X11 are one of the most prominent display servers. Both of them have their fair share of advantages and disadvantages. While, all the Desktop Environments, Window Managers are switching to Wayland due to it being a better alternative. But what are the differences between these two and why are users and developers switching to Wayland over X11. I&amp;rsquo;ll try my best to give my opinion on both of these display servers.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-is-a-display-server&#34;&gt;
-  What is a Display Server?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-a-display-server&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="what-is-a-display-server"&gt;
+What is a Display Server?
+&lt;a class="anchor" href="#what-is-a-display-server"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In Linux, A display server is a crucial component that acts as a intermediary between graphical applications and the hardware that is responsible for displaying them. It manages the graphical diplay and user input from input devices like keyboard and mouse.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;x11-display-server&#34;&gt;
-  X11 Display Server
-  &lt;a class=&#34;anchor&#34; href=&#34;#x11-display-server&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="x11-display-server"&gt;
+X11 Display Server
+&lt;a class="anchor" href="#x11-display-server"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ll first talk about the older display server. The X11 project began in 1987 and has the stable support for almost all the linux native software. X11 follows the client-server protocol where the X server owns all the screens and input devices and all the GUI applications are the clients of the X server. It was specifically designed to work over a network it assumes clients and the server may be on different machines which leads to serialization and backwards-compatibility. It was built with assumptions but most of them no longer holds true. As of today, Linux runs on locally connected displays which is not something that X was designed for. This became increasingly problematic as modern computing kept evolving.&lt;/p&gt;
 &lt;p&gt;By the early 2000s, X11 was seriously backward technically. Linux ecosystem was evolving which made most of X11&amp;rsquo;s features really unneccessary. Libraries like libinput started managing fonts which was a priviledge that only X11 had. Cairo and Freetype took over rendering which was earlier done by X11. Yet, X11 was still there with much of unneccessary feature which was seen as a bottleneck.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;architecture&#34;&gt;
-  Architecture
-  &lt;a class=&#34;anchor&#34; href=&#34;#architecture&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="architecture"&gt;
+Architecture
+&lt;a class="anchor" href="#architecture"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;The kernel gets an event from an input device and sends it to the X server through the evdev input driver and the kernel does all the job from controlling and translating the protocol into the required standard.&lt;/li&gt;
@@ -356,43 +159,19 @@
 &lt;li&gt;The damage event tells the compositor that something has happened to the screen and it has to recomposite the entire screen with the changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 533; --h: 507;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;xserver&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/x-architecture.png#small&#34; width=&#34;533&#34; height=&#34;507&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 533; --h: 507;"&gt;
+&lt;img loading="lazy" alt="xserver" src="https://embeddingbits.is-a.dev/tech/wayland/wayland/x-architecture.png#small" width="533" height="507"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;wayland-display-server&#34;&gt;
-  Wayland Display Server
-  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-display-server&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="wayland-display-server"&gt;
+Wayland Display Server
+&lt;a class="anchor" href="#wayland-display-server"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;architecture-1&#34;&gt;
-  Architecture
-  &lt;a class=&#34;anchor&#34; href=&#34;#architecture-1&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="architecture-1"&gt;
+Architecture
+&lt;a class="anchor" href="#architecture-1"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;The kernel gets an event and immediately sends it to the compositor.&lt;/li&gt;
@@ -401,65 +180,27 @@
 &lt;li&gt;The compositor collects damage requests from its clients and then recomposites the screen. The compositor can then directly issue an ioctl to schedule a pageflip with KMS.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34; img-small&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 319; --h: 500;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;wayland&#34; src=&#34;http://localhost:1313/tech/wayland/wayland/wayland-architecture.png#small&#34; width=&#34;319&#34; height=&#34;500&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=" img-small"&gt;
+&lt;div class="img-container" style="--w: 319; --h: 500;"&gt;
+&lt;img loading="lazy" alt="wayland" src="https://embeddingbits.is-a.dev/tech/wayland/wayland/wayland-architecture.png#small" width="319" height="500"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;wayland-is-faster-than-x11&#34;&gt;
-  Wayland is faster than X11
-  &lt;a class=&#34;anchor&#34; href=&#34;#wayland-is-faster-than-x11&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="wayland-is-faster-than-x11"&gt;
+Wayland is faster than X11
+&lt;a class="anchor" href="#wayland-is-faster-than-x11"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In X11, the client talks to the X server -&amp;gt; X server talks to the window manager -&amp;gt; Window Manager to the compositor and finally the GPU. But in Wayland, the client directly interacts with the Compositor then to the GPU. X11 has to go through many steps which makes it slower and bloated when compared to Wayland.&lt;/p&gt;
 &lt;p&gt;In X11, the application renders to pixmap, and the pixmap is copied to X server and the compositor has to copy again and the GPU finally displays it. But in Wayland, the application directly renders to the GPU buffer and the compositor just has to reference it from the buffer.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Both the compositors have both of their pros and cons. X11 is more stable and has a mature codebase and it has a very predictable behaviour. X11 is ideal for screen recording remote desktops and has support for almost every software due to its maturity and a longer existence than Wayland. It is easier to write code for X11 and build low level tools. At the same time, It has many security flaws and broken features. The project is almost dead and many distros have continued to drop X11 as the default display server.&lt;/p&gt;
-&lt;p&gt;Wayland on the other hand, Wayland is faster than X11 because of the Zero-copy rendering and its more secure since it allows the applications to see only their input and their own surfaces. It has almost perfect frame timing, the compositor controls VSync, frame scheduling and presentation timing which prevents screen tearing. At the same time, its harder to write wayland clients, has weaker remote desktop control when compared to X11 and harder to write low level tools. It is still evolving and many of its protocol extensions are still changing constantly. Many software are yet to extend compatibility to Wayland and iss still growing at a faster rate.&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>Guide to QEMU as a Virtual Machine</title>
-      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>qemu</category>
-      <category>vm</category>
-      <category>linux</category>
-      <description>Using QEMU as a Virtual Machine</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;why-qemu&#34;&gt;
-  Why QEMU?
-  &lt;a class=&#34;anchor&#34; href=&#34;#why-qemu&#34;&gt;#&lt;/a&gt;
+&lt;p&gt;Wayland on the other hand, Wayland is faster than X11 because of the Zero-copy rendering and its more secure since it allows the applications to see only their input and their own surfaces. It has almost perfect frame timing, the compositor controls VSync, frame scheduling and presentation timing which prevents screen tearing. At the same time, its harder to write wayland clients, has weaker remote desktop control when compared to X11 and harder to write low level tools. It is still evolving and many of its protocol extensions are still changing constantly. Many software are yet to extend compatibility to Wayland and iss still growing at a faster rate.&lt;/p&gt;</content:encoded></item><item><title>Guide to QEMU as a Virtual Machine</title><link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid><dc:creator>Amiitesh TSP</dc:creator><category>qemu</category><category>vm</category><category>linux</category><description>Using QEMU as a Virtual Machine</description><content:encoded>
+&lt;h2 class="heading" id="why-qemu"&gt;
+Why QEMU?
+&lt;a class="anchor" href="#why-qemu"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are lots of virtual machine software like VirtualBox and VMWare. But why specifically QEMU?&lt;/p&gt;
 &lt;ol&gt;
@@ -489,10 +230,9 @@
 &lt;p&gt;This is really useful when it comes to building Operating systems for different architecture while working in a system with another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;using-qemu-to-boot-an-iso&#34;&gt;
-  Using QEMU to boot an ISO
-  &lt;a class=&#34;anchor&#34; href=&#34;#using-qemu-to-boot-an-iso&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="using-qemu-to-boot-an-iso"&gt;
+Using QEMU to boot an ISO
+&lt;a class="anchor" href="#using-qemu-to-boot-an-iso"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;To create a VM, we have to initialise a virtual hard disk.&lt;/p&gt;
 &lt;ul&gt;
@@ -509,7 +249,7 @@
 &lt;p&gt;Then &lt;code&gt;os_image.img&lt;/code&gt; is the name of the image that we are going to create and &lt;code&gt;10G&lt;/code&gt; is the size allocation, this can be set according to user preference.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-img create -f qcow2 os_image.img 10G
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;qemu-img create -f qcow2 os_image.img 10G
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next up, to launch the VM from a &lt;code&gt;iso&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;qemu-system-x86_64&lt;/code&gt; runs the qemu emulator for 64 bit x86 systems, this is available for almost all the other architectures too.&lt;/li&gt;
@@ -519,181 +259,140 @@
 &lt;li&gt;&lt;code&gt;-drive file=os_image.img&lt;/code&gt; is attached.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-m 2G&lt;/code&gt; is the RAM that we are going to allocate for the virtual machince to function. This is dependant on user preferences and the system capability.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-system-x86_64 -enable-kvm -cdrom os.iso -boot menu&lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt;on -drive file&lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt;alpine.img -m 2G
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded>
-    </item>
-    
-    <item>
-      <title>Configuring Tmux</title>
-      <link>http://localhost:1313/tech/tmux_config/tmux_config/</link>
-      <pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/tmux_config/tmux_config/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>terminal</category>
-      <category>tmux</category>
-      <description>Configuring a really simple tmux config</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;qemu-system-x86_64 -enable-kvm -cdrom os.iso -boot menu&lt;span style="color:#fe8019"&gt;=&lt;/span&gt;on -drive file&lt;span style="color:#fe8019"&gt;=&lt;/span&gt;alpine.img -m 2G
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title>Configuring Tmux</title><link>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</link><pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>terminal</category><category>tmux</category><description>Configuring a really simple tmux config</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Welcome to this blog where I will be taking you through certain steps to get your own &lt;strong&gt;tmux configuration&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;First of all, let&amp;rsquo;s see: &lt;strong&gt;What is Tmux? and Why is it used?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tmux&lt;/strong&gt; stands for &lt;strong&gt;Terminal Multiplexer&lt;/strong&gt; and is used in Unix-like operating systems. It allows you to use &lt;strong&gt;multiple terminal sessions in a single terminal window&lt;/strong&gt;. Even if the actual terminal window closes, the tmux session runs in the background and can be accessed with the name of the session — which is helpful when we accidentally close the session without saving changes.&lt;/p&gt;
 &lt;p&gt;Here’s how we can use tmux:&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt;
-  &lt;video src=&#34;recording.mp4&#34; height=&#34;1500&#34; width=&#34;1000&#34; autoplay controls&gt;&lt;/video&gt;
+&lt;div align="center"&gt;
+&lt;video src="recording.mp4" height="1500" width="1000" autoplay controls&gt;&lt;/video&gt;
 &lt;/div&gt;
 &lt;p&gt;In the above video, I opened a tmux session, created three split panes, created a tmux window, closed the terminal, and reattached using the session name &lt;code&gt;&amp;quot;test&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;default configuration&lt;/strong&gt; for tmux is good, but we can add our own &lt;strong&gt;plugins&lt;/strong&gt;, &lt;strong&gt;colorschemes&lt;/strong&gt;, &lt;strong&gt;custom keybinds&lt;/strong&gt;, and more. Configuring tmux is &lt;strong&gt;not a tough job&lt;/strong&gt; and is relatively easy. I use a simple minimal tmux configuration — and I’ll take you through the steps to achieve it.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;getting-started&#34;&gt;
-  Getting Started
-  &lt;a class=&#34;anchor&#34; href=&#34;#getting-started&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="getting-started"&gt;
+Getting Started
+&lt;a class="anchor" href="#getting-started"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;To begin, locate the tmux configuration file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~/.tmux.conf
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;~/.tmux.conf
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Open it with your favorite editor.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;first step&lt;/strong&gt; is to create a shortcut to &lt;strong&gt;reload the config&lt;/strong&gt; without restarting tmux:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;Now press &lt;code&gt;Ctrl+s&lt;/code&gt;, then &lt;code&gt;r&lt;/code&gt; to reload the config instantly.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;rebinding-the-default-prefix&#34;&gt;
-  Rebinding the default prefix
-  &lt;a class=&#34;anchor&#34; href=&#34;#rebinding-the-default-prefix&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="rebinding-the-default-prefix"&gt;
+Rebinding the default prefix
+&lt;a class="anchor" href="#rebinding-the-default-prefix"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;By default, tmux uses &lt;strong&gt;&lt;code&gt;Ctrl+b&lt;/code&gt;&lt;/strong&gt; as the prefix. This is not ergonomic.&lt;/p&gt;
 &lt;p&gt;We’ll change it to &lt;strong&gt;&lt;code&gt;Ctrl+s&lt;/code&gt;&lt;/strong&gt; (you can choose any):&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g prefix C-s
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;set -g prefix C-s
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now your config looks like:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;adding-mouse-support&#34;&gt;
-  Adding mouse support
-  &lt;a class=&#34;anchor&#34; href=&#34;#adding-mouse-support&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="adding-mouse-support"&gt;
+Adding mouse support
+&lt;a class="anchor" href="#adding-mouse-support"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Tmux is &lt;strong&gt;keyboard-driven by default&lt;/strong&gt; — no mouse.&lt;/p&gt;
 &lt;p&gt;Enable it with:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g mouse on
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;set -g mouse on
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;setting-tmux-status-bar-position&#34;&gt;
-  Setting tmux status bar position
-  &lt;a class=&#34;anchor&#34; href=&#34;#setting-tmux-status-bar-position&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="setting-tmux-status-bar-position"&gt;
+Setting tmux status bar position
+&lt;a class="anchor" href="#setting-tmux-status-bar-position"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Move the status bar to the &lt;strong&gt;top&lt;/strong&gt; to avoid confusion with Vim/Neovim status lines:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set-option -g status-position top
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;set-option -g status-position top
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 set-option -g status-position top
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;installing-tmux-plugin-manager-tpm&#34;&gt;
-  Installing Tmux Plugin Manager (TPM)
-  &lt;a class=&#34;anchor&#34; href=&#34;#installing-tmux-plugin-manager-tpm&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="installing-tmux-plugin-manager-tpm"&gt;
+Installing Tmux Plugin Manager (TPM)
+&lt;a class="anchor" href="#installing-tmux-plugin-manager-tpm"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;We’ll use &lt;strong&gt;&lt;a href=&#34;https://github.com/tmux-plugins/tpm&#34;&gt;TPM&lt;/a&gt;&lt;/strong&gt; to install plugins.&lt;/p&gt;
+&lt;p&gt;We’ll use &lt;strong&gt;&lt;a href="https://github.com/tmux-plugins/tpm"&gt;TPM&lt;/a&gt;&lt;/strong&gt; to install plugins.&lt;/p&gt;
 &lt;p&gt;Clone it:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add to &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;# List of plugins
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;# List of plugins
 set -g @plugin &amp;#39;tmux-plugins/tpm&amp;#39;
 set -g @plugin &amp;#39;tmux-plugins/tmux-sensible&amp;#39;
-
 # Initialize TMUX plugin manager (keep this at the bottom)
 run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Reload tmux config&lt;/strong&gt; (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt;) and press &lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;I&lt;/code&gt; (capital I) to install plugins.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;adding-colorscheme&#34;&gt;
-  Adding colorscheme
-  &lt;a class=&#34;anchor&#34; href=&#34;#adding-colorscheme&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="adding-colorscheme"&gt;
+Adding colorscheme
+&lt;a class="anchor" href="#adding-colorscheme"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Add your favorite theme under &lt;code&gt;# List of plugins&lt;/code&gt;. I use &lt;strong&gt;Nord&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;set -g @plugin &amp;#34;nordtheme/tmux&amp;#34;
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;set -g @plugin &amp;#34;nordtheme/tmux&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Full config so far:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 set-option -g status-position top
-
 # List of plugins
 set -g @plugin &amp;#39;tmux-plugins/tpm&amp;#39;
 set -g @plugin &amp;#39;tmux-plugins/tmux-sensible&amp;#39;
 set -g @plugin &amp;#34;nordtheme/tmux&amp;#34;
-
 # Initialize TMUX plugin manager (keep this line at the very bottom)
 run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
 &lt;p&gt;Reload (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt;) → Install plugins (&lt;code&gt;Ctrl+s&lt;/code&gt;, &lt;code&gt;I&lt;/code&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;conclusion&#34;&gt;
-  Conclusion
-  &lt;a class=&#34;anchor&#34; href=&#34;#conclusion&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="conclusion"&gt;
+Conclusion
+&lt;a class="anchor" href="#conclusion"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Here’s your &lt;strong&gt;final minimal &lt;code&gt;.tmux.conf&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tmux&#34; data-lang=&#34;tmux&#34;&gt;unbind r
+&lt;pre tabindex="0"&gt;&lt;code class="language-tmux" data-lang="tmux"&gt;unbind r
 bind r source-file ~/.tmux.conf
 set -g prefix C-s
 set -g mouse on
 set-option -g status-position top
-
 # List of plugins
 set -g @plugin &amp;#39;tmux-plugins/tpm&amp;#39;
 set -g @plugin &amp;#39;tmux-plugins/tmux-sensible&amp;#39;
 set -g @plugin &amp;#34;nordtheme/tmux&amp;#34;
-
 # Initialize TMUX plugin manager (keep this line at the very bottom)
 run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I hope you got your own config that fits you too.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;All Tmux Plugins:&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/rothgar/awesome-tmux?tab=readme-ov-file&#34;&gt;List of Tmux Plugins&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hope this blog has helped you get a &lt;strong&gt;starter tmux configuration&lt;/strong&gt; — and if you liked it, please follow up on future blogs!&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>DWM Window Manager</title>
-      <link>http://localhost:1313/tech/dwm/dwm/</link>
-      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/dwm/dwm/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>x11</category>
-      <category>window manager</category>
-      <category>linux</category>
-      <category>dwm</category>
-      <description>Overview of DWM Window Manager</description>
-      <content:encoded>
-&lt;h2 class=&#34;heading&#34; id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;
+&lt;a href="https://github.com/rothgar/awesome-tmux?tab=readme-ov-file"&gt;List of Tmux Plugins&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope this blog has helped you get a &lt;strong&gt;starter tmux configuration&lt;/strong&gt; — and if you liked it, please follow up on future blogs!&lt;/p&gt;</content:encoded></item><item><title>DWM Window Manager</title><link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid><dc:creator>Amiitesh TSP</dc:creator><category>x11</category><category>window manager</category><category>linux</category><category>dwm</category><description>Overview of DWM Window Manager</description><content:encoded>
+&lt;h2 class="heading" id="introduction"&gt;
+Introduction
+&lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Welcome to this blog where I will be writing about &lt;strong&gt;DWM (Dynamic Window Manager)&lt;/strong&gt; which is written in C intended to reduce bloat as much as possible giving us a smooth user experience. Configuring DWM can be hard for a few, but the end result is worth it. I recently wanted to try DWM for fun and turned out it was actually a very good experience that I have switched from Hyprland to DWM permanently.&lt;/p&gt;
 &lt;p&gt;To configure DWM we have to manually edit the C source code, after the changes we save. Compile it with the &lt;code&gt;make&lt;/code&gt; command and then finally quit DWM and log back in for the changes. If there are any errors with the source code, then DWM won&amp;rsquo;t allow you to log inside the DWM until the error is corrected. So, what I did is I would backup after every stable change I make and in case of there are any errors I would copy the backup file or manually edit them in a tty.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;about-dwm&#34;&gt;
-  About DWM
-  &lt;a class=&#34;anchor&#34; href=&#34;#about-dwm&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="about-dwm"&gt;
+About DWM
+&lt;a class="anchor" href="#about-dwm"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;DWM is a window manager for X server made by &lt;strong&gt;suckless.org&lt;/strong&gt; — a group of programmers working together to make software that &amp;ldquo;suck less&amp;rdquo;. They have made many tools like:&lt;/p&gt;
 &lt;ul&gt;
@@ -702,78 +401,37 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;li&gt;and some other &amp;ldquo;core&amp;rdquo; programs for a suckless experience.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There are many layouts to manage windows like &lt;strong&gt;tiled&lt;/strong&gt;, &lt;strong&gt;monocle&lt;/strong&gt;, &lt;strong&gt;floating layout&lt;/strong&gt;. We can switch between different layouts using keybinds dynamically according to the application that we are working with.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;how-are-windows-managed&#34;&gt;
-  How are windows managed
-  &lt;a class=&#34;anchor&#34; href=&#34;#how-are-windows-managed&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="how-are-windows-managed"&gt;
+How are windows managed
+&lt;a class="anchor" href="#how-are-windows-managed"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In &lt;strong&gt;tiled mode&lt;/strong&gt;, the windows are stacked above one another as a new window is created every time. Stack in the sense not &amp;ldquo;literally&amp;rdquo; stack but the windows act stacked in the memory as in the data structure &amp;ldquo;stack&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;In &lt;strong&gt;monocle layout&lt;/strong&gt;, all the windows are fullscreen and now are literally stacked above each other when they are created.&lt;/p&gt;
 &lt;p&gt;In the &lt;strong&gt;floating layout&lt;/strong&gt;, it is like what we use in rest of the desktop environments and in Windows. All the newly created windows are floating.&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Stacked Windows&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/stacked.png&#34; width=&#34;1920&#34; height=&#34;1079&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1920; --h: 1079;"&gt;
+&lt;img loading="lazy" alt="Stacked Windows" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/stacked.png" width="1920" height="1079"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;workspacestags&#34;&gt;
-  Workspaces/Tags
-  &lt;a class=&#34;anchor&#34; href=&#34;#workspacestags&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="workspacestags"&gt;
+Workspaces/Tags
+&lt;a class="anchor" href="#workspacestags"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;In DWM, the workspaces are called &lt;strong&gt;&amp;ldquo;tags&amp;rdquo;&lt;/strong&gt;. By default, there are 10 tags but we can change them to however many we want. We can also replace them with a logo instead of just numbers.&lt;/p&gt;
 &lt;p&gt;We can switch between them with shortcut key, &lt;code&gt;ALT + &amp;quot;tag_number&amp;quot;&lt;/code&gt;. We can also change the keybinds to whatever we feel comfortable.&lt;/p&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1914; --h: 1079;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Tags Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/tags.png&#34; width=&#34;1914&#34; height=&#34;1079&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1914; --h: 1079;"&gt;
+&lt;img loading="lazy" alt="Tags Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/tags.png" width="1914" height="1079"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The red circled is what is called tags&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;status-bar&#34;&gt;
-  Status Bar
-  &lt;a class=&#34;anchor&#34; href=&#34;#status-bar&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="status-bar"&gt;
+Status Bar
+&lt;a class="anchor" href="#status-bar"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There is a status bar by default provided by DWM. We can also add our own status bar if we want with &lt;strong&gt;patches&lt;/strong&gt; (I&amp;rsquo;ll cover that in the upcoming heading). The status bar is divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -789,98 +447,60 @@ run &amp;#39;~/.tmux/plugins/tpm/tpm&amp;#39;
 &lt;li&gt;&lt;code&gt;anybar&lt;/code&gt; (which allows us to use any bar other than the default one provided by DWM)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;&#34;&gt;
-
-    
-    
-      
-        &lt;div class=&#34;img-container&#34; style=&#34;--w: 1920; --h: 1080;&#34;&gt;
-            &lt;img loading=&#34;lazy&#34; alt=&#34;Status Bar Example&#34; src=&#34;http://localhost:1313/tech/dwm/dwm/bar1.png&#34; width=&#34;1920&#34; height=&#34;1080&#34;&gt;
-        &lt;/div&gt;
-      
-    
-
-    
+&lt;figure class=""&gt;
+&lt;div class="img-container" style="--w: 1920; --h: 1080;"&gt;
+&lt;img loading="lazy" alt="Status Bar Example" src="https://embeddingbits.is-a.dev/tech/dwm/dwm/bar1.png" width="1920" height="1080"&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;patches&#34;&gt;
-  Patches
-  &lt;a class=&#34;anchor&#34; href=&#34;#patches&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="patches"&gt;
+Patches
+&lt;a class="anchor" href="#patches"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;We can add many other features we require by &lt;strong&gt;&amp;ldquo;patching&amp;rdquo;&lt;/strong&gt; the main source code. This is one of the most exhausting parts of DWM for people who want extra features.&lt;/p&gt;
 &lt;p&gt;The patches are mostly written by other users themselves. Patches are nothing but adding extra functionality to the source code.&lt;/p&gt;
 &lt;p&gt;When applying the patches there is &lt;strong&gt;7/10 chance&lt;/strong&gt; for a patch error to occur. The error is put into a &lt;strong&gt;&lt;code&gt;.rej&lt;/code&gt;&lt;/strong&gt; file with the changes that are to be made indicated with &lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;. We have to manually edit them ourselves and compile the code. We have to add the lines that start with &lt;code&gt;+&lt;/code&gt; and delete the line that start with &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This is the part where most quit because it&amp;rsquo;s exhausting.&lt;/p&gt;
 &lt;p&gt;This is because the patches are not intelligent enough to make all the changes by itself. They expect some block of code to be there but when there is no code block that the patch is expecting it returns an error and as I said — after we edit the file ourselves and if there are errors in the main source code, DWM won&amp;rsquo;t allow us to get into the DWM.&lt;/p&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are different Window managers but I really felt that this one was peculiar and thought of writing a blog on it.&lt;/p&gt;
 &lt;p&gt;There are many window managers that are a fork of this like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://i3wm.org/&#34;&gt;i3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/baskerville/bspwm&#34;&gt;bspwm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://codeberg.org/dwl/dwl&#34;&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://i3wm.org/"&gt;i3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/baskerville/bspwm"&gt;bspwm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/dwl/dwl"&gt;dwl (which is a Wayland fork of dwm)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can try and install DWM if you want from the link below:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href=&#34;https://dwm.suckless.org/&#34;&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>Why Linux is better than its other competitors</title>
-      <link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
-      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/linux_overview/linux_overview/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>linux</category>
-      <category>hyprland</category>
-      <category>river</category>
-      <description>Overview of Linux and Debunking the myths</description>
-      <content:encoded>&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;DWM:&lt;/strong&gt; &lt;a href="https://dwm.suckless.org/"&gt;https://dwm.suckless.org/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Why Linux is better than its other competitors</title><link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link><pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid><dc:creator>Amiitesh TSP</dc:creator><category>linux</category><category>hyprland</category><category>river</category><description>Overview of Linux and Debunking the myths</description><content:encoded>&lt;hr&gt;
 &lt;p&gt;Did you know Linux powers &lt;strong&gt;90% of the world’s supercomputers&lt;/strong&gt; and most of the internet’s servers?
 But have you ever thought about using it as your &lt;strong&gt;daily driver&lt;/strong&gt;?&lt;/p&gt;
 &lt;p&gt;Welcome to this blog!
 In this post, I’ll be discussing &lt;strong&gt;Linux&lt;/strong&gt; and why it’s better to daily-drive a Linux system.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;what-is-linux&#34;&gt;
-  What is Linux?
-  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="what-is-linux"&gt;
+What is Linux?
+&lt;a class="anchor" href="#what-is-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is an &lt;strong&gt;Operating System&lt;/strong&gt; (or more precisely, a &lt;strong&gt;Kernel&lt;/strong&gt;) based on &lt;strong&gt;Unix-like&lt;/strong&gt; systems, created by &lt;strong&gt;Linus Torvalds in 1991&lt;/strong&gt;.
 It is &lt;strong&gt;open-source&lt;/strong&gt; and has huge use cases in the world of technology.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;kernel&lt;/strong&gt; is a set of rules that instructs computer hardware to follow specific protocols, acting as a &lt;strong&gt;bridge between hardware and software&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;Linux kernel&lt;/strong&gt; is primarily written in &lt;strong&gt;C&lt;/strong&gt;, with some parts being rewritten in &lt;strong&gt;Rust&lt;/strong&gt; for improved safety and performance.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;why-is-it-a-better-option-to-daily-drive-linux&#34;&gt;
-  Why is it a better option to daily-drive Linux?
-  &lt;a class=&#34;anchor&#34; href=&#34;#why-is-it-a-better-option-to-daily-drive-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="why-is-it-a-better-option-to-daily-drive-linux"&gt;
+Why is it a better option to daily-drive Linux?
+&lt;a class="anchor" href="#why-is-it-a-better-option-to-daily-drive-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is a &lt;strong&gt;lightweight&lt;/strong&gt; operating system that typically uses &lt;strong&gt;1.5–2.5 GB of RAM&lt;/strong&gt;, making it ideal for older laptops and PCs.
 In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6 GB on average&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Linux is &lt;strong&gt;faster than Windows&lt;/strong&gt; by a wide margin, in nearly every situation.&lt;/p&gt;
 &lt;p&gt;Since Linux is a &lt;strong&gt;kernel&lt;/strong&gt;, its source code is used to create many &lt;strong&gt;distributions&lt;/strong&gt; (distros). Each distro serves general and specific purposes.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;examples-of-linux-distributions&#34;&gt;
-  Examples of Linux Distributions
-  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-linux-distributions&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="examples-of-linux-distributions"&gt;
+Examples of Linux Distributions
+&lt;a class="anchor" href="#examples-of-linux-distributions"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Mint Linux&lt;/strong&gt; – Stable and beginner-friendly.&lt;/li&gt;
@@ -890,10 +510,9 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;/ol&gt;
 &lt;p&gt;There are hundreds of Linux distributions to choose from!&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;security-and-privacy&#34;&gt;
-  Security and Privacy
-  &lt;a class=&#34;anchor&#34; href=&#34;#security-and-privacy&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="security-and-privacy"&gt;
+Security and Privacy
+&lt;a class="anchor" href="#security-and-privacy"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Linux’s &lt;strong&gt;open-source nature&lt;/strong&gt; means vulnerabilities are quickly found and patched by the community.&lt;/li&gt;
@@ -901,18 +520,16 @@ In comparison, &lt;strong&gt;Windows&lt;/strong&gt; consumes &lt;strong&gt;5–6
 &lt;li&gt;Due to its lower market share, &lt;strong&gt;malware targeting Linux&lt;/strong&gt; is extremely rare.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;cost-efficiency&#34;&gt;
-  Cost Efficiency
-  &lt;a class=&#34;anchor&#34; href=&#34;#cost-efficiency&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="cost-efficiency"&gt;
+Cost Efficiency
+&lt;a class="anchor" href="#cost-efficiency"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Most popular Linux distros are &lt;strong&gt;completely free&lt;/strong&gt;, unlike Windows which costs around ₹12,000 ($139).
 All Linux updates — whether &lt;strong&gt;kernel&lt;/strong&gt;, &lt;strong&gt;desktop environment&lt;/strong&gt;, or &lt;strong&gt;system-level&lt;/strong&gt; — are free.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;customizability&#34;&gt;
-  Customizability
-  &lt;a class=&#34;anchor&#34; href=&#34;#customizability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="customizability"&gt;
+Customizability
+&lt;a class="anchor" href="#customizability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is &lt;strong&gt;highly customizable&lt;/strong&gt; compared to proprietary operating systems.
 You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt; and &lt;strong&gt;Window Managers (WMs)&lt;/strong&gt; depending on your workflow.&lt;/p&gt;
@@ -923,10 +540,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;/ul&gt;
 &lt;p&gt;Linux allows you to &lt;strong&gt;fully customize&lt;/strong&gt; your workflow and make your desktop &lt;strong&gt;visually pleasing&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;software-availability&#34;&gt;
-  Software Availability
-  &lt;a class=&#34;anchor&#34; href=&#34;#software-availability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="software-availability"&gt;
+Software Availability
+&lt;a class="anchor" href="#software-availability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Contrary to popular belief, Linux doesn’t lack software — it has &lt;strong&gt;more options&lt;/strong&gt; than most think.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Package Managers by Family:&lt;/strong&gt;&lt;/p&gt;
@@ -943,10 +559,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;/ul&gt;
 &lt;p&gt;Using Linux exposes you to the &lt;strong&gt;FOSS ecosystem&lt;/strong&gt;, strengthening open-source awareness and collaboration.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;performance-and-stability&#34;&gt;
-  Performance and Stability
-  &lt;a class=&#34;anchor&#34; href=&#34;#performance-and-stability&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="performance-and-stability"&gt;
+Performance and Stability
+&lt;a class="anchor" href="#performance-and-stability"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux is known for its &lt;strong&gt;performance and efficiency&lt;/strong&gt;, largely due to minimal bloatware.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Advantages:&lt;/strong&gt;&lt;/p&gt;
@@ -954,10 +569,9 @@ You can choose from many &lt;strong&gt;Desktop Environments (DEs)&lt;/strong&gt;
 &lt;li&gt;&lt;strong&gt;Minimal Resource Usage:&lt;/strong&gt; Low background memory usage.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;No Forced Updates:&lt;/strong&gt; You control updates — even after 15 years, it will still work fine.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;lts-distributions-and-kernels&#34;&gt;
-  LTS Distributions and Kernels
-  &lt;a class=&#34;anchor&#34; href=&#34;#lts-distributions-and-kernels&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="lts-distributions-and-kernels"&gt;
+LTS Distributions and Kernels
+&lt;a class="anchor" href="#lts-distributions-and-kernels"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;LTS&lt;/strong&gt; = &lt;em&gt;Long Term Support&lt;/em&gt;.
 Some Linux versions are maintained for years with guaranteed stability and updates.&lt;/p&gt;
@@ -967,10 +581,9 @@ Some Linux versions are maintained for years with guaranteed stability and updat
 &lt;/ul&gt;
 &lt;p&gt;There are also &lt;strong&gt;LTS kernel versions&lt;/strong&gt; that ensure stable driver and security updates.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;enhanced-productivity-and-use-cases&#34;&gt;
-  Enhanced Productivity and Use Cases
-  &lt;a class=&#34;anchor&#34; href=&#34;#enhanced-productivity-and-use-cases&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="enhanced-productivity-and-use-cases"&gt;
+Enhanced Productivity and Use Cases
+&lt;a class="anchor" href="#enhanced-productivity-and-use-cases"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Linux boosts productivity due to its &lt;strong&gt;speed and command-line efficiency&lt;/strong&gt;.
 While it supports great GUIs, many users eventually prefer using the &lt;strong&gt;terminal&lt;/strong&gt; for faster workflows.&lt;/p&gt;
@@ -980,49 +593,44 @@ While it supports great GUIs, many users eventually prefer using the &lt;strong&
 &lt;li&gt;Linux proficiency is a &lt;strong&gt;valuable skill&lt;/strong&gt; during technical interviews.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;common-myths-about-linux&#34;&gt;
-  Common Myths About Linux
-  &lt;a class=&#34;anchor&#34; href=&#34;#common-myths-about-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="common-myths-about-linux"&gt;
+Common Myths About Linux
+&lt;a class="anchor" href="#common-myths-about-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;myth-1-linux-is-only-for-tech-geeks&#34;&gt;
-  Myth 1: Linux is only for tech geeks
-  &lt;a class=&#34;anchor&#34; href=&#34;#myth-1-linux-is-only-for-tech-geeks&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="myth-1-linux-is-only-for-tech-geeks"&gt;
+Myth 1: Linux is only for tech geeks
+&lt;a class="anchor" href="#myth-1-linux-is-only-for-tech-geeks"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;Not true!
 Linux can be used for general purposes. The terminal is not mandatory — it’s just powerful.
 You can browse the web, use apps, and enjoy a normal desktop experience.&lt;/p&gt;
 &lt;p&gt;Beginner-friendly distros include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ubuntu.com/download/desktop&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/workstation/download&#34;&gt;Fedora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntu.com/download/desktop"&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/workstation/download"&gt;Fedora&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;myth-2-its-hard-to-install-software-or-use-browsers&#34;&gt;
-  Myth 2: It’s hard to install software or use browsers
-  &lt;a class=&#34;anchor&#34; href=&#34;#myth-2-its-hard-to-install-software-or-use-browsers&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="myth-2-its-hard-to-install-software-or-use-browsers"&gt;
+Myth 2: It’s hard to install software or use browsers
+&lt;a class="anchor" href="#myth-2-its-hard-to-install-software-or-use-browsers"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;p&gt;False again.
 Package managers make installing software much easier than Windows.
 And yes — you can use browsers like Chrome, Firefox, Brave, etc. just as usual.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;getting-started-with-linux&#34;&gt;
-  Getting Started with Linux
-  &lt;a class=&#34;anchor&#34; href=&#34;#getting-started-with-linux&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="getting-started-with-linux"&gt;
+Getting Started with Linux
+&lt;a class="anchor" href="#getting-started-with-linux"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Try these &lt;strong&gt;beginner-friendly distros&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linuxmint.com/download.php&#34;&gt;Linux Mint&lt;/a&gt; — Highly recommended&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ubuntu.com/download/desktop&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/workstation/download&#34;&gt;Fedora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linuxmint.com/download.php"&gt;Linux Mint&lt;/a&gt; — Highly recommended&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntu.com/download/desktop"&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/workstation/download"&gt;Fedora&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;bottom-note&#34;&gt;
-  Bottom Note
-  &lt;a class=&#34;anchor&#34; href=&#34;#bottom-note&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="bottom-note"&gt;
+Bottom Note
+&lt;a class="anchor" href="#bottom-note"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Linux is more than an operating system — it’s a &lt;strong&gt;philosophy of freedom, efficiency, and empowerment&lt;/strong&gt;.
 With its vast software library, security, performance, and endless customization, Linux is a &lt;strong&gt;powerful alternative&lt;/strong&gt; to traditional systems.&lt;/p&gt;
@@ -1031,13 +639,7 @@ With its vast software library, security, performance, and endless customization
 &lt;p&gt;So, why not give Linux a try?
 You might just discover a &lt;strong&gt;new way of computing&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;thank-you-for-reading&#34;&gt;
-  Thank You for Reading
-  &lt;a class=&#34;anchor&#34; href=&#34;#thank-you-for-reading&#34;&gt;#&lt;/a&gt;
-&lt;/h2&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;h2 class="heading" id="thank-you-for-reading"&gt;
+Thank You for Reading
+&lt;a class="anchor" href="#thank-you-for-reading"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</content:encoded></item></channel></rss>

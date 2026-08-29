@@ -1,79 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Contribution — eBits Base</title>
-    <link>http://localhost:1313/tags/contribution/</link>
-    <description>Recent content in Contribution on eBits Base</description>
-    <generator>Hugo 0.164.0 -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2026 21:55:17 +0530</lastBuildDate>
-    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
-    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
-    <docs>https://www.rssboard.org/rss-specification</docs>
-    <ttl>60</ttl>
-    
-    <atom:link href="http://localhost:1313/tags/contribution/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Tech Wrapped</title>
-      <link>http://localhost:1313/tech/software_wrapped/software_wrapped/</link>
-      <pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
-      <guid isPermaLink="true">http://localhost:1313/tech/software_wrapped/software_wrapped/</guid>
-      <dc:creator>Amiitesh TSP</dc:creator>
-      <category>wrapped</category>
-      <category>tech</category>
-      <category>software</category>
-      <category>open_source</category>
-      <category>contribution</category>
-      <description>My Tech Wrapped for 2025 from software that I used to the development I made</description>
-      <content:encoded>
-&lt;h1 class=&#34;heading&#34; id=&#34;tech-wrapped-2025&#34;&gt;
-  Tech Wrapped 2025
-  &lt;a class=&#34;anchor&#34; href=&#34;#tech-wrapped-2025&#34;&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Contribution — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/contribution/</link><description>Recent content in Contribution on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/contribution/index.xml" rel="self" type="application/rss+xml"/><item><title>Tech Wrapped</title><link>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</link><pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</guid><dc:creator>Amiitesh TSP</dc:creator><category>wrapped</category><category>tech</category><category>software</category><category>open_source</category><category>contribution</category><description>My Tech Wrapped for 2025 from software that I used to the development I made</description><content:encoded>
+&lt;h1 class="heading" id="tech-wrapped-2025"&gt;
+Tech Wrapped 2025
+&lt;a class="anchor" href="#tech-wrapped-2025"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
 &lt;p&gt;This post is a personal wrap-up of my year in tech, the stack I relied on, the software that shaped my daily workflow, and the projects I built throughout 2025.&lt;/p&gt;
 &lt;p&gt;The goal isn’t to list everything I touched, but to document what actually mattered.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;tech-stack&#34;&gt;
-  Tech Stack
-  &lt;a class=&#34;anchor&#34; href=&#34;#tech-stack&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="tech-stack"&gt;
+Tech Stack
+&lt;a class="anchor" href="#tech-stack"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;This year, my stack gradually converged toward tools that emphasized &lt;strong&gt;simplicity, control, and long-term maintainability&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;languages&#34;&gt;
-  Languages
-  &lt;a class=&#34;anchor&#34; href=&#34;#languages&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="languages"&gt;
+Languages
+&lt;a class="anchor" href="#languages"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Zig:&lt;/strong&gt; I have always been a fan of C, but trying out Zig was a really good experience. I loved the syntax, its interoperability with C, and its strong support for bare-metal programming and embedded systems.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Golang:&lt;/strong&gt; I started getting into network programming and felt that C was a bit hard to work with for those use cases. That led me to Golang, which I really liked because of its goroutines and channels. Although I’m not a big fan of garbage collectors, I felt that sacrificing manual memory management for a better experience in hobby network programming was actually a good trade-off, in my opinion.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;software-i-used--loved&#34;&gt;
-  Software I Used &amp;amp; Loved
-  &lt;a class=&#34;anchor&#34; href=&#34;#software-i-used--loved&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="software-i-used--loved"&gt;
+Software I Used &amp;amp; Loved
+&lt;a class="anchor" href="#software-i-used--loved"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Some software faded away quickly. The ones listed here earned a permanent place in my workflow.&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;daily-drivers&#34;&gt;
-  Daily Drivers
-  &lt;a class=&#34;anchor&#34; href=&#34;#daily-drivers&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="daily-drivers"&gt;
+Daily Drivers
+&lt;a class="anchor" href="#daily-drivers"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;River:&lt;/strong&gt; I was a Hyprland user and wanted to try out a more lightweight window manager, as Hyprland felt a bit too much for me. While exploring lightweight options, I came across a window manager written in Zig. That’s how I found River, one of the more prominent projects built in Zig. After trying it out, I really liked it, especially its approach to configuration as a script and tools like riverctl.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Ghostty:&lt;/strong&gt; I didn’t really plan to switch terminal emulators from Kitty. I tried Ghostty just for fun, but ended up liking it enough to make the switch.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;notes-and-documentation&#34;&gt;
-  Notes and Documentation
-  &lt;a class=&#34;anchor&#34; href=&#34;#notes-and-documentation&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="notes-and-documentation"&gt;
+Notes and Documentation
+&lt;a class="anchor" href="#notes-and-documentation"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -84,41 +47,37 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;contribution&#34;&gt;
-  Contribution
-  &lt;a class=&#34;anchor&#34; href=&#34;#contribution&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="contribution"&gt;
+Contribution
+&lt;a class="anchor" href="#contribution"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Ly:&lt;/strong&gt; Things I have contributed around 162 lines to Ly display manager
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Improved Power Management Options:&lt;/strong&gt;
-Added a hibernate option between sleep and brightness-down actions, giving users finer control over power behavior, especially useful for laptops. &lt;a href=&#34;https://codeberg.org/fairyglade/ly/pulls/867&#34;&gt;#867&lt;/a&gt;&lt;/li&gt;
+Added a hibernate option between sleep and brightness-down actions, giving users finer control over power behavior, especially useful for laptops. &lt;a href="https://codeberg.org/fairyglade/ly/pulls/867"&gt;#867&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Customizable Edge Margins:&lt;/strong&gt;
-Introduced an edge margin option, allowing better layout control and improved ergonomics for different screen sizes and setups. &lt;a href=&#34;https://codeberg.org/fairyglade/ly/pulls/856&#34;&gt;#856&lt;/a&gt;&lt;/li&gt;
+Introduced an edge margin option, allowing better layout control and improved ergonomics for different screen sizes and setups. &lt;a href="https://codeberg.org/fairyglade/ly/pulls/856"&gt;#856&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Battery Status Logic Fix:&lt;/strong&gt;
-Fixed an issue where the battery status defaulted to an incorrect row when certain UI elements were hidden, ensuring consistent and predictable behavior. &lt;a href=&#34;https://codeberg.org/fairyglade/ly/pulls/845&#34;&gt;#845&lt;/a&gt;&lt;/li&gt;
+Fixed an issue where the battery status defaulted to an incorrect row when certain UI elements were hidden, ensuring consistent and predictable behavior. &lt;a href="https://codeberg.org/fairyglade/ly/pulls/845"&gt;#845&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Battery Status in the Top Bar:&lt;/strong&gt;
-Added battery status support directly to the top bar alongside brightness controls, improving visibility and reducing the need for extra UI elements. &lt;a href=&#34;https://codeberg.org/fairyglade/ly/pulls/826&#34;&gt;#826&lt;/a&gt;&lt;/li&gt;
+Added battery status support directly to the top bar alongside brightness controls, improving visibility and reducing the need for extra UI elements. &lt;a href="https://codeberg.org/fairyglade/ly/pulls/826"&gt;#826&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;projects-i-built-in-2025&#34;&gt;
-  Projects I Built in 2025
-  &lt;a class=&#34;anchor&#34; href=&#34;#projects-i-built-in-2025&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="projects-i-built-in-2025"&gt;
+Projects I Built in 2025
+&lt;a class="anchor" href="#projects-i-built-in-2025"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;Some small projects that I built this year&lt;/p&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;completed-projects&#34;&gt;
-  Completed Projects
-  &lt;a class=&#34;anchor&#34; href=&#34;#completed-projects&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="completed-projects"&gt;
+Completed Projects
+&lt;a class="anchor" href="#completed-projects"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;simple-4bit-processor&#34;&gt;
-  Simple 4bit Processor
-  &lt;a class=&#34;anchor&#34; href=&#34;#simple-4bit-processor&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="simple-4bit-processor"&gt;
+Simple 4bit Processor
+&lt;a class="anchor" href="#simple-4bit-processor"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; This was for a college project for the subject Digital System Design&lt;/li&gt;
@@ -127,20 +86,18 @@ Added battery status support directly to the top bar alongside brightness contro
 &lt;li&gt;&lt;strong&gt;What I Learned:&lt;/strong&gt; Core VLSI perspective of a processor.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;multi-threaded-file-downloader&#34;&gt;
-  Multi Threaded File Downloader
-  &lt;a class=&#34;anchor&#34; href=&#34;#multi-threaded-file-downloader&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="multi-threaded-file-downloader"&gt;
+Multi Threaded File Downloader
+&lt;a class="anchor" href="#multi-threaded-file-downloader"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is a multi-file downloader in Golang utilising Go channeling and Goroutines&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; Golang&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;What I Learned:&lt;/strong&gt; Golang in computer networks&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;gortscanner&#34;&gt;
-  GortScanner
-  &lt;a class=&#34;anchor&#34; href=&#34;#gortscanner&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="gortscanner"&gt;
+GortScanner
+&lt;a class="anchor" href="#gortscanner"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; This is a really simple port scanner that I made in Golang&lt;/li&gt;
@@ -148,15 +105,13 @@ Added battery status support directly to the top bar alongside brightness contro
 &lt;li&gt;&lt;strong&gt;What I Learned:&lt;/strong&gt; Golang in computer networks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h3 class=&#34;heading&#34; id=&#34;ongoing--in-progress-projects&#34;&gt;
-  Ongoing / In-Progress Projects
-  &lt;a class=&#34;anchor&#34; href=&#34;#ongoing--in-progress-projects&#34;&gt;#&lt;/a&gt;
+&lt;h3 class="heading" id="ongoing--in-progress-projects"&gt;
+Ongoing / In-Progress Projects
+&lt;a class="anchor" href="#ongoing--in-progress-projects"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-
-&lt;h4 class=&#34;heading&#34; id=&#34;fastsh&#34;&gt;
-  Fastsh
-  &lt;a class=&#34;anchor&#34; href=&#34;#fastsh&#34;&gt;#&lt;/a&gt;
+&lt;h4 class="heading" id="fastsh"&gt;
+Fastsh
+&lt;a class="anchor" href="#fastsh"&gt;#&lt;/a&gt;
 &lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Goal:&lt;/strong&gt; A POSIX-complaint shell that I am working on for my personal use cases.&lt;/li&gt;
@@ -165,16 +120,10 @@ Added battery status support directly to the top bar alongside brightness contro
 &lt;li&gt;&lt;strong&gt;Remaining Challenges:&lt;/strong&gt; Implement features like job management, conditional statements and much more.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-
-&lt;h2 class=&#34;heading&#34; id=&#34;links&#34;&gt;
-  Links
-  &lt;a class=&#34;anchor&#34; href=&#34;#links&#34;&gt;#&lt;/a&gt;
+&lt;h2 class="heading" id="links"&gt;
+Links
+&lt;a class="anchor" href="#links"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/embeddingbits/&#34;&gt;https://github.com/embeddingbits/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+&lt;li&gt;GitHub: &lt;a href="https://github.com/embeddingbits/"&gt;https://github.com/embeddingbits/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
