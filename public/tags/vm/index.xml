@@ -1,7 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Vm — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/vm/</link><description>Recent content in Vm on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/vm/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide to QEMU as a Virtual Machine</title><link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid><dc:creator>Amiitesh TSP</dc:creator><category>qemu</category><category>vm</category><category>linux</category><description>Using QEMU as a Virtual Machine</description><content:encoded>
-&lt;h2 class="heading" id="why-qemu"&gt;
-Why QEMU?
-&lt;a class="anchor" href="#why-qemu"&gt;#&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Vm — eBits Base</title>
+    <link>http://localhost:1313/tags/vm/</link>
+    <description>Recent content in Vm on eBits Base</description>
+    <generator>Hugo 0.165.0 -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 29 Aug 2026 14:07:41 +0530</lastBuildDate>
+    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
+    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    
+    <atom:link href="http://localhost:1313/tags/vm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guide to QEMU as a Virtual Machine</title>
+      <link>http://localhost:1313/tech/qemu_vm/qemu/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/qemu_vm/qemu/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>qemu</category>
+      <category>vm</category>
+      <category>linux</category>
+      <description>Using QEMU as a Virtual Machine</description>
+      <content:encoded>
+&lt;h2 class=&#34;heading&#34; id=&#34;why-qemu&#34;&gt;
+  Why QEMU?
+  &lt;a class=&#34;anchor&#34; href=&#34;#why-qemu&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;There are lots of virtual machine software like VirtualBox and VMWare. But why specifically QEMU?&lt;/p&gt;
 &lt;ol&gt;
@@ -31,9 +61,10 @@ Why QEMU?
 &lt;p&gt;This is really useful when it comes to building Operating systems for different architecture while working in a system with another architecture and its really useful for baremetal embedded systems projects and experimenting with other architectures.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 class="heading" id="using-qemu-to-boot-an-iso"&gt;
-Using QEMU to boot an ISO
-&lt;a class="anchor" href="#using-qemu-to-boot-an-iso"&gt;#&lt;/a&gt;
+
+&lt;h2 class=&#34;heading&#34; id=&#34;using-qemu-to-boot-an-iso&#34;&gt;
+  Using QEMU to boot an ISO
+  &lt;a class=&#34;anchor&#34; href=&#34;#using-qemu-to-boot-an-iso&#34;&gt;#&lt;/a&gt;
 &lt;/h2&gt;
 &lt;p&gt;To create a VM, we have to initialise a virtual hard disk.&lt;/p&gt;
 &lt;ul&gt;
@@ -50,7 +81,7 @@ Using QEMU to boot an ISO
 &lt;p&gt;Then &lt;code&gt;os_image.img&lt;/code&gt; is the name of the image that we are going to create and &lt;code&gt;10G&lt;/code&gt; is the size allocation, this can be set according to user preference.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;qemu-img create -f qcow2 os_image.img 10G
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-img create -f qcow2 os_image.img 10G
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next up, to launch the VM from a &lt;code&gt;iso&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;qemu-system-x86_64&lt;/code&gt; runs the qemu emulator for 64 bit x86 systems, this is available for almost all the other architectures too.&lt;/li&gt;
@@ -60,5 +91,9 @@ Using QEMU to boot an ISO
 &lt;li&gt;&lt;code&gt;-drive file=os_image.img&lt;/code&gt; is attached.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-m 2G&lt;/code&gt; is the RAM that we are going to allocate for the virtual machince to function. This is dependant on user preferences and the system capability.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;qemu-system-x86_64 -enable-kvm -cdrom os.iso -boot menu&lt;span style="color:#fe8019"&gt;=&lt;/span&gt;on -drive file&lt;span style="color:#fe8019"&gt;=&lt;/span&gt;alpine.img -m 2G
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-system-x86_64 -enable-kvm -cdrom os.iso -boot menu&lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt;on -drive file&lt;span style=&#34;color:#fe8019&#34;&gt;=&lt;/span&gt;alpine.img -m 2G
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded>
+    </item>
+    
+  </channel>
+</rss>

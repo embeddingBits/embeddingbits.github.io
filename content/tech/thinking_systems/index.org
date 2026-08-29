@@ -4,7 +4,7 @@ title = 'Thinking Systems'
 summary = "How to think in systems"
 tags = ["tech", "system_design", "software"]
 showTags = true
-draft = false
+draft = true
 readTime = true
 +++
 

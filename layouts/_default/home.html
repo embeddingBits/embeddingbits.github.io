@@ -84,8 +84,7 @@
   <h1> {{ . }} </h1>
   {{ end }}
 
-  {{ $pages := where .Site.RegularPages "Section" .Site.Params.homeCollection
-  }}
+  {{ $pages := where (where .Site.RegularPages "Section" .Site.Params.homeCollection) "Draft" "!=" true }}
 
   {{ $paginationSize := 1}}
   {{ if (gt .Site.Params.paginationSize 0) }}

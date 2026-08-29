@@ -1,10 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>System_design — eBits Base</title><link>https://embeddingbits.is-a.dev/tags/system_design/</link><description>Recent content in System_design on eBits Base</description><generator>Hugo 0.165.0 -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright><lastBuildDate>Sat, 29 Aug 2026 13:57:51 +0530</lastBuildDate><managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor><webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster><docs>https://www.rssboard.org/rss-specification</docs><ttl>60</ttl><atom:link href="https://embeddingbits.is-a.dev/tags/system_design/index.xml" rel="self" type="application/rss+xml"/><item><title>Thinking Systems</title><link>https://embeddingbits.is-a.dev/tech/thinking_systems/</link><pubDate>Tue, 18 Aug 2026 20:38:12 +0530</pubDate><guid isPermaLink="true">https://embeddingbits.is-a.dev/tech/thinking_systems/</guid><dc:creator>Amiitesh TSP</dc:creator><category>tech</category><category>system_design</category><category>software</category><description>How to think in systems</description><content:encoded>
-&lt;div id="outline-container-headline-1" class="outline-3"&gt;
-&lt;h3 id="headline-1"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>System_design — eBits Base</title>
+    <link>http://localhost:1313/tags/system_design/</link>
+    <description>Recent content in System_design on eBits Base</description>
+    <generator>Hugo 0.165.0 -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2026 Amiitesh TSP. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 29 Aug 2026 14:07:41 +0530</lastBuildDate>
+    <managingEditor>tspamiitesh@gmail.com (Amiitesh TSP)</managingEditor>
+    <webMaster>tspamiitesh@gmail.com (Amiitesh TSP)</webMaster>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    
+    <atom:link href="http://localhost:1313/tags/system_design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thinking Systems</title>
+      <link>http://localhost:1313/tech/thinking_systems/</link>
+      <pubDate>Tue, 18 Aug 2026 20:38:12 +0530</pubDate>
+      <guid isPermaLink="true">http://localhost:1313/tech/thinking_systems/</guid>
+      <dc:creator>Amiitesh TSP</dc:creator>
+      <category>tech</category>
+      <category>system_design</category>
+      <category>software</category>
+      <description>How to think in systems</description>
+      <content:encoded>
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
 How to think in systems
 &lt;/h3&gt;
-&lt;div id="outline-text-headline-1" class="outline-text-3"&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;
-This is a blog on my perspective of how to think better system design from my understanding of &lt;a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/"&gt;Designing Data-Intensive Applications&lt;/a&gt;, which is one of the best books that I&amp;#39;ve ever read.&lt;/p&gt;
+This is a blog on my perspective of how to think better system design from my understanding of &lt;a href=&#34;https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/&#34;&gt;Designing Data-Intensive Applications&lt;/a&gt;, which is one of the best books that I&amp;#39;ve ever read.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;/div&gt;
+</content:encoded>
+    </item>
+    
+  </channel>
+</rss>
