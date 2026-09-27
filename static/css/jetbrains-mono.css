@@ -14,13 +14,15 @@
   font-display: swap;
 }
 
-/* Use JetBrains Mono for everything (overrides the theme's Menlo/Meslo stack) */
+/* Use JetBrains Mono for everything (overrides the theme's Menlo/Meslo stack).
+   Base size bumped slightly from the theme default of 14px. */
 body,
 button,
 input,
 select,
 textarea {
   font-family: "JetBrains Mono", "Menlo", "Meslo LG", ui-monospace, monospace;
+  font-size: 15px;
 }
 
 code,
