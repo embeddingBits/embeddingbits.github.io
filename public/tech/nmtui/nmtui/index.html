@@ -1,17 +1,262 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><meta name=description content="Connecting to college WiFi"><meta property="og:type" content="article"><meta property="og:title" content="Connect to college WiFi using nmtui or networkmanager"><meta property="og:url" content="https://embeddingbits.is-a.dev/tech/nmtui/nmtui/"><meta property="og:site_name" content="eBits Base"><meta property="og:description" content="Connecting to college WiFi"><meta name=twitter:card content="summary"><meta name=twitter:title content="Connect to college WiFi using nmtui or networkmanager"><meta name=twitter:description content="Connecting to college WiFi"><link rel="shortcut icon" href=/favicon.ico><link rel=icon type=image/png sizes=192x192 href=/android-chrome-192x192.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><title>Connect to college WiFi using nmtui or networkmanager</title><script async defer data-website-id=cd6448d2-05fa-46d8-978e-02140c4b5470 src=https://cloud.umami.is/script.js></script><link rel=stylesheet href=/scss/style.685381d5f68b3efcc10e08198914b067d1548ef86d972204f914f20a664f1d26.css integrity="sha256-aFOB1faLPvzBDggZiRSwZ9FUjvhtlyIE+RTyCmZPHSY="></head><body class="max-width mx-auto px3"><div id=header-post><a id=menu-icon href=# aria-label=Menu><i class="fa-solid fa-bars fa-lg"></i></a>
-<a id=menu-icon-tablet href=# aria-label=Menu><i class="fa-solid fa-bars fa-lg"></i></a>
-<a id=top-icon-tablet href=# aria-label=Top onclick="return cactusScrollTop()" style=display:none><i class="fa-solid fa-chevron-up fa-lg"></i></a>
-<span id=menu><span id=nav><ul><li><a href=/>Home</a></li><li><a href=/about/>About</a></li><li><a href=/posts/>Writing</a></li><li><a href=/my_software/>my_software</a></li><li><a href=/tags/>tags</a></li></ul></span><br><span id=actions><ul><li><a class=icon aria-label="Previous post" href=/tech/wayland/wayland/><i class="fa-solid fa-chevron-left" aria-hidden=true onmouseover='cactusToggle("i-prev")' onmouseout='cactusToggle("i-prev")'></i></a></li><li><a class=icon aria-label="Next post" href=/tech/void/><i class="fa-solid fa-chevron-right" aria-hidden=true onmouseover='cactusToggle("i-next")' onmouseout='cactusToggle("i-next")'></i></a></li><li><a class=icon aria-label="Back to top" href=# onclick="return cactusScrollTop()"><i class="fa-solid fa-chevron-up" aria-hidden=true onmouseover='cactusToggle("i-top")' onmouseout='cactusToggle("i-top")'></i></a></li><li><a class=icon aria-label="Share post" href=#><i class="fa-solid fa-share-alt" aria-hidden=true onmouseover='cactusToggle("i-share")' onmouseout='cactusToggle("i-share")' onclick='return cactusToggle("share"),!1'></i></a></li></ul><span id=i-prev class=info style=display:none>Previous post</span>
-<span id=i-next class=info style=display:none>Next post</span>
-<span id=i-top class=info style=display:none>Back to top</span>
-<span id=i-share class=info style=display:none>Share post</span></span><br><div id=share style=display:none><ul><li><a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f"><i class="fab fa-facebook" aria-hidden=true></i></a></li><li><a class=icon href="https://twitter.com/share?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&text=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-twitter" aria-hidden=true></i></a></li><li><a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-linkedin" aria-hidden=true></i></a></li><li><a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&is_video=false&description=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-pinterest" aria-hidden=true></i></a></li><li><a class=icon href="mailto:?subject=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&body=Check out this article: https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f"><i class="fa-solid fa-envelope" aria-hidden=true></i></a></li><li><a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-get-pocket" aria-hidden=true></i></a></li><li><a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-reddit" aria-hidden=true></i></a></li><li><a class=icon href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-stumbleupon" aria-hidden=true></i></a></li><li><a class=icon href="http://digg.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-digg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&name=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&description=Connecting%20to%20college%20WiFi"><i class="fab fa-tumblr" aria-hidden=true></i></a></li><li><a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&t=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-hacker-news" aria-hidden=true></i></a></li></ul></div><div id=toc><nav id=TableOfContents><ul><li><a href=#connecting-to-college-wifi-using-nmtui>Connecting to college WiFi using nmtui</a></li><li><a href=#connecting-to-college-wifi-using-networkmanager-gui>Connecting to college WiFi using NetworkManager GUI</a></li></ul></nav></div></span></div><div class="content index py4"><article class="post h-entry" itemscope itemtype=http://schema.org/BlogPosting><header><h1 class="posttitle p-name" itemprop="name headline">Connect to college WiFi using nmtui or networkmanager</h1><div class=meta><span class="author p-author h-card" itemprop=author itemscope itemtype=http://schema.org/Person><span class=p-name itemprop=name>Amiitesh TSP</span></span><div class=postdate><time datetime=2026-01-13T21:02:57+05:30 class=dt-published itemprop=datePublished>13 Jan 2026</time></div><div class=article-tag><i class="fa-solid fa-tag"></i><a class=p-category href=/tags/linux/>linux</a>, <a class=p-category href=/tags/terminal/>terminal</a>, <a class=p-category href=/tags/utilities/>utilities</a>, <a class=p-category href=/tags/networks/>networks</a>, <a class=p-category href=/tags/software/>software</a>, <a class=p-category href=/tags/nmtui/>nmtui</a>, <a class=p-category href=/tags/networkmanager/>networkmanager</a></div></div></header><div class="content e-content" itemprop=articleBody><h2 id=connecting-to-college-wifi-using-nmtui>Connecting to college WiFi using nmtui</h2><p><strong>Step 1:</strong> Open a terminal and run <code>nmtui</code> and in the selection navigate to <code>activate a connection</code>
-<img src=./nmtui_start.png alt=nmtui_start></p><p><strong>Step 2:</strong> From the list, select the WiFi you want to connect to.</p><p><strong>Step 3:</strong> You&rsquo;ll be taken to a screen similar to the one below:
-<img src=./nmtui_connection.png alt=nmtui_connection></p><p><strong>Step 4:</strong> Verify that the SSID matches the network you want to connect to, then configure the settings below:</p><ul><li>Authentication -> PEAP (Protected PEAP)</li><li>Anonymous Identity -> Nil</li><li>Domain -> Nil</li><li>CA cert -> Nil</li><li>CA cert password -> Nil</li><li>Inner authentication -> MSCHAPV2</li></ul><p><strong>Step 5:</strong> After configuring the settings as said below, enter your username and password and press enter.</p><p>Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.</p><h2 id=connecting-to-college-wifi-using-networkmanager-gui>Connecting to college WiFi using NetworkManager GUI</h2><p><strong>Step 1:</strong> Open the application -> <strong>Advanced Network Configuration</strong></p><p><img src=./nmgui_start.png#small alt=nmgui_start></p><p><strong>Step 2:</strong> From the dropdown menu, Select WiFi and enter <em>Create&mldr;</em></p><p><img src=./nmgui_image.png#small alt=nmgui_start></p><p><strong>Step 2:</strong> Under the <em>WiFi</em> tab, enter the name of the WiFi connection that you want to connect to in the SSID field.</p><p><img src=./nmgui_field.png#small alt=nmgui_field></p><p><strong>Step 3:</strong> Now after that go to the <em>WiFi Security</em> tab, you&rsquo;ll see a configuration window similar to the one below:
-<img src=./nmgui_connection.png alt=nmgui_connection></p><p><strong>Step 4:</strong> Under <em>WiFi Security</em>, check if SSID is the network you want to connect to under the <em>WiFi</em> tab and after that under the <em>WiFi Security</em> tab change the settings to the one below:</p><ul><li>Security -> WPA/WPA2 Enterprise</li><li>Authentication -> PEAP (Protected PEAP)</li><li>Anonymous Identity -> Nil</li><li>Domain -> Nil</li><li>Check the &ldquo;<code>No CA certificate is required</code>&rdquo; checkbox</li><li>CA cert -> Nil</li><li>CA cert password -> Nil</li><li>Inner authentication -> MSCHAPV2</li></ul><p><strong>Step 5:</strong> After configuring the settings as said below, enter your username and password and press enter.</p><p>Following these steps will get you connected to the college WiFi</p></div></article><div id=footer-post-container><div id=footer-post><div id=nav-footer style=display:none><ul><li><a href=/>Home</a></li><li><a href=/about/>About</a></li><li><a href=/posts/>Writing</a></li><li><a href=/my_software/>my_software</a></li><li><a href=/tags/>tags</a></li></ul></div><div id=toc-footer style=display:none><nav id=TableOfContents><ul><li><a href=#connecting-to-college-wifi-using-nmtui>Connecting to college WiFi using nmtui</a></li><li><a href=#connecting-to-college-wifi-using-networkmanager-gui>Connecting to college WiFi using NetworkManager GUI</a></li></ul></nav></div><div id=share-footer style=display:none><ul><li><a class=icon href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f"><i class="fab fa-facebook fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://twitter.com/share?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&text=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-twitter fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-linkedin fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&is_video=false&description=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-pinterest fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="mailto:?subject=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&body=Check out this article: https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f"><i class="fa-solid fa-envelope fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://getpocket.com/save?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-get-pocket fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://reddit.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-reddit fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-stumbleupon fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://digg.com/submit?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-digg fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="http://www.tumblr.com/share/link?url=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&name=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&description=Connecting%20to%20college%20WiFi"><i class="fab fa-tumblr fa-lg" aria-hidden=true></i></a></li><li><a class=icon href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fembeddingbits.is-a.dev%2ftech%2fnmtui%2fnmtui%2f&t=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-hacker-news fa-lg" aria-hidden=true></i></a></li></ul></div><div id=actions-footer><a id=menu class=icon href=# onclick='return cactusToggle("nav-footer"),!1'><i class="fa-solid fa-bars fa-lg" aria-hidden=true></i> Menu</a>
-<a id=toc class=icon href=# onclick='return cactusToggle("toc-footer"),!1'><i class="fa-solid fa-list fa-lg" aria-hidden=true></i> TOC</a>
-<a id=share class=icon href=# onclick='return cactusToggle("share-footer"),!1'><i class="fa-solid fa-share-alt fa-lg" aria-hidden=true></i> Share</a>
-<a id=top style=display:none class=icon href=# onclick="return cactusScrollTop()"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden=true></i> Top</a></div></div></div><footer id=footer><div class=footer-left>Copyright &copy;
-2026
-Amiitesh TSP</div><div class=footer-right><nav><ul><li><a href=/>Home</a></li><li><a href=/about/>About</a></li><li><a href=/posts/>Writing</a></li><li><a href=/my_software/>my_software</a></li><li><a href=/tags/>tags</a></li></ul></nav></div></footer><div class=webring>VIT webring<br><a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=prev">←</a>
-<a href=https://webring-vit.vercel.app/random>random site</a>
-<a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=next">→</a></div></div><link rel=preload as=style href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css crossorigin=anonymous onload='this.onload=null,this.rel="stylesheet"'><link rel=stylesheet href=/css/jetbrains-mono.css><script>window.cactusI18n={copyTip:'"Copy to clipboard!"',copied:'"Copied!"'}</script><script src=/js/main.6824ebd86aac92dbe0d0015d7866ee218ce0de7069193aa248a4298806fa2045.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+  
+  <meta name="description" content="Connecting to college WiFi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Connect to college WiFi using nmtui or networkmanager">
+<meta property="og:url" content="http://localhost:1313/tech/nmtui/nmtui/">
+<meta property="og:site_name" content="eBits Base">
+<meta property="og:description" content="Connecting to college WiFi">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Connect to college WiFi using nmtui or networkmanager">
+<meta name="twitter:description" content="Connecting to college WiFi">
+
+
+  
+
+  <link rel="shortcut icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <title>Connect to college WiFi using nmtui or networkmanager</title>
+
+  
+  
+  <script async defer data-website-id="cd6448d2-05fa-46d8-978e-02140c4b5470" src="https://cloud.umami.is/script.js"></script>
+
+  
+  
+  
+    
+    <link rel="stylesheet" href="/scss/style.685381d5f68b3efcc10e08198914b067d1548ef86d972204f914f20a664f1d26.css" integrity="sha256-aFOB1faLPvzBDggZiRSwZ9FUjvhtlyIE&#43;RTyCmZPHSY=">
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+</head>
+<body class="max-width mx-auto px3 ">
+  <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="return cactusScrollTop();" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul><li><a href="/">Home</a></li><li><a href="/posts/">Writing</a></li><li><a href="/my_software/">my_software</a></li><li><a href="/tags/">tags</a></li></ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/tech/wayland/wayland/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="cactusToggle('i-prev');" onmouseout="cactusToggle('i-prev');"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/tech/void/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="cactusToggle('i-next');" onmouseout="cactusToggle('i-next');"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="return cactusScrollTop();"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="cactusToggle('i-top');" onmouseout="cactusToggle('i-top');"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="cactusToggle('i-share');" onmouseout="cactusToggle('i-share');" onclick="cactusToggle('share');return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&text=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&is_video=false&description=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&body=Check out this article: http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&name=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&description=Connecting%20to%20college%20WiFi"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&t=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#connecting-to-college-wifi-using-nmtui">Connecting to college WiFi using nmtui</a></li>
+    <li><a href="#connecting-to-college-wifi-using-networkmanager-gui">Connecting to college WiFi using NetworkManager GUI</a></li>
+  </ul>
+</nav>
+      </div>
+    
+  </span>
+</div>
+
+  <div class="content index py4 ">
+    
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="posttitle p-name" itemprop="name headline">Connect to college WiFi using nmtui or networkmanager</h1>
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Amiitesh TSP</span>
+      </span>
+      <div class="postdate"><time datetime="2026-01-13T21:02:57&#43;05:30" class="dt-published" itemprop="datePublished">13 Jan 2026</time></div>
+      
+      <div class="article-tag">
+  <i class="fa-solid fa-tag"></i><a class="p-category" href="/tags/linux/">linux</a>, <a class="p-category" href="/tags/terminal/">terminal</a>, <a class="p-category" href="/tags/utilities/">utilities</a>, <a class="p-category" href="/tags/networks/">networks</a>, <a class="p-category" href="/tags/software/">software</a>, <a class="p-category" href="/tags/nmtui/">nmtui</a>, <a class="p-category" href="/tags/networkmanager/">networkmanager</a></div>
+    </div>
+  </header>
+  
+  <div class="content e-content" itemprop="articleBody">
+    <h2 id="connecting-to-college-wifi-using-nmtui">Connecting to college WiFi using nmtui</h2>
+<p><strong>Step 1:</strong> Open a terminal and run <code>nmtui</code> and in the selection navigate to <code>activate a connection</code>
+<img src="./nmtui_start.png" alt="nmtui_start">
+</p>
+<p><strong>Step 2:</strong> From the list, select the WiFi you want to connect to.</p>
+<p><strong>Step 3:</strong> You&rsquo;ll be taken to a screen similar to the one below:
+<img src="./nmtui_connection.png" alt="nmtui_connection">
+</p>
+<p><strong>Step 4:</strong> Verify that the SSID matches the network you want to connect to, then configure the settings below:</p>
+<ul>
+<li>Authentication -&gt; PEAP (Protected PEAP)</li>
+<li>Anonymous Identity -&gt; Nil</li>
+<li>Domain -&gt; Nil</li>
+<li>CA cert -&gt; Nil</li>
+<li>CA cert password -&gt; Nil</li>
+<li>Inner authentication -&gt; MSCHAPV2</li>
+</ul>
+<p><strong>Step 5:</strong> After configuring the settings as said below, enter your username and password and press enter.</p>
+<p>Following the above steps will get you connected to the college WiFi. If you feel difficult to connect through the terminal interface. Refer to GUI method below.</p>
+<h2 id="connecting-to-college-wifi-using-networkmanager-gui">Connecting to college WiFi using NetworkManager GUI</h2>
+<p><strong>Step 1:</strong> Open the application -&gt; <strong>Advanced Network Configuration</strong></p>
+<p><img src="./nmgui_start.png#small" alt="nmgui_start">
+</p>
+<p><strong>Step 2:</strong> From the dropdown menu, Select WiFi and enter <em>Create&hellip;</em></p>
+<p><img src="./nmgui_image.png#small" alt="nmgui_start">
+</p>
+<p><strong>Step 2:</strong> Under the <em>WiFi</em> tab, enter the name of the WiFi connection that you want to connect to in the SSID field.</p>
+<p><img src="./nmgui_field.png#small" alt="nmgui_field">
+</p>
+<p><strong>Step 3:</strong> Now after that go to the <em>WiFi Security</em> tab, you&rsquo;ll see a configuration window similar to the one below:
+<img src="./nmgui_connection.png" alt="nmgui_connection">
+</p>
+<p><strong>Step 4:</strong> Under <em>WiFi Security</em>, check if SSID is the network you want to connect to under the <em>WiFi</em> tab and after that under the <em>WiFi Security</em> tab change the settings to the one below:</p>
+<ul>
+<li>Security -&gt; WPA/WPA2 Enterprise</li>
+<li>Authentication -&gt; PEAP (Protected PEAP)</li>
+<li>Anonymous Identity -&gt; Nil</li>
+<li>Domain -&gt; Nil</li>
+<li>Check the &ldquo;<code>No CA certificate is required</code>&rdquo; checkbox</li>
+<li>CA cert -&gt; Nil</li>
+<li>CA cert password -&gt; Nil</li>
+<li>Inner authentication -&gt; MSCHAPV2</li>
+</ul>
+<p><strong>Step 5:</strong> After configuring the settings as said below, enter your username and password and press enter.</p>
+<p>Following these steps will get you connected to the college WiFi</p>
+
+  </div>
+</article>
+
+
+    <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul><li><a href="/">Home</a></li><li><a href="/posts/">Writing</a></li><li><a href="/my_software/">my_software</a></li><li><a href="/tags/">tags</a></li></ul>
+    </div>
+
+    
+      <div id="toc-footer" style="display: none">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#connecting-to-college-wifi-using-nmtui">Connecting to college WiFi using nmtui</a></li>
+    <li><a href="#connecting-to-college-wifi-using-networkmanager-gui">Connecting to college WiFi using NetworkManager GUI</a></li>
+  </ul>
+</nav>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&text=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&is_video=false&description=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&body=Check out this article: http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&title=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&name=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager&description=Connecting%20to%20college%20WiFi"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2ftech%2fnmtui%2fnmtui%2f&t=Connect%20to%20college%20WiFi%20using%20nmtui%20or%20networkmanager"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <a id="menu" class="icon" href="#" onclick="cactusToggle('nav-footer');return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+      
+        <a id="toc" class="icon" href="#" onclick="cactusToggle('toc-footer');return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+      
+      <a id="share" class="icon" href="#" onclick="cactusToggle('share-footer');return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+      <a id="top" style="display:none" class="icon" href="#" onclick="return cactusScrollTop();"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    2026
+    Amiitesh TSP
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul><li><a href="/">Home</a></li><li><a href="/posts/">Writing</a></li><li><a href="/my_software/">my_software</a></li><li><a href="/tags/">tags</a></li></ul>
+    </nav>
+  </div>
+</footer>
+<div class="webring">
+  VIT webring
+  <br>
+  <a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=prev">←</a>
+  <a href="https://webring-vit.vercel.app/random">random site</a>
+  <a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=next">→</a>
+</div>
+
+  </div>
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="/css/jetbrains-mono.css">
+
+  
+<script>window.cactusI18n = {copyTip: "\"Copy to clipboard!\"", copied: "\"Copied!\""};</script>
+
+
+  
+  <script src="/js/main.db8cc9f2518a7ce9c6349893b6ffaaa94f192097d21d731fb769ebf8ae828987.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

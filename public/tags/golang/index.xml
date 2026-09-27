@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on eBits Base</title><link>https://embeddingbits.is-a.dev/tags/golang/</link><description>Recent content in Golang on eBits Base</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://embeddingbits.is-a.dev/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang and its Philosophy</title><link>https://embeddingbits.is-a.dev/tech/golang/golang/</link><pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/golang/golang/</guid><description>Golang and its Philosophy</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Golang on eBits Base</title>
+		<link>http://localhost:1313/tags/golang/</link>
+		<description>Recent content in Golang on eBits Base</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Golang and its Philosophy</title>
+				<link>http://localhost:1313/tech/golang/golang/</link>
+				<pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/golang/golang/</guid>
+				<description>Golang and its Philosophy</description>
+			</item>
+	</channel>
+</rss>

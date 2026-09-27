@@ -28,10 +28,6 @@ name = "home"
 url = "/"
 weight = 1
 [[menus.main]]
-name = "about"
-url = "/about/"
-weight = 2
-[[menus.main]]
 name = "articles"
 url = "/posts/"
 weight = 3

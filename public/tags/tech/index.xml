@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on eBits Base</title><link>https://embeddingbits.is-a.dev/tags/tech/</link><description>Recent content in Tech on eBits Base</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://embeddingbits.is-a.dev/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Void Linux Installation</title><link>https://embeddingbits.is-a.dev/tech/void/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/void/</guid><description>A small guide to what I did when I installed Void Linux</description></item><item><title>Is Wayland better than X11</title><link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid>https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid><description>Advantages of Wayland over X11</description></item><item><title>Tech Wrapped</title><link>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</link><pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate><guid>https://embeddingbits.is-a.dev/tech/software_wrapped/software_wrapped/</guid><description>My Tech Wrapped for 2025 from software that I used to the development I made</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tech on eBits Base</title>
+		<link>http://localhost:1313/tags/tech/</link>
+		<description>Recent content in Tech on eBits Base</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Void Linux Installation</title>
+				<link>http://localhost:1313/tech/void/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/void/</guid>
+				<description>A small guide to what I did when I installed Void Linux</description>
+			</item>
+			<item>
+				<title>Is Wayland better than X11</title>
+				<link>http://localhost:1313/tech/wayland/wayland/</link>
+				<pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
+				<guid>http://localhost:1313/tech/wayland/wayland/</guid>
+				<description>Advantages of Wayland over X11</description>
+			</item>
+			<item>
+				<title>Tech Wrapped</title>
+				<link>http://localhost:1313/tech/software_wrapped/software_wrapped/</link>
+				<pubDate>Mon, 29 Dec 2025 10:23:03 +0530</pubDate>
+				<guid>http://localhost:1313/tech/software_wrapped/software_wrapped/</guid>
+				<description>My Tech Wrapped for 2025 from software that I used to the development I made</description>
+			</item>
+	</channel>
+</rss>

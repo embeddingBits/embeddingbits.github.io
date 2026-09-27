@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on eBits Base</title><link>https://embeddingbits.is-a.dev/tags/linux/</link><description>Recent content in Linux on eBits Base</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://embeddingbits.is-a.dev/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Void Linux Installation</title><link>https://embeddingbits.is-a.dev/tech/void/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/void/</guid><description>A small guide to what I did when I installed Void Linux</description></item><item><title>Connect to college WiFi using nmtui or networkmanager</title><link>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</link><pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate><guid>https://embeddingbits.is-a.dev/tech/nmtui/nmtui/</guid><description>Connecting to college WiFi</description></item><item><title>Is Wayland better than X11</title><link>https://embeddingbits.is-a.dev/tech/wayland/wayland/</link><pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate><guid>https://embeddingbits.is-a.dev/tech/wayland/wayland/</guid><description>Advantages of Wayland over X11</description></item><item><title>Guide to QEMU as a Virtual Machine</title><link>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/qemu_vm/qemu/</guid><description>Using QEMU as a Virtual Machine</description></item><item><title>Configuring Tmux</title><link>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</link><pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate><guid>https://embeddingbits.is-a.dev/tech/tmux_config/tmux_config/</guid><description>Configuring a really simple tmux config</description></item><item><title>DWM Window Manager</title><link>https://embeddingbits.is-a.dev/tech/dwm/dwm/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/dwm/dwm/</guid><description>Overview of DWM Window Manager</description></item><item><title>Why Linux is better than its other competitors</title><link>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</link><pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate><guid>https://embeddingbits.is-a.dev/tech/linux_overview/linux_overview/</guid><description>Overview of Linux and Debunking the myths</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Linux on eBits Base</title>
+		<link>http://localhost:1313/tags/linux/</link>
+		<description>Recent content in Linux on eBits Base</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Void Linux Installation</title>
+				<link>http://localhost:1313/tech/void/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/void/</guid>
+				<description>A small guide to what I did when I installed Void Linux</description>
+			</item>
+			<item>
+				<title>Connect to college WiFi using nmtui or networkmanager</title>
+				<link>http://localhost:1313/tech/nmtui/nmtui/</link>
+				<pubDate>Tue, 13 Jan 2026 21:02:57 +0530</pubDate>
+				<guid>http://localhost:1313/tech/nmtui/nmtui/</guid>
+				<description>Connecting to college WiFi</description>
+			</item>
+			<item>
+				<title>Is Wayland better than X11</title>
+				<link>http://localhost:1313/tech/wayland/wayland/</link>
+				<pubDate>Sun, 11 Jan 2026 13:07:25 +0530</pubDate>
+				<guid>http://localhost:1313/tech/wayland/wayland/</guid>
+				<description>Advantages of Wayland over X11</description>
+			</item>
+			<item>
+				<title>Guide to QEMU as a Virtual Machine</title>
+				<link>http://localhost:1313/tech/qemu_vm/qemu/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/qemu_vm/qemu/</guid>
+				<description>Using QEMU as a Virtual Machine</description>
+			</item>
+			<item>
+				<title>Configuring Tmux</title>
+				<link>http://localhost:1313/tech/tmux_config/tmux_config/</link>
+				<pubDate>Tue, 04 Nov 2025 16:28:33 +0530</pubDate>
+				<guid>http://localhost:1313/tech/tmux_config/tmux_config/</guid>
+				<description>Configuring a really simple tmux config</description>
+			</item>
+			<item>
+				<title>DWM Window Manager</title>
+				<link>http://localhost:1313/tech/dwm/dwm/</link>
+				<pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/dwm/dwm/</guid>
+				<description>Overview of DWM Window Manager</description>
+			</item>
+			<item>
+				<title>Why Linux is better than its other competitors</title>
+				<link>http://localhost:1313/tech/linux_overview/linux_overview/</link>
+				<pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tech/linux_overview/linux_overview/</guid>
+				<description>Overview of Linux and Debunking the myths</description>
+			</item>
+	</channel>
+</rss>
