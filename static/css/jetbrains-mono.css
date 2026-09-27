@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMono/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Use JetBrains Mono for everything (overrides the theme's Menlo/Meslo stack) */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "JetBrains Mono", "Menlo", "Meslo LG", ui-monospace, monospace;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "JetBrains Mono", "Menlo", "Meslo LG", ui-monospace, monospace;
+}
+
+.webring {
+  text-align: center;
+  font-size: small;
+  margin-bottom: 2rem;
+}
+
+.webring a {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}

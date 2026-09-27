@@ -1,0 +1,14 @@
++++
+url = "/tech/thinking_systems/"
+date = '2026-08-18T20:38:12+05:30'
+title = 'Thinking Systems'
+summary = "How to think in systems"
+tags = ["tech", "system_design", "software"]
+showTags = true
+draft = true
+readTime = true
++++
+
+## How to think in systems
+
+This is a blog on my perspective of how to think better system design from my understanding of [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/), which is one of the best books that I've ever read.

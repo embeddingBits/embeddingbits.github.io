@@ -1,101 +1,118 @@
 baseURL = 'https://embeddingbits.is-a.dev/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "eBits Base"
-theme = 'typo'
+theme = 'cactus'
 enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+pagerSize = 20
 
 [taxonomies]
 tag = 'tags'
+category = 'categories'
 
 [outputs]
 home = ["html", "rss"]
-section = ["html", "rss"]
-taxonomy = ["html", "rss"]
 
-[params]
-# Meta description
-description = "Thoughts and Expressions"
-author = "Amiitesh TSP"
-email = "tspamiitesh@gmail.com"
-rssLimit = 50
-# Appearance settings
-theme = 'dark'
-colorPalette = 'gruvebox'
-hideHeader = false
-
-language = 'en'
-
-# Homepage
-homeCollectionTitle = 'Posts'
-homeCollection = 'tech'
-
-# Lists parameters
-paginationSize = 100
-listSummaries = true
-listDateFormat = '2 Jan 2006'
-showFooter = true
-footerContent = """
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIT webring 
-<br>
-<a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=prev">←</a>
-<a href="https://webring-vit.vercel.app/random">random site</a>
-<a href="https://webring-vit.vercel.app/redirect?from=embeddingbits&dir=next">→</a>
-"""
-
-# Breadcrumbs
-[params.breadcrumbs]
-enabled = true
-
-# Social icons
-[[params.social]]
-name = "codeberg"
-url = "https://codeberg.org/embeddingbits"
-
-[[params.social]]
-name = "github"
-url = "https://github.com/embeddingbits"
-
-[[params.social]]
-name = "mastodon"
-url = "https://mastodon.social/@ebits"
-
-[[params.social]]
-name = "matrix"
-url = "https://matrix.to/#/@embeddingbits:matrix.org"
-
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"
-
-[[params.social]]
-name = "instagram"
-url = "https://instagram.com/tspamiitesh"
-
-# Main menu pages
-[[params.menu]]
-name = "posts"
-url = "/tech"
-
-[[params.menu]]
-name = "my_software"
-url = "/software"
-
-[[params.menu]]
-name = "tags"
-url = "/tags"
-
-[[params.menu]]
-name = "rss"
-url = "/index.xml"
-
-[params.umami]
-enable = true
-websiteId = "cd6448d2-05fa-46d8-978e-02140c4b5470"
-jsLocation = "https://cloud.umami.is/script.js"
-
-# Syntax highlight on code blocks
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
 [markup.highlight]
 style = 'gruvbox'
+
+# Main menu
+[menus]
+[[menus.main]]
+name = "home"
+url = "/"
+weight = 1
+[[menus.main]]
+name = "about"
+url = "/software/"
+weight = 2
+[[menus.main]]
+name = "articles"
+url = "/posts/"
+weight = 3
+[[menus.main]]
+name = "tags"
+url = "/tags/"
+weight = 4
+
+[params]
+author = "Amiitesh TSP"
+description = """
+Hi, I'm <span style="color: #d79921">Amiitesh</span>.
+
+I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like embedded systems, operating systems, networks, and I like system design. Apart from tech I like reading, writing blogs and music. I write blogs about things that I find interesting and ideas I'm experimenting with. I mainly post about tech, music, photography and on the books I read.
+
+I like my software *libre* so I'm a **big advocate** of FOSS and I write/contribute to Open Source Software. You can check out some [software](https://codeberg.org/embeddingbits/) that I wrote, [rice](https://codeberg.org/embeddingbits/dotfiles) and software that I use [here](/software).
+
+You can contact me at:
+- Mail: tspamiitesh@gmail.com
+- Discord - [ebits](https://discord.com/users/1312819280018018374)
+"""
+dateFormat = '2 Jan 2006'
+colorscheme = 'dark'
+rss = true
+
+[params.logo]
+enabled = true
+width = 50
+height = 50
+url = "/profile.png"
+gravatar = false
+grayout = false
+
+[params.favicon]
+[params.favicon.desktop]
+url = "/favicon.ico"
+[params.favicon.android]
+url = "/android-chrome-192x192.png"
+[params.favicon.apple]
+url = "/apple-touch-icon.png"
+
+[params.postsOverview]
+showAllPosts = false
+postCount = 5
+sortUpdated = false
+
+[params.archive]
+sortUpdated = false
+
+[params.umamiAnalytics]
+enabled = true
+id = "cd6448d2-05fa-46d8-978e-02140c4b5470"
+host = "https://cloud.umami.is"
+scriptName = "script.js"
+
+[params.cdn]
+enable = true
+fontAwesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+
+# Social links (Font Awesome brands: codeberg/matrix have no FA icons, dropped)
+[[params.socialLinks]]
+icon = "github"
+link = "https://github.com/embeddingbits"
+
+[[params.socialLinks]]
+icon = "mastodon"
+label = "mastodon.social"
+link = "https://mastodon.social/@ebits"
+
+[[params.socialLinks]]
+icon = "linkedin"
+link = "https://www.linkedin.com/in/amiitesh-pradeep-kumar-582bb831a/"
+
+[[params.socialLinks]]
+icon = "instagram"
+link = "https://instagram.com/tspamiitesh"
+
+[[params.socialLinks]]
+icon = "mail"
+link = "mailto:tspamiitesh@gmail.com"
+
+[[params.socialLinks]]
+icon = "rss"
+link = "/index.xml"
