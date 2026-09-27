@@ -99,3 +99,8 @@ jsLocation = "https://cloud.umami.is/script.js"
 unsafe = true
 [markup.highlight]
 style = 'gruvbox'
+
+# Allow Org Mode content files (Hugo >= 0.166 denies text/org by default).
+# Keep text/html denied; an allowlist of only deny-rules implicitly allows the rest.
+[security]
+allowContent = ['! ^text/html$']
