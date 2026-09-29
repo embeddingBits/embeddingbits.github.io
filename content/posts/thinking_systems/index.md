@@ -1,13 +1,13 @@
-+++
-url = "/tech/thinking_systems/"
-date = '2026-08-18T20:38:12+05:30'
-title = 'Thinking Systems'
-summary = "How to think in systems"
-tags = ["tech", "system_design", "software"]
-showTags = true
-draft = true
-readTime = true
-+++
+---
+url: /tech/thinking_systems/
+date: '2026-08-18T20:38:12+05:30'
+title: 'Thinking Systems'
+summary: "How to think in systems"
+tags: ["tech", "system_design", "software"]
+showTags: true
+draft: true
+readTime: true
+---
 
 ## How to think in systems
 

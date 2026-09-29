@@ -10,7 +10,6 @@ tags: ["zig", "c", "language"]
 showTags: true
 ---
 
-
 ## Introduction
 
 Zig is a modern programming language that is meant to be the successor of C programming language. Zig is a general-purpose programming language and toolchain for maintaining **robust, optimal and reusable software**. There is no hidden control flow, no hidden memory allocations and no preprocessors and macros as in C.
