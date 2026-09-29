@@ -4,7 +4,7 @@ date: '2026-09-18T17:53:10+05:30'
 title: 'My experience after I started Journaling'
 summary: "Why I started journaling and how it's going"
 tags: ["self help", "journaling"]
-draft: false
+draft: true
 readTime: true
 ---
 
