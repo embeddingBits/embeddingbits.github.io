@@ -71,6 +71,6 @@ sudo xbps-install -S pipewire wireplumber alsa-pipewire
 
 Then, write a script to autostart pipewire, wireplumber and pipewire-pulse for pulseaudio support.
 
-These were the things that I had to do to install Void Linux and so far I've been having a good time with it. Let's see if it came be my long time distro.
+These were the things that I had to do to install Void Linux and so far I've been having a good time with it. Let's see if it can be my long time distro.
 
 **Thanks for Reading :)**
