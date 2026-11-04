@@ -1,0 +1,7 @@
+{{- /* Varanasi ghats dusk scene — a fixed canvas behind the content column.
+       Driven by assets/js/background.ts, bundled by Hugo's esbuild (js.Build). */ -}}
+<canvas id="site-bg-canvas" aria-hidden="true"></canvas>
+{{ with resources.Get "js/background.ts" }}
+  {{ $bg := . | js.Build (dict "minify" hugo.IsProduction "target" "es2017") | fingerprint }}
+  <script defer src="{{ $bg.RelPermalink }}" integrity="{{ $bg.Data.Integrity }}"></script>
+{{ end }}

@@ -1,0 +1,19 @@
+{{- /* Turquoise lake canoe — the published ascii-magic-art piece (MIT), self-hosted
+       under static/ascii-magic-art/. runtime/ascii.js is the library's one-tag
+       element: it imports pieces/<slug>.js relative to itself, then animates the
+       frames onto a canvas over its shadow-DOM <pre> (which stays for screen
+       readers, search and no-JS visitors). assets/js/lake-hero.ts keeps the type
+       size in step with the column width; styles.html holds the hero CSS. */ -}}
+<div id="lake-hero">
+  <ascii-art piece="turquoise-lake-canoe" size="4.85"></ascii-art>
+  <noscript>
+    <p class="meta"><a href="https://www.ascii-magic.com/ascii/turquoise-lake-canoe">Turquoise lake canoe</a>, animated ASCII art by ASCII Magic.</p>
+  </noscript>
+</div>
+
+{{ with resources.Get "js/lake-hero.ts" }}
+  {{ $hero := . | js.Build (dict "minify" hugo.IsProduction "target" "es2017") | fingerprint }}
+  <script defer src="{{ $hero.RelPermalink }}" integrity="{{ $hero.Data.Integrity }}"></script>
+{{ end }}
+
+<script type="module" src="{{ "ascii-magic-art/runtime/ascii.js" | relURL }}"></script>

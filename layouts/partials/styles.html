@@ -1,2 +1,61 @@
 {{ partial "cdn.html" (dict "resource" "fontAwesome" "type" "link" "preload" true "local" "/lib/font-awesome/css/all.min.css") }}
 <link rel="stylesheet" href="{{ "css/jetbrains-mono.css" | relURL }}">
+
+<style>
+/* ---- Varanasi ghats background scene ----
+   The canvas sits behind the page (z-index: -1, painted over <html> but under
+   the content column). The body column keeps a translucent dark layer over it,
+   so the dots are ~3x dimmer behind the text than at the page margins. */
+:root {
+  --bg-scene-opacity: 0.16; /* overall dot brightness; raise/lower to taste */
+}
+
+html {
+  background-color: #0d0c14; /* dusk base under the canvas */
+}
+
+body {
+  /* translucent instead of the theme's opaque #1d1f21: dims the scene behind
+     the text column while keeping text contrast unchanged */
+  background-color: rgba(13, 12, 22, 0.62);
+}
+
+#site-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--bg-scene-opacity);
+  animation: bg-scene-fade 2.5s ease-out;
+}
+
+/* fade the scene in so it never snaps into view; ends at the var above */
+@keyframes bg-scene-fade {
+  from { opacity: 0; }
+  to { opacity: var(--bg-scene-opacity, 0.16); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #site-bg-canvas { animation: none; }
+}
+
+/* ---- Lake canoe hero ----
+   The ascii-magic-art element above the intro. It renders the animation on a
+   canvas inside its own shadow root, so only the host can be styled from here:
+   the !important override beats the element's inline --ascii-size, letting
+   assets/js/lake-hero.ts scale the art to the column without a restart. */
+#lake-hero {
+  margin: 0 0 2rem;
+}
+
+#lake-hero ascii-art {
+  --ascii-size: var(--hero-ascii-size, 4.85px) !important;
+  display: block;
+  width: fit-content; /* shrink to the canvas, then centre it */
+  margin: 0 auto;
+  max-width: 100%;
+}
+</style>
