@@ -36,6 +36,10 @@ name = "my_software"
 url = "/my_software/"
 weight = 4
 [[menus.main]]
+name = "Photos"
+url = "https://vsco.co/embeddingbits/gallery"
+weight = 4
+[[menus.main]]
 name = "tags"
 url = "/tags/"
 weight = 5
