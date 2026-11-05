@@ -5,9 +5,9 @@ draft = false
 
 ## Favourite
 
-- **Operating System:** I use [Void Linux](https://voidlinux.org).
+- **Operating System:** I use [CachyOS](https://cachyos.org).
 - **Text/Code Editor:** I use [Emacs](https://www.gnu.org/software/emacs/) and [Neovim](https://neovim.io).
-- **Window Manager:** I use [River](https://isaacfreund.com/software/river/).
+- **Window Manager:** I use [MangoWM](https://mangowm.github.io/).
 - **Terminal and Shell:** I use [Foot](https://codeberg.org/dnkl/foot) combined with [fish](https://fishshell.com/) shell.
 - **Dotfiles:** I use my own [dotfiles](https://codeberg.org/embeddingbits/nixos-dotfiles).
 
