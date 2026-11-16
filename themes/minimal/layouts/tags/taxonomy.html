@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="post">
+  <div class="content">
+    <div id="tag-cloud">
+      <div class="tag-cloud-tags">
+        {{ partial "tagcloud.html" (dict "minFont" 12 "maxFont" 30) }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}

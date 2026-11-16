@@ -1,0 +1,25 @@
+nav:
+  home: "home"
+  articles: "articles"
+  tags: "tags"
+
+index:
+  find_me_on: "Find me on "
+  enum_and: "and"
+  enum_comma: ","
+  articles: "articles"
+  topics: "topics"
+  most_recent: "most recent"
+
+pagination:
+  page: "Page %d of %d"
+
+counter:
+  tag_cloud:
+    zero: "No tags"
+  categories:
+    zero: "No categories"
+
+notfound:
+  title: "404"
+  subtitle: "Page not found"

@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{- /* Home — about, social links, recent posts (cactus structure). */ -}}
+<section id="about" class="p-note">
+  {{ with .Site.Params.description }}
+    {{ . | markdownify }}
+  {{ end }}
+  {{ with .Site.Params.socialLinks }}
+    <p>
+      {{ i18n "index.find_me_on" }}
+      {{- $n := len . -}}
+      {{- range $i, $l := . -}}
+        {{- $title := or $l.label $l.icon -}}
+        <a {{ if eq $l.icon "mail" }}class="u-email"{{ else }}class="u-url"{{ end }} target="_blank" rel="noopener{{ if ne $l.icon "mail" }} me{{ end }}" href="{{ $l.link }}" aria-label="{{ $title }}">{{ $title }}</a>{{ if lt $i (sub $n 1) }}{{ if eq $i (sub $n 2) }} {{ i18n "index.enum_and" }} {{ else }}{{ i18n "index.enum_comma" }} {{ end }}{{ else }}.{{ end }}
+      {{- end -}}
+    </p>
+  {{ end }}
+</section>
+
+<section id="writing">
+  <span class="h1"><a href="{{ with .Site.GetPage "/posts" }}{{ .RelPermalink }}{{ end }}">{{ i18n "index.articles" }}</a></span>
+  {{ $po := .Site.Params.postsOverview }}
+  {{ $useUpdated := $po.sortUpdated }}
+  {{ if and .Site.Params.tagsOverview.enabled (gt (len .Site.Taxonomies.tags) 0) }}
+    <span class="h2">{{ i18n "index.topics" }}</span>
+    <span class="widget tagcloud">{{ partial "tagcloud.html" (dict "minFont" 10 "maxFont" 20) }}</span>
+    <span class="h2">{{ i18n "index.most_recent" }}</span>
+  {{ end }}
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ if $useUpdated }}{{ $posts = $posts.ByLastmod.Reverse }}{{ else }}{{ $posts = $posts.ByDate.Reverse }}{{ end }}
+  {{ $list := $posts }}
+  {{ if $po.showAllPosts }}
+    {{ $paginator := .Paginate $posts }}
+    {{ $list = $paginator.Pages }}
+    {{ partial "pagination.html" . }}
+  {{ else }}
+    {{ $list = first (default 5 $po.postCount) $posts }}
+  {{ end }}
+
+  <ul class="post-list">
+    {{ range $list }}
+      <li class="post-item">
+        {{ partial "post/date.html" (dict "post" . "isPost" false "className" "meta" "useUpdated" $useUpdated) }}
+        <span>{{ partial "post/title.html" (dict "post" . "index" true "className" "") }}</span>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

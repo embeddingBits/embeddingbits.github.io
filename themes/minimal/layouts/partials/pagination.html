@@ -1,0 +1,13 @@
+{{- /* Pagination — requires .Paginate to have been called earlier. */ -}}
+{{- $p := .Paginator -}}
+{{- if gt $p.TotalPages 1 -}}
+<div class="pagination">
+  {{- if $p.HasPrev }}
+    <a href="{{ $p.Prev.URL }}">&laquo;</a>
+  {{- end }}
+  <span class="page-number">{{ printf (i18n "pagination.page") $p.PageNumber $p.TotalPages }}</span>
+  {{- if $p.HasNext }}
+    <a href="{{ $p.Next.URL }}">&raquo;</a>
+  {{- end }}
+</div>
+{{- end -}}

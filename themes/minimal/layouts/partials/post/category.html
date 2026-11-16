@@ -1,0 +1,12 @@
+{{- with .Params.categories -}}
+<div class="article-category">
+  {{- range $i, $c := . -}}
+    {{- if $i }} › {{ end -}}
+    {{- with site.GetPage (printf "/categories/%s" ($c | urlize)) -}}
+      <a class="article-category-link" href="{{ .RelPermalink }}">{{ $c }}</a>
+    {{- else -}}
+      <span class="article-category-link">{{ $c }}</span>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}

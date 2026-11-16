@@ -1,0 +1,11 @@
+{{- with .Site.Params.favicon -}}
+  {{- with .desktop -}}
+    <link rel="shortcut icon" href="{{ partial "asseturl.html" .url }}">
+  {{- end -}}
+  {{- with .android -}}
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ partial "asseturl.html" .url }}">
+  {{- end -}}
+  {{- with .apple -}}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ partial "asseturl.html" .url }}">
+  {{- end -}}
+{{- end -}}

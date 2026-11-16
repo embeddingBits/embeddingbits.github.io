@@ -1,0 +1,18 @@
+<header id="header">
+  <a class="u-url u-uid" href="{{ .Site.Home.RelPermalink }}">
+    {{- $logo := .Site.Params.logo -}}
+    {{- if and $logo $logo.enabled -}}
+      <img id="logo" alt class="u-logo" src="{{ partial "asseturl.html" $logo.url }}">
+    {{- end -}}
+    <div id="title">
+      <h1 class="p-name">{{ .Site.Title }}</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      {{- range .Site.Menus.main -}}
+        <li><a href="{{ .URL | relLangURL }}">{{ i18n (printf "nav.%s" .Name) | default .Name }}</a></li>
+      {{- end -}}
+    </ul>
+  </div>
+</header>

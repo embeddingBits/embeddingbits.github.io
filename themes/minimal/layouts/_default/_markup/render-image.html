@@ -1,0 +1,9 @@
+{{- /* Markdown image render hook: root-absolute paths respect the baseURL
+       sub-path; page-relative images resolve as page resources. */ -}}
+{{- $src := .Destination -}}
+{{- if strings.HasPrefix $src "/" -}}
+  {{- $src = partial "asseturl.html" $src -}}
+{{- else if not (urls.Parse $src).IsAbs -}}
+  {{- with .Page.Resources.GetMatch $src -}}{{ $src = .RelPermalink }}{{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>

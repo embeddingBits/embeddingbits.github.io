@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    {{ partial "post/title.html" (dict "post" . "index" false "className" "posttitle") }}
+    <div class="meta">
+      <span class="postauthor">{{ .Params.author | default .Site.Params.author }}</span>
+      {{ partial "post/date.html" (dict "post" . "isPost" true "className" "postdate" "useUpdated" false) }}
+      {{ partial "post/category.html" . }}
+      {{ partial "post/tag.html" . }}
+    </div>
+  </header>
+  <div class="content e-content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

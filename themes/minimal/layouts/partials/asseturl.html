@@ -1,0 +1,6 @@
+{{- $u := . -}}
+{{- if or (strings.HasPrefix $u "http") (strings.HasPrefix $u "//") -}}
+{{- $u -}}
+{{- else -}}
+{{- $u | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- /* Archive — year-grouped, paginated list of the section/term's pages. */ -}}
+{{- $useUpdated := site.Params.archive.sortUpdated -}}
+{{- $sorted := cond $useUpdated .Pages.ByLastmod.Reverse .Pages.ByDate.Reverse -}}
+{{- $paginator := .Paginate $sorted -}}
+{{- $groups := cond $useUpdated ($paginator.Pages.GroupByLastmod "2006") ($paginator.Pages.GroupByDate "2006") -}}
+<div id="archive">
+  <ul class="post-list">
+    {{- range $groups }}
+      <li class="post-year"><h2>{{ .Key }}</h2></li>
+      {{- range .Pages }}
+      <li class="post-item">
+        {{ partial "post/date.html" (dict "post" . "isPost" false "className" "meta" "useUpdated" $useUpdated) }}
+        <span>{{ partial "post/title.html" (dict "post" . "index" true "className" "") }}</span>
+      </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</div>
+{{ end }}

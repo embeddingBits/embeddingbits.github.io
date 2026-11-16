@@ -1,7 +1,7 @@
 baseURL = 'https://embeddingbits.is-a.dev/'
 locale = 'en-us'
 title = "eBits Base"
-theme = 'cactus'
+theme = 'minimal'
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -92,10 +92,6 @@ enabled = true
 id = "cd6448d2-05fa-46d8-978e-02140c4b5470"
 host = "https://cloud.umami.is"
 scriptName = "script.js"
-
-[params.cdn]
-enable = true
-fontAwesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 
 [[params.socialLinks]]
 icon = "github"

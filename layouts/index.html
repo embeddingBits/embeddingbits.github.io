@@ -1,6 +1,5 @@
 {{ define "main" }}
-{{- /* Home (§4) — faithful port of layout/index.ejs, plus the lake hero.
-       Keep the sections below in sync with themes/cactus/layouts/index.html. */ -}}
+{{- /* Home — lake hero + the cactus-style sections (about, social, recent posts). */ -}}
 {{ partial "lake-hero.html" . }}
 
 <section id="about" class="p-note">
@@ -13,14 +12,7 @@
       {{- $n := len . -}}
       {{- range $i, $l := . -}}
         {{- $title := or $l.label $l.icon -}}
-        {{- if eq $l.icon "mail" -}}
-          <a class="icon u-email" target="_blank" rel="noopener" href="{{ $l.link }}" aria-label="{{ $title }}" title="{{ $title }}"><i class="fa-solid fa-envelope"></i></a>
-        {{- else if eq $l.icon "rss" -}}
-          <a class="icon" target="_blank" rel="noopener" href="{{ $l.link }}" aria-label="{{ $title }}" title="{{ $title }}"><i class="fa-solid fa-rss"></i></a>
-        {{- else -}}
-          <a class="icon u-url" target="_blank" rel="noopener me" href="{{ $l.link | relURL }}" aria-label="{{ $title }}" title="{{ $title }}"><i class="fa-brands fa-{{ $l.icon }}"></i></a>
-        {{- end -}}
-        {{- if lt $i (sub $n 1) }}{{ if eq $i (sub $n 2) }} {{ i18n "index.enum_and" }} {{ else }}{{ i18n "index.enum_comma" }} {{ end }}{{ else }}.{{ end -}}
+        <a {{ if eq $l.icon "mail" }}class="u-email"{{ else }}class="u-url"{{ end }} target="_blank" rel="noopener{{ if ne $l.icon "mail" }} me{{ end }}" href="{{ $l.link }}" aria-label="{{ $title }}" title="{{ $title }}">{{ $title }}</a>{{ if lt $i (sub $n 1) }}{{ if eq $i (sub $n 2) }} {{ i18n "index.enum_and" }} {{ else }}{{ i18n "index.enum_comma" }} {{ end }}{{ else }}.{{ end }}
       {{- end -}}
     </p>
   {{ end }}
