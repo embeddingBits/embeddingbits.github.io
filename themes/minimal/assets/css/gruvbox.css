@@ -1,0 +1,145 @@
+/* gruvbox — the one palette for the whole site.
+   Every page sources this file (bundled with style.css and chroma.css in
+   head.html), so any colour change happens here and applies everywhere.
+   Default is gruvbox dark "hard"; light mode is gruvbox light "hard",
+   applied automatically on light system schemes and via the #theme-toggle
+   button (data-theme attribute on <html>, persisted in localStorage). */
+
+:root {
+  /* gruvbox dark "hard" background */
+  --bg: #1d2021;
+  /* gruvbox foreground */
+  --fg: #ebdbb2;
+  /* gruvbox gray */
+  --muted: #928374;
+  /* gruvbox yellow */
+  --accent: #d79921;
+  /* gruvbox bg2 */
+  --border: #3c3836;
+
+  color-scheme: dark;
+
+  /* the rest of the 16-colour gruvbox palette, for anything that needs it */
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --aqua: #689d6a;
+  --orange: #d65d0e;
+
+  --red-bright: #fb4934;
+  --green-bright: #b8bb26;
+  --yellow-bright: #fabd2f;
+  --blue-bright: #83a598;
+  --purple-bright: #d3869b;
+  --aqua-bright: #8ec07c;
+  --orange-bright: #fe8019;
+
+  --fg-bright: #fbf1c7;
+  --bg-soft: #32302f;
+
+  /* syntax highlighting (chroma), dark = gruvbox style */
+  --code-fg: #ebdbb2;
+  --code-keyword: #fe8019;
+  --code-type: #fabd2f;
+  --code-string: #b8bb26;
+  --code-symbol: #83a598;
+  --code-number: #d3869b;
+  --code-tag: #fb4934;
+  --code-builtin: #fabd2f;
+  --code-preproc: #8ec07c;
+  --code-comment: #928374;
+  --code-deleted-bg: #fb4934;
+  --code-inserted-bg: #b8bb26;
+}
+
+/* gruvbox light "hard" */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f2e5bc;
+    --fg: #3c3836;
+    /* one step darker than the gruvbox gray (#7c6f64) so small muted text
+       (nav, dates, tags, footer) clears WCAG AA on the cream background */
+    --muted: #665c54;
+    --accent: #b57614;
+    --border: #d5c4a1;
+
+    color-scheme: light;
+
+    --red: #9d0006;
+    --green: #79740e;
+    --yellow: #b57614;
+    --blue: #076678;
+    --purple: #8f3f71;
+    --aqua: #427b58;
+    --orange: #af3a03;
+
+    --red-bright: #cc241d;
+    --green-bright: #98971a;
+    --yellow-bright: #d79921;
+    --blue-bright: #458588;
+    --purple-bright: #b16286;
+    --aqua-bright: #689d6a;
+    --orange-bright: #d65d0e;
+
+    --fg-bright: #282828;
+    --bg-soft: #ebdbb2;
+
+    /* syntax highlighting (chroma), light = gruvbox-light style */
+    --code-fg: #3c3836;
+    --code-keyword: #af3a03;
+    --code-type: #b57614;
+    --code-string: #79740e;
+    --code-symbol: #076678;
+    --code-number: #8f3f71;
+    --code-tag: #9d0006;
+    --code-builtin: #b57614;
+    --code-preproc: #427b58;
+    --code-comment: #928374;
+    --code-deleted-bg: #9d0006;
+    --code-inserted-bg: #98971a;
+  }
+}
+
+:root[data-theme="light"] {
+  --bg: #f2e5bc;
+  --fg: #3c3836;
+  --muted: #665c54;
+  --accent: #b57614;
+  --border: #d5c4a1;
+
+  color-scheme: light;
+
+  --red: #9d0006;
+  --green: #79740e;
+  --yellow: #b57614;
+  --blue: #076678;
+  --purple: #8f3f71;
+  --aqua: #427b58;
+  --orange: #af3a03;
+
+  --red-bright: #cc241d;
+  --green-bright: #98971a;
+  --yellow-bright: #d79921;
+  --blue-bright: #458588;
+  --purple-bright: #b16286;
+  --aqua-bright: #689d6a;
+  --orange-bright: #d65d0e;
+
+  --fg-bright: #282828;
+  --bg-soft: #ebdbb2;
+
+  --code-fg: #3c3836;
+  --code-keyword: #af3a03;
+  --code-type: #b57614;
+  --code-string: #79740e;
+  --code-symbol: #076678;
+  --code-number: #8f3f71;
+  --code-tag: #9d0006;
+  --code-builtin: #b57614;
+  --code-preproc: #427b58;
+  --code-comment: #928374;
+  --code-deleted-bg: #9d0006;
+  --code-inserted-bg: #98971a;
+}

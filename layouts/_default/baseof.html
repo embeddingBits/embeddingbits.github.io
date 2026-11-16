@@ -3,6 +3,7 @@
 {{ partial "head.html" . }}
 {{- $isPost := and .IsPage (eq .Section "posts") -}}
 <body class="max-width mx-auto px3 {{ .Site.Params.direction }}">
+  <button id="theme-toggle" aria-label="toggle colour scheme"></button>
   <div class="content index py4 {{ if .IsHome }}h-card{{ end }}">
     {{ if not $isPost }}
       {{ partial "header.html" . }}
@@ -11,5 +12,24 @@
     {{ partial "footer.html" . }}
   </div>
   {{ partial "styles.html" . }}
+  <script>
+    (function () {
+      var btn = document.getElementById("theme-toggle");
+      var root = document.documentElement;
+      function prefersLight() {
+        return window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      }
+      function isLight() {
+        return root.dataset.theme === "light" || (!root.dataset.theme && prefersLight());
+      }
+      function label() { btn.textContent = isLight() ? "\u263E" : "\u2600"; }
+      btn.addEventListener("click", function () {
+        root.dataset.theme = isLight() ? "dark" : "light";
+        try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+        label();
+      });
+      label();
+    })();
+  </script>
 </body>
 </html>

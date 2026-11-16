@@ -1,7 +1,6 @@
 {{ define "main" }}
-{{- /* Home — lake hero + the cactus-style sections (about, social, recent posts). */ -}}
-{{ partial "lake-hero.html" . }}
-
+{{- /* Home — the cactus-style sections (about, recent posts); the lake hero
+       sits below the contact information. */ -}}
 <section id="about" class="p-note">
   {{ with .Site.Params.description }}
     {{ . | markdownify }}
@@ -17,6 +16,8 @@
     </p>
   {{ end }}
 </section>
+
+{{ partial "lake-hero.html" . }}
 
 <section id="writing">
   <span class="h1"><a href="{{ with .Site.GetPage "/posts" }}{{ .RelPermalink }}{{ end }}">{{ i18n "index.articles" }}</a></span>

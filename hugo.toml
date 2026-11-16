@@ -20,6 +20,7 @@ home = ["html", "rss"]
 unsafe = true
 [markup.highlight]
 style = 'gruvbox'
+noClasses = false
 
 # Main menu
 [menus]
@@ -27,37 +28,46 @@ style = 'gruvbox'
 name = "home"
 url = "/"
 weight = 1
+
 [[menus.main]]
 name = "articles"
 url = "/posts/"
+weight = 2
+
+[[menus.main]]
+name = "software"
+url = "/software/"
 weight = 3
+
 [[menus.main]]
-name = "my_software"
-url = "/my_software/"
-weight = 4
-[[menus.main]]
-name = "Photos"
+name = "photos"
 url = "https://vsco.co/embeddingbits/gallery"
 weight = 4
+
 [[menus.main]]
 name = "tags"
 url = "/tags/"
 weight = 5
 
+[[menus.main]]
+name = "rss"
+url = "/index.xml"
+weight = 6
+
 [params]
 author = "Amiitesh TSP"
 description = """
-Hi, I'm <span style="color: #d79921">Amiitesh</span>.
+## Hi, I'm <span style="color: #d79921">Amiitesh</span>.
 
-I work with Linux and systems programming. I write C/C++, Golang, Zig cause I hate high level abstractions. I work with low-level systems like embedded systems, operating systems, networks and during leisure I mess with my [homelab](https://github.com/embeddingbits/selfhosted) setup. Apart from tech I like reading, writing blogs and music. I write blogs about things that I find interesting and ideas I'm experimenting with. I mainly post about tech, music, photography and on the books I read.
+I work with Linux and systems programming. I write C, Golang, Zig cause I hate high level abstractions. I work with low-level systems like embedded systems, operating systems, networks and I usually mess with my [homelab](https://github.com/embeddingbits/selfhosted) setup. Apart from tech, I like reading, writing blogs and I play flute and piano. I write blogs about things that I find interesting and ideas I'm experimenting with. I mainly post about tech, music, photography and on the books I read.
 
-I like my software *libre* so I'm a **big advocate** of FOSS and I write/contribute to Open Source Software. You can check out some [software](https://github.com/embeddingbits) that I wrote and [rice](https://github.com/embeddingbits/apogee).
+I like my software *libre* so I'm a **big advocate** of FOSS and I write/contribute to Open Source Software. You can check out some [software](https://codeberg.org/embeddingbits/) that I wrote and [rice](https://codeberg.org/embeddingbits/dotfiles).
 
 ## Contact
 
 You can contact me at:
 - Mail: tspamiitesh@gmail.com
-- Discord - [ebits](https://discord.com/users/1312819280018018374)
+- Discord: [ebits](https://discord.com/users/1312819280018018374)
 """
 dateFormat = '2 Jan 2006'
 colorscheme = 'dark'
@@ -113,7 +123,3 @@ link = "https://instagram.com/tspamiitesh"
 [[params.socialLinks]]
 icon = "mail"
 link = "mailto:tspamiitesh@gmail.com"
-
-[[params.socialLinks]]
-icon = "rss"
-link = "/index.xml"

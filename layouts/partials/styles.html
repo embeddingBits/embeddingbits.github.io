@@ -3,10 +3,14 @@
 
 <style>
 /* ---- Lake canoe hero ----
-   The ascii-magic-art element above the intro. It renders the animation on a
+   The ascii-magic-art element below the intro. It renders the animation on a
    canvas inside its own shadow root, so only the host can be styled from here:
    the !important override beats the element's inline --ascii-size, letting
-   assets/js/lake-hero.ts scale the art to the column without a restart. */
+   assets/js/lake-hero.ts scale the art to the column without a restart.
+   The hero is a transparent-canvas halftone — dark areas are sparse dots, not
+   fills — so it MUST sit on a dark ground or light mode washes it out. The
+   literal #1d2021 canvas keeps the scene gruvbox-dark in BOTH modes (this is
+   deliberate: do not bind it to theme variables). */
 #lake-hero {
   margin: 0 0 2rem;
 }
@@ -17,5 +21,9 @@
   width: fit-content; /* shrink to the canvas, then centre it */
   margin: 0 auto;
   max-width: 100%;
+  /* dark ground hugs the artwork exactly (the halftone needs a dark backdrop
+     in both modes — deliberate literal colour, not a theme variable) */
+  background-color: #1d2021;
+  border-radius: 8px;
 }
 </style>

@@ -23,3 +23,9 @@ counter:
 notfound:
   title: "404"
   subtitle: "Page not found"
+
+post:
+  readtime: "min read"
+  prev: "prev"
+  next: "next"
+  top: "top"

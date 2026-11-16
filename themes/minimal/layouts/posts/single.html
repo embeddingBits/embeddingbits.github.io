@@ -1,12 +1,51 @@
 {{ define "main" }}
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{{- /* Floating post panel (cactus #header-post): nav, top, prev/next and the
+       table of contents. Rendered when the post has toc entries; hidden by CSS
+       under 1200px, where the inline TOC takes over. */ -}}
+{{- $toc := .TableOfContents -}}
+{{- if and (default false .Params.toc) (strings.Contains $toc "<li") -}}
+<div id="header-post">
+  <nav id="nav">
+    <ul>
+      {{- range .Site.Menus.main -}}
+        <li><a href="{{ .URL | relLangURL }}">{{ i18n (printf "nav.%s" .Name) | default .Name }}</a></li>
+      {{- end -}}
+    </ul>
+  </nav>
+  <div id="actions">
+    <a href="#" aria-label="{{ i18n "post.top" }}">{{ i18n "post.top" }}</a>
+    {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" aria-label="{{ i18n "post.prev" }}">&laquo; {{ i18n "post.prev" }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" aria-label="{{ i18n "post.next" }}">{{ i18n "post.next" }} &raquo;</a>
+    {{ end }}
+  </div>
+  <div id="toc">
+    {{ $toc }}
+  </div>
+</div>
+{{- end -}}
+
+{{- /* Inline TOC for narrow screens (the floating panel is hidden there). */ -}}
+{{- if and (default false .Params.toc) (strings.Contains $toc "<li") -}}
+<div id="toc-inline">
+  {{ $toc }}
+</div>
+{{- end -}}
+
+<article class="post h-entry{{ if .Params.autonumber }} autonumber{{ end }}" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     {{ partial "post/title.html" (dict "post" . "index" false "className" "posttitle") }}
     <div class="meta">
-      <span class="postauthor">{{ .Params.author | default .Site.Params.author }}</span>
-      {{ partial "post/date.html" (dict "post" . "isPost" true "className" "postdate" "useUpdated" false) }}
-      {{ partial "post/category.html" . }}
-      {{ partial "post/tag.html" . }}
+      <div class="postdate"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="dt-published" itemprop="datePublished">{{ .Date.Format (default "2 Jan 2006" site.Params.dateFormat) }}</time></div>
+      <div class="meta-sub">
+        {{- if .Params.readTime }}
+          <span class="postreadingtime">{{ .ReadingTime }} {{ i18n "post.readtime" }}</span>
+        {{- end }}
+        {{ partial "post/category.html" . }}
+        {{ partial "post/tag.html" . }}
+      </div>
     </div>
   </header>
   <div class="content e-content" itemprop="articleBody">

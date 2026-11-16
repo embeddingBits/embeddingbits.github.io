@@ -16,16 +16,11 @@ draft = false
 ## Utils
 
 - **File Manager:** I use [Yazi](https://yazi-rs.github.io/) as my main and only file manager.
+- **Note Taking:** I manage my college and personal notes with [Trilium Notes](https://triliumnotes.org/).
 - **Web Browser:** I use [Firefox](https://www.firefox.com/)
 - **PDF Viewer:** I use [pdf-tools](https://github.com/vedang/pdf-tools) in Emacs.
-- **Misc:** For most of the other stuff like Word, Excel, etc., I use [OnlyOffice](https://www.onlyoffice.com/).
-
----
-
-## College
-
 - **Reports and Documents:** I use [Typst](https://typst.app/).
-- **Taking Notes:** I manage my college and personal notes with [Org Mode](https://orgmode.org/).
+- **Misc:** For most of the other stuff like Word, Excel, etc., I use [OnlyOffice](https://www.onlyoffice.com/).
 
 
 ## Tech I like and you can love
